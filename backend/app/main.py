@@ -62,3 +62,7 @@ def health():
         status_code=503,
         content=payload,
     )
+
+from backend.app.api.connector_health import router as connector_health_router
+
+app.include_router(connector_health_router)

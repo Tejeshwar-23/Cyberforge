@@ -1,7 +1,11 @@
 from sqlalchemy import create_engine, text
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
 from backend.app.core.config import settings
+
+
+class Base(DeclarativeBase):
+    pass
 
 
 engine = create_engine(
@@ -21,4 +25,5 @@ SessionLocal = sessionmaker(
 def check_database() -> bool:
     with engine.connect() as connection:
         connection.execute(text("SELECT 1"))
+
     return True

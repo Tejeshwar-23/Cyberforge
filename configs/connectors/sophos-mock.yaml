@@ -27,6 +27,12 @@ pagination:
 schedule:
   every_minutes: 15
 
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: raisedAt
+
 mapping:
   entity: event
 

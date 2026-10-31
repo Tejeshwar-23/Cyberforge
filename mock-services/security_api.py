@@ -163,30 +163,101 @@ def page_events(
     }
 
 @app.get("/sophos/events")
-def sophos_events(page: int = 1, limit: int = 20):
+def sophos_events(
+    page: int = 1,
+    limit: int = 20,
+    since: str | None = None,
+):
     import json
+    from datetime import datetime, timezone
     from pathlib import Path
     from fastapi import HTTPException
 
     if page < 1:
-        raise HTTPException(status_code=400, detail="page must be >= 1")
+        raise HTTPException(
+            status_code=400,
+            detail="page must be >= 1",
+        )
 
     if limit < 1 or limit > 100:
-        raise HTTPException(status_code=400, detail="limit must be between 1 and 100")
+        raise HTTPException(
+            status_code=400,
+            detail="limit must be between 1 and 100",
+        )
 
-    data_path = Path(__file__).resolve().parent / "data" / "sophos_mock.json"
+    data_path = (
+        Path(__file__).resolve().parent
+        / "data"
+        / "sophos_mock.json"
+    )
 
     if not data_path.exists():
-        raise HTTPException(status_code=500, detail="Sophos mock dataset not found")
+        raise HTTPException(
+            status_code=500,
+            detail="Sophos mock dataset not found",
+        )
 
-    payload = json.loads(data_path.read_text(encoding="utf-8"))
+    payload = json.loads(
+        data_path.read_text(encoding="utf-8")
+    )
+
     items = payload.get("items", [])
 
+    def parse_timestamp(value: str):
+        candidate = value
+
+        if candidate.endswith("Z"):
+            candidate = candidate[:-1] + "+00:00"
+
+        parsed = datetime.fromisoformat(candidate)
+
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(
+                tzinfo=timezone.utc
+            )
+
+        return parsed
+
+    if since:
+        try:
+            cutoff = parse_timestamp(since)
+        except ValueError as exc:
+            raise HTTPException(
+                status_code=400,
+                detail="since must be a valid ISO timestamp",
+            ) from exc
+
+        filtered_items = []
+
+        for item in items:
+            raised_at = item.get("raisedAt")
+
+            if not raised_at:
+                continue
+
+            try:
+                item_time = parse_timestamp(
+                    str(raised_at)
+                )
+            except ValueError:
+                continue
+
+            if item_time > cutoff:
+                filtered_items.append(item)
+
+        items = filtered_items
+
     total_records = len(items)
-    total_pages = (total_records + limit - 1) // limit if total_records else 0
+
+    total_pages = (
+        (total_records + limit - 1) // limit
+        if total_records
+        else 0
+    )
 
     start = (page - 1) * limit
     end = start + limit
+
     page_items = items[start:end]
 
     return {
@@ -195,6 +266,6 @@ def sophos_events(page: int = 1, limit: int = 20):
         "pages": total_pages,
         "page": page,
         "limit": limit,
-        "total": total_records
+        "total": total_records,
+        "since": since,
     }
-

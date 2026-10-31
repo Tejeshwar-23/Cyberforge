@@ -167,6 +167,36 @@ class ScheduleConfig(BaseModel):
 
 
 # =========================================================
+# Incremental Sync
+# =========================================================
+
+class IncrementalConfig(BaseModel):
+    enabled: bool = False
+
+    type: Literal[
+        "timestamp",
+    ] = "timestamp"
+
+    request_param: str | None = None
+    source_field: str | None = None
+
+    @model_validator(mode="after")
+    def validate_incremental(self):
+        if self.enabled:
+            if not self.request_param:
+                raise ValueError(
+                    "incremental sync requires request_param"
+                )
+
+            if not self.source_field:
+                raise ValueError(
+                    "incremental sync requires source_field"
+                )
+
+        return self
+
+
+# =========================================================
 # Mapping
 # =========================================================
 
@@ -218,6 +248,10 @@ class ConnectorConfig(BaseModel):
     )
 
     schedule: ScheduleConfig
+
+    incremental: IncrementalConfig = Field(
+        default_factory=IncrementalConfig
+    )
 
     mapping: MappingConfig
 

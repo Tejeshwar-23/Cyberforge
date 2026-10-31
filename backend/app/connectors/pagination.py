@@ -30,6 +30,7 @@ def fetch_offset_pages(
     config: ConnectorConfig,
     resolver: SecretResolver | None = None,
     *,
+    base_params: dict[str, Any] | None = None,
     max_pages: int = 1000,
 ) -> dict[str, Any]:
 
@@ -53,13 +54,14 @@ def fetch_offset_pages(
     last_status = None
 
     while page_count < max_pages:
+        params = dict(base_params or {})
+        params[pagination.offset_param] = offset
+        params[pagination.limit_param] = page_size
+
         response = execute_request(
             config,
             resolver,
-            params_override={
-                pagination.offset_param: offset,
-                pagination.limit_param: page_size,
-            },
+            params_override=params,
         )
 
         last_status = response.status_code
@@ -93,6 +95,7 @@ def fetch_page_number_pages(
     config: ConnectorConfig,
     resolver: SecretResolver | None = None,
     *,
+    base_params: dict[str, Any] | None = None,
     max_pages: int = 1000,
 ) -> dict[str, Any]:
 
@@ -116,9 +119,8 @@ def fetch_page_number_pages(
     last_status = None
 
     while page_count < max_pages:
-        params = {
-            pagination.page_param: page,
-        }
+        params = dict(base_params or {})
+        params[pagination.page_param] = page
 
         if (
             pagination.limit_param

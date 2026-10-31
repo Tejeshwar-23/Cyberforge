@@ -75,6 +75,33 @@ class ConnectorRun(Base):
     )
 
 
+class ConnectorSyncState(Base):
+    __tablename__ = "connector_sync_state"
+
+    id: Mapped[int] = mapped_column(
+        Integer,
+        primary_key=True,
+        autoincrement=True,
+    )
+
+    connector_name: Mapped[str] = mapped_column(
+        String(255),
+        unique=True,
+        index=True,
+    )
+
+    last_value: Mapped[str | None] = mapped_column(
+        String(512),
+        nullable=True,
+    )
+
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
+        default=utc_now,
+        onupdate=utc_now,
+    )
+
+
 class NormalizedUser(Base):
     __tablename__ = "normalized_users"
 

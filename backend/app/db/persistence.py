@@ -12,6 +12,7 @@ from backend.app.connectors.common_schema import (
 from backend.app.db.database import SessionLocal
 from backend.app.db.models import (
     ConnectorRun,
+    ConnectorSyncState,
     NormalizedDevice,
     NormalizedEvent,
     NormalizedUser,
@@ -21,6 +22,22 @@ from backend.app.db.models import (
 
 def utc_now():
     return datetime.now(timezone.utc)
+
+
+def get_connector_sync_state(
+    connector_name: str,
+) -> str | None:
+    with SessionLocal() as session:
+        state = session.scalar(
+            select(ConnectorSyncState).where(
+                ConnectorSyncState.connector_name == connector_name
+            )
+        )
+
+        if state is None:
+            return None
+
+        return state.last_value
 
 
 def start_connector_run(
@@ -134,6 +151,7 @@ def _upsert_event(
 def persist_successful_run(
     run_id: int,
     result: dict[str, Any],
+    checkpoint_value: str | None = None,
 ) -> None:
     with SessionLocal() as session:
         run = session.get(
@@ -200,6 +218,27 @@ def persist_successful_run(
             "quarantined_count"
         ]
         run.last_error = None
+
+        if checkpoint_value is not None:
+            state = session.scalar(
+                select(ConnectorSyncState).where(
+                    ConnectorSyncState.connector_name
+                    == result["connector"]
+                )
+            )
+
+            if state is None:
+                session.add(
+                    ConnectorSyncState(
+                        connector_name=result["connector"],
+                        last_value=checkpoint_value,
+                        updated_at=utc_now(),
+                    )
+                )
+
+            elif state.last_value != checkpoint_value:
+                state.last_value = checkpoint_value
+                state.updated_at = utc_now()
 
         session.commit()
 

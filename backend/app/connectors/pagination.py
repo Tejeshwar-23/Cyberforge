@@ -1,7 +1,7 @@
 from typing import Any
 
 from backend.app.connectors.executor import execute_request
-from backend.app.connectors.mapper import extract_records
+from backend.app.connectors.mapper import extract_path, extract_records
 from backend.app.connectors.parser import parse_response
 from backend.app.connectors.schema import ConnectorConfig
 from backend.app.connectors.secrets import SecretResolver
@@ -134,13 +134,33 @@ def fetch_page_number_pages(
 
         last_status = response.status_code
 
-        page_records = _parse_page_records(
-            config,
-            response,
+        parsed = parse_response(
+            response.text,
+            config.response.format,
+        )
+
+        page_records = extract_records(
+            parsed,
+            config.response.records_path,
         )
 
         page_count += 1
         all_records.extend(page_records)
+
+        if pagination.has_more_path:
+            try:
+                has_more = extract_path(
+                    parsed,
+                    pagination.has_more_path,
+                )
+            except Exception as exc:
+                raise PaginationError(
+                    f"Unable to read pagination field: "
+                    f"{pagination.has_more_path}"
+                ) from exc
+
+            if has_more is False:
+                break
 
         if not page_records:
             break

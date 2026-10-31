@@ -161,3 +161,40 @@ def page_events(
     return {
         "events": PAGINATED_EVENTS[start:end]
     }
+
+@app.get("/sophos/events")
+def sophos_events(page: int = 1, limit: int = 20):
+    import json
+    from pathlib import Path
+    from fastapi import HTTPException
+
+    if page < 1:
+        raise HTTPException(status_code=400, detail="page must be >= 1")
+
+    if limit < 1 or limit > 100:
+        raise HTTPException(status_code=400, detail="limit must be between 1 and 100")
+
+    data_path = Path(__file__).resolve().parent / "data" / "sophos_mock.json"
+
+    if not data_path.exists():
+        raise HTTPException(status_code=500, detail="Sophos mock dataset not found")
+
+    payload = json.loads(data_path.read_text(encoding="utf-8"))
+    items = payload.get("items", [])
+
+    total_records = len(items)
+    total_pages = (total_records + limit - 1) // limit if total_records else 0
+
+    start = (page - 1) * limit
+    end = start + limit
+    page_items = items[start:end]
+
+    return {
+        "items": page_items,
+        "has_more": page < total_pages,
+        "pages": total_pages,
+        "page": page,
+        "limit": limit,
+        "total": total_records
+    }
+

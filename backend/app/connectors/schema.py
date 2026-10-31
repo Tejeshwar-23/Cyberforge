@@ -107,6 +107,9 @@ class PaginationConfig(BaseModel):
         gt=0,
     )
 
+    # Optional response field indicating whether more pages exist
+    has_more_path: str | None = None
+
     # Cursor pagination
     cursor_param: str | None = None
     cursor_response_path: str | None = None

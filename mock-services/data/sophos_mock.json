@@ -1,0 +1,2459 @@
+{
+  "items": [
+    {
+      "id": "SPH-001",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-02T16:29:20.583Z",
+      "description": "Credential phishing page example.org/secure-login visited by 'james.weber' from WS-FIN-002",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "1c102e16-ec1d-4ebe-884f-0ffc72d533ba",
+        "type": "computer",
+        "name": "WS-FIN-002"
+      },
+      "person": {
+        "name": "james.weber"
+      },
+      "sourceIp": "203.0.113.35",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-002",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-02T17:41:00.507Z",
+      "description": "Known malware hash matched on WS-IT-001; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "2fd2664f-f5f2-4767-80d4-525c5b78ac6e",
+        "type": "computer",
+        "name": "WS-IT-001"
+      },
+      "person": {
+        "name": "aisha.moreau"
+      },
+      "sourceIp": "203.0.113.24",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-003",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-03T11:11:31.917Z",
+      "description": "Ransom note README_RESTORE.txt created on WS-OPS-003 by user 'zara.osei' (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "6ed59631-6caf-4912-b1d2-0a1a1bfed24f",
+        "type": "computer",
+        "name": "WS-OPS-003"
+      },
+      "person": {
+        "name": "zara.osei"
+      },
+      "sourceIp": "203.0.113.22",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-004",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-03T13:00:49.490Z",
+      "description": "Known malware hash matched on LT-SALES-004; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "996d9e79-abcd-4254-b8ca-eaca2c6be176",
+        "type": "computer",
+        "name": "LT-SALES-004"
+      },
+      "person": {
+        "name": "oliver.haddad"
+      },
+      "sourceIp": "203.0.113.2",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-005",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-03T13:50:32.738Z",
+      "description": "Potentially unwanted application 'report_Q3.js' blocked on WS-FIN-005",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "a03840b4-7e91-4218-822b-a55c4439ee9d",
+        "type": "computer",
+        "name": "WS-FIN-005"
+      },
+      "person": {
+        "name": "fatima.eriksen"
+      },
+      "sourceIp": "203.0.113.33",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-006",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-03T17:04:46.416Z",
+      "description": "Potentially unwanted application 'scan_0043.scr' blocked on LT-HR-003",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "5204194a-5097-42a7-b81a-94791a1e482a",
+        "type": "computer",
+        "name": "LT-HR-003"
+      },
+      "person": {
+        "name": "tobias.nakamura"
+      },
+      "sourceIp": "203.0.113.2",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-007",
+      "type": "Event::Endpoint::Auth::BruteForce",
+      "severity": "high",
+      "raisedAt": "2026-10-03T20:41:05.295Z",
+      "description": "Repeated failed RDP authentication for account 'isabella.costa' on LT-ENG-001 from 203.0.113.20 (194 attempts)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "9e4ae100-f393-499d-8bf9-73aa1bba94f5",
+        "type": "computer",
+        "name": "LT-ENG-001"
+      },
+      "person": {
+        "name": "isabella.costa"
+      },
+      "sourceIp": "203.0.113.20",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-008",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-03T22:20:35.520Z",
+      "description": "Credential phishing page example.org/secure-login visited by 'liam.osei' from WS-SALES-001",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "c0fee651-7006-48d5-b4ce-8fc682d9ccfa",
+        "type": "computer",
+        "name": "WS-SALES-001"
+      },
+      "person": {
+        "name": "liam.osei"
+      },
+      "sourceIp": "203.0.113.37",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-009",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-04T03:48:31.565Z",
+      "description": "Credential phishing page example.org/secure-login visited by 'grace.vargas' from LT-MKT-003",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "41f66f33-bb7e-433a-bb54-6d5ce7011678",
+        "type": "computer",
+        "name": "LT-MKT-003"
+      },
+      "person": {
+        "name": "grace.vargas"
+      },
+      "sourceIp": "203.0.113.34",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-010",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-04T14:16:11.795Z",
+      "description": "Known malware hash matched on WS-FIN-003; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "d60648b7-cc02-4b9a-a93b-78a1d4aff188",
+        "type": "computer",
+        "name": "WS-FIN-003"
+      },
+      "person": {
+        "name": "marcus.hoffman"
+      },
+      "sourceIp": "203.0.113.37",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-011",
+      "type": "Event::Identity::UserBehavior::Anomaly",
+      "severity": "low",
+      "raisedAt": "2026-10-05T07:45:41.395Z",
+      "description": "Impossible travel: 'mei.ivanov' authenticated from 203.0.113.37 and 203.0.113.22 within 15 minutes",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "ed1f3657-dbcf-48b2-a713-7996c7eceefa",
+        "type": "computer",
+        "name": "LT-IT-004"
+      },
+      "person": {
+        "name": "mei.ivanov"
+      },
+      "sourceIp": "203.0.113.37",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-012",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-05T08:10:16.036Z",
+      "description": "Trojan.Fictus.97a4 detected and quarantined on LT-OPS-004 (file: C:\\Users\\rohan.osei\\Downloads\\update_installer.exe)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "03bf50a7-c40e-4d22-a19e-772105456c5f",
+        "type": "computer",
+        "name": "LT-OPS-004"
+      },
+      "person": {
+        "name": "rohan.osei"
+      },
+      "sourceIp": "203.0.113.28",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-013",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-05T17:23:32.173Z",
+      "description": "Trojan.Fictus.8a4c detected and quarantined on LT-FIN-003 (file: C:\\Users\\oliver.chen\\Downloads\\shipping_label.iso)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "598d251b-bef4-4c66-b0b2-19a34a7765aa",
+        "type": "computer",
+        "name": "LT-FIN-003"
+      },
+      "person": {
+        "name": "oliver.chen"
+      },
+      "sourceIp": "203.0.113.4",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-014",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-05T17:41:27.879Z",
+      "description": "Phishing email from no-reply@secure-docs.example.org delivered to 'jonas.hoffman' with credential-harvesting link to login-portal.example.net",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "27b610fb-51eb-4d6d-a695-0d1e9fb57b73",
+        "type": "computer",
+        "name": "LT-ENG-002"
+      },
+      "person": {
+        "name": "jonas.hoffman"
+      },
+      "sourceIp": "203.0.113.32",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-015",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-06T09:05:31.530Z",
+      "description": "Mass file encryption behavior detected on WS-SALES-004 affecting \\\\WS-SALES-004\\shared (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "eb8ae20d-70ac-45c6-833f-db299955de37",
+        "type": "computer",
+        "name": "WS-SALES-004"
+      },
+      "person": {
+        "name": "marcus.mensah"
+      },
+      "sourceIp": "203.0.113.10",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-016",
+      "type": "Event::Firewall::SuspiciousConnection",
+      "severity": "low",
+      "raisedAt": "2026-10-06T12:00:33.423Z",
+      "description": "Inbound connection from threat-intel listed IP 203.0.113.9 to LT-MKT-001:4444",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "e7fc9a53-4537-4597-81f4-c85c944fbedc",
+        "type": "computer",
+        "name": "LT-MKT-001"
+      },
+      "person": {
+        "name": "oliver.osei"
+      },
+      "sourceIp": "203.0.113.9",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-017",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-06T18:13:07.648Z",
+      "description": "User 'omar.gupta' reported suspicious email with malicious attachment report_Q3.js",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "4da268f8-5028-47c9-8e62-0b663ff4dc3f",
+        "type": "computer",
+        "name": "LT-IT-002"
+      },
+      "person": {
+        "name": "omar.gupta"
+      },
+      "sourceIp": "203.0.113.12",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-018",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-07T09:25:25.628Z",
+      "description": "Fileless malware behavior (encoded PowerShell command) observed on SRV-CORP-005 for user 'chloe.hughes'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "9094293f-0251-4917-b58a-37acb971533f",
+        "type": "computer",
+        "name": "SRV-CORP-005"
+      },
+      "person": {
+        "name": "chloe.hughes"
+      },
+      "sourceIp": "203.0.113.12",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-019",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-07T13:32:49.513Z",
+      "description": "Known malware hash matched on LT-HR-004; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "4e851388-0f85-48f5-ac06-de51dfa85c30",
+        "type": "computer",
+        "name": "LT-HR-004"
+      },
+      "person": {
+        "name": "ingrid.dubois"
+      },
+      "sourceIp": "203.0.113.30",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-020",
+      "type": "Event::Endpoint::Access::Unauthorized",
+      "severity": "high",
+      "raisedAt": "2026-10-07T14:50:37.728Z",
+      "description": "Access denied: 'aisha.moreau' attempted to read restricted share \\\\WS-IT-001\\finance",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "fd95e15f-e419-4236-a160-82eddf05dc13",
+        "type": "computer",
+        "name": "WS-IT-001"
+      },
+      "person": {
+        "name": "aisha.moreau"
+      },
+      "sourceIp": "203.0.113.20",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-021",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-07T22:18:35.122Z",
+      "description": "User 'grace.haddad' reported suspicious email with malicious attachment invoice_2026.exe",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "5616669e-beec-4a38-b5c8-225373d3ccb4",
+        "type": "computer",
+        "name": "WS-HR-002"
+      },
+      "person": {
+        "name": "grace.haddad"
+      },
+      "sourceIp": "203.0.113.25",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-022",
+      "type": "Event::Endpoint::Auth::BruteForce",
+      "severity": "low",
+      "raisedAt": "2026-10-08T10:35:54.261Z",
+      "description": "Password spraying detected: 132 accounts targeted from 203.0.113.32 against vpn.example.com",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "075ebb82-3ac1-4874-a786-471625d5e800",
+        "type": "computer",
+        "name": "WS-IT-003"
+      },
+      "person": {
+        "name": "daniel.romero"
+      },
+      "sourceIp": "203.0.113.32",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-023",
+      "type": "Event::Identity::UserBehavior::Anomaly",
+      "severity": "high",
+      "raisedAt": "2026-10-08T12:22:33.697Z",
+      "description": "'oliver.santos' downloaded 34 MB from file server LT-IT-001 in 10 minutes",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "4345ad5b-4423-45b9-9768-2a10cc90fda6",
+        "type": "computer",
+        "name": "LT-IT-001"
+      },
+      "person": {
+        "name": "oliver.santos"
+      },
+      "sourceIp": "203.0.113.31",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-024",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-08T17:08:39.176Z",
+      "description": "Known malware hash matched on DB-CORP-004; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "80720cbb-feae-4525-b0f2-3bac92c726d5",
+        "type": "computer",
+        "name": "DB-CORP-004"
+      },
+      "person": {
+        "name": "ethan.vargas"
+      },
+      "sourceIp": "203.0.113.2",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-025",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-08T21:06:13.885Z",
+      "description": "Credential phishing page example.org/secure-login visited by 'camila.kowalski' from WS-HR-005",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "17a494e6-2aba-42c8-af0d-51b20bca71c0",
+        "type": "computer",
+        "name": "WS-HR-005"
+      },
+      "person": {
+        "name": "camila.kowalski"
+      },
+      "sourceIp": "203.0.113.38",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-026",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-09T06:30:11.390Z",
+      "description": "User 'omar.gupta' reported suspicious email with malicious attachment update_installer.exe",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "b328017f-b74f-4857-8b53-f05a4ca16e1f",
+        "type": "computer",
+        "name": "LT-IT-002"
+      },
+      "person": {
+        "name": "omar.gupta"
+      },
+      "sourceIp": "203.0.113.25",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-027",
+      "type": "Event::Endpoint::Auth::BruteForce",
+      "severity": "low",
+      "raisedAt": "2026-10-09T09:02:35.611Z",
+      "description": "Multiple failed web console logins for 'diego.mbeki' at sso.example.com from 203.0.113.18",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "a3e4e550-d285-4a9a-86da-0a7c22a635ea",
+        "type": "computer",
+        "name": "WS-ENG-002"
+      },
+      "person": {
+        "name": "diego.mbeki"
+      },
+      "sourceIp": "203.0.113.18",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-028",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-09T12:05:24.368Z",
+      "description": "Known malware hash matched on LT-HR-002; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "5f09a404-11aa-494b-bdac-a6e0c0edeead",
+        "type": "computer",
+        "name": "LT-HR-002"
+      },
+      "person": {
+        "name": "samuel.kaur"
+      },
+      "sourceIp": "203.0.113.40",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-029",
+      "type": "Event::Endpoint::Auth::BruteForce",
+      "severity": "high",
+      "raisedAt": "2026-10-09T14:44:54.630Z",
+      "description": "104 failed SSH login attempts for 'marcus.mensah' on LT-MKT-001 from 203.0.113.27 within 23 minutes",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "d20e9d67-5c05-4e6f-ac9e-5a5d7291b537",
+        "type": "computer",
+        "name": "LT-MKT-001"
+      },
+      "person": {
+        "name": "marcus.mensah"
+      },
+      "sourceIp": "203.0.113.27",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-030",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-10T06:42:13.082Z",
+      "description": "Known malware hash matched on WS-FIN-004; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "976033c5-7b20-4d43-ad57-6ea2ab7231b2",
+        "type": "computer",
+        "name": "WS-FIN-004"
+      },
+      "person": {
+        "name": "omar.kaur"
+      },
+      "sourceIp": "203.0.113.9",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-031",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-10T07:46:01.068Z",
+      "description": "Spoofed executive email requesting wire transfer sent from ceo.office@exec-mail.example.org to 'james.hughes'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "20aab477-276e-4474-9c17-d37ec1be9341",
+        "type": "computer",
+        "name": "WS-SALES-003"
+      },
+      "person": {
+        "name": "james.hughes"
+      },
+      "sourceIp": "203.0.113.33",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-032",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-10T09:09:00.497Z",
+      "description": "Ransom note README_RESTORE.txt created on WS-HR-004 by user 'oliver.reyes' (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "458d3ca1-5917-4804-88fd-22856a65799f",
+        "type": "computer",
+        "name": "WS-HR-004"
+      },
+      "person": {
+        "name": "oliver.reyes"
+      },
+      "sourceIp": "203.0.113.11",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-033",
+      "type": "Event::Endpoint::Auth::BruteForce",
+      "severity": "high",
+      "raisedAt": "2026-10-10T13:12:12.062Z",
+      "description": "24 failed SSH login attempts for 'ethan.bianchi' on LT-ENG-003 from 203.0.113.35 within 8 minutes",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "fe6b5793-a043-403f-a67b-6c7465101caa",
+        "type": "computer",
+        "name": "LT-ENG-003"
+      },
+      "person": {
+        "name": "ethan.bianchi"
+      },
+      "sourceIp": "203.0.113.35",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-034",
+      "type": "Event::Identity::UserBehavior::Anomaly",
+      "severity": "low",
+      "raisedAt": "2026-10-11T08:09:59.468Z",
+      "description": "Privilege escalation: 'chloe.hughes' added to Domain Admins group on WS-ENG-002",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "fd0e9dd2-b0e1-45f8-b2c5-d95b9820134f",
+        "type": "computer",
+        "name": "WS-ENG-002"
+      },
+      "person": {
+        "name": "chloe.hughes"
+      },
+      "sourceIp": "203.0.113.37",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-035",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-11T15:53:24.604Z",
+      "description": "Spoofed executive email requesting wire transfer sent from ceo.office@exec-mail.example.org to 'samuel.novak'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "f3a6b418-ffb6-47a9-8ca3-6360eac4440a",
+        "type": "computer",
+        "name": "LT-OPS-003"
+      },
+      "person": {
+        "name": "samuel.novak"
+      },
+      "sourceIp": "203.0.113.37",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-036",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-11T17:35:27.579Z",
+      "description": "Phishing email from ceo.office@exec-mail.example.org delivered to 'tessa.navarro' with credential-harvesting link to login-portal.example.net",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "50b61d42-5921-4241-ae9c-871af896d37e",
+        "type": "computer",
+        "name": "WS-LEGAL-004"
+      },
+      "person": {
+        "name": "tessa.navarro"
+      },
+      "sourceIp": "203.0.113.25",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-037",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-12T08:49:05.857Z",
+      "description": "Known malware hash matched on LT-FIN-002; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "04f70659-9496-4bb0-b28d-4ee0ef6dd5c0",
+        "type": "computer",
+        "name": "LT-FIN-002"
+      },
+      "person": {
+        "name": "noah.sandhu"
+      },
+      "sourceIp": "203.0.113.19",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-038",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-12T12:12:33.153Z",
+      "description": "Mass file encryption behavior detected on WS-SALES-001 affecting \\\\WS-SALES-001\\shared (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "2efda808-e5c2-476b-be8c-6963d1d44c33",
+        "type": "computer",
+        "name": "WS-SALES-001"
+      },
+      "person": {
+        "name": "liam.osei"
+      },
+      "sourceIp": "203.0.113.25",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-039",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-12T12:24:07.917Z",
+      "description": "Phishing email from billing@invoices.example.net delivered to 'priya.vargas' with credential-harvesting link to login-portal.example.net",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "b9e138b5-17a6-4ed7-964e-d6b6a5e3850d",
+        "type": "computer",
+        "name": "SRV-CORP-003"
+      },
+      "person": {
+        "name": "priya.vargas"
+      },
+      "sourceIp": "203.0.113.26",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-040",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-12T22:36:30.559Z",
+      "description": "User 'noah.santos' reported suspicious email with malicious attachment vpn_client_patch.msi",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "b46ff868-71d1-4d53-b1e0-fd74d3e15faf",
+        "type": "computer",
+        "name": "LT-OPS-002"
+      },
+      "person": {
+        "name": "noah.santos"
+      },
+      "sourceIp": "203.0.113.23",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-041",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-13T12:21:46.652Z",
+      "description": "Phishing email from it-helpdesk@support-portal.example.net delivered to 'lucas.jensen' with credential-harvesting link to login-portal.example.net",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "ebc4ed49-5586-4b52-a1a2-abd6035abee5",
+        "type": "computer",
+        "name": "LT-HR-003"
+      },
+      "person": {
+        "name": "lucas.jensen"
+      },
+      "sourceIp": "203.0.113.12",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-042",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-13T13:44:37.303Z",
+      "description": "Known malware hash matched on LT-MKT-002; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "32e0f527-3de5-4c64-a92b-df32862fcfd4",
+        "type": "computer",
+        "name": "LT-MKT-002"
+      },
+      "person": {
+        "name": "marcus.sandhu"
+      },
+      "sourceIp": "203.0.113.10",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-043",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-13T15:09:53.438Z",
+      "description": "Mass file encryption behavior detected on WS-HR-001 affecting \\\\WS-HR-001\\shared (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "605371ab-8510-46dc-964d-50368d02af81",
+        "type": "computer",
+        "name": "WS-HR-001"
+      },
+      "person": {
+        "name": "noah.kowalski"
+      },
+      "sourceIp": "203.0.113.23",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-044",
+      "type": "Event::Endpoint::Access::Unauthorized",
+      "severity": "low",
+      "raisedAt": "2026-10-13T15:20:26.896Z",
+      "description": "Attempt to access HR database on WS-SALES-002 by non-authorized account 'grace.duarte'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "3d1f138e-a123-411e-ba97-42df5410769e",
+        "type": "computer",
+        "name": "WS-SALES-002"
+      },
+      "person": {
+        "name": "grace.duarte"
+      },
+      "sourceIp": "203.0.113.18",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-045",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-13T21:44:47.326Z",
+      "description": "Ransomware canary file modified on WS-OPS-005 by process crypt0sim.exe (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "157cd5aa-e363-404c-bcdd-48cb3ae976a3",
+        "type": "computer",
+        "name": "WS-OPS-005"
+      },
+      "person": {
+        "name": "daniel.larsen"
+      },
+      "sourceIp": "203.0.113.39",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-046",
+      "type": "Event::Identity::UserBehavior::Anomaly",
+      "severity": "high",
+      "raisedAt": "2026-10-14T10:41:20.294Z",
+      "description": "'grace.haddad' downloaded 53 MB from file server WS-HR-002 in 10 minutes",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "e0870463-1d1e-4282-af80-00cd51844482",
+        "type": "computer",
+        "name": "WS-HR-002"
+      },
+      "person": {
+        "name": "grace.haddad"
+      },
+      "sourceIp": "203.0.113.17",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-047",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-16T13:42:10.493Z",
+      "description": "Spoofed executive email requesting wire transfer sent from ceo.office@exec-mail.example.org to 'fatima.eriksen'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "60948fef-1fc3-40e7-93f1-d55fb243f00c",
+        "type": "computer",
+        "name": "WS-MKT-002"
+      },
+      "person": {
+        "name": "fatima.eriksen"
+      },
+      "sourceIp": "203.0.113.8",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-048",
+      "type": "Event::Identity::UserBehavior::Anomaly",
+      "severity": "high",
+      "raisedAt": "2026-10-16T21:19:13.041Z",
+      "description": "Privilege escalation: 'kofi.eriksen' added to Domain Admins group on DB-CORP-004",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "53c8ee75-fd63-4db8-8a22-591507c69e1c",
+        "type": "computer",
+        "name": "DB-CORP-004"
+      },
+      "person": {
+        "name": "kofi.eriksen"
+      },
+      "sourceIp": "203.0.113.21",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-049",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-18T09:05:28.216Z",
+      "description": "User 'mei.navarro' reported suspicious email with malicious attachment scan_0043.scr",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "959c0312-63e8-440f-8298-7077486e66d0",
+        "type": "computer",
+        "name": "LT-ENG-004"
+      },
+      "person": {
+        "name": "mei.navarro"
+      },
+      "sourceIp": "203.0.113.39",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-050",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-19T09:07:55.872Z",
+      "description": "Trojan.Fictus.1e26 detected and quarantined on LT-IT-002 (file: C:\\Users\\omar.gupta\\Downloads\\payroll_macro.docm)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "51116fa3-9244-4525-bd9a-eadd09e3676b",
+        "type": "computer",
+        "name": "LT-IT-002"
+      },
+      "person": {
+        "name": "omar.gupta"
+      },
+      "sourceIp": "203.0.113.23",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-051",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-19T13:25:23.935Z",
+      "description": "Potentially unwanted application 'shipping_label.iso' blocked on LT-MKT-001",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "7975bb87-083b-4262-8ee4-3683da9ea138",
+        "type": "computer",
+        "name": "LT-MKT-001"
+      },
+      "person": {
+        "name": "oliver.osei"
+      },
+      "sourceIp": "203.0.113.11",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-052",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-19T13:33:21.408Z",
+      "description": "Fileless malware behavior (encoded PowerShell command) observed on LT-IT-002 for user 'omar.gupta'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "acdd9c82-3cea-4c47-9fda-d2dfd5d0adc4",
+        "type": "computer",
+        "name": "LT-IT-002"
+      },
+      "person": {
+        "name": "omar.gupta"
+      },
+      "sourceIp": "203.0.113.8",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-053",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-19T17:32:24.134Z",
+      "description": "Fileless malware behavior (encoded PowerShell command) observed on WS-MKT-003 for user 'victor.osei'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "b2271d97-ed5f-4946-8edc-b3b4f2e65082",
+        "type": "computer",
+        "name": "WS-MKT-003"
+      },
+      "person": {
+        "name": "victor.osei"
+      },
+      "sourceIp": "203.0.113.40",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-054",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-19T17:45:21.748Z",
+      "description": "Spoofed executive email requesting wire transfer sent from hr-benefits@notices.example.com to 'chloe.hughes'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "cf16fcba-6d41-490e-91d8-738ec35ed7ab",
+        "type": "computer",
+        "name": "LT-IT-004"
+      },
+      "person": {
+        "name": "chloe.hughes"
+      },
+      "sourceIp": "203.0.113.10",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-055",
+      "type": "Event::Endpoint::Auth::BruteForce",
+      "severity": "medium",
+      "raisedAt": "2026-10-19T19:59:17.356Z",
+      "description": "Multiple failed web console logins for 'elena.lund' at sso.example.com from 203.0.113.30",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "3fa3ff0a-8681-44b5-bbd4-804c14fe8846",
+        "type": "computer",
+        "name": "LT-ENG-002"
+      },
+      "person": {
+        "name": "elena.lund"
+      },
+      "sourceIp": "203.0.113.30",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-056",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-20T10:49:14.122Z",
+      "description": "Phishing email from no-reply@secure-docs.example.org delivered to 'chloe.hughes' with credential-harvesting link to login-portal.example.net",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "072a2e40-ced6-4d2c-869f-214bccca8f03",
+        "type": "computer",
+        "name": "WS-LEGAL-001"
+      },
+      "person": {
+        "name": "chloe.hughes"
+      },
+      "sourceIp": "203.0.113.16",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-057",
+      "type": "Event::Firewall::SuspiciousConnection",
+      "severity": "medium",
+      "raisedAt": "2026-10-20T14:51:36.463Z",
+      "description": "Outbound connection from WS-FIN-001 to known-bad IP 203.0.113.28 on port 23",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "53a5a73e-3a37-4ae0-88d5-f5b318a0dcc3",
+        "type": "computer",
+        "name": "WS-FIN-001"
+      },
+      "person": {
+        "name": "camila.hoffman"
+      },
+      "sourceIp": "203.0.113.28",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-058",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-20T17:30:11.735Z",
+      "description": "Spoofed executive email requesting wire transfer sent from hr-benefits@notices.example.com to 'kofi.iyer'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "7c0c631f-bef0-4704-896d-65b4e703cb54",
+        "type": "computer",
+        "name": "WS-MKT-005"
+      },
+      "person": {
+        "name": "kofi.iyer"
+      },
+      "sourceIp": "203.0.113.18",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-059",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-20T20:32:46.638Z",
+      "description": "Spoofed executive email requesting wire transfer sent from no-reply@secure-docs.example.org to 'oliver.haddad'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "acb055f9-8da2-4fa3-96f0-83f66be0559f",
+        "type": "computer",
+        "name": "LT-SALES-004"
+      },
+      "person": {
+        "name": "oliver.haddad"
+      },
+      "sourceIp": "203.0.113.2",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-060",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-21T14:47:16.659Z",
+      "description": "Spoofed executive email requesting wire transfer sent from ceo.office@exec-mail.example.org to 'daniel.takahashi'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "a85a7725-5a50-4378-9342-6697ddab7c3d",
+        "type": "computer",
+        "name": "LT-SALES-003"
+      },
+      "person": {
+        "name": "daniel.takahashi"
+      },
+      "sourceIp": "203.0.113.25",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-061",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-22T04:14:54.383Z",
+      "description": "Fileless malware behavior (encoded PowerShell command) observed on LT-SALES-001 for user 'isabella.nakamura'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "6f7233ed-17a8-4ede-b1e8-a241f462be9f",
+        "type": "computer",
+        "name": "LT-SALES-001"
+      },
+      "person": {
+        "name": "isabella.nakamura"
+      },
+      "sourceIp": "203.0.113.7",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-062",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-22T09:12:00.990Z",
+      "description": "Phishing email from billing@invoices.example.net delivered to 'diego.mbeki' with link to login-portal.example.net",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "e89891ee-cec4-4e7f-bdbd-b1d84fdacec3",
+        "type": "computer",
+        "name": "WS-ENG-002"
+      },
+      "person": {
+        "name": "diego.mbeki"
+      },
+      "sourceIp": "203.0.113.12",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-063",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-22T09:15:00.360Z",
+      "description": "Phishing email from billing@invoices.example.net delivered to 'james.hughes' with link to login-portal.example.net",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "9187f7fa-781b-4dd7-ab01-a3739cd25311",
+        "type": "computer",
+        "name": "WS-SALES-003"
+      },
+      "person": {
+        "name": "james.hughes"
+      },
+      "sourceIp": "203.0.113.12",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-064",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-22T09:18:00.901Z",
+      "description": "Phishing email from billing@invoices.example.net delivered to 'camila.hoffman' with link to login-portal.example.net",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "a5aafddf-d755-4643-81b3-3bcd1684e26a",
+        "type": "computer",
+        "name": "WS-FIN-001"
+      },
+      "person": {
+        "name": "camila.hoffman"
+      },
+      "sourceIp": "203.0.113.12",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-065",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-22T09:24:00.625Z",
+      "description": "Phishing email from billing@invoices.example.net delivered to 'grace.larsen' with link to login-portal.example.net",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "1813338d-352b-4c42-8c01-a1e5e41a0ca0",
+        "type": "computer",
+        "name": "WS-OPS-005"
+      },
+      "person": {
+        "name": "grace.larsen"
+      },
+      "sourceIp": "203.0.113.12",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-066",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-22T09:27:00.392Z",
+      "description": "Phishing email from billing@invoices.example.net delivered to 'diego.haddad' with link to login-portal.example.net",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "74ac4fbc-6e06-40e0-b26e-59124b371c04",
+        "type": "computer",
+        "name": "WS-ENG-001"
+      },
+      "person": {
+        "name": "diego.haddad"
+      },
+      "sourceIp": "203.0.113.12",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-067",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-22T14:59:51.820Z",
+      "description": "User 'tessa.barros' reported suspicious email with malicious attachment payroll_macro.docm",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "bd845d10-29ea-419c-8cfa-262ff9f22b90",
+        "type": "computer",
+        "name": "WS-FIN-003"
+      },
+      "person": {
+        "name": "tessa.barros"
+      },
+      "sourceIp": "203.0.113.5",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-068",
+      "type": "Event::Identity::UserBehavior::Anomaly",
+      "severity": "high",
+      "raisedAt": "2026-10-22T15:27:47.854Z",
+      "description": "Impossible travel: 'arjun.osei' authenticated from 203.0.113.31 and 203.0.113.20 within 15 minutes",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "c3c45c9f-831a-4a46-984d-f9b5bb0fcb1a",
+        "type": "computer",
+        "name": "WS-ENG-005"
+      },
+      "person": {
+        "name": "arjun.osei"
+      },
+      "sourceIp": "203.0.113.31",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-069",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-22T16:56:26.089Z",
+      "description": "Trojan.Fictus.d503 detected and quarantined on LT-IT-004 (file: C:\\Users\\mei.ivanov\\Downloads\\invoice_2026.exe)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "bead02d8-ee72-4d8b-99c5-e2d8e53fb387",
+        "type": "computer",
+        "name": "LT-IT-004"
+      },
+      "person": {
+        "name": "mei.ivanov"
+      },
+      "sourceIp": "203.0.113.2",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-070",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-22T19:17:11.168Z",
+      "description": "User 'isabella.santos' reported suspicious email with malicious attachment update_installer.exe",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "a7106108-3dd5-4f26-b457-bd4b06a24ba3",
+        "type": "computer",
+        "name": "WS-MKT-003"
+      },
+      "person": {
+        "name": "isabella.santos"
+      },
+      "sourceIp": "203.0.113.20",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-071",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-22T19:31:50.017Z",
+      "description": "Known malware hash matched on WS-IT-004; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "532267b0-6791-4db3-9385-fbc98df04557",
+        "type": "computer",
+        "name": "WS-IT-004"
+      },
+      "person": {
+        "name": "victor.moreau"
+      },
+      "sourceIp": "203.0.113.26",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-072",
+      "type": "Event::Endpoint::Auth::BruteForce",
+      "severity": "high",
+      "raisedAt": "2026-10-23T11:17:03.174Z",
+      "description": "Multiple failed web console logins for 'grace.vargas' at sso.example.com from 203.0.113.2",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "77da6a10-2d32-4796-aa8a-db7b7aa3b444",
+        "type": "computer",
+        "name": "LT-MKT-003"
+      },
+      "person": {
+        "name": "grace.vargas"
+      },
+      "sourceIp": "203.0.113.2",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-073",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-23T15:45:17.559Z",
+      "description": "Ransomware canary file modified on LT-OPS-004 by process crypt0sim.exe (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "ca004807-747e-4090-9e0d-f9050dde3c8c",
+        "type": "computer",
+        "name": "LT-OPS-004"
+      },
+      "person": {
+        "name": "priya.rahman"
+      },
+      "sourceIp": "203.0.113.23",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-074",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-23T22:47:41.660Z",
+      "description": "Credential phishing page example.org/secure-login visited by 'omar.kaur' from WS-FIN-004",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "01db0bde-69ce-420e-8bb7-0f91d5c33fdb",
+        "type": "computer",
+        "name": "WS-FIN-004"
+      },
+      "person": {
+        "name": "omar.kaur"
+      },
+      "sourceIp": "203.0.113.17",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-075",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-24T03:31:58.907Z",
+      "description": "Ransom note README_RESTORE.txt created on LT-IT-003 by user 'priya.takahashi' (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "8f3a036c-4845-4519-aa15-c298b5bba401",
+        "type": "computer",
+        "name": "LT-IT-003"
+      },
+      "person": {
+        "name": "priya.takahashi"
+      },
+      "sourceIp": "203.0.113.14",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-076",
+      "type": "Event::Identity::UserBehavior::Anomaly",
+      "severity": "high",
+      "raisedAt": "2026-10-24T16:12:36.769Z",
+      "description": "Off-hours access: 'daniel.larsen' accessed finance system from WS-SALES-005",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "4522258f-71d3-48e1-baf8-ac8ba305bb4a",
+        "type": "computer",
+        "name": "WS-SALES-005"
+      },
+      "person": {
+        "name": "daniel.larsen"
+      },
+      "sourceIp": "203.0.113.3",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-077",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-25T08:41:59.142Z",
+      "description": "Trojan.Fictus.65a2 detected and quarantined on LT-IT-003 (file: C:\\Users\\priya.takahashi\\Downloads\\scan_0043.scr)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "3a164bb9-548e-46de-a61c-f82ccd9134e7",
+        "type": "computer",
+        "name": "LT-IT-003"
+      },
+      "person": {
+        "name": "priya.takahashi"
+      },
+      "sourceIp": "203.0.113.6",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-078",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-25T10:45:55.261Z",
+      "description": "Simulated ransomware activity: 33 files renamed with .locked extension on WS-FIN-004",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "bb0c98b4-6209-4fe5-a7af-2ddddfb1d4b4",
+        "type": "computer",
+        "name": "WS-FIN-004"
+      },
+      "person": {
+        "name": "omar.kaur"
+      },
+      "sourceIp": "203.0.113.3",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-079",
+      "type": "Event::Endpoint::Access::Unauthorized",
+      "severity": "medium",
+      "raisedAt": "2026-10-25T22:18:28.563Z",
+      "description": "Access denied: 'victor.moreau' attempted to read restricted share \\\\WS-IT-004\\finance",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "5c5113a1-93b9-4188-9df9-37c0de302df6",
+        "type": "computer",
+        "name": "WS-IT-004"
+      },
+      "person": {
+        "name": "victor.moreau"
+      },
+      "sourceIp": "203.0.113.10",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-080",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-26T22:50:41.742Z",
+      "description": "Known malware hash matched on LT-LEGAL-002; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "9bb1fa1a-d908-4ff4-87dd-e700fdbf84da",
+        "type": "computer",
+        "name": "LT-LEGAL-002"
+      },
+      "person": {
+        "name": "rohan.haddad"
+      },
+      "sourceIp": "203.0.113.5",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-081",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-27T13:22:52.393Z",
+      "description": "Fileless malware behavior (encoded PowerShell command) observed on WS-LEGAL-003 for user 'oliver.romero'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "e31e87c8-ffe3-4dad-9678-775619eb7c3d",
+        "type": "computer",
+        "name": "WS-LEGAL-003"
+      },
+      "person": {
+        "name": "oliver.romero"
+      },
+      "sourceIp": "203.0.113.14",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-082",
+      "type": "Event::Identity::UserBehavior::Anomaly",
+      "severity": "medium",
+      "raisedAt": "2026-10-27T15:13:55.292Z",
+      "description": "User 'chloe.hughes' logged in from new location via 203.0.113.22 outside normal working hours",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "a3b5cc84-5bf4-440a-a878-7b90f09e0c9c",
+        "type": "computer",
+        "name": "WS-FIN-001"
+      },
+      "person": {
+        "name": "chloe.hughes"
+      },
+      "sourceIp": "203.0.113.22",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-083",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-27T17:32:33.133Z",
+      "description": "Mass file encryption behavior detected on WS-IT-001 affecting \\\\WS-IT-001\\shared (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "76730afb-c385-418a-890e-0aef5f5336c3",
+        "type": "computer",
+        "name": "WS-IT-001"
+      },
+      "person": {
+        "name": "aisha.moreau"
+      },
+      "sourceIp": "203.0.113.40",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-084",
+      "type": "Event::Endpoint::Auth::BruteForce",
+      "severity": "low",
+      "raisedAt": "2026-10-27T18:32:43.974Z",
+      "description": "63 failed SSH login attempts for 'ingrid.lund' on WS-MKT-002 from 203.0.113.12 within 14 minutes",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "d5830ba1-9a3b-40f3-81ac-e5a67132896c",
+        "type": "computer",
+        "name": "WS-MKT-002"
+      },
+      "person": {
+        "name": "ingrid.lund"
+      },
+      "sourceIp": "203.0.113.12",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-085",
+      "type": "Event::Endpoint::Access::Unauthorized",
+      "severity": "high",
+      "raisedAt": "2026-10-28T07:58:05.014Z",
+      "description": "Service account svc-d5be attempted privileged API call without permission on SRV-CORP-001",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "ae6cb118-28dc-492e-90cb-e833fe40a401",
+        "type": "computer",
+        "name": "SRV-CORP-001"
+      },
+      "person": {
+        "name": "leila.eriksen"
+      },
+      "sourceIp": "203.0.113.17",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-086",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-28T09:47:25.028Z",
+      "description": "Known malware hash matched on LT-IT-003; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "0647948b-0072-4a0d-afac-78198d3aba3b",
+        "type": "computer",
+        "name": "LT-IT-003"
+      },
+      "person": {
+        "name": "priya.takahashi"
+      },
+      "sourceIp": "203.0.113.21",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-087",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-28T10:04:36.581Z",
+      "description": "Simulated ransomware activity: 188 files renamed with .locked extension on WEB-CORP-006",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "af2acdc6-1c26-4661-aade-320c4d8139fb",
+        "type": "computer",
+        "name": "WEB-CORP-006"
+      },
+      "person": {
+        "name": "zara.osei"
+      },
+      "sourceIp": "203.0.113.6",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-088",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-28T10:50:14.166Z",
+      "description": "Ransom note README_RESTORE.txt created on WEB-CORP-003 by user 'ethan.vargas' (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "e3022402-605c-48f7-882e-f60c840723ce",
+        "type": "computer",
+        "name": "WEB-CORP-003"
+      },
+      "person": {
+        "name": "ethan.vargas"
+      },
+      "sourceIp": "203.0.113.23",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-089",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-28T14:53:17.221Z",
+      "description": "Simulated ransomware activity: 119 files renamed with .locked extension on WS-MKT-004",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "f56b3122-800e-4419-b4ad-c160659c02d6",
+        "type": "computer",
+        "name": "WS-MKT-004"
+      },
+      "person": {
+        "name": "anya.mbeki"
+      },
+      "sourceIp": "203.0.113.10",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-090",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-28T15:11:11.152Z",
+      "description": "Known malware hash matched on DB-CORP-002; process terminated and file isolated",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "708aebfc-9eaf-4abb-a983-71fe26879e60",
+        "type": "computer",
+        "name": "DB-CORP-002"
+      },
+      "person": {
+        "name": "fatima.haddad"
+      },
+      "sourceIp": "203.0.113.16",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-091",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-28T16:32:17.536Z",
+      "description": "Ransom note README_RESTORE.txt created on LT-MKT-003 by user 'grace.vargas' (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "3e54b2e3-2d0c-4dc3-974b-26e63797d9f9",
+        "type": "computer",
+        "name": "LT-MKT-003"
+      },
+      "person": {
+        "name": "grace.vargas"
+      },
+      "sourceIp": "203.0.113.36",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-092",
+      "type": "Event::Identity::UserBehavior::Anomaly",
+      "severity": "high",
+      "raisedAt": "2026-10-28T17:54:03.571Z",
+      "description": "User 'priya.eriksen' logged in from new location via 203.0.113.34 outside normal working hours",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "f364863b-16cd-4924-b767-1b554245d6b6",
+        "type": "computer",
+        "name": "WS-IT-003"
+      },
+      "person": {
+        "name": "priya.eriksen"
+      },
+      "sourceIp": "203.0.113.34",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-093",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-29T02:34:12.095Z",
+      "description": "Credential dumping tool mimikatz-sim.exe detected on WS-FIN-002 (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "4f29edd9-ea7b-4e99-93e6-cad22d06734b",
+        "type": "computer",
+        "name": "WS-FIN-002"
+      },
+      "person": {
+        "name": "james.weber"
+      },
+      "sourceIp": "203.0.113.45",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-094",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-29T03:16:12.270Z",
+      "description": "Simulated ransomware activity: 1240 files renamed with .locked extension on WS-FIN-002",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "4f472cb3-7d05-448b-af65-810cabf928c6",
+        "type": "computer",
+        "name": "WS-FIN-002"
+      },
+      "person": {
+        "name": "james.weber"
+      },
+      "sourceIp": "203.0.113.45",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-095",
+      "type": "Event::Endpoint::CryptoGuard::Detected",
+      "severity": "critical",
+      "raisedAt": "2026-10-29T03:18:12.528Z",
+      "description": "Mass file encryption behavior detected on FS-CORP-003 affecting \\\\FS-CORP-003\\finance (simulated)",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "086d844e-5eca-4aa5-b43f-a10903350016",
+        "type": "computer",
+        "name": "FS-CORP-003"
+      },
+      "person": {
+        "name": "james.weber"
+      },
+      "sourceIp": "203.0.113.45",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-096",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "high",
+      "raisedAt": "2026-10-29T10:23:05.359Z",
+      "description": "Credential phishing page example.org/secure-login visited by 'tobias.alvarez' from WS-FIN-005",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "0050f7e0-1ff6-48d3-9335-a64a127d78e3",
+        "type": "computer",
+        "name": "WS-FIN-005"
+      },
+      "person": {
+        "name": "tobias.alvarez"
+      },
+      "sourceIp": "203.0.113.12",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-097",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "low",
+      "raisedAt": "2026-10-29T12:28:17.833Z",
+      "description": "Fileless malware behavior (encoded PowerShell command) observed on LT-LEGAL-003 for user 'fatima.eriksen'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "f5fb8369-15b4-428e-b311-dbc34c57bad3",
+        "type": "computer",
+        "name": "LT-LEGAL-003"
+      },
+      "person": {
+        "name": "fatima.eriksen"
+      },
+      "sourceIp": "203.0.113.20",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-098",
+      "type": "Event::Endpoint::Auth::BruteForce",
+      "severity": "high",
+      "raisedAt": "2026-10-29T15:06:18.707Z",
+      "description": "Password spraying detected: 55 accounts targeted from 203.0.113.20 against vpn.example.com",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "9519234f-43a6-446d-b9e0-f4cb95d374bc",
+        "type": "computer",
+        "name": "WS-MKT-003"
+      },
+      "person": {
+        "name": "tobias.alvarez"
+      },
+      "sourceIp": "203.0.113.20",
+      "allowedActions": [
+        "acknowledge",
+        "cleanupThreat"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-099",
+      "type": "Event::Endpoint::Threat::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-29T22:40:53.016Z",
+      "description": "Fileless malware behavior (encoded PowerShell command) observed on LT-OPS-003 for user 'samuel.novak'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "bd1fee71-4763-478d-9f63-340da9e1ffbe",
+        "type": "computer",
+        "name": "LT-OPS-003"
+      },
+      "person": {
+        "name": "samuel.novak"
+      },
+      "sourceIp": "203.0.113.15",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    },
+    {
+      "id": "SPH-100",
+      "type": "Event::Email::Phishing::Detected",
+      "severity": "medium",
+      "raisedAt": "2026-10-31T00:46:15.422Z",
+      "description": "Spoofed executive email requesting wire transfer sent from it-helpdesk@support-portal.example.net to 'jonas.takahashi'",
+      "product": "endpoint",
+      "managedAgent": {
+        "id": "34e83513-f868-48ca-8bad-8451f0357dd7",
+        "type": "computer",
+        "name": "WS-ENG-003"
+      },
+      "person": {
+        "name": "jonas.takahashi"
+      },
+      "sourceIp": "203.0.113.26",
+      "allowedActions": [
+        "acknowledge"
+      ],
+      "tenant": {
+        "id": "00000000-0000-4000-8000-0000000000aa",
+        "name": "Example Corp"
+      }
+    }
+  ],
+  "has_more": false,
+  "pages": {
+    "size": 100,
+    "total": 1,
+    "items": 100,
+    "maxSize": 1000
+  }
+}

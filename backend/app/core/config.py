@@ -31,6 +31,12 @@ class Settings(BaseSettings):
     jwt_access_minutes: int = 15
     login_max_failures: int = 5
     login_window_seconds: int = 300
+
+    # Explicit frontend origins only. Never use "*".
+    cors_allowed_origins: str = (
+        "http://localhost:5173,"
+        "http://127.0.0.1:5173"
+    )
     master_encryption_key: str
 
     sarvam_api_key: str = "CHANGE_ME"

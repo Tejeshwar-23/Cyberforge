@@ -8,6 +8,7 @@ import httpx
 from backend.app.connectors.auth import prepare_authentication
 from backend.app.connectors.schema import ConnectorConfig
 from backend.app.connectors.secrets import SecretResolver
+from backend.app.security.outbound import validate_outbound_url
 
 
 class ConnectorRequestError(Exception):
@@ -73,6 +74,11 @@ def execute_request(
         str(config.base_url).rstrip("/") + "/",
         config.endpoint.path.lstrip("/"),
     )
+
+    # Validate the final URL, not only base_url.
+    # This also prevents an absolute endpoint.path from
+    # silently redirecting requests to another host.
+    validate_outbound_url(url)
 
     headers = dict(config.endpoint.headers)
     headers.update(prepared_auth.headers)

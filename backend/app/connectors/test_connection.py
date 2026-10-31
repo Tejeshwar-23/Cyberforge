@@ -22,6 +22,7 @@ from backend.app.connectors.secrets import (
     SecretResolutionError,
     SecretResolver,
 )
+from backend.app.security.outbound import OutboundPolicyError
 
 
 CONNECTOR_DIRECTORY = Path("configs/connectors")
@@ -174,6 +175,7 @@ def test_connector_connection(
         SecretResolutionError,
         ResponseParseError,
         MappingError,
+        OutboundPolicyError,
     ) as exc:
         return {
             "success": False,

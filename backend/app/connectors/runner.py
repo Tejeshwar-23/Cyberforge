@@ -1,3 +1,4 @@
+from backend.app.security.outbound import OutboundPolicyError
 from datetime import datetime, timezone
 from typing import Any
 
@@ -311,6 +312,9 @@ def run_connector(
 
         elif isinstance(exc, SecretResolutionError):
             error_type = "SECRET_ERROR"
+
+        elif isinstance(exc, OutboundPolicyError):
+            error_type = "OUTBOUND_POLICY_BLOCKED"
 
         elif isinstance(exc, PaginationError):
             error_type = "PAGINATION_ERROR"

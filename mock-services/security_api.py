@@ -380,3 +380,280 @@ def sophos_drift_events(
         "since": since,
     }
 
+# === CYBERFORGE MULTI-SOURCE MOCKS ===
+
+
+FORTIGATE_LOGS = [
+    {
+        "logid": "FGT-001",
+        "type": "utm",
+        "level": "critical",
+        "eventtime": "2026-10-31T12:00:00Z",
+        "msg": "Malicious outbound connection blocked",
+        "srcip": "10.10.1.25",
+    },
+    {
+        "logid": "FGT-002",
+        "type": "traffic",
+        "level": "medium",
+        "eventtime": "2026-10-31T12:01:00Z",
+        "msg": "Suspicious connection denied by firewall policy",
+        "srcip": "10.10.1.40",
+    },
+    {
+        "logid": "FGT-003",
+        "type": "ips",
+        "level": "high",
+        "eventtime": "2026-10-31T12:02:00Z",
+        "msg": "Intrusion prevention signature matched",
+        "srcip": "10.10.2.15",
+    },
+    {
+        "logid": "FGT-004",
+        "type": "webfilter",
+        "level": "low",
+        "eventtime": "2026-10-31T12:03:00Z",
+        "msg": "Restricted web category request blocked",
+        "srcip": "10.10.2.22",
+    },
+    {
+        "logid": "FGT-005",
+        "type": "vpn",
+        "level": "high",
+        "eventtime": "2026-10-31T12:04:00Z",
+        "msg": "Repeated VPN authentication failures detected",
+        "srcip": "10.10.3.9",
+    },
+]
+
+
+ELASTIC_ALERTS = [
+    {
+        "_id": "ELA-001",
+        "_source": {
+            "@timestamp": "2026-10-31T13:00:00Z",
+            "event": {
+                "kind": "alert"
+            },
+            "kibana": {
+                "alert": {
+                    "severity": "critical",
+                    "reason": "Possible credential dumping activity detected",
+                }
+            },
+        },
+    },
+    {
+        "_id": "ELA-002",
+        "_source": {
+            "@timestamp": "2026-10-31T13:01:00Z",
+            "event": {
+                "kind": "alert"
+            },
+            "kibana": {
+                "alert": {
+                    "severity": "high",
+                    "reason": "Suspicious PowerShell execution detected",
+                }
+            },
+        },
+    },
+    {
+        "_id": "ELA-003",
+        "_source": {
+            "@timestamp": "2026-10-31T13:02:00Z",
+            "event": {
+                "kind": "alert"
+            },
+            "kibana": {
+                "alert": {
+                    "severity": "medium",
+                    "reason": "Unusual authentication pattern observed",
+                }
+            },
+        },
+    },
+    {
+        "_id": "ELA-004",
+        "_source": {
+            "@timestamp": "2026-10-31T13:03:00Z",
+            "event": {
+                "kind": "alert"
+            },
+            "kibana": {
+                "alert": {
+                    "severity": "low",
+                    "reason": "Rare process execution observed",
+                }
+            },
+        },
+    },
+    {
+        "_id": "ELA-005",
+        "_source": {
+            "@timestamp": "2026-10-31T13:04:00Z",
+            "event": {
+                "kind": "alert"
+            },
+            "kibana": {
+                "alert": {
+                    "severity": "high",
+                    "reason": "Endpoint contacted a suspicious domain",
+                }
+            },
+        },
+    },
+]
+
+
+def _mock_parse_iso(value: str):
+    from datetime import datetime, timezone
+
+    candidate = value
+
+    if candidate.endswith("Z"):
+        candidate = candidate[:-1] + "+00:00"
+
+    parsed = datetime.fromisoformat(candidate)
+
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(
+            tzinfo=timezone.utc
+        )
+
+    return parsed
+
+
+@app.get("/fortigate/logs")
+def fortigate_logs(
+    offset: int = 0,
+    limit: int = 2,
+    since: str | None = None,
+    authorization: str | None = Header(
+        default=None,
+        alias="Authorization",
+    ),
+):
+    from fastapi import HTTPException
+
+    if authorization != "Bearer fortigate-mock-token":
+        return JSONResponse(
+            status_code=401,
+            content={
+                "error": "Invalid FortiGate API token"
+            },
+        )
+
+    if offset < 0:
+        raise HTTPException(
+            status_code=400,
+            detail="offset must be >= 0",
+        )
+
+    if limit < 1 or limit > 100:
+        raise HTTPException(
+            status_code=400,
+            detail="limit must be between 1 and 100",
+        )
+
+    items = list(FORTIGATE_LOGS)
+
+    if since:
+        try:
+            cutoff = _mock_parse_iso(since)
+        except ValueError as exc:
+            raise HTTPException(
+                status_code=400,
+                detail="since must be a valid ISO timestamp",
+            ) from exc
+
+        items = [
+            item
+            for item in items
+            if _mock_parse_iso(
+                item["eventtime"]
+            ) > cutoff
+        ]
+
+    return {
+        "results": items[
+            offset:offset + limit
+        ],
+        "total": len(items),
+        "offset": offset,
+        "limit": limit,
+    }
+
+
+@app.get("/elastic/security/alerts")
+def elastic_security_alerts(
+    page: int = 1,
+    limit: int = 2,
+    since: str | None = None,
+    authorization: str | None = Header(
+        default=None,
+        alias="Authorization",
+    ),
+):
+    import base64
+    from fastapi import HTTPException
+
+    expected = (
+        "Basic "
+        + base64.b64encode(
+            b"elastic-user:elastic-pass"
+        ).decode("ascii")
+    )
+
+    if authorization != expected:
+        return JSONResponse(
+            status_code=401,
+            content={
+                "error": "Invalid Elastic credentials"
+            },
+        )
+
+    if page < 1:
+        raise HTTPException(
+            status_code=400,
+            detail="page must be >= 1",
+        )
+
+    if limit < 1 or limit > 100:
+        raise HTTPException(
+            status_code=400,
+            detail="limit must be between 1 and 100",
+        )
+
+    items = list(ELASTIC_ALERTS)
+
+    if since:
+        try:
+            cutoff = _mock_parse_iso(since)
+        except ValueError as exc:
+            raise HTTPException(
+                status_code=400,
+                detail="since must be a valid ISO timestamp",
+            ) from exc
+
+        items = [
+            item
+            for item in items
+            if _mock_parse_iso(
+                item["_source"]["@timestamp"]
+            ) > cutoff
+        ]
+
+    start = (page - 1) * limit
+    end = start + limit
+
+    return {
+        "hits": {
+            "hits": items[start:end]
+        },
+        "has_more": end < len(items),
+        "page": page,
+        "limit": limit,
+        "total": len(items),
+    }
+

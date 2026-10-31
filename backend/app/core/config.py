@@ -29,6 +29,8 @@ class Settings(BaseSettings):
 
     jwt_secret: str
     jwt_access_minutes: int = 15
+    login_max_failures: int = 5
+    login_window_seconds: int = 300
     master_encryption_key: str
 
     sarvam_api_key: str = "CHANGE_ME"

@@ -43,4 +43,4 @@ mapping:
   date_fields:
     - timestamp
 
-enabled: true
+enabled: false

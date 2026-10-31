@@ -37,4 +37,4 @@ mapping:
   constants:
     type: security_event
 
-enabled: true
+enabled: false

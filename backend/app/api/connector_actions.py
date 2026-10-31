@@ -1,4 +1,6 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
+
+from backend.app.security.auth import require_roles
 
 from backend.app.connectors.test_connection import (
     find_connector_config,
@@ -9,6 +11,14 @@ from backend.app.connectors.test_connection import (
 router = APIRouter(
     prefix="/api/connectors",
     tags=["Connectors"],
+    dependencies=[
+        Depends(
+            require_roles(
+                "operator",
+                "admin",
+            )
+        )
+    ],
 )
 
 

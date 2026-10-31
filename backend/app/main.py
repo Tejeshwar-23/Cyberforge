@@ -49,10 +49,9 @@ def health():
         and redis_status == "connected"
     )
 
+    # Do not expose infrastructure details publicly.
     payload = {
         "status": "healthy" if healthy else "degraded",
-        "database": database_status,
-        "redis": redis_status,
     }
 
     if healthy:
@@ -62,6 +61,10 @@ def health():
         status_code=503,
         content=payload,
     )
+
+from backend.app.api.auth import router as auth_router
+
+app.include_router(auth_router)
 
 from backend.app.api.connector_health import router as connector_health_router
 

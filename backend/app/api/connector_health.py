@@ -1,13 +1,23 @@
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Depends, Query
 from sqlalchemy import select
 
 from backend.app.db.database import SessionLocal
 from backend.app.db.models import ConnectorRun
+from backend.app.security.auth import require_roles
 
 
 router = APIRouter(
     prefix="/api/connectors",
     tags=["Connectors"],
+    dependencies=[
+        Depends(
+            require_roles(
+                "viewer",
+                "operator",
+                "admin",
+            )
+        )
+    ],
 )
 
 

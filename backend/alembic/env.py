@@ -21,7 +21,7 @@ if config.config_file_name is not None:
 # Never store the real PostgreSQL password in alembic.ini.
 config.set_main_option(
     "sqlalchemy.url",
-    settings.database_url.replace("%", "%%"),
+    settings.migration_database_url.replace("%", "%%"),
 )
 
 

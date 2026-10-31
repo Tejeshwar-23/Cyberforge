@@ -2,6 +2,9 @@ from backend.app.security.outbound import OutboundPolicyError
 from datetime import datetime, timezone
 from typing import Any
 
+from backend.app.connectors.auto_self_heal import (
+    attempt_automatic_mapping_repair,
+)
 from backend.app.connectors.executor import (
     ConnectorRequestError,
     execute_request,
@@ -21,6 +24,12 @@ from backend.app.connectors.processor import process_records
 from backend.app.connectors.secrets import (
     SecretResolutionError,
     SecretResolver,
+)
+from backend.app.connectors.self_heal_apply import (
+    rollback_mapping_repair,
+)
+from backend.app.security.audit import (
+    write_security_audit,
 )
 from backend.app.db.persistence import (
     get_connector_sync_state,
@@ -108,6 +117,7 @@ def run_connector(
     resolver: SecretResolver | None = None,
     *,
     persist: bool = True,
+    _self_heal_attempted: bool = False,
 ) -> dict[str, Any]:
 
     resolver = resolver or SecretResolver()
@@ -218,6 +228,168 @@ def run_connector(
             config.name,
         )
 
+        # ----------------------------------------------------
+        # AUTOMATIC LOW-RISK SELF-HEAL
+        #
+        # Only attempt once per connector execution chain.
+        # The repair engine itself requires:
+        # - non-empty records
+        # - 100% mapping failure
+        # - exactly one candidate
+        # - >= 0.95 confidence
+        # - 100% validation after patch
+        # ----------------------------------------------------
+
+        if not _self_heal_attempted:
+            heal = attempt_automatic_mapping_repair(
+                config_path=config_path,
+                config=config,
+                raw_records=raw_records,
+                processed=processed,
+                resolver=resolver,
+            )
+
+            if heal.attempted:
+                candidate_detail = (
+                    (
+                        f"{heal.candidate.old_source_path}"
+                        f" -> "
+                        f"{heal.candidate.new_source_path}"
+                    )
+                    if heal.candidate
+                    else "no safe candidate"
+                )
+
+                write_security_audit(
+                    action="self_heal.auto",
+                    outcome=(
+                        "applied"
+                        if heal.applied
+                        else "not_applied"
+                    ),
+                    username="system",
+                    detail=(
+                        f"Connector {config.name}: "
+                        f"{candidate_detail}; "
+                        f"{heal.reason}"
+                    ),
+                )
+
+            if (
+                heal.applied
+                and heal.apply_result is not None
+            ):
+                try:
+                    # Reload the patched YAML and run once more.
+                    # persist=False prevents a second run-history
+                    # row and _self_heal_attempted prevents loops.
+                    rerun = run_connector(
+                        config_path,
+                        resolver,
+                        persist=False,
+                        _self_heal_attempted=True,
+                    )
+
+                except ConnectorRunError as rerun_exc:
+                    # The candidate passed Test Connection but
+                    # failed the complete ingestion path.
+                    # Restore the previous configuration.
+                    if heal.apply_result.backup_path:
+                        rollback_mapping_repair(
+                            config_path=config_path,
+                            backup_path=(
+                                heal.apply_result.backup_path
+                            ),
+                        )
+
+                    write_security_audit(
+                        action="self_heal.auto",
+                        outcome="rolled_back",
+                        username="system",
+                        detail=(
+                            f"Connector {config.name}: "
+                            "full rerun failed after repair; "
+                            "configuration restored"
+                        ),
+                    )
+
+                    message = (
+                        f"Connector '{config.name}' failed "
+                        "after automatic repair and was rolled back"
+                    )
+
+                    if (
+                        persist
+                        and run_id is not None
+                    ):
+                        persist_failed_run(
+                            run_id,
+                            message,
+                            error_type=(
+                                "SELF_HEAL_RERUN_FAILED"
+                            ),
+                            http_status=None,
+                        )
+
+                    raise ConnectorRunError(
+                        message
+                    ) from rerun_exc
+
+                rerun["run_id"] = run_id
+
+                rerun["self_heal"] = {
+                    "attempted": True,
+                    "applied": True,
+                    "target_field": (
+                        heal.candidate.target_field
+                    ),
+                    "old_source_path": (
+                        heal.candidate.old_source_path
+                    ),
+                    "new_source_path": (
+                        heal.candidate.new_source_path
+                    ),
+                    "confidence": (
+                        heal.candidate.confidence
+                    ),
+                    "risk_level": (
+                        heal.validation.risk_level
+                        if heal.validation
+                        else None
+                    ),
+                }
+
+                if (
+                    persist
+                    and run_id is not None
+                ):
+                    persist_successful_run(
+                        run_id,
+                        rerun,
+                        checkpoint_value=(
+                            rerun.get(
+                                "checkpoint_after"
+                            )
+                            if rerun.get(
+                                "incremental_enabled"
+                            )
+                            else None
+                        ),
+                    )
+
+                write_security_audit(
+                    action="self_heal.auto",
+                    outcome="verified",
+                    username="system",
+                    detail=(
+                        f"Connector {config.name}: "
+                        "automatic repair passed "
+                        "the complete connector rerun"
+                    ),
+                )
+
+                return rerun
+
         checkpoint_after = checkpoint_before
 
         if config.incremental.enabled:
@@ -291,6 +463,7 @@ def run_connector(
         ConnectorRequestError,
         ResponseParseError,
         SecretResolutionError,
+        OutboundPolicyError,
         PaginationError,
         IncrementalSyncError,
     ) as exc:

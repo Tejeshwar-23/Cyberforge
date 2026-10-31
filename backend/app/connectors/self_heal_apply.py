@@ -318,3 +318,49 @@ def apply_validated_mapping_repair(
             "validated and applied successfully"
         ),
     )
+
+
+def rollback_mapping_repair(
+    *,
+    config_path: str | Path,
+    backup_path: str | Path,
+) -> None:
+
+    path = _ensure_safe_connector_path(
+        config_path
+    )
+
+    backup = Path(
+        backup_path
+    ).resolve()
+
+    allowed_backup_root = (
+        RUNTIME_ROOT
+        / "backups"
+    ).resolve()
+
+    if not backup.is_relative_to(
+        allowed_backup_root
+    ):
+        raise ValueError(
+            "Rollback backup is outside the "
+            "approved self-heal backup directory"
+        )
+
+    if not backup.exists():
+        raise FileNotFoundError(
+            "Self-heal rollback backup "
+            "does not exist"
+        )
+
+    shutil.copy2(
+        backup,
+        path,
+    )
+
+    # Refuse to consider rollback complete
+    # unless the restored YAML still validates.
+    validate_connector_config(
+        path
+    )
+

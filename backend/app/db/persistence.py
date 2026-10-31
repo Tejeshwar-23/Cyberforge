@@ -218,6 +218,7 @@ def persist_successful_run(
             "quarantined_count"
         ]
         run.last_error = None
+        run.error_type = None
 
         if checkpoint_value is not None:
             state = session.scalar(
@@ -246,6 +247,9 @@ def persist_successful_run(
 def persist_failed_run(
     run_id: int,
     error_message: str,
+    *,
+    error_type: str | None = None,
+    http_status: int | None = None,
 ) -> None:
     with SessionLocal() as session:
         run = session.get(
@@ -259,5 +263,7 @@ def persist_failed_run(
         run.status = "failed"
         run.completed_at = utc_now()
         run.last_error = error_message
+        run.error_type = error_type
+        run.http_status = http_status
 
         session.commit()

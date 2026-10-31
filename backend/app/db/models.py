@@ -74,6 +74,12 @@ class ConnectorRun(Base):
         nullable=True,
     )
 
+    error_type: Mapped[str | None] = mapped_column(
+        String(100),
+        nullable=True,
+        index=True,
+    )
+
 
 class ConnectorSyncState(Base):
     __tablename__ = "connector_sync_state"

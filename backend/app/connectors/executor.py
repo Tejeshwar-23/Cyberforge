@@ -13,6 +13,17 @@ from backend.app.connectors.secrets import SecretResolver
 class ConnectorRequestError(Exception):
     """Raised when a connector HTTP request ultimately fails."""
 
+    def __init__(
+        self,
+        message: str,
+        *,
+        error_type: str,
+        status_code: int | None = None,
+    ):
+        super().__init__(message)
+        self.error_type = error_type
+        self.status_code = status_code
+
 
 def _retry_after_seconds(value: str | None) -> float:
     if not value:
@@ -91,7 +102,9 @@ def execute_request(
             if response.status_code == 429:
                 if attempt == max_attempts:
                     raise ConnectorRequestError(
-                        "Rate limit exceeded after maximum retries"
+                        "Rate limit exceeded after maximum retries",
+                        error_type="RATE_LIMITED",
+                        status_code=429,
                     )
 
                 wait_seconds = _retry_after_seconds(
@@ -105,7 +118,9 @@ def execute_request(
                 if attempt == max_attempts:
                     raise ConnectorRequestError(
                         f"Server error after maximum retries: "
-                        f"HTTP {response.status_code}"
+                        f"HTTP {response.status_code}",
+                        error_type="SOURCE_SERVER_ERROR",
+                        status_code=response.status_code,
                     )
 
                 time.sleep(
@@ -114,27 +129,54 @@ def execute_request(
                 continue
 
             if response.status_code >= 400:
+                status = response.status_code
+
+                error_map = {
+                    400: "BAD_REQUEST",
+                    401: "AUTHENTICATION_ERROR",
+                    403: "PERMISSION_ERROR",
+                    404: "ENDPOINT_NOT_FOUND",
+                    408: "TIMEOUT_ERROR",
+                }
+
                 raise ConnectorRequestError(
-                    f"Connector request failed: "
-                    f"HTTP {response.status_code}"
+                    f"Connector request failed: HTTP {status}",
+                    error_type=error_map.get(
+                        status,
+                        "CLIENT_ERROR",
+                    ),
+                    status_code=status,
                 )
 
             return response
 
-        except (
-            httpx.TimeoutException,
-            httpx.TransportError,
-        ) as exc:
-
+        except httpx.TimeoutException as exc:
             last_error = exc
 
             if attempt == max_attempts:
-                break
+                raise ConnectorRequestError(
+                    "Connector request timed out after retry attempts",
+                    error_type="TIMEOUT_ERROR",
+                ) from exc
+
+            time.sleep(
+                2 ** (attempt - 1)
+            )
+
+        except httpx.TransportError as exc:
+            last_error = exc
+
+            if attempt == max_attempts:
+                raise ConnectorRequestError(
+                    "Connector network request failed after retry attempts",
+                    error_type="NETWORK_ERROR",
+                ) from exc
 
             time.sleep(
                 2 ** (attempt - 1)
             )
 
     raise ConnectorRequestError(
-        "Connector request failed after retry attempts"
+        "Connector request failed after retry attempts",
+        error_type="NETWORK_ERROR",
     ) from last_error

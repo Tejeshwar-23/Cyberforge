@@ -299,10 +299,31 @@ def run_connector(
             f"failed: {exc}"
         )
 
+        error_type = "CONNECTOR_ERROR"
+        http_status = None
+
+        if isinstance(exc, ConnectorRequestError):
+            error_type = exc.error_type
+            http_status = exc.status_code
+
+        elif isinstance(exc, ResponseParseError):
+            error_type = "RESPONSE_FORMAT_ERROR"
+
+        elif isinstance(exc, SecretResolutionError):
+            error_type = "SECRET_ERROR"
+
+        elif isinstance(exc, PaginationError):
+            error_type = "PAGINATION_ERROR"
+
+        elif isinstance(exc, IncrementalSyncError):
+            error_type = "INCREMENTAL_SYNC_ERROR"
+
         if persist and run_id is not None:
             persist_failed_run(
                 run_id,
                 message,
+                error_type=error_type,
+                http_status=http_status,
             )
 
         raise ConnectorRunError(

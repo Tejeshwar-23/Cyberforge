@@ -42,6 +42,7 @@ def connector_health():
                 "http_status": run.http_status,
                 "pagination_type": run.pagination_type,
                 "page_count": run.page_count,
+                "error_type": run.error_type,
                 "last_error": run.last_error,
             }
             for run in latest.values()
@@ -82,6 +83,7 @@ def connector_runs(
                 "http_status": run.http_status,
                 "pagination_type": run.pagination_type,
                 "page_count": run.page_count,
+                "error_type": run.error_type,
                 "last_error": run.last_error,
             }
             for run in runs

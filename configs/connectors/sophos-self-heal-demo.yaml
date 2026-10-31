@@ -1,0 +1,35 @@
+version: '1.0'
+name: sophos-self-heal-demo
+base_url: http://127.0.0.1:9001
+auth:
+  type: none
+endpoint:
+  method: GET
+  path: /sophos-drift/events
+  query_params: {}
+response:
+  format: json
+  records_path: items
+pagination:
+  type: page
+  page_param: page
+  start_page: 1
+  limit_param: limit
+  page_size: 20
+  has_more_path: has_more
+schedule:
+  every_minutes: 60
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: createdAt
+mapping:
+  entity: event
+  fields:
+    id: id
+    type: type
+    severity: severity
+    timestamp: createdAt
+    description: description
+enabled: false

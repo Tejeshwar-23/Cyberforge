@@ -34,3 +34,6 @@ ml/models/*.joblib
 # Docker/local data
 postgres_data/
 redis_data/
+
+# Runtime self-heal staging/backups
+runtime/

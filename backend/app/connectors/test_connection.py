@@ -17,6 +17,7 @@ from backend.app.connectors.parser import (
     ResponseParseError,
     parse_response,
 )
+from backend.app.connectors.processor import process_records
 from backend.app.connectors.secrets import (
     SecretResolutionError,
     SecretResolver,
@@ -122,6 +123,35 @@ def test_connector_connection(
             config.response.records_path,
         )
 
+        processed = process_records(
+            records,
+            config.mapping,
+            config.name,
+        )
+
+        if (
+            records
+            and processed["quarantined_count"] > 0
+        ):
+            return {
+                "success": False,
+                "connector": config.name,
+                "http_status": response.status_code,
+                "response_format": config.response.format,
+                "pagination_type": config.pagination.type,
+                "sample_records_detected": len(records),
+                "sample_records_normalized": processed[
+                    "normalized_count"
+                ],
+                "sample_records_quarantined": processed[
+                    "quarantined_count"
+                ],
+                "message": (
+                    "Connection succeeded but mapping "
+                    "validation failed"
+                ),
+            }
+
         return {
             "success": True,
             "connector": config.name,
@@ -129,6 +159,12 @@ def test_connector_connection(
             "response_format": config.response.format,
             "pagination_type": config.pagination.type,
             "sample_records_detected": len(records),
+            "sample_records_normalized": processed[
+                "normalized_count"
+            ],
+            "sample_records_quarantined": processed[
+                "quarantined_count"
+            ],
             "message": "Connection test successful",
         }
 

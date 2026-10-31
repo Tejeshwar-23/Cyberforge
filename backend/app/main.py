@@ -66,3 +66,7 @@ def health():
 from backend.app.api.connector_health import router as connector_health_router
 
 app.include_router(connector_health_router)
+
+from backend.app.api.connector_actions import router as connector_actions_router
+
+app.include_router(connector_actions_router)

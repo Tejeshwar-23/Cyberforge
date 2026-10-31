@@ -1,0 +1,59 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: cyberforge-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+
+    ports:
+      - "127.0.0.1:5432:5432"
+
+    volumes:
+      - cyberforge_postgres_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+    networks:
+      - cyberforge-internal
+
+
+  redis:
+    image: redis:7-alpine
+    container_name: cyberforge-redis
+    restart: unless-stopped
+
+    command: ["redis-server", "--appendonly", "yes"]
+
+    ports:
+      - "127.0.0.1:6379:6379"
+
+    volumes:
+      - cyberforge_redis_data:/data
+
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+    networks:
+      - cyberforge-internal
+
+
+volumes:
+  cyberforge_postgres_data:
+  cyberforge_redis_data:
+
+
+networks:
+  cyberforge-internal:
+    driver: bridge

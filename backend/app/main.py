@@ -37,6 +37,7 @@ app.add_middleware(
     allow_methods=[
         "GET",
         "POST",
+        "PUT",
         "OPTIONS",
     ],
     allow_headers=[
@@ -100,3 +101,8 @@ app.include_router(connector_health_router)
 from backend.app.api.connector_actions import router as connector_actions_router
 
 app.include_router(connector_actions_router)
+
+from backend.app.api.secrets import router as secrets_router
+
+app.include_router(secrets_router)
+

@@ -338,3 +338,64 @@ class SecurityAuditLog(Base):
         index=True,
     )
 
+
+class EncryptedSecret(Base):
+    __tablename__ = "encrypted_secrets"
+
+    id: Mapped[int] = mapped_column(
+        Integer,
+        primary_key=True,
+        autoincrement=True,
+    )
+
+    name: Mapped[str] = mapped_column(
+        String(128),
+        unique=True,
+        index=True,
+        nullable=False,
+    )
+
+    ciphertext: Mapped[str] = mapped_column(
+        Text,
+        nullable=False,
+    )
+
+    nonce: Mapped[str] = mapped_column(
+        String(64),
+        nullable=False,
+    )
+
+    fingerprint: Mapped[str] = mapped_column(
+        String(64),
+        nullable=False,
+        index=True,
+    )
+
+    algorithm: Mapped[str] = mapped_column(
+        String(50),
+        nullable=False,
+        default="AES-256-GCM",
+    )
+
+    version: Mapped[int] = mapped_column(
+        Integer,
+        nullable=False,
+        default=1,
+    )
+
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
+        default=utc_now,
+        nullable=False,
+    )
+
+    rotated_at: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True),
+        nullable=True,
+    )
+
+    updated_by_user_id: Mapped[int | None] = mapped_column(
+        Integer,
+        nullable=True,
+    )
+

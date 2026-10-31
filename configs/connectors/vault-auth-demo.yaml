@@ -1,0 +1,36 @@
+﻿version: "1.0"
+
+name: vault-auth-demo
+
+base_url: http://127.0.0.1:9001
+
+auth:
+  type: api_key
+  header: X-API-Key
+  secret_ref: MOCK_PROTECTED_API_KEY
+
+endpoint:
+  method: GET
+  path: /protected
+  query_params: {}
+
+response:
+  format: json
+  records_path: items
+
+pagination:
+  type: none
+
+schedule:
+  every_minutes: 60
+
+mapping:
+  entity: event
+  fields:
+    id: id
+    type: type
+    severity: severity
+    timestamp: timestamp
+    description: description
+
+enabled: false

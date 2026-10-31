@@ -101,3 +101,63 @@ def reset():
     return {
         "status": "reset"
     }
+
+PAGINATED_EVENTS = [
+    {
+        "eventId": "P001",
+        "priority": "high",
+        "createdAt": "2026-10-31T11:00:00Z",
+        "message": "Paginated alert 1",
+    },
+    {
+        "eventId": "P002",
+        "priority": "medium",
+        "createdAt": "2026-10-31T11:01:00Z",
+        "message": "Paginated alert 2",
+    },
+    {
+        "eventId": "P003",
+        "priority": "critical",
+        "createdAt": "2026-10-31T11:02:00Z",
+        "message": "Paginated alert 3",
+    },
+    {
+        "eventId": "P004",
+        "priority": "low",
+        "createdAt": "2026-10-31T11:03:00Z",
+        "message": "Paginated alert 4",
+    },
+    {
+        "eventId": "P005",
+        "priority": "high",
+        "createdAt": "2026-10-31T11:04:00Z",
+        "message": "Paginated alert 5",
+    },
+]
+
+
+@app.get("/paginated-events")
+def paginated_events(
+    offset: int = 0,
+    limit: int = 2,
+):
+    return {
+        "events": PAGINATED_EVENTS[
+            offset:offset + limit
+        ]
+    }
+
+@app.get("/page-events")
+def page_events(
+    page: int = 1,
+    limit: int = 2,
+):
+    if page < 1:
+        page = 1
+
+    start = (page - 1) * limit
+    end = start + limit
+
+    return {
+        "events": PAGINATED_EVENTS[start:end]
+    }

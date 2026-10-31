@@ -48,6 +48,7 @@ def execute_request(
     *,
     max_attempts: int = 4,
     timeout_seconds: float = 20.0,
+    params_override: dict | None = None,
 ) -> httpx.Response:
 
     resolver = resolver or SecretResolver()
@@ -66,6 +67,9 @@ def execute_request(
     headers.update(prepared_auth.headers)
 
     params = dict(config.endpoint.query_params)
+
+    if params_override:
+        params.update(params_override)
 
     last_error: Exception | None = None
 

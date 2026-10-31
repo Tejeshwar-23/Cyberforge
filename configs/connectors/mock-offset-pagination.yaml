@@ -1,0 +1,40 @@
+version: "1.0"
+
+name: mock-paginated-security-platform
+
+base_url: http://127.0.0.1:9001
+
+auth:
+  type: none
+
+endpoint:
+  method: GET
+  path: /paginated-events
+  query_params: {}
+
+response:
+  format: json
+  records_path: events
+
+pagination:
+  type: offset
+  offset_param: offset
+  limit_param: limit
+  page_size: 2
+
+schedule:
+  every_minutes: 15
+
+mapping:
+  entity: event
+
+  fields:
+    id: eventId
+    severity: priority
+    timestamp: createdAt
+    description: message
+
+  constants:
+    type: security_event
+
+enabled: true

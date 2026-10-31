@@ -1,0 +1,22 @@
+name: broken-connector
+
+base_url: not-a-url
+
+auth:
+  type: api_key
+
+endpoint:
+  method: GET
+
+response:
+  format: json
+
+pagination:
+  type: offset
+
+schedule:
+  every_minutes: 0
+
+mapping:
+  entity: event
+  fields: {}

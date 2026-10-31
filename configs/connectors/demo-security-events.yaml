@@ -1,0 +1,46 @@
+version: "1.0"
+
+name: demo-security-events
+description: Generic security event connector used for validation
+
+base_url: https://example.com
+
+auth:
+  type: bearer
+  secret_ref: demo_api_token
+
+endpoint:
+  method: GET
+  path: /api/events
+  query_params:
+    limit: 100
+
+response:
+  format: json
+  records_path: data.events
+
+pagination:
+  type: offset
+  offset_param: offset
+  limit_param: limit
+  page_size: 100
+
+schedule:
+  every_minutes: 15
+
+mapping:
+  entity: event
+
+  fields:
+    id: eventId
+    severity: priority
+    timestamp: createdAt
+    description: message
+
+  constants:
+    type: security_event
+
+  date_fields:
+    - timestamp
+
+enabled: true

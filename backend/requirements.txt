@@ -19,3 +19,4 @@ pandas
 numpy
 pytest
 pytest-asyncio
+defusedxml

@@ -33,10 +33,11 @@ export const RiskAnalysisPage: React.FC = () => {
     setLoading(true)
     setError('')
     try {
-      const sumRes = await CyberForgeApi.getRiskSummary()
+      const [sumRes, connRes] = await Promise.all([
+        CyberForgeApi.getRiskSummary(),
+        CyberForgeApi.getConnectorRisk(),
+      ])
       setSummary(sumRes)
-
-      const connRes = await CyberForgeApi.getConnectorRisk()
       setConnectorRisk(connRes)
     } catch (err) {
       setError(readableApiError(err))

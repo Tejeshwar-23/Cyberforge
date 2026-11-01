@@ -1,6 +1,7 @@
 import math
 from collections import Counter
 from statistics import median
+from threading import Lock
 
 from fastapi import (
     APIRouter,
@@ -473,6 +474,34 @@ def _ml_vector(
     ]
 
 
+_REGIME_MODEL_CACHE: dict[tuple, dict] = {}
+_REGIME_MODEL_CACHE_LOCK = Lock()
+_PUBLIC_STATUS_CACHE: dict[tuple, dict] = {}
+_PUBLIC_STATUS_CACHE_LOCK = Lock()
+
+
+def _regime_training_signature(
+    eligible: list[ConnectorRun],
+) -> tuple:
+    """
+    Deterministic signature representing the full ML-relevant state of eligible runs.
+    Includes ID, status, duration, page count, and record counts so any data change
+    safely invalidates the cached model.
+    """
+    return tuple(
+        (
+            run.id,
+            run.status,
+            round(_duration_seconds(run) or 0, 4),
+            run.page_count or 0,
+            run.records_received or 0,
+            run.records_normalized or 0,
+            run.records_quarantined or 0,
+        )
+        for run in eligible
+    )
+
+
 def _build_regime_model(
     runs: list[ConnectorRun],
     regime: str,
@@ -514,9 +543,16 @@ def _build_regime_model(
         vectors.append(vector)
 
 
+    cache_key = (regime, _regime_training_signature(eligible))
+
+    with _REGIME_MODEL_CACHE_LOCK:
+        cached = _REGIME_MODEL_CACHE.get(cache_key)
+        if cached is not None:
+            return cached
+
     if len(vectors) < MIN_REGIME_SAMPLES:
 
-        return {
+        result = {
             "available": False,
             "status": (
                 "INSUFFICIENT_HISTORY"
@@ -535,6 +571,9 @@ def _build_regime_model(
                 f"{regime} runs are required"
             ),
         }
+        with _REGIME_MODEL_CACHE_LOCK:
+            _REGIME_MODEL_CACHE[cache_key] = result
+        return result
 
 
     durations = [
@@ -549,7 +588,7 @@ def _build_regime_model(
 
     if len(set(durations)) < 8:
 
-        return {
+        result = {
             "available": False,
             "status": (
                 "INSUFFICIENT_VARIATION"
@@ -564,6 +603,9 @@ def _build_regime_model(
                 "duration variation"
             ),
         }
+        with _REGIME_MODEL_CACHE_LOCK:
+            _REGIME_MODEL_CACHE[cache_key] = result
+        return result
 
 
     if regime == SYNC_REGIME:
@@ -583,7 +625,7 @@ def _build_regime_model(
             and len(volume_values) < 2
         ):
 
-            return {
+            result = {
                 "available": False,
                 "status": (
                     "INSUFFICIENT_VARIATION"
@@ -597,6 +639,9 @@ def _build_regime_model(
                     "enough page/volume variation"
                 ),
             }
+            with _REGIME_MODEL_CACHE_LOCK:
+                _REGIME_MODEL_CACHE[cache_key] = result
+            return result
 
 
     model = IsolationForest(
@@ -618,7 +663,7 @@ def _build_regime_model(
     ]
 
 
-    return {
+    result = {
         "available": True,
         "status": "AVAILABLE",
         "regime": regime,
@@ -660,6 +705,11 @@ def _build_regime_model(
             ),
         },
     }
+
+    with _REGIME_MODEL_CACHE_LOCK:
+        _REGIME_MODEL_CACHE[cache_key] = result
+
+    return result
 
 
 def _ml_score(
@@ -946,33 +996,52 @@ def _combined_analysis(
 
 
 
-_ANALYSIS_CACHE_SIGNATURE = None
-_ANALYSIS_CACHE = {}
+_ANALYSIS_CACHE: dict[str, dict] = {}
+_ANALYSIS_CACHE_LOCK = Lock()
 
 
 def _analysis_signature(
     runs: list[ConnectorRun],
+    *,
+    max_run_id: int | None = None,
 ):
     """
-    Cache invalidates whenever recorded run state changes.
-    This only avoids duplicate dashboard computation;
-    it does not alter ML training data or scoring.
+    Return the run-state signature relevant to one target run.
+
+    A newly-created run with a larger ID cannot change the historical
+    baseline of an older target because ML training already enforces
+    run.id < before_run_id.
+
+    Therefore older connector analyses remain valid when unrelated
+    newer runs are added.
     """
+
+    relevant = (
+        runs
+        if max_run_id is None
+        else (
+            run
+            for run in runs
+            if run.id <= max_run_id
+        )
+    )
 
     return tuple(
         (
             run.id,
             run.connector_name,
             run.status,
+            run.started_at,
             run.completed_at,
             run.http_status,
+            run.pagination_type,
             run.page_count,
             run.records_received,
             run.records_normalized,
             run.records_quarantined,
             run.error_type,
         )
-        for run in runs
+        for run in relevant
     )
 
 
@@ -980,57 +1049,91 @@ def _latest_connector_analyses(
     runs: list[ConnectorRun],
     histories: dict[str, list[ConnectorRun]],
 ) -> dict[str, dict]:
+    """
+    Cache each connector independently.
 
-    global _ANALYSIS_CACHE_SIGNATURE
-    global _ANALYSIS_CACHE
+    Previously any run change invalidated every connector analysis,
+    causing many 300-tree IsolationForest models to be retrained.
 
-    signature = _analysis_signature(
-        runs
-    )
+    A connector is now recomputed only when data capable of affecting
+    that connector's latest-run analysis changes.
 
-    if (
-        signature
-        != _ANALYSIS_CACHE_SIGNATURE
-    ):
+    The lock also prevents /summary and /connectors from rebuilding
+    the same ML models concurrently.
+    """
 
-        rebuilt = {}
+    current_connectors = set(histories)
 
-        for connector in sorted(
-            histories
-        ):
+    with _ANALYSIS_CACHE_LOCK:
 
-            history = histories[
-                connector
-            ]
+        # Remove entries for connectors that no longer exist.
+        for connector in list(_ANALYSIS_CACHE):
+            if connector not in current_connectors:
+                del _ANALYSIS_CACHE[connector]
 
-            rebuilt[
-                connector
-            ] = _combined_analysis(
-                history[-1],
-                history,
+        for connector in sorted(histories):
+
+            history = histories[connector]
+            target = history[-1]
+
+            signature = _analysis_signature(
                 runs,
+                max_run_id=target.id,
             )
 
-        _ANALYSIS_CACHE = rebuilt
+            cached = _ANALYSIS_CACHE.get(
+                connector
+            )
 
-        _ANALYSIS_CACHE_SIGNATURE = (
-            signature
-        )
+            if (
+                cached is not None
+                and cached["signature"]
+                == signature
+            ):
+                continue
 
-    return _ANALYSIS_CACHE
+            _ANALYSIS_CACHE[connector] = {
+                "signature": signature,
+                "analysis": _combined_analysis(
+                    target,
+                    history,
+                    runs,
+                ),
+            }
+
+        return {
+            connector: entry["analysis"]
+            for connector, entry
+            in _ANALYSIS_CACHE.items()
+        }
 
 
 def _public_model_status(
     runs: list[ConnectorRun],
     regime: str,
 ) -> dict:
+    """
+    Return serializable public model status metadata for /api/risk/summary.
+    Cached by the regime signature so repeated summary requests do not re-extract
+    or recompute metadata when historical runs have not changed.
+    """
+    eligible = [
+        run for run in runs
+        if run.status == "healthy" and _behavior_regime(run) == regime
+    ]
+    cache_key = (regime, _regime_training_signature(eligible))
+
+    with _PUBLIC_STATUS_CACHE_LOCK:
+        cached = _PUBLIC_STATUS_CACHE.get(cache_key)
+        if cached is not None:
+            return cached
 
     context = _build_regime_model(
         runs,
         regime,
     )
 
-    return {
+    result = {
         key: value
         for key, value in context.items()
         if key not in {
@@ -1038,6 +1141,11 @@ def _public_model_status(
             "training_raw",
         }
     }
+
+    with _PUBLIC_STATUS_CACHE_LOCK:
+        _PUBLIC_STATUS_CACHE[cache_key] = result
+
+    return result
 
 
 # ==================================================

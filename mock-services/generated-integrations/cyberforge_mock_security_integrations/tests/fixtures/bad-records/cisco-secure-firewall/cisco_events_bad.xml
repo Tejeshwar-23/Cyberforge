@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<events>
+  <security_event>
+    <threatCategory>Unauthorized Privilege Escalation Attempt</threatCategory>
+    <priorityScore>CRITICAL</priorityScore>
+    <eventOccurredTime>2026-11-08T09:00:00Z</eventOccurredTime>
+    <ruleActionDetails>Observed unauthorized privilege escalation attempt on host node 900 originating from external telemetry cluster</ruleActionDetails>
+    <_defect_note>Defect 1: Missing event ID</_defect_note>
+  </security_event>
+  <security_event>
+    <eventId>evt-cisc-00901</eventId>
+    <threatCategory>Suspicious Process Execution via PowerShell</threatCategory>
+    <eventOccurredTime>2026-11-08T09:23:00Z</eventOccurredTime>
+    <ruleActionDetails>Observed suspicious process execution via powershell on host node 901 originating from external telemetry cluster</ruleActionDetails>
+    <_defect_note>Defect 2: Missing severity field</_defect_note>
+  </security_event>
+  <security_event>
+    <eventId>evt-cisc-00902</eventId>
+    <threatCategory>Anomalous Outbound C2 Beaconing</threatCategory>
+    <priorityScore>MEDIUM</priorityScore>
+    <ruleActionDetails>Observed anomalous outbound c2 beaconing on host node 902 originating from external telemetry cluster</ruleActionDetails>
+    <_defect_note>Defect 3: Missing timestamp field</_defect_note>
+  </security_event>
+  <security_event>
+    <eventId>evt-cisc-00903</eventId>
+    <threatCategory>Multiple Failed MFA Challenges</threatCategory>
+    <priorityScore>LOW</priorityScore>
+    <eventOccurredTime>MALFORMED_TIMESTAMP_ERR_999</eventOccurredTime>
+    <ruleActionDetails>Observed multiple failed mfa challenges on host node 903 originating from external telemetry cluster</ruleActionDetails>
+    <_defect_note>Defect 4: Malformed timestamp string</_defect_note>
+  </security_event>
+  <security_event>
+    <eventId>evt-cisc-00904</eventId>
+    <threatCategory>Lateral Movement via Remote WMI Execution</threatCategory>
+    <priorityScore>INFORMATIONAL</priorityScore>
+    <eventOccurredTime>2026-11-08T10:32:00Z</eventOccurredTime>
+    <unexpected_raw_payload_text>Observed lateral movement via remote wmi execution on host node 904 originating from external telemetry cluster</unexpected_raw_payload_text>
+    <_defect_note>Defect 5: Renamed/missing event description field</_defect_note>
+  </security_event>
+</events>

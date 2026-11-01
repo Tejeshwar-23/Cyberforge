@@ -1,0 +1,20 @@
+vendor: Trend Micro Vision One
+users:
+  id: accountIdentifier
+  name: userDisplayName
+  email: mailAddress
+  status: securityPosture
+  last_login: lastActivityTimestamp
+devices:
+  id: agentGuid
+  hostname: computerName
+  ip: primaryIpAddress
+  os: osDescription
+  owner: loggedOnUser
+  last_seen: lastPingTimestamp
+events:
+  id: workbenchId
+  type: incidentType
+  severity: riskLevel
+  timestamp: createdDateTime
+  description: summary

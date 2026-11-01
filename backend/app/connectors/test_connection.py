@@ -1,3 +1,6 @@
+# Production connector utility, not a pytest test module.
+__test__ = False
+
 from pathlib import Path
 from typing import Any
 

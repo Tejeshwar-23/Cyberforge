@@ -1,0 +1,87 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "_source": {
+          "event": {
+            "category": "Unauthorized Privilege Escalation Attempt",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-11-08T09:00:00Z",
+          "message": "Observed unauthorized privilege escalation attempt on host node 900 originating from external telemetry cluster"
+        },
+        "_defect_note": "Defect 1: Missing event ID"
+      },
+      {
+        "_id": "evt-elas-00901",
+        "_source": {
+          "event": {
+            "category": "Suspicious Process Execution via PowerShell",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {}
+          },
+          "@timestamp": "2026-11-08T09:23:00Z",
+          "message": "Observed suspicious process execution via powershell on host node 901 originating from external telemetry cluster"
+        },
+        "_defect_note": "Defect 2: Missing severity field"
+      },
+      {
+        "_id": "evt-elas-00902",
+        "_source": {
+          "event": {
+            "category": "Anomalous Outbound C2 Beaconing",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "message": "Observed anomalous outbound c2 beaconing on host node 902 originating from external telemetry cluster"
+        },
+        "_defect_note": "Defect 3: Missing timestamp field"
+      },
+      {
+        "_id": "evt-elas-00903",
+        "_source": {
+          "event": {
+            "category": "Multiple Failed MFA Challenges",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "MALFORMED_TIMESTAMP_ERR_999",
+          "message": "Observed multiple failed mfa challenges on host node 903 originating from external telemetry cluster"
+        },
+        "_defect_note": "Defect 4: Malformed timestamp string"
+      },
+      {
+        "_id": "evt-elas-00904",
+        "_source": {
+          "event": {
+            "category": "Lateral Movement via Remote WMI Execution",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-11-08T10:32:00Z",
+          "unexpected_raw_payload_text": "Observed lateral movement via remote wmi execution on host node 904 originating from external telemetry cluster"
+        },
+        "_defect_note": "Defect 5: Renamed/missing event description field"
+      }
+    ]
+  }
+}

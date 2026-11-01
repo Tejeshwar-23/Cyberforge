@@ -1,0 +1,36 @@
+version: '1.0'
+name: netskope-users
+base_url: http://127.0.0.1:9001
+auth:
+  type: api_key
+  header: Netskope-Api-Token
+  secret_ref: NETSKOPE_API_TOKEN
+endpoint:
+  method: GET
+  path: /mock/netskope/users
+  query_params: {}
+response:
+  format: yaml
+  records_path: data.users
+pagination:
+  type: page
+  page_param: page
+  start_page: 1
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: last_activity
+mapping:
+  entity: user
+  fields:
+    id: user_id
+    name: user_name
+    email: email_address
+    status: enrollment_status
+    last_login: last_activity
+enabled: false

@@ -1,0 +1,16 @@
+vendor: Prisma Cloud
+users:
+  drift_type: field_rename
+  old_path: activeStatus
+  new_path: accountStatus
+  expected_risk: LOW
+devices:
+  drift_type: field_rename
+  old_path: discoveryTime
+  new_path: lastScannedTime
+  expected_risk: LOW
+events:
+  drift_type: field_rename
+  old_path: triggeredAt
+  new_path: alertTime
+  expected_risk: LOW

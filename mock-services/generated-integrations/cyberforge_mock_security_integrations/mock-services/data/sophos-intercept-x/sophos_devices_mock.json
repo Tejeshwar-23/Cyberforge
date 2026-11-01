@@ -1,0 +1,1404 @@
+{
+  "items": [
+    {
+      "endpoint": {
+        "id": "dev-soph-0001",
+        "hostname": "srv-sop-0001.corp.internal",
+        "ipv4Address": "10.1.1.2",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Morgan Mercer"
+        },
+        "lastSeenAt": "2026-10-15T11:11:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0002",
+        "hostname": "sec-sop-0002.corp.internal",
+        "ipv4Address": "10.1.1.3",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Jordan Sterling"
+        },
+        "lastSeenAt": "2026-10-15T13:22:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0003",
+        "hostname": "db-sop-0003.corp.internal",
+        "ipv4Address": "10.1.1.4",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Taylor Kowalski"
+        },
+        "lastSeenAt": "2026-10-15T15:33:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0004",
+        "hostname": "app-sop-0004.corp.internal",
+        "ipv4Address": "10.1.1.5",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Casey Chen"
+        },
+        "lastSeenAt": "2026-10-15T17:44:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0005",
+        "hostname": "gw-sop-0005.corp.internal",
+        "ipv4Address": "10.1.1.6",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Riley Patel"
+        },
+        "lastSeenAt": "2026-10-15T19:55:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0006",
+        "hostname": "edge-sop-0006.corp.internal",
+        "ipv4Address": "10.1.1.7",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Avery Thorne"
+        },
+        "lastSeenAt": "2026-10-15T21:06:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0007",
+        "hostname": "k8s-node-sop-0007.corp.internal",
+        "ipv4Address": "10.1.1.8",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Sam Blackwood"
+        },
+        "lastSeenAt": "2026-10-15T23:17:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0008",
+        "hostname": "bastion-sop-0008.corp.internal",
+        "ipv4Address": "10.1.1.9",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": "Jamie Frost"
+        },
+        "lastSeenAt": "2026-10-16T01:28:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0009",
+        "hostname": "proxy-sop-0009.corp.internal",
+        "ipv4Address": "10.1.1.10",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Dakota Sinclair"
+        },
+        "lastSeenAt": "2026-10-16T03:39:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0010",
+        "hostname": "wrk-sop-0010.corp.internal",
+        "ipv4Address": "10.1.1.11",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Quinn Hawthorne"
+        },
+        "lastSeenAt": "2026-10-16T05:50:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0011",
+        "hostname": "srv-sop-0011.corp.internal",
+        "ipv4Address": "10.1.1.12",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Reese Delgado"
+        },
+        "lastSeenAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0012",
+        "hostname": "sec-sop-0012.corp.internal",
+        "ipv4Address": "10.1.1.13",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Rowan Winter"
+        },
+        "lastSeenAt": "2026-10-16T09:12:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0013",
+        "hostname": "db-sop-0013.corp.internal",
+        "ipv4Address": "10.1.1.14",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Skyler Carrington"
+        },
+        "lastSeenAt": "2026-10-16T11:23:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0014",
+        "hostname": "app-sop-0014.corp.internal",
+        "ipv4Address": "10.1.1.15",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Kendall O'Connor"
+        },
+        "lastSeenAt": "2026-10-16T13:34:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0015",
+        "hostname": "gw-sop-0015.corp.internal",
+        "ipv4Address": "10.1.1.16",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Hayden Novak"
+        },
+        "lastSeenAt": "2026-10-16T15:45:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0016",
+        "hostname": "edge-sop-0016.corp.internal",
+        "ipv4Address": "10.1.2.17",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": "Finley Reyes"
+        },
+        "lastSeenAt": "2026-10-16T17:56:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0017",
+        "hostname": "k8s-node-sop-0017.corp.internal",
+        "ipv4Address": "10.1.2.18",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Emerson Yoshida"
+        },
+        "lastSeenAt": "2026-10-16T19:07:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0018",
+        "hostname": "bastion-sop-0018.corp.internal",
+        "ipv4Address": "10.1.2.19",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Adrian Lindqvist"
+        },
+        "lastSeenAt": "2026-10-16T21:18:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0019",
+        "hostname": "proxy-sop-0019.corp.internal",
+        "ipv4Address": "10.1.2.20",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Cameron Nakamura"
+        },
+        "lastSeenAt": "2026-10-16T23:29:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0020",
+        "hostname": "wrk-sop-0020.corp.internal",
+        "ipv4Address": "10.1.2.21",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Alex Vance"
+        },
+        "lastSeenAt": "2026-10-17T01:40:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0021",
+        "hostname": "srv-sop-0021.corp.internal",
+        "ipv4Address": "10.1.2.22",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Morgan Mercer"
+        },
+        "lastSeenAt": "2026-10-17T03:51:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0022",
+        "hostname": "sec-sop-0022.corp.internal",
+        "ipv4Address": "10.1.2.23",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Jordan Sterling"
+        },
+        "lastSeenAt": "2026-10-17T05:02:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0023",
+        "hostname": "db-sop-0023.corp.internal",
+        "ipv4Address": "10.1.2.24",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Taylor Kowalski"
+        },
+        "lastSeenAt": "2026-10-17T07:13:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0024",
+        "hostname": "app-sop-0024.corp.internal",
+        "ipv4Address": "10.1.2.25",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": "Casey Chen"
+        },
+        "lastSeenAt": "2026-10-17T09:24:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0025",
+        "hostname": "gw-sop-0025.corp.internal",
+        "ipv4Address": "10.1.2.26",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Riley Patel"
+        },
+        "lastSeenAt": "2026-10-17T11:35:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0026",
+        "hostname": "edge-sop-0026.corp.internal",
+        "ipv4Address": "10.1.2.27",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Avery Thorne"
+        },
+        "lastSeenAt": "2026-10-17T13:46:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0027",
+        "hostname": "k8s-node-sop-0027.corp.internal",
+        "ipv4Address": "10.1.2.28",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Sam Blackwood"
+        },
+        "lastSeenAt": "2026-10-17T15:57:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0028",
+        "hostname": "bastion-sop-0028.corp.internal",
+        "ipv4Address": "10.1.2.29",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Jamie Frost"
+        },
+        "lastSeenAt": "2026-10-17T17:08:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0029",
+        "hostname": "proxy-sop-0029.corp.internal",
+        "ipv4Address": "10.1.2.30",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Dakota Sinclair"
+        },
+        "lastSeenAt": "2026-10-17T19:19:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0030",
+        "hostname": "wrk-sop-0030.corp.internal",
+        "ipv4Address": "10.1.2.31",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Quinn Hawthorne"
+        },
+        "lastSeenAt": "2026-10-17T21:30:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0031",
+        "hostname": "srv-sop-0031.corp.internal",
+        "ipv4Address": "10.1.2.32",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Reese Delgado"
+        },
+        "lastSeenAt": "2026-10-17T23:41:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0032",
+        "hostname": "sec-sop-0032.corp.internal",
+        "ipv4Address": "10.1.3.33",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": "Rowan Winter"
+        },
+        "lastSeenAt": "2026-10-18T01:52:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0033",
+        "hostname": "db-sop-0033.corp.internal",
+        "ipv4Address": "10.1.3.34",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Skyler Carrington"
+        },
+        "lastSeenAt": "2026-10-18T03:03:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0034",
+        "hostname": "app-sop-0034.corp.internal",
+        "ipv4Address": "10.1.3.35",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Kendall O'Connor"
+        },
+        "lastSeenAt": "2026-10-18T05:14:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0035",
+        "hostname": "gw-sop-0035.corp.internal",
+        "ipv4Address": "10.1.3.36",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Hayden Novak"
+        },
+        "lastSeenAt": "2026-10-18T07:25:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0036",
+        "hostname": "edge-sop-0036.corp.internal",
+        "ipv4Address": "10.1.3.37",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Finley Reyes"
+        },
+        "lastSeenAt": "2026-10-18T09:36:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0037",
+        "hostname": "k8s-node-sop-0037.corp.internal",
+        "ipv4Address": "10.1.3.38",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Emerson Yoshida"
+        },
+        "lastSeenAt": "2026-10-18T11:47:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0038",
+        "hostname": "bastion-sop-0038.corp.internal",
+        "ipv4Address": "10.1.3.39",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Adrian Lindqvist"
+        },
+        "lastSeenAt": "2026-10-18T13:58:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0039",
+        "hostname": "proxy-sop-0039.corp.internal",
+        "ipv4Address": "10.1.3.40",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Cameron Nakamura"
+        },
+        "lastSeenAt": "2026-10-18T15:09:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0040",
+        "hostname": "wrk-sop-0040.corp.internal",
+        "ipv4Address": "10.1.3.41",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": "Alex Vance"
+        },
+        "lastSeenAt": "2026-10-18T17:20:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0041",
+        "hostname": "srv-sop-0041.corp.internal",
+        "ipv4Address": "10.1.3.42",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Morgan Mercer"
+        },
+        "lastSeenAt": "2026-10-18T19:31:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0042",
+        "hostname": "sec-sop-0042.corp.internal",
+        "ipv4Address": "10.1.3.43",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Jordan Sterling"
+        },
+        "lastSeenAt": "2026-10-18T21:42:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0043",
+        "hostname": "db-sop-0043.corp.internal",
+        "ipv4Address": "10.1.3.44",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Taylor Kowalski"
+        },
+        "lastSeenAt": "2026-10-18T23:53:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0044",
+        "hostname": "app-sop-0044.corp.internal",
+        "ipv4Address": "10.1.3.45",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Casey Chen"
+        },
+        "lastSeenAt": "2026-10-19T01:04:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0045",
+        "hostname": "gw-sop-0045.corp.internal",
+        "ipv4Address": "10.1.3.46",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Riley Patel"
+        },
+        "lastSeenAt": "2026-10-19T03:15:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0046",
+        "hostname": "edge-sop-0046.corp.internal",
+        "ipv4Address": "10.1.3.47",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Avery Thorne"
+        },
+        "lastSeenAt": "2026-10-19T05:26:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0047",
+        "hostname": "k8s-node-sop-0047.corp.internal",
+        "ipv4Address": "10.1.3.48",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Sam Blackwood"
+        },
+        "lastSeenAt": "2026-10-19T07:37:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0048",
+        "hostname": "bastion-sop-0048.corp.internal",
+        "ipv4Address": "10.1.4.49",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": "Jamie Frost"
+        },
+        "lastSeenAt": "2026-10-19T09:48:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0049",
+        "hostname": "proxy-sop-0049.corp.internal",
+        "ipv4Address": "10.1.4.50",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Dakota Sinclair"
+        },
+        "lastSeenAt": "2026-10-19T11:59:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0050",
+        "hostname": "wrk-sop-0050.corp.internal",
+        "ipv4Address": "10.1.4.51",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Quinn Hawthorne"
+        },
+        "lastSeenAt": "2026-10-19T13:10:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0051",
+        "hostname": "srv-sop-0051.corp.internal",
+        "ipv4Address": "10.1.4.52",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Reese Delgado"
+        },
+        "lastSeenAt": "2026-10-19T15:21:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0052",
+        "hostname": "sec-sop-0052.corp.internal",
+        "ipv4Address": "10.1.4.53",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Rowan Winter"
+        },
+        "lastSeenAt": "2026-10-19T17:32:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0053",
+        "hostname": "db-sop-0053.corp.internal",
+        "ipv4Address": "10.1.4.54",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Skyler Carrington"
+        },
+        "lastSeenAt": "2026-10-19T19:43:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0054",
+        "hostname": "app-sop-0054.corp.internal",
+        "ipv4Address": "10.1.4.55",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Kendall O'Connor"
+        },
+        "lastSeenAt": "2026-10-19T21:54:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0055",
+        "hostname": "gw-sop-0055.corp.internal",
+        "ipv4Address": "10.1.4.56",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Hayden Novak"
+        },
+        "lastSeenAt": "2026-10-19T23:05:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0056",
+        "hostname": "edge-sop-0056.corp.internal",
+        "ipv4Address": "10.1.4.57",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": "Finley Reyes"
+        },
+        "lastSeenAt": "2026-10-20T01:16:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0057",
+        "hostname": "k8s-node-sop-0057.corp.internal",
+        "ipv4Address": "10.1.4.58",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Emerson Yoshida"
+        },
+        "lastSeenAt": "2026-10-20T03:27:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0058",
+        "hostname": "bastion-sop-0058.corp.internal",
+        "ipv4Address": "10.1.4.59",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Adrian Lindqvist"
+        },
+        "lastSeenAt": "2026-10-20T05:38:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0059",
+        "hostname": "proxy-sop-0059.corp.internal",
+        "ipv4Address": "10.1.4.60",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Cameron Nakamura"
+        },
+        "lastSeenAt": "2026-10-20T07:49:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0060",
+        "hostname": "wrk-sop-0060.corp.internal",
+        "ipv4Address": "10.1.4.61",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Alex Vance"
+        },
+        "lastSeenAt": "2026-10-20T09:00:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0061",
+        "hostname": "srv-sop-0061.corp.internal",
+        "ipv4Address": "10.1.4.62",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Morgan Mercer"
+        },
+        "lastSeenAt": "2026-10-20T11:11:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0062",
+        "hostname": "sec-sop-0062.corp.internal",
+        "ipv4Address": "10.1.4.63",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Jordan Sterling"
+        },
+        "lastSeenAt": "2026-10-20T13:22:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0063",
+        "hostname": "db-sop-0063.corp.internal",
+        "ipv4Address": "10.1.4.64",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Taylor Kowalski"
+        },
+        "lastSeenAt": "2026-10-20T15:33:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0064",
+        "hostname": "app-sop-0064.corp.internal",
+        "ipv4Address": "10.1.5.65",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": "Casey Chen"
+        },
+        "lastSeenAt": "2026-10-20T17:44:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0065",
+        "hostname": "gw-sop-0065.corp.internal",
+        "ipv4Address": "10.1.5.66",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Riley Patel"
+        },
+        "lastSeenAt": "2026-10-20T19:55:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0066",
+        "hostname": "edge-sop-0066.corp.internal",
+        "ipv4Address": "10.1.5.67",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Avery Thorne"
+        },
+        "lastSeenAt": "2026-10-20T21:06:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0067",
+        "hostname": "k8s-node-sop-0067.corp.internal",
+        "ipv4Address": "10.1.5.68",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Sam Blackwood"
+        },
+        "lastSeenAt": "2026-10-20T23:17:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0068",
+        "hostname": "bastion-sop-0068.corp.internal",
+        "ipv4Address": "10.1.5.69",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Jamie Frost"
+        },
+        "lastSeenAt": "2026-10-21T01:28:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0069",
+        "hostname": "proxy-sop-0069.corp.internal",
+        "ipv4Address": "10.1.5.70",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Dakota Sinclair"
+        },
+        "lastSeenAt": "2026-10-21T03:39:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0070",
+        "hostname": "wrk-sop-0070.corp.internal",
+        "ipv4Address": "10.1.5.71",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Quinn Hawthorne"
+        },
+        "lastSeenAt": "2026-10-21T05:50:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0071",
+        "hostname": "srv-sop-0071.corp.internal",
+        "ipv4Address": "10.1.5.72",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Reese Delgado"
+        },
+        "lastSeenAt": "2026-10-21T07:01:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0072",
+        "hostname": "sec-sop-0072.corp.internal",
+        "ipv4Address": "10.1.5.73",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": "Rowan Winter"
+        },
+        "lastSeenAt": "2026-10-21T09:12:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0073",
+        "hostname": "db-sop-0073.corp.internal",
+        "ipv4Address": "10.1.5.74",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Skyler Carrington"
+        },
+        "lastSeenAt": "2026-10-21T11:23:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0074",
+        "hostname": "app-sop-0074.corp.internal",
+        "ipv4Address": "10.1.5.75",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Kendall O'Connor"
+        },
+        "lastSeenAt": "2026-10-21T13:34:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0075",
+        "hostname": "gw-sop-0075.corp.internal",
+        "ipv4Address": "10.1.5.76",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Hayden Novak"
+        },
+        "lastSeenAt": "2026-10-21T15:45:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0076",
+        "hostname": "edge-sop-0076.corp.internal",
+        "ipv4Address": "10.1.5.77",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Finley Reyes"
+        },
+        "lastSeenAt": "2026-10-21T17:56:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0077",
+        "hostname": "k8s-node-sop-0077.corp.internal",
+        "ipv4Address": "10.1.5.78",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Emerson Yoshida"
+        },
+        "lastSeenAt": "2026-10-21T19:07:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0078",
+        "hostname": "bastion-sop-0078.corp.internal",
+        "ipv4Address": "10.1.5.79",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Adrian Lindqvist"
+        },
+        "lastSeenAt": "2026-10-21T21:18:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0079",
+        "hostname": "proxy-sop-0079.corp.internal",
+        "ipv4Address": "10.1.5.80",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Cameron Nakamura"
+        },
+        "lastSeenAt": "2026-10-21T23:29:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0080",
+        "hostname": "wrk-sop-0080.corp.internal",
+        "ipv4Address": "10.1.6.81",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": "Alex Vance"
+        },
+        "lastSeenAt": "2026-10-22T01:40:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0081",
+        "hostname": "srv-sop-0081.corp.internal",
+        "ipv4Address": "10.1.6.82",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Morgan Mercer"
+        },
+        "lastSeenAt": "2026-10-22T03:51:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0082",
+        "hostname": "sec-sop-0082.corp.internal",
+        "ipv4Address": "10.1.6.83",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Jordan Sterling"
+        },
+        "lastSeenAt": "2026-10-22T05:02:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0083",
+        "hostname": "db-sop-0083.corp.internal",
+        "ipv4Address": "10.1.6.84",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Taylor Kowalski"
+        },
+        "lastSeenAt": "2026-10-22T07:13:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0084",
+        "hostname": "app-sop-0084.corp.internal",
+        "ipv4Address": "10.1.6.85",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Casey Chen"
+        },
+        "lastSeenAt": "2026-10-22T09:24:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0085",
+        "hostname": "gw-sop-0085.corp.internal",
+        "ipv4Address": "10.1.6.86",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Riley Patel"
+        },
+        "lastSeenAt": "2026-10-22T11:35:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0086",
+        "hostname": "edge-sop-0086.corp.internal",
+        "ipv4Address": "10.1.6.87",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Avery Thorne"
+        },
+        "lastSeenAt": "2026-10-22T13:46:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0087",
+        "hostname": "k8s-node-sop-0087.corp.internal",
+        "ipv4Address": "10.1.6.88",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Sam Blackwood"
+        },
+        "lastSeenAt": "2026-10-22T15:57:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0088",
+        "hostname": "bastion-sop-0088.corp.internal",
+        "ipv4Address": "10.1.6.89",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": "Jamie Frost"
+        },
+        "lastSeenAt": "2026-10-22T17:08:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0089",
+        "hostname": "proxy-sop-0089.corp.internal",
+        "ipv4Address": "10.1.6.90",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Dakota Sinclair"
+        },
+        "lastSeenAt": "2026-10-22T19:19:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0090",
+        "hostname": "wrk-sop-0090.corp.internal",
+        "ipv4Address": "10.1.6.91",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Quinn Hawthorne"
+        },
+        "lastSeenAt": "2026-10-22T21:30:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0091",
+        "hostname": "srv-sop-0091.corp.internal",
+        "ipv4Address": "10.1.6.92",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Reese Delgado"
+        },
+        "lastSeenAt": "2026-10-22T23:41:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0092",
+        "hostname": "sec-sop-0092.corp.internal",
+        "ipv4Address": "10.1.6.93",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Rowan Winter"
+        },
+        "lastSeenAt": "2026-10-23T01:52:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0093",
+        "hostname": "db-sop-0093.corp.internal",
+        "ipv4Address": "10.1.6.94",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Skyler Carrington"
+        },
+        "lastSeenAt": "2026-10-23T03:03:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0094",
+        "hostname": "app-sop-0094.corp.internal",
+        "ipv4Address": "10.1.6.95",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Kendall O'Connor"
+        },
+        "lastSeenAt": "2026-10-23T05:14:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0095",
+        "hostname": "gw-sop-0095.corp.internal",
+        "ipv4Address": "10.1.6.96",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Hayden Novak"
+        },
+        "lastSeenAt": "2026-10-23T07:25:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0096",
+        "hostname": "edge-sop-0096.corp.internal",
+        "ipv4Address": "10.1.7.97",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": "Finley Reyes"
+        },
+        "lastSeenAt": "2026-10-23T09:36:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0097",
+        "hostname": "k8s-node-sop-0097.corp.internal",
+        "ipv4Address": "10.1.7.98",
+        "os": {
+          "platform": "Red Hat Enterprise Linux 9.2"
+        },
+        "assignedUser": {
+          "name": "Emerson Yoshida"
+        },
+        "lastSeenAt": "2026-10-23T11:47:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0098",
+        "hostname": "bastion-sop-0098.corp.internal",
+        "ipv4Address": "10.1.7.99",
+        "os": {
+          "platform": "Windows Server 2022 Datacenter"
+        },
+        "assignedUser": {
+          "name": "Adrian Lindqvist"
+        },
+        "lastSeenAt": "2026-10-23T13:58:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0099",
+        "hostname": "proxy-sop-0099.corp.internal",
+        "ipv4Address": "10.1.7.100",
+        "os": {
+          "platform": "Windows 11 Enterprise (22H2)"
+        },
+        "assignedUser": {
+          "name": "Cameron Nakamura"
+        },
+        "lastSeenAt": "2026-10-23T15:09:00Z"
+      }
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0100",
+        "hostname": "wrk-sop-0100.corp.internal",
+        "ipv4Address": "10.1.7.101",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Alex Vance"
+        },
+        "lastSeenAt": "2026-10-23T17:20:00Z"
+      }
+    }
+  ]
+}

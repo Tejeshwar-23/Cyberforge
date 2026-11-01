@@ -37,3 +37,11 @@ redis_data/
 
 # Runtime self-heal staging/backups
 runtime/
+
+# Development backups
+*.bak
+backups/
+mock-services/security_api.before_generated_router.py
+*.demo-backup-*
+*.bad-ml-demo-*
+*.bad-ml-test-*

@@ -1,0 +1,36 @@
+version: '1.0'
+name: elastic-security-users
+base_url: http://127.0.0.1:9001
+auth:
+  type: basic
+  username_ref: ELASTIC_USERNAME
+  password_ref: ELASTIC_PASSWORD
+endpoint:
+  method: GET
+  path: /mock/elastic-security/users
+  query_params: {}
+response:
+  format: json
+  records_path: hits.hits
+pagination:
+  type: page
+  page_param: page
+  start_page: 1
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: _source.@timestamp
+mapping:
+  entity: user
+  fields:
+    id: _id
+    name: _source.user.full_name
+    email: _source.user.email
+    status: _source.user.account_status
+    last_login: _source.@timestamp
+enabled: false

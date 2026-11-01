@@ -1,0 +1,48 @@
+{
+  "reply": {
+    "endpoints": [
+      {
+        "endpoint_name": "wrk-cor-0900.corp.internal",
+        "primary_ip": "10.4.57.151",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Alex Vance",
+        "last_seen_time": "2026-12-29T09:00:00Z",
+        "_defect_note": "Defect 1: Missing device ID"
+      },
+      {
+        "endpoint_id": "dev-cort-0901",
+        "primary_ip": "10.4.57.152",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Morgan Mercer",
+        "last_seen_time": "2026-12-29T11:11:00Z",
+        "_defect_note": "Defect 2: Missing hostname"
+      },
+      {
+        "endpoint_id": "dev-cort-0902",
+        "endpoint_name": "sec-cor-0902.corp.internal",
+        "primary_ip": "10.4.57.153",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Jordan Sterling",
+        "last_seen_time": "INVALID-EPOCH-DATE-2026",
+        "_defect_note": "Defect 3: Invalid last_seen timestamp"
+      },
+      {
+        "endpoint_id": "dev-cort-0903",
+        "endpoint_name": "db-cor-0903.corp.internal",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Taylor Kowalski",
+        "last_seen_time": "2026-12-29T15:33:00Z",
+        "_defect_note": "Defect 4: Missing expected IP field"
+      },
+      {
+        "endpoint_id": "dev-cort-0904",
+        "endpoint_name": "app-cor-0904.corp.internal",
+        "primary_ip": "10.4.57.155",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": null,
+        "last_seen_time": "2026-12-29T17:44:00Z",
+        "_defect_note": "Defect 5: Null or missing owner/assigned entity"
+      }
+    ]
+  }
+}

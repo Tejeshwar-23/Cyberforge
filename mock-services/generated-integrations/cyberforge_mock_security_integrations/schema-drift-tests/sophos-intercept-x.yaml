@@ -1,0 +1,16 @@
+vendor: Sophos Intercept X
+users:
+  drift_type: field_rename
+  old_path: lastLogin
+  new_path: lastSeenLogin
+  expected_risk: LOW
+devices:
+  drift_type: field_rename
+  old_path: endpoint.lastSeenAt
+  new_path: endpoint.lastContact
+  expected_risk: LOW
+events:
+  drift_type: field_rename
+  old_path: raisedAt
+  new_path: createdAt
+  expected_risk: LOW

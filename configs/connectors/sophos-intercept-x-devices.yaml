@@ -1,0 +1,35 @@
+version: '1.0'
+name: sophos-intercept-x-devices
+base_url: http://127.0.0.1:9001
+auth:
+  type: bearer
+  secret_ref: SOPHOS_BEARER_TOKEN
+endpoint:
+  method: GET
+  path: /mock/sophos-intercept-x/devices
+  query_params: {}
+response:
+  format: json
+  records_path: items
+pagination:
+  type: offset
+  offset_param: offset
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: endpoint.lastSeenAt
+mapping:
+  entity: device
+  fields:
+    id: endpoint.id
+    hostname: endpoint.hostname
+    ip: endpoint.ipv4Address
+    os: endpoint.os.platform
+    owner: endpoint.assignedUser.name
+    last_seen: endpoint.lastSeenAt
+enabled: false

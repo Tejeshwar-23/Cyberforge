@@ -1,0 +1,602 @@
+response:
+  data:
+  - agentGuid: dev-tren-0001
+    computerName: srv-tre-0001.corp.internal
+    primaryIpAddress: 10.1.1.2
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Morgan Mercer
+    lastPingTimestamp: '2026-10-15T11:11:00Z'
+  - agentGuid: dev-tren-0002
+    computerName: sec-tre-0002.corp.internal
+    primaryIpAddress: 10.1.1.3
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Jordan Sterling
+    lastPingTimestamp: '2026-10-15T13:22:00Z'
+  - agentGuid: dev-tren-0003
+    computerName: db-tre-0003.corp.internal
+    primaryIpAddress: 10.1.1.4
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Taylor Kowalski
+    lastPingTimestamp: '2026-10-15T15:33:00Z'
+  - agentGuid: dev-tren-0004
+    computerName: app-tre-0004.corp.internal
+    primaryIpAddress: 10.1.1.5
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Casey Chen
+    lastPingTimestamp: '2026-10-15T17:44:00Z'
+  - agentGuid: dev-tren-0005
+    computerName: gw-tre-0005.corp.internal
+    primaryIpAddress: 10.1.1.6
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Riley Patel
+    lastPingTimestamp: '2026-10-15T19:55:00Z'
+  - agentGuid: dev-tren-0006
+    computerName: edge-tre-0006.corp.internal
+    primaryIpAddress: 10.1.1.7
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Avery Thorne
+    lastPingTimestamp: '2026-10-15T21:06:00Z'
+  - agentGuid: dev-tren-0007
+    computerName: k8s-node-tre-0007.corp.internal
+    primaryIpAddress: 10.1.1.8
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Sam Blackwood
+    lastPingTimestamp: '2026-10-15T23:17:00Z'
+  - agentGuid: dev-tren-0008
+    computerName: bastion-tre-0008.corp.internal
+    primaryIpAddress: 10.1.1.9
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: Jamie Frost
+    lastPingTimestamp: '2026-10-16T01:28:00Z'
+  - agentGuid: dev-tren-0009
+    computerName: proxy-tre-0009.corp.internal
+    primaryIpAddress: 10.1.1.10
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Dakota Sinclair
+    lastPingTimestamp: '2026-10-16T03:39:00Z'
+  - agentGuid: dev-tren-0010
+    computerName: wrk-tre-0010.corp.internal
+    primaryIpAddress: 10.1.1.11
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Quinn Hawthorne
+    lastPingTimestamp: '2026-10-16T05:50:00Z'
+  - agentGuid: dev-tren-0011
+    computerName: srv-tre-0011.corp.internal
+    primaryIpAddress: 10.1.1.12
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Reese Delgado
+    lastPingTimestamp: '2026-10-16T07:01:00Z'
+  - agentGuid: dev-tren-0012
+    computerName: sec-tre-0012.corp.internal
+    primaryIpAddress: 10.1.1.13
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Rowan Winter
+    lastPingTimestamp: '2026-10-16T09:12:00Z'
+  - agentGuid: dev-tren-0013
+    computerName: db-tre-0013.corp.internal
+    primaryIpAddress: 10.1.1.14
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Skyler Carrington
+    lastPingTimestamp: '2026-10-16T11:23:00Z'
+  - agentGuid: dev-tren-0014
+    computerName: app-tre-0014.corp.internal
+    primaryIpAddress: 10.1.1.15
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Kendall O'Connor
+    lastPingTimestamp: '2026-10-16T13:34:00Z'
+  - agentGuid: dev-tren-0015
+    computerName: gw-tre-0015.corp.internal
+    primaryIpAddress: 10.1.1.16
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Hayden Novak
+    lastPingTimestamp: '2026-10-16T15:45:00Z'
+  - agentGuid: dev-tren-0016
+    computerName: edge-tre-0016.corp.internal
+    primaryIpAddress: 10.1.2.17
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: Finley Reyes
+    lastPingTimestamp: '2026-10-16T17:56:00Z'
+  - agentGuid: dev-tren-0017
+    computerName: k8s-node-tre-0017.corp.internal
+    primaryIpAddress: 10.1.2.18
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Emerson Yoshida
+    lastPingTimestamp: '2026-10-16T19:07:00Z'
+  - agentGuid: dev-tren-0018
+    computerName: bastion-tre-0018.corp.internal
+    primaryIpAddress: 10.1.2.19
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Adrian Lindqvist
+    lastPingTimestamp: '2026-10-16T21:18:00Z'
+  - agentGuid: dev-tren-0019
+    computerName: proxy-tre-0019.corp.internal
+    primaryIpAddress: 10.1.2.20
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Cameron Nakamura
+    lastPingTimestamp: '2026-10-16T23:29:00Z'
+  - agentGuid: dev-tren-0020
+    computerName: wrk-tre-0020.corp.internal
+    primaryIpAddress: 10.1.2.21
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Alex Vance
+    lastPingTimestamp: '2026-10-17T01:40:00Z'
+  - agentGuid: dev-tren-0021
+    computerName: srv-tre-0021.corp.internal
+    primaryIpAddress: 10.1.2.22
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Morgan Mercer
+    lastPingTimestamp: '2026-10-17T03:51:00Z'
+  - agentGuid: dev-tren-0022
+    computerName: sec-tre-0022.corp.internal
+    primaryIpAddress: 10.1.2.23
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Jordan Sterling
+    lastPingTimestamp: '2026-10-17T05:02:00Z'
+  - agentGuid: dev-tren-0023
+    computerName: db-tre-0023.corp.internal
+    primaryIpAddress: 10.1.2.24
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Taylor Kowalski
+    lastPingTimestamp: '2026-10-17T07:13:00Z'
+  - agentGuid: dev-tren-0024
+    computerName: app-tre-0024.corp.internal
+    primaryIpAddress: 10.1.2.25
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: Casey Chen
+    lastPingTimestamp: '2026-10-17T09:24:00Z'
+  - agentGuid: dev-tren-0025
+    computerName: gw-tre-0025.corp.internal
+    primaryIpAddress: 10.1.2.26
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Riley Patel
+    lastPingTimestamp: '2026-10-17T11:35:00Z'
+  - agentGuid: dev-tren-0026
+    computerName: edge-tre-0026.corp.internal
+    primaryIpAddress: 10.1.2.27
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Avery Thorne
+    lastPingTimestamp: '2026-10-17T13:46:00Z'
+  - agentGuid: dev-tren-0027
+    computerName: k8s-node-tre-0027.corp.internal
+    primaryIpAddress: 10.1.2.28
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Sam Blackwood
+    lastPingTimestamp: '2026-10-17T15:57:00Z'
+  - agentGuid: dev-tren-0028
+    computerName: bastion-tre-0028.corp.internal
+    primaryIpAddress: 10.1.2.29
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Jamie Frost
+    lastPingTimestamp: '2026-10-17T17:08:00Z'
+  - agentGuid: dev-tren-0029
+    computerName: proxy-tre-0029.corp.internal
+    primaryIpAddress: 10.1.2.30
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Dakota Sinclair
+    lastPingTimestamp: '2026-10-17T19:19:00Z'
+  - agentGuid: dev-tren-0030
+    computerName: wrk-tre-0030.corp.internal
+    primaryIpAddress: 10.1.2.31
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Quinn Hawthorne
+    lastPingTimestamp: '2026-10-17T21:30:00Z'
+  - agentGuid: dev-tren-0031
+    computerName: srv-tre-0031.corp.internal
+    primaryIpAddress: 10.1.2.32
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Reese Delgado
+    lastPingTimestamp: '2026-10-17T23:41:00Z'
+  - agentGuid: dev-tren-0032
+    computerName: sec-tre-0032.corp.internal
+    primaryIpAddress: 10.1.3.33
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: Rowan Winter
+    lastPingTimestamp: '2026-10-18T01:52:00Z'
+  - agentGuid: dev-tren-0033
+    computerName: db-tre-0033.corp.internal
+    primaryIpAddress: 10.1.3.34
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Skyler Carrington
+    lastPingTimestamp: '2026-10-18T03:03:00Z'
+  - agentGuid: dev-tren-0034
+    computerName: app-tre-0034.corp.internal
+    primaryIpAddress: 10.1.3.35
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Kendall O'Connor
+    lastPingTimestamp: '2026-10-18T05:14:00Z'
+  - agentGuid: dev-tren-0035
+    computerName: gw-tre-0035.corp.internal
+    primaryIpAddress: 10.1.3.36
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Hayden Novak
+    lastPingTimestamp: '2026-10-18T07:25:00Z'
+  - agentGuid: dev-tren-0036
+    computerName: edge-tre-0036.corp.internal
+    primaryIpAddress: 10.1.3.37
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Finley Reyes
+    lastPingTimestamp: '2026-10-18T09:36:00Z'
+  - agentGuid: dev-tren-0037
+    computerName: k8s-node-tre-0037.corp.internal
+    primaryIpAddress: 10.1.3.38
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Emerson Yoshida
+    lastPingTimestamp: '2026-10-18T11:47:00Z'
+  - agentGuid: dev-tren-0038
+    computerName: bastion-tre-0038.corp.internal
+    primaryIpAddress: 10.1.3.39
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Adrian Lindqvist
+    lastPingTimestamp: '2026-10-18T13:58:00Z'
+  - agentGuid: dev-tren-0039
+    computerName: proxy-tre-0039.corp.internal
+    primaryIpAddress: 10.1.3.40
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Cameron Nakamura
+    lastPingTimestamp: '2026-10-18T15:09:00Z'
+  - agentGuid: dev-tren-0040
+    computerName: wrk-tre-0040.corp.internal
+    primaryIpAddress: 10.1.3.41
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: Alex Vance
+    lastPingTimestamp: '2026-10-18T17:20:00Z'
+  - agentGuid: dev-tren-0041
+    computerName: srv-tre-0041.corp.internal
+    primaryIpAddress: 10.1.3.42
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Morgan Mercer
+    lastPingTimestamp: '2026-10-18T19:31:00Z'
+  - agentGuid: dev-tren-0042
+    computerName: sec-tre-0042.corp.internal
+    primaryIpAddress: 10.1.3.43
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Jordan Sterling
+    lastPingTimestamp: '2026-10-18T21:42:00Z'
+  - agentGuid: dev-tren-0043
+    computerName: db-tre-0043.corp.internal
+    primaryIpAddress: 10.1.3.44
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Taylor Kowalski
+    lastPingTimestamp: '2026-10-18T23:53:00Z'
+  - agentGuid: dev-tren-0044
+    computerName: app-tre-0044.corp.internal
+    primaryIpAddress: 10.1.3.45
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Casey Chen
+    lastPingTimestamp: '2026-10-19T01:04:00Z'
+  - agentGuid: dev-tren-0045
+    computerName: gw-tre-0045.corp.internal
+    primaryIpAddress: 10.1.3.46
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Riley Patel
+    lastPingTimestamp: '2026-10-19T03:15:00Z'
+  - agentGuid: dev-tren-0046
+    computerName: edge-tre-0046.corp.internal
+    primaryIpAddress: 10.1.3.47
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Avery Thorne
+    lastPingTimestamp: '2026-10-19T05:26:00Z'
+  - agentGuid: dev-tren-0047
+    computerName: k8s-node-tre-0047.corp.internal
+    primaryIpAddress: 10.1.3.48
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Sam Blackwood
+    lastPingTimestamp: '2026-10-19T07:37:00Z'
+  - agentGuid: dev-tren-0048
+    computerName: bastion-tre-0048.corp.internal
+    primaryIpAddress: 10.1.4.49
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: Jamie Frost
+    lastPingTimestamp: '2026-10-19T09:48:00Z'
+  - agentGuid: dev-tren-0049
+    computerName: proxy-tre-0049.corp.internal
+    primaryIpAddress: 10.1.4.50
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Dakota Sinclair
+    lastPingTimestamp: '2026-10-19T11:59:00Z'
+  - agentGuid: dev-tren-0050
+    computerName: wrk-tre-0050.corp.internal
+    primaryIpAddress: 10.1.4.51
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Quinn Hawthorne
+    lastPingTimestamp: '2026-10-19T13:10:00Z'
+  - agentGuid: dev-tren-0051
+    computerName: srv-tre-0051.corp.internal
+    primaryIpAddress: 10.1.4.52
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Reese Delgado
+    lastPingTimestamp: '2026-10-19T15:21:00Z'
+  - agentGuid: dev-tren-0052
+    computerName: sec-tre-0052.corp.internal
+    primaryIpAddress: 10.1.4.53
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Rowan Winter
+    lastPingTimestamp: '2026-10-19T17:32:00Z'
+  - agentGuid: dev-tren-0053
+    computerName: db-tre-0053.corp.internal
+    primaryIpAddress: 10.1.4.54
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Skyler Carrington
+    lastPingTimestamp: '2026-10-19T19:43:00Z'
+  - agentGuid: dev-tren-0054
+    computerName: app-tre-0054.corp.internal
+    primaryIpAddress: 10.1.4.55
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Kendall O'Connor
+    lastPingTimestamp: '2026-10-19T21:54:00Z'
+  - agentGuid: dev-tren-0055
+    computerName: gw-tre-0055.corp.internal
+    primaryIpAddress: 10.1.4.56
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Hayden Novak
+    lastPingTimestamp: '2026-10-19T23:05:00Z'
+  - agentGuid: dev-tren-0056
+    computerName: edge-tre-0056.corp.internal
+    primaryIpAddress: 10.1.4.57
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: Finley Reyes
+    lastPingTimestamp: '2026-10-20T01:16:00Z'
+  - agentGuid: dev-tren-0057
+    computerName: k8s-node-tre-0057.corp.internal
+    primaryIpAddress: 10.1.4.58
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Emerson Yoshida
+    lastPingTimestamp: '2026-10-20T03:27:00Z'
+  - agentGuid: dev-tren-0058
+    computerName: bastion-tre-0058.corp.internal
+    primaryIpAddress: 10.1.4.59
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Adrian Lindqvist
+    lastPingTimestamp: '2026-10-20T05:38:00Z'
+  - agentGuid: dev-tren-0059
+    computerName: proxy-tre-0059.corp.internal
+    primaryIpAddress: 10.1.4.60
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Cameron Nakamura
+    lastPingTimestamp: '2026-10-20T07:49:00Z'
+  - agentGuid: dev-tren-0060
+    computerName: wrk-tre-0060.corp.internal
+    primaryIpAddress: 10.1.4.61
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Alex Vance
+    lastPingTimestamp: '2026-10-20T09:00:00Z'
+  - agentGuid: dev-tren-0061
+    computerName: srv-tre-0061.corp.internal
+    primaryIpAddress: 10.1.4.62
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Morgan Mercer
+    lastPingTimestamp: '2026-10-20T11:11:00Z'
+  - agentGuid: dev-tren-0062
+    computerName: sec-tre-0062.corp.internal
+    primaryIpAddress: 10.1.4.63
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Jordan Sterling
+    lastPingTimestamp: '2026-10-20T13:22:00Z'
+  - agentGuid: dev-tren-0063
+    computerName: db-tre-0063.corp.internal
+    primaryIpAddress: 10.1.4.64
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Taylor Kowalski
+    lastPingTimestamp: '2026-10-20T15:33:00Z'
+  - agentGuid: dev-tren-0064
+    computerName: app-tre-0064.corp.internal
+    primaryIpAddress: 10.1.5.65
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: Casey Chen
+    lastPingTimestamp: '2026-10-20T17:44:00Z'
+  - agentGuid: dev-tren-0065
+    computerName: gw-tre-0065.corp.internal
+    primaryIpAddress: 10.1.5.66
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Riley Patel
+    lastPingTimestamp: '2026-10-20T19:55:00Z'
+  - agentGuid: dev-tren-0066
+    computerName: edge-tre-0066.corp.internal
+    primaryIpAddress: 10.1.5.67
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Avery Thorne
+    lastPingTimestamp: '2026-10-20T21:06:00Z'
+  - agentGuid: dev-tren-0067
+    computerName: k8s-node-tre-0067.corp.internal
+    primaryIpAddress: 10.1.5.68
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Sam Blackwood
+    lastPingTimestamp: '2026-10-20T23:17:00Z'
+  - agentGuid: dev-tren-0068
+    computerName: bastion-tre-0068.corp.internal
+    primaryIpAddress: 10.1.5.69
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Jamie Frost
+    lastPingTimestamp: '2026-10-21T01:28:00Z'
+  - agentGuid: dev-tren-0069
+    computerName: proxy-tre-0069.corp.internal
+    primaryIpAddress: 10.1.5.70
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Dakota Sinclair
+    lastPingTimestamp: '2026-10-21T03:39:00Z'
+  - agentGuid: dev-tren-0070
+    computerName: wrk-tre-0070.corp.internal
+    primaryIpAddress: 10.1.5.71
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Quinn Hawthorne
+    lastPingTimestamp: '2026-10-21T05:50:00Z'
+  - agentGuid: dev-tren-0071
+    computerName: srv-tre-0071.corp.internal
+    primaryIpAddress: 10.1.5.72
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Reese Delgado
+    lastPingTimestamp: '2026-10-21T07:01:00Z'
+  - agentGuid: dev-tren-0072
+    computerName: sec-tre-0072.corp.internal
+    primaryIpAddress: 10.1.5.73
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: Rowan Winter
+    lastPingTimestamp: '2026-10-21T09:12:00Z'
+  - agentGuid: dev-tren-0073
+    computerName: db-tre-0073.corp.internal
+    primaryIpAddress: 10.1.5.74
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Skyler Carrington
+    lastPingTimestamp: '2026-10-21T11:23:00Z'
+  - agentGuid: dev-tren-0074
+    computerName: app-tre-0074.corp.internal
+    primaryIpAddress: 10.1.5.75
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Kendall O'Connor
+    lastPingTimestamp: '2026-10-21T13:34:00Z'
+  - agentGuid: dev-tren-0075
+    computerName: gw-tre-0075.corp.internal
+    primaryIpAddress: 10.1.5.76
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Hayden Novak
+    lastPingTimestamp: '2026-10-21T15:45:00Z'
+  - agentGuid: dev-tren-0076
+    computerName: edge-tre-0076.corp.internal
+    primaryIpAddress: 10.1.5.77
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Finley Reyes
+    lastPingTimestamp: '2026-10-21T17:56:00Z'
+  - agentGuid: dev-tren-0077
+    computerName: k8s-node-tre-0077.corp.internal
+    primaryIpAddress: 10.1.5.78
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Emerson Yoshida
+    lastPingTimestamp: '2026-10-21T19:07:00Z'
+  - agentGuid: dev-tren-0078
+    computerName: bastion-tre-0078.corp.internal
+    primaryIpAddress: 10.1.5.79
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Adrian Lindqvist
+    lastPingTimestamp: '2026-10-21T21:18:00Z'
+  - agentGuid: dev-tren-0079
+    computerName: proxy-tre-0079.corp.internal
+    primaryIpAddress: 10.1.5.80
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Cameron Nakamura
+    lastPingTimestamp: '2026-10-21T23:29:00Z'
+  - agentGuid: dev-tren-0080
+    computerName: wrk-tre-0080.corp.internal
+    primaryIpAddress: 10.1.6.81
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: Alex Vance
+    lastPingTimestamp: '2026-10-22T01:40:00Z'
+  - agentGuid: dev-tren-0081
+    computerName: srv-tre-0081.corp.internal
+    primaryIpAddress: 10.1.6.82
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Morgan Mercer
+    lastPingTimestamp: '2026-10-22T03:51:00Z'
+  - agentGuid: dev-tren-0082
+    computerName: sec-tre-0082.corp.internal
+    primaryIpAddress: 10.1.6.83
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Jordan Sterling
+    lastPingTimestamp: '2026-10-22T05:02:00Z'
+  - agentGuid: dev-tren-0083
+    computerName: db-tre-0083.corp.internal
+    primaryIpAddress: 10.1.6.84
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Taylor Kowalski
+    lastPingTimestamp: '2026-10-22T07:13:00Z'
+  - agentGuid: dev-tren-0084
+    computerName: app-tre-0084.corp.internal
+    primaryIpAddress: 10.1.6.85
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Casey Chen
+    lastPingTimestamp: '2026-10-22T09:24:00Z'
+  - agentGuid: dev-tren-0085
+    computerName: gw-tre-0085.corp.internal
+    primaryIpAddress: 10.1.6.86
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Riley Patel
+    lastPingTimestamp: '2026-10-22T11:35:00Z'
+  - agentGuid: dev-tren-0086
+    computerName: edge-tre-0086.corp.internal
+    primaryIpAddress: 10.1.6.87
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Avery Thorne
+    lastPingTimestamp: '2026-10-22T13:46:00Z'
+  - agentGuid: dev-tren-0087
+    computerName: k8s-node-tre-0087.corp.internal
+    primaryIpAddress: 10.1.6.88
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Sam Blackwood
+    lastPingTimestamp: '2026-10-22T15:57:00Z'
+  - agentGuid: dev-tren-0088
+    computerName: bastion-tre-0088.corp.internal
+    primaryIpAddress: 10.1.6.89
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: Jamie Frost
+    lastPingTimestamp: '2026-10-22T17:08:00Z'
+  - agentGuid: dev-tren-0089
+    computerName: proxy-tre-0089.corp.internal
+    primaryIpAddress: 10.1.6.90
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Dakota Sinclair
+    lastPingTimestamp: '2026-10-22T19:19:00Z'
+  - agentGuid: dev-tren-0090
+    computerName: wrk-tre-0090.corp.internal
+    primaryIpAddress: 10.1.6.91
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Quinn Hawthorne
+    lastPingTimestamp: '2026-10-22T21:30:00Z'
+  - agentGuid: dev-tren-0091
+    computerName: srv-tre-0091.corp.internal
+    primaryIpAddress: 10.1.6.92
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Reese Delgado
+    lastPingTimestamp: '2026-10-22T23:41:00Z'
+  - agentGuid: dev-tren-0092
+    computerName: sec-tre-0092.corp.internal
+    primaryIpAddress: 10.1.6.93
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Rowan Winter
+    lastPingTimestamp: '2026-10-23T01:52:00Z'
+  - agentGuid: dev-tren-0093
+    computerName: db-tre-0093.corp.internal
+    primaryIpAddress: 10.1.6.94
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Skyler Carrington
+    lastPingTimestamp: '2026-10-23T03:03:00Z'
+  - agentGuid: dev-tren-0094
+    computerName: app-tre-0094.corp.internal
+    primaryIpAddress: 10.1.6.95
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Kendall O'Connor
+    lastPingTimestamp: '2026-10-23T05:14:00Z'
+  - agentGuid: dev-tren-0095
+    computerName: gw-tre-0095.corp.internal
+    primaryIpAddress: 10.1.6.96
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Hayden Novak
+    lastPingTimestamp: '2026-10-23T07:25:00Z'
+  - agentGuid: dev-tren-0096
+    computerName: edge-tre-0096.corp.internal
+    primaryIpAddress: 10.1.7.97
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: Finley Reyes
+    lastPingTimestamp: '2026-10-23T09:36:00Z'
+  - agentGuid: dev-tren-0097
+    computerName: k8s-node-tre-0097.corp.internal
+    primaryIpAddress: 10.1.7.98
+    osDescription: Red Hat Enterprise Linux 9.2
+    loggedOnUser: Emerson Yoshida
+    lastPingTimestamp: '2026-10-23T11:47:00Z'
+  - agentGuid: dev-tren-0098
+    computerName: bastion-tre-0098.corp.internal
+    primaryIpAddress: 10.1.7.99
+    osDescription: Windows Server 2022 Datacenter
+    loggedOnUser: Adrian Lindqvist
+    lastPingTimestamp: '2026-10-23T13:58:00Z'
+  - agentGuid: dev-tren-0099
+    computerName: proxy-tre-0099.corp.internal
+    primaryIpAddress: 10.1.7.100
+    osDescription: Windows 11 Enterprise (22H2)
+    loggedOnUser: Cameron Nakamura
+    lastPingTimestamp: '2026-10-23T15:09:00Z'
+  - agentGuid: dev-tren-0100
+    computerName: wrk-tre-0100.corp.internal
+    primaryIpAddress: 10.1.7.101
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Alex Vance
+    lastPingTimestamp: '2026-10-23T17:20:00Z'

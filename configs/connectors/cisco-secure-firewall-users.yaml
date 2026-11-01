@@ -1,0 +1,35 @@
+version: '1.0'
+name: cisco-secure-firewall-users
+base_url: http://127.0.0.1:9001
+auth:
+  type: custom_headers
+  secret_headers:
+    X-auth-access-token: CISCO_FMC_TOKEN
+endpoint:
+  method: GET
+  path: /mock/cisco-secure-firewall/users
+  query_params: {}
+response:
+  format: xml
+  records_path: items.user
+pagination:
+  type: offset
+  offset_param: offset
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: login_timestamp
+mapping:
+  entity: user
+  fields:
+    id: uuid
+    name: fullname
+    email: mail
+    status: state
+    last_login: login_timestamp
+enabled: false

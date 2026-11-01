@@ -1,0 +1,34 @@
+version: '1.0'
+name: wiz-events
+base_url: http://127.0.0.1:9001
+auth:
+  type: bearer
+  secret_ref: WIZ_BEARER_TOKEN
+endpoint:
+  method: GET
+  path: /mock/wiz/events
+  query_params: {}
+response:
+  format: json
+  records_path: data.issues.nodes
+pagination:
+  type: offset
+  offset_param: offset
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: createdAt
+mapping:
+  entity: event
+  fields:
+    id: issueId
+    type: issueType
+    severity: severity
+    timestamp: createdAt
+    description: issueTitle
+enabled: false

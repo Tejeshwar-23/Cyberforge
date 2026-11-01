@@ -1,0 +1,30 @@
+data:
+  users:
+  - user_name: Alex Patel
+    email_address: alex.patel900@cyberforge.internal
+    enrollment_status: ACTIVE
+    last_activity: '2027-01-21T20:00:00Z'
+    _defect_note: 'Defect 1: Missing ID field'
+  - user_id: usr-nets-0901
+    email_address: morgan.patel901@acme-corp.net
+    enrollment_status: SUSPENDED
+    last_activity: '2027-01-21T23:07:00Z'
+    _defect_note: 'Defect 2: Missing Name field'
+  - user_id: usr-nets-0902
+    user_name: Jordan Patel
+    email_address: jordan.patel902@globex-sec.io
+    enrollment_status: PENDING_VERIFICATION
+    last_activity: not-a-valid-date-timestamp
+    _defect_note: 'Defect 3: Invalid Timestamp format'
+  - user_id: usr-nets-0903
+    user_name: Taylor Patel
+    enrollment_status: ENABLED
+    last_activity: '2027-01-22T05:21:00Z'
+    unrecognized_user_contact_address: taylor.patel903@synthetix.org
+    _defect_note: 'Defect 4: Schema mismatch (email field renamed to unrecognized_user_contact_address)'
+  - user_id: usr-nets-0904
+    user_name: Casey Patel
+    email_address: casey.patel904@enterprise.cloud
+    enrollment_status: null
+    last_activity: '2027-01-22T08:28:00Z'
+    _defect_note: 'Defect 5: Null required status value'

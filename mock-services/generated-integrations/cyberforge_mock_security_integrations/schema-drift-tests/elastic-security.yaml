@@ -1,0 +1,16 @@
+vendor: Elastic Security
+users:
+  drift_type: field_rename
+  old_path: _source.user.account_status
+  new_path: _source.user.status
+  expected_risk: LOW
+devices:
+  drift_type: field_rename
+  old_path: _source.host.assigned_user
+  new_path: _source.host.owner_id
+  expected_risk: LOW
+events:
+  drift_type: field_rename
+  old_path: _source.kibana.alert.severity
+  new_path: _source.kibana.alert.rule_severity
+  expected_risk: LOW

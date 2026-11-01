@@ -1,0 +1,30 @@
+response:
+  data:
+  - userDisplayName: Alex Patel
+    mailAddress: alex.patel900@cyberforge.internal
+    securityPosture: ACTIVE
+    lastActivityTimestamp: '2027-01-21T20:00:00Z'
+    _defect_note: 'Defect 1: Missing ID field'
+  - accountIdentifier: usr-tren-0901
+    mailAddress: morgan.patel901@acme-corp.net
+    securityPosture: SUSPENDED
+    lastActivityTimestamp: '2027-01-21T23:07:00Z'
+    _defect_note: 'Defect 2: Missing Name field'
+  - accountIdentifier: usr-tren-0902
+    userDisplayName: Jordan Patel
+    mailAddress: jordan.patel902@globex-sec.io
+    securityPosture: PENDING_VERIFICATION
+    lastActivityTimestamp: not-a-valid-date-timestamp
+    _defect_note: 'Defect 3: Invalid Timestamp format'
+  - accountIdentifier: usr-tren-0903
+    userDisplayName: Taylor Patel
+    securityPosture: ENABLED
+    lastActivityTimestamp: '2027-01-22T05:21:00Z'
+    unrecognized_user_contact_address: taylor.patel903@synthetix.org
+    _defect_note: 'Defect 4: Schema mismatch (email field renamed to unrecognized_user_contact_address)'
+  - accountIdentifier: usr-tren-0904
+    userDisplayName: Casey Patel
+    mailAddress: casey.patel904@enterprise.cloud
+    securityPosture: null
+    lastActivityTimestamp: '2027-01-22T08:28:00Z'
+    _defect_note: 'Defect 5: Null required status value'

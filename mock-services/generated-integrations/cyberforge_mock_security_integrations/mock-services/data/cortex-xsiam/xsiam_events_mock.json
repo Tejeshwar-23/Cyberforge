@@ -1,0 +1,706 @@
+{
+  "reply": {
+    "alerts": [
+      {
+        "alert_id": "evt-cort-00001",
+        "category": "Suspicious Process Execution via PowerShell",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T00:23:00Z",
+        "alert_name": "Observed suspicious process execution via powershell on host node 001 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00002",
+        "category": "Anomalous Outbound C2 Beaconing",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T00:46:00Z",
+        "alert_name": "Observed anomalous outbound c2 beaconing on host node 002 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00003",
+        "category": "Multiple Failed MFA Challenges",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-25T01:09:00Z",
+        "alert_name": "Observed multiple failed mfa challenges on host node 003 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00004",
+        "category": "Lateral Movement via Remote WMI Execution",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-25T01:32:00Z",
+        "alert_name": "Observed lateral movement via remote wmi execution on host node 004 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00005",
+        "category": "Cloud IAM Policy Weakening Detected",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-25T01:55:00Z",
+        "alert_name": "Observed cloud iam policy weakening detected on host node 005 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00006",
+        "category": "Sensitive S3 Bucket Exposed to Public",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T02:18:00Z",
+        "alert_name": "Observed sensitive s3 bucket exposed to public on host node 006 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00007",
+        "category": "Malicious Binary Execution Blocked",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T02:41:00Z",
+        "alert_name": "Observed malicious binary execution blocked on host node 007 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00008",
+        "category": "Brute Force Authentication Storm",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-25T03:04:00Z",
+        "alert_name": "Observed brute force authentication storm on host node 008 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00009",
+        "category": "Unusual Data Exfiltration to Uncategorized IP",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-25T03:27:00Z",
+        "alert_name": "Observed unusual data exfiltration to uncategorized ip on host node 009 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00010",
+        "category": "Unauthorized Privilege Escalation Attempt",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-25T03:50:00Z",
+        "alert_name": "Observed unauthorized privilege escalation attempt on host node 010 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00011",
+        "category": "Suspicious Process Execution via PowerShell",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T04:13:00Z",
+        "alert_name": "Observed suspicious process execution via powershell on host node 011 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00012",
+        "category": "Anomalous Outbound C2 Beaconing",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T04:36:00Z",
+        "alert_name": "Observed anomalous outbound c2 beaconing on host node 012 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00013",
+        "category": "Multiple Failed MFA Challenges",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-25T04:59:00Z",
+        "alert_name": "Observed multiple failed mfa challenges on host node 013 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00014",
+        "category": "Lateral Movement via Remote WMI Execution",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-25T05:22:00Z",
+        "alert_name": "Observed lateral movement via remote wmi execution on host node 014 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00015",
+        "category": "Cloud IAM Policy Weakening Detected",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-25T05:45:00Z",
+        "alert_name": "Observed cloud iam policy weakening detected on host node 015 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00016",
+        "category": "Sensitive S3 Bucket Exposed to Public",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T06:08:00Z",
+        "alert_name": "Observed sensitive s3 bucket exposed to public on host node 016 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00017",
+        "category": "Malicious Binary Execution Blocked",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T06:31:00Z",
+        "alert_name": "Observed malicious binary execution blocked on host node 017 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00018",
+        "category": "Brute Force Authentication Storm",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-25T06:54:00Z",
+        "alert_name": "Observed brute force authentication storm on host node 018 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00019",
+        "category": "Unusual Data Exfiltration to Uncategorized IP",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-25T07:17:00Z",
+        "alert_name": "Observed unusual data exfiltration to uncategorized ip on host node 019 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00020",
+        "category": "Unauthorized Privilege Escalation Attempt",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-25T07:40:00Z",
+        "alert_name": "Observed unauthorized privilege escalation attempt on host node 020 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00021",
+        "category": "Suspicious Process Execution via PowerShell",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T08:03:00Z",
+        "alert_name": "Observed suspicious process execution via powershell on host node 021 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00022",
+        "category": "Anomalous Outbound C2 Beaconing",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T08:26:00Z",
+        "alert_name": "Observed anomalous outbound c2 beaconing on host node 022 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00023",
+        "category": "Multiple Failed MFA Challenges",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-25T08:49:00Z",
+        "alert_name": "Observed multiple failed mfa challenges on host node 023 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00024",
+        "category": "Lateral Movement via Remote WMI Execution",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-25T09:12:00Z",
+        "alert_name": "Observed lateral movement via remote wmi execution on host node 024 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00025",
+        "category": "Cloud IAM Policy Weakening Detected",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-25T09:35:00Z",
+        "alert_name": "Observed cloud iam policy weakening detected on host node 025 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00026",
+        "category": "Sensitive S3 Bucket Exposed to Public",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T09:58:00Z",
+        "alert_name": "Observed sensitive s3 bucket exposed to public on host node 026 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00027",
+        "category": "Malicious Binary Execution Blocked",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T10:21:00Z",
+        "alert_name": "Observed malicious binary execution blocked on host node 027 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00028",
+        "category": "Brute Force Authentication Storm",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-25T10:44:00Z",
+        "alert_name": "Observed brute force authentication storm on host node 028 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00029",
+        "category": "Unusual Data Exfiltration to Uncategorized IP",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-25T11:07:00Z",
+        "alert_name": "Observed unusual data exfiltration to uncategorized ip on host node 029 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00030",
+        "category": "Unauthorized Privilege Escalation Attempt",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-25T11:30:00Z",
+        "alert_name": "Observed unauthorized privilege escalation attempt on host node 030 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00031",
+        "category": "Suspicious Process Execution via PowerShell",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T11:53:00Z",
+        "alert_name": "Observed suspicious process execution via powershell on host node 031 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00032",
+        "category": "Anomalous Outbound C2 Beaconing",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T12:16:00Z",
+        "alert_name": "Observed anomalous outbound c2 beaconing on host node 032 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00033",
+        "category": "Multiple Failed MFA Challenges",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-25T12:39:00Z",
+        "alert_name": "Observed multiple failed mfa challenges on host node 033 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00034",
+        "category": "Lateral Movement via Remote WMI Execution",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-25T13:02:00Z",
+        "alert_name": "Observed lateral movement via remote wmi execution on host node 034 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00035",
+        "category": "Cloud IAM Policy Weakening Detected",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-25T13:25:00Z",
+        "alert_name": "Observed cloud iam policy weakening detected on host node 035 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00036",
+        "category": "Sensitive S3 Bucket Exposed to Public",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T13:48:00Z",
+        "alert_name": "Observed sensitive s3 bucket exposed to public on host node 036 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00037",
+        "category": "Malicious Binary Execution Blocked",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T14:11:00Z",
+        "alert_name": "Observed malicious binary execution blocked on host node 037 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00038",
+        "category": "Brute Force Authentication Storm",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-25T14:34:00Z",
+        "alert_name": "Observed brute force authentication storm on host node 038 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00039",
+        "category": "Unusual Data Exfiltration to Uncategorized IP",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-25T14:57:00Z",
+        "alert_name": "Observed unusual data exfiltration to uncategorized ip on host node 039 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00040",
+        "category": "Unauthorized Privilege Escalation Attempt",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-25T15:20:00Z",
+        "alert_name": "Observed unauthorized privilege escalation attempt on host node 040 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00041",
+        "category": "Suspicious Process Execution via PowerShell",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T15:43:00Z",
+        "alert_name": "Observed suspicious process execution via powershell on host node 041 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00042",
+        "category": "Anomalous Outbound C2 Beaconing",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T16:06:00Z",
+        "alert_name": "Observed anomalous outbound c2 beaconing on host node 042 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00043",
+        "category": "Multiple Failed MFA Challenges",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-25T16:29:00Z",
+        "alert_name": "Observed multiple failed mfa challenges on host node 043 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00044",
+        "category": "Lateral Movement via Remote WMI Execution",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-25T16:52:00Z",
+        "alert_name": "Observed lateral movement via remote wmi execution on host node 044 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00045",
+        "category": "Cloud IAM Policy Weakening Detected",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-25T17:15:00Z",
+        "alert_name": "Observed cloud iam policy weakening detected on host node 045 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00046",
+        "category": "Sensitive S3 Bucket Exposed to Public",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T17:38:00Z",
+        "alert_name": "Observed sensitive s3 bucket exposed to public on host node 046 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00047",
+        "category": "Malicious Binary Execution Blocked",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T18:01:00Z",
+        "alert_name": "Observed malicious binary execution blocked on host node 047 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00048",
+        "category": "Brute Force Authentication Storm",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-25T18:24:00Z",
+        "alert_name": "Observed brute force authentication storm on host node 048 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00049",
+        "category": "Unusual Data Exfiltration to Uncategorized IP",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-25T18:47:00Z",
+        "alert_name": "Observed unusual data exfiltration to uncategorized ip on host node 049 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00050",
+        "category": "Unauthorized Privilege Escalation Attempt",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-25T19:10:00Z",
+        "alert_name": "Observed unauthorized privilege escalation attempt on host node 050 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00051",
+        "category": "Suspicious Process Execution via PowerShell",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T19:33:00Z",
+        "alert_name": "Observed suspicious process execution via powershell on host node 051 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00052",
+        "category": "Anomalous Outbound C2 Beaconing",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T19:56:00Z",
+        "alert_name": "Observed anomalous outbound c2 beaconing on host node 052 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00053",
+        "category": "Multiple Failed MFA Challenges",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-25T20:19:00Z",
+        "alert_name": "Observed multiple failed mfa challenges on host node 053 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00054",
+        "category": "Lateral Movement via Remote WMI Execution",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-25T20:42:00Z",
+        "alert_name": "Observed lateral movement via remote wmi execution on host node 054 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00055",
+        "category": "Cloud IAM Policy Weakening Detected",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-25T21:05:00Z",
+        "alert_name": "Observed cloud iam policy weakening detected on host node 055 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00056",
+        "category": "Sensitive S3 Bucket Exposed to Public",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T21:28:00Z",
+        "alert_name": "Observed sensitive s3 bucket exposed to public on host node 056 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00057",
+        "category": "Malicious Binary Execution Blocked",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T21:51:00Z",
+        "alert_name": "Observed malicious binary execution blocked on host node 057 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00058",
+        "category": "Brute Force Authentication Storm",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-25T22:14:00Z",
+        "alert_name": "Observed brute force authentication storm on host node 058 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00059",
+        "category": "Unusual Data Exfiltration to Uncategorized IP",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-25T22:37:00Z",
+        "alert_name": "Observed unusual data exfiltration to uncategorized ip on host node 059 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00060",
+        "category": "Unauthorized Privilege Escalation Attempt",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-25T23:00:00Z",
+        "alert_name": "Observed unauthorized privilege escalation attempt on host node 060 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00061",
+        "category": "Suspicious Process Execution via PowerShell",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-25T23:23:00Z",
+        "alert_name": "Observed suspicious process execution via powershell on host node 061 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00062",
+        "category": "Anomalous Outbound C2 Beaconing",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-25T23:46:00Z",
+        "alert_name": "Observed anomalous outbound c2 beaconing on host node 062 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00063",
+        "category": "Multiple Failed MFA Challenges",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-26T00:09:00Z",
+        "alert_name": "Observed multiple failed mfa challenges on host node 063 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00064",
+        "category": "Lateral Movement via Remote WMI Execution",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-26T00:32:00Z",
+        "alert_name": "Observed lateral movement via remote wmi execution on host node 064 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00065",
+        "category": "Cloud IAM Policy Weakening Detected",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-26T00:55:00Z",
+        "alert_name": "Observed cloud iam policy weakening detected on host node 065 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00066",
+        "category": "Sensitive S3 Bucket Exposed to Public",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-26T01:18:00Z",
+        "alert_name": "Observed sensitive s3 bucket exposed to public on host node 066 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00067",
+        "category": "Malicious Binary Execution Blocked",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-26T01:41:00Z",
+        "alert_name": "Observed malicious binary execution blocked on host node 067 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00068",
+        "category": "Brute Force Authentication Storm",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-26T02:04:00Z",
+        "alert_name": "Observed brute force authentication storm on host node 068 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00069",
+        "category": "Unusual Data Exfiltration to Uncategorized IP",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-26T02:27:00Z",
+        "alert_name": "Observed unusual data exfiltration to uncategorized ip on host node 069 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00070",
+        "category": "Unauthorized Privilege Escalation Attempt",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-26T02:50:00Z",
+        "alert_name": "Observed unauthorized privilege escalation attempt on host node 070 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00071",
+        "category": "Suspicious Process Execution via PowerShell",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-26T03:13:00Z",
+        "alert_name": "Observed suspicious process execution via powershell on host node 071 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00072",
+        "category": "Anomalous Outbound C2 Beaconing",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-26T03:36:00Z",
+        "alert_name": "Observed anomalous outbound c2 beaconing on host node 072 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00073",
+        "category": "Multiple Failed MFA Challenges",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-26T03:59:00Z",
+        "alert_name": "Observed multiple failed mfa challenges on host node 073 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00074",
+        "category": "Lateral Movement via Remote WMI Execution",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-26T04:22:00Z",
+        "alert_name": "Observed lateral movement via remote wmi execution on host node 074 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00075",
+        "category": "Cloud IAM Policy Weakening Detected",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-26T04:45:00Z",
+        "alert_name": "Observed cloud iam policy weakening detected on host node 075 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00076",
+        "category": "Sensitive S3 Bucket Exposed to Public",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-26T05:08:00Z",
+        "alert_name": "Observed sensitive s3 bucket exposed to public on host node 076 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00077",
+        "category": "Malicious Binary Execution Blocked",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-26T05:31:00Z",
+        "alert_name": "Observed malicious binary execution blocked on host node 077 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00078",
+        "category": "Brute Force Authentication Storm",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-26T05:54:00Z",
+        "alert_name": "Observed brute force authentication storm on host node 078 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00079",
+        "category": "Unusual Data Exfiltration to Uncategorized IP",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-26T06:17:00Z",
+        "alert_name": "Observed unusual data exfiltration to uncategorized ip on host node 079 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00080",
+        "category": "Unauthorized Privilege Escalation Attempt",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-26T06:40:00Z",
+        "alert_name": "Observed unauthorized privilege escalation attempt on host node 080 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00081",
+        "category": "Suspicious Process Execution via PowerShell",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-26T07:03:00Z",
+        "alert_name": "Observed suspicious process execution via powershell on host node 081 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00082",
+        "category": "Anomalous Outbound C2 Beaconing",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-26T07:26:00Z",
+        "alert_name": "Observed anomalous outbound c2 beaconing on host node 082 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00083",
+        "category": "Multiple Failed MFA Challenges",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-26T07:49:00Z",
+        "alert_name": "Observed multiple failed mfa challenges on host node 083 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00084",
+        "category": "Lateral Movement via Remote WMI Execution",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-26T08:12:00Z",
+        "alert_name": "Observed lateral movement via remote wmi execution on host node 084 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00085",
+        "category": "Cloud IAM Policy Weakening Detected",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-26T08:35:00Z",
+        "alert_name": "Observed cloud iam policy weakening detected on host node 085 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00086",
+        "category": "Sensitive S3 Bucket Exposed to Public",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-26T08:58:00Z",
+        "alert_name": "Observed sensitive s3 bucket exposed to public on host node 086 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00087",
+        "category": "Malicious Binary Execution Blocked",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-26T09:21:00Z",
+        "alert_name": "Observed malicious binary execution blocked on host node 087 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00088",
+        "category": "Brute Force Authentication Storm",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-26T09:44:00Z",
+        "alert_name": "Observed brute force authentication storm on host node 088 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00089",
+        "category": "Unusual Data Exfiltration to Uncategorized IP",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-26T10:07:00Z",
+        "alert_name": "Observed unusual data exfiltration to uncategorized ip on host node 089 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00090",
+        "category": "Unauthorized Privilege Escalation Attempt",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-26T10:30:00Z",
+        "alert_name": "Observed unauthorized privilege escalation attempt on host node 090 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00091",
+        "category": "Suspicious Process Execution via PowerShell",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-26T10:53:00Z",
+        "alert_name": "Observed suspicious process execution via powershell on host node 091 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00092",
+        "category": "Anomalous Outbound C2 Beaconing",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-26T11:16:00Z",
+        "alert_name": "Observed anomalous outbound c2 beaconing on host node 092 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00093",
+        "category": "Multiple Failed MFA Challenges",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-26T11:39:00Z",
+        "alert_name": "Observed multiple failed mfa challenges on host node 093 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00094",
+        "category": "Lateral Movement via Remote WMI Execution",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-26T12:02:00Z",
+        "alert_name": "Observed lateral movement via remote wmi execution on host node 094 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00095",
+        "category": "Cloud IAM Policy Weakening Detected",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-26T12:25:00Z",
+        "alert_name": "Observed cloud iam policy weakening detected on host node 095 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00096",
+        "category": "Sensitive S3 Bucket Exposed to Public",
+        "severity_level": "HIGH",
+        "creation_time": "2026-10-26T12:48:00Z",
+        "alert_name": "Observed sensitive s3 bucket exposed to public on host node 096 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00097",
+        "category": "Malicious Binary Execution Blocked",
+        "severity_level": "MEDIUM",
+        "creation_time": "2026-10-26T13:11:00Z",
+        "alert_name": "Observed malicious binary execution blocked on host node 097 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00098",
+        "category": "Brute Force Authentication Storm",
+        "severity_level": "LOW",
+        "creation_time": "2026-10-26T13:34:00Z",
+        "alert_name": "Observed brute force authentication storm on host node 098 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00099",
+        "category": "Unusual Data Exfiltration to Uncategorized IP",
+        "severity_level": "INFORMATIONAL",
+        "creation_time": "2026-10-26T13:57:00Z",
+        "alert_name": "Observed unusual data exfiltration to uncategorized ip on host node 099 originating from external telemetry cluster"
+      },
+      {
+        "alert_id": "evt-cort-00100",
+        "category": "Unauthorized Privilege Escalation Attempt",
+        "severity_level": "CRITICAL",
+        "creation_time": "2026-10-26T14:20:00Z",
+        "alert_name": "Observed unauthorized privilege escalation attempt on host node 100 originating from external telemetry cluster"
+      }
+    ]
+  }
+}

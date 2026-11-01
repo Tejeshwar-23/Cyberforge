@@ -1,0 +1,36 @@
+version: '1.0'
+name: crowdstrike-cloud-security-devices
+base_url: http://127.0.0.1:9001
+auth:
+  type: bearer
+  secret_ref: CROWDSTRIKE_BEARER_TOKEN
+endpoint:
+  method: GET
+  path: /mock/crowdstrike-cloud-security/devices
+  query_params: {}
+response:
+  format: json
+  records_path: resources
+pagination:
+  type: page
+  page_param: page
+  start_page: 1
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: last_behavior_timestamp
+mapping:
+  entity: device
+  fields:
+    id: device_id
+    hostname: device_hostname
+    ip: connection_ip
+    os: os_build
+    owner: assigned_to
+    last_seen: last_behavior_timestamp
+enabled: false

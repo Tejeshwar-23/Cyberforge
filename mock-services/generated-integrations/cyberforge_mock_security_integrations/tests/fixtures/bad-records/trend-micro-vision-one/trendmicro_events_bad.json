@@ -1,0 +1,48 @@
+{
+  "response": {
+    "data": [
+      {
+        "incidentType": "Unauthorized Privilege Escalation Attempt",
+        "riskLevel": "CRITICAL",
+        "createdDateTime": "2026-11-08T09:00:00Z",
+        "summary": "Observed unauthorized privilege escalation attempt on host node 900 originating from external telemetry cluster",
+        "filter_matched": true,
+        "_defect_note": "Defect 1: Missing event ID"
+      },
+      {
+        "workbenchId": "evt-tren-00901",
+        "incidentType": "Suspicious Process Execution via PowerShell",
+        "createdDateTime": "2026-11-08T09:23:00Z",
+        "summary": "Observed suspicious process execution via powershell on host node 901 originating from external telemetry cluster",
+        "filter_matched": true,
+        "_defect_note": "Defect 2: Missing severity field"
+      },
+      {
+        "workbenchId": "evt-tren-00902",
+        "incidentType": "Anomalous Outbound C2 Beaconing",
+        "riskLevel": "MEDIUM",
+        "summary": "Observed anomalous outbound c2 beaconing on host node 902 originating from external telemetry cluster",
+        "filter_matched": true,
+        "_defect_note": "Defect 3: Missing timestamp field"
+      },
+      {
+        "workbenchId": "evt-tren-00903",
+        "incidentType": "Multiple Failed MFA Challenges",
+        "riskLevel": "LOW",
+        "createdDateTime": "MALFORMED_TIMESTAMP_ERR_999",
+        "summary": "Observed multiple failed mfa challenges on host node 903 originating from external telemetry cluster",
+        "filter_matched": true,
+        "_defect_note": "Defect 4: Malformed timestamp string"
+      },
+      {
+        "workbenchId": "evt-tren-00904",
+        "incidentType": "Lateral Movement via Remote WMI Execution",
+        "riskLevel": "INFORMATIONAL",
+        "createdDateTime": "2026-11-08T10:32:00Z",
+        "filter_matched": true,
+        "unexpected_raw_payload_text": "Observed lateral movement via remote wmi execution on host node 904 originating from external telemetry cluster",
+        "_defect_note": "Defect 5: Renamed/missing event description field"
+      }
+    ]
+  }
+}

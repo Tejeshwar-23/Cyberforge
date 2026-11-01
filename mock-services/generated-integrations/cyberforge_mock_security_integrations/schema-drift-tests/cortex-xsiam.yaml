@@ -1,0 +1,16 @@
+vendor: Palo Alto Cortex XSIAM
+users:
+  drift_type: field_rename
+  old_path: user_state
+  new_path: account_state
+  expected_risk: LOW
+devices:
+  drift_type: field_rename
+  old_path: last_seen_time
+  new_path: last_contact_time
+  expected_risk: LOW
+events:
+  drift_type: field_rename
+  old_path: creation_time
+  new_path: created_at
+  expected_risk: LOW

@@ -1,0 +1,49 @@
+{
+  "reply": {
+    "users": [
+      {
+        "display_name": "Alex Patel",
+        "user_principal_name": "alex.patel900@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2027-01-21T20:00:00Z",
+        "risk_score": 35,
+        "_defect_note": "Defect 1: Missing ID field"
+      },
+      {
+        "user_id": "usr-cort-0901",
+        "user_principal_name": "morgan.patel901@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2027-01-21T23:07:00Z",
+        "risk_score": 36,
+        "_defect_note": "Defect 2: Missing Name field"
+      },
+      {
+        "user_id": "usr-cort-0902",
+        "display_name": "Jordan Patel",
+        "user_principal_name": "jordan.patel902@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "not-a-valid-date-timestamp",
+        "risk_score": 37,
+        "_defect_note": "Defect 3: Invalid Timestamp format"
+      },
+      {
+        "user_id": "usr-cort-0903",
+        "display_name": "Taylor Patel",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2027-01-22T05:21:00Z",
+        "risk_score": 38,
+        "unrecognized_user_contact_address": "taylor.patel903@synthetix.org",
+        "_defect_note": "Defect 4: Schema mismatch (email field renamed to unrecognized_user_contact_address)"
+      },
+      {
+        "user_id": "usr-cort-0904",
+        "display_name": "Casey Patel",
+        "user_principal_name": "casey.patel904@enterprise.cloud",
+        "user_state": null,
+        "last_sign_in_time": "2027-01-22T08:28:00Z",
+        "risk_score": 39,
+        "_defect_note": "Defect 5: Null required status value"
+      }
+    ]
+  }
+}

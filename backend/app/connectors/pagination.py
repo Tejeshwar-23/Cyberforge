@@ -1,7 +1,11 @@
 from typing import Any
 
 from backend.app.connectors.executor import execute_request
-from backend.app.connectors.mapper import extract_path, extract_records
+from backend.app.connectors.mapper import (
+    MappingError,
+    extract_path,
+    extract_records,
+)
 from backend.app.connectors.parser import parse_response
 from backend.app.connectors.schema import ConnectorConfig
 from backend.app.connectors.secrets import SecretResolver
@@ -9,6 +13,58 @@ from backend.app.connectors.secrets import SecretResolver
 
 class PaginationError(Exception):
     """Raised when connector pagination cannot be completed."""
+
+
+def _extract_page_records(
+    config: ConnectorConfig,
+    parsed: Any,
+) -> list[dict[str, Any]]:
+    try:
+        return extract_records(
+            parsed,
+            config.response.records_path,
+        )
+
+    except MappingError:
+        # XML parsers represent an empty element such as
+        # <results></results> as an empty scalar value.
+        #
+        # For paginated APIs this may legitimately mean:
+        # "there are no records on this final page".
+        #
+        # We ONLY accept this case when:
+        # - the response format is XML
+        # - a nested records_path is configured
+        # - the parent path exists
+        # - that parent is actually empty
+        #
+        # A missing/non-empty parent still raises MappingError,
+        # preserving normal schema-drift detection.
+        if (
+            config.response.format != "xml"
+            or not config.response.records_path
+            or "." not in config.response.records_path
+        ):
+            raise
+
+        parent_path = (
+            config.response.records_path
+            .rsplit(".", 1)[0]
+        )
+
+        parent = extract_path(
+            parsed,
+            parent_path,
+        )
+
+        if (
+            parent == ""
+            or parent is None
+            or parent == {}
+        ):
+            return []
+
+        raise
 
 
 def _parse_page_records(
@@ -20,9 +76,9 @@ def _parse_page_records(
         config.response.format,
     )
 
-    return extract_records(
+    return _extract_page_records(
+        config,
         parsed,
-        config.response.records_path,
     )
 
 
@@ -141,9 +197,9 @@ def fetch_page_number_pages(
             config.response.format,
         )
 
-        page_records = extract_records(
+        page_records = _extract_page_records(
+            config,
             parsed,
-            config.response.records_path,
         )
 
         page_count += 1

@@ -1,0 +1,36 @@
+version: '1.0'
+name: trend-micro-vision-one-devices
+base_url: http://127.0.0.1:9001
+auth:
+  type: bearer
+  secret_ref: TRENDMICRO_BEARER_TOKEN
+endpoint:
+  method: GET
+  path: /mock/trend-micro-vision-one/devices
+  query_params: {}
+response:
+  format: yaml
+  records_path: response.data
+pagination:
+  type: page
+  page_param: page
+  start_page: 1
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: lastPingTimestamp
+mapping:
+  entity: device
+  fields:
+    id: agentGuid
+    hostname: computerName
+    ip: primaryIpAddress
+    os: osDescription
+    owner: loggedOnUser
+    last_seen: lastPingTimestamp
+enabled: false

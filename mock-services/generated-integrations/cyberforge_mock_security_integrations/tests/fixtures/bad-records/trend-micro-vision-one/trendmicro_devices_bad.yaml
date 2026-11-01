@@ -1,0 +1,34 @@
+response:
+  data:
+  - computerName: wrk-tre-0900.corp.internal
+    primaryIpAddress: 10.4.57.151
+    osDescription: macOS 14.1 Sonoma (Darwin 23.1.0)
+    loggedOnUser: Alex Vance
+    lastPingTimestamp: '2026-12-29T09:00:00Z'
+    _defect_note: 'Defect 1: Missing device ID'
+  - agentGuid: dev-tren-0901
+    primaryIpAddress: 10.4.57.152
+    osDescription: Debian GNU/Linux 12 (bookworm)
+    loggedOnUser: Morgan Mercer
+    lastPingTimestamp: '2026-12-29T11:11:00Z'
+    _defect_note: 'Defect 2: Missing hostname'
+  - agentGuid: dev-tren-0902
+    computerName: sec-tre-0902.corp.internal
+    primaryIpAddress: 10.4.57.153
+    osDescription: Alpine Linux 3.18
+    loggedOnUser: Jordan Sterling
+    lastPingTimestamp: INVALID-EPOCH-DATE-2026
+    _defect_note: 'Defect 3: Invalid last_seen timestamp'
+  - agentGuid: dev-tren-0903
+    computerName: db-tre-0903.corp.internal
+    osDescription: Amazon Linux 2023.2
+    loggedOnUser: Taylor Kowalski
+    lastPingTimestamp: '2026-12-29T15:33:00Z'
+    _defect_note: 'Defect 4: Missing expected IP field'
+  - agentGuid: dev-tren-0904
+    computerName: app-tre-0904.corp.internal
+    primaryIpAddress: 10.4.57.155
+    osDescription: Ubuntu 22.04 LTS (Jammy Jellyfish)
+    loggedOnUser: null
+    lastPingTimestamp: '2026-12-29T17:44:00Z'
+    _defect_note: 'Defect 5: Null or missing owner/assigned entity'

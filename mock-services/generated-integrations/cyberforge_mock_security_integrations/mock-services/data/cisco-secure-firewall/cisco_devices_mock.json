@@ -1,0 +1,904 @@
+{
+  "items": [
+    {
+      "deviceId": "dev-cisc-0001",
+      "networkNodeName": "srv-cis-0001.corp.internal",
+      "ipv4Address": "10.1.1.2",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Morgan Mercer",
+      "heartbeatTimestamp": "2026-10-15T11:11:00Z",
+      "chassisId": "chassis-cisco-001"
+    },
+    {
+      "deviceId": "dev-cisc-0002",
+      "networkNodeName": "sec-cis-0002.corp.internal",
+      "ipv4Address": "10.1.1.3",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Jordan Sterling",
+      "heartbeatTimestamp": "2026-10-15T13:22:00Z",
+      "chassisId": "chassis-cisco-002"
+    },
+    {
+      "deviceId": "dev-cisc-0003",
+      "networkNodeName": "db-cis-0003.corp.internal",
+      "ipv4Address": "10.1.1.4",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Taylor Kowalski",
+      "heartbeatTimestamp": "2026-10-15T15:33:00Z",
+      "chassisId": "chassis-cisco-003"
+    },
+    {
+      "deviceId": "dev-cisc-0004",
+      "networkNodeName": "app-cis-0004.corp.internal",
+      "ipv4Address": "10.1.1.5",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Casey Chen",
+      "heartbeatTimestamp": "2026-10-15T17:44:00Z",
+      "chassisId": "chassis-cisco-004"
+    },
+    {
+      "deviceId": "dev-cisc-0005",
+      "networkNodeName": "gw-cis-0005.corp.internal",
+      "ipv4Address": "10.1.1.6",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Riley Patel",
+      "heartbeatTimestamp": "2026-10-15T19:55:00Z",
+      "chassisId": "chassis-cisco-005"
+    },
+    {
+      "deviceId": "dev-cisc-0006",
+      "networkNodeName": "edge-cis-0006.corp.internal",
+      "ipv4Address": "10.1.1.7",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Avery Thorne",
+      "heartbeatTimestamp": "2026-10-15T21:06:00Z",
+      "chassisId": "chassis-cisco-006"
+    },
+    {
+      "deviceId": "dev-cisc-0007",
+      "networkNodeName": "k8s-node-cis-0007.corp.internal",
+      "ipv4Address": "10.1.1.8",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Sam Blackwood",
+      "heartbeatTimestamp": "2026-10-15T23:17:00Z",
+      "chassisId": "chassis-cisco-007"
+    },
+    {
+      "deviceId": "dev-cisc-0008",
+      "networkNodeName": "bastion-cis-0008.corp.internal",
+      "ipv4Address": "10.1.1.9",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": "Jamie Frost",
+      "heartbeatTimestamp": "2026-10-16T01:28:00Z",
+      "chassisId": "chassis-cisco-008"
+    },
+    {
+      "deviceId": "dev-cisc-0009",
+      "networkNodeName": "proxy-cis-0009.corp.internal",
+      "ipv4Address": "10.1.1.10",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Dakota Sinclair",
+      "heartbeatTimestamp": "2026-10-16T03:39:00Z",
+      "chassisId": "chassis-cisco-009"
+    },
+    {
+      "deviceId": "dev-cisc-0010",
+      "networkNodeName": "wrk-cis-0010.corp.internal",
+      "ipv4Address": "10.1.1.11",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Quinn Hawthorne",
+      "heartbeatTimestamp": "2026-10-16T05:50:00Z",
+      "chassisId": "chassis-cisco-010"
+    },
+    {
+      "deviceId": "dev-cisc-0011",
+      "networkNodeName": "srv-cis-0011.corp.internal",
+      "ipv4Address": "10.1.1.12",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Reese Delgado",
+      "heartbeatTimestamp": "2026-10-16T07:01:00Z",
+      "chassisId": "chassis-cisco-011"
+    },
+    {
+      "deviceId": "dev-cisc-0012",
+      "networkNodeName": "sec-cis-0012.corp.internal",
+      "ipv4Address": "10.1.1.13",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Rowan Winter",
+      "heartbeatTimestamp": "2026-10-16T09:12:00Z",
+      "chassisId": "chassis-cisco-012"
+    },
+    {
+      "deviceId": "dev-cisc-0013",
+      "networkNodeName": "db-cis-0013.corp.internal",
+      "ipv4Address": "10.1.1.14",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Skyler Carrington",
+      "heartbeatTimestamp": "2026-10-16T11:23:00Z",
+      "chassisId": "chassis-cisco-013"
+    },
+    {
+      "deviceId": "dev-cisc-0014",
+      "networkNodeName": "app-cis-0014.corp.internal",
+      "ipv4Address": "10.1.1.15",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Kendall O'Connor",
+      "heartbeatTimestamp": "2026-10-16T13:34:00Z",
+      "chassisId": "chassis-cisco-014"
+    },
+    {
+      "deviceId": "dev-cisc-0015",
+      "networkNodeName": "gw-cis-0015.corp.internal",
+      "ipv4Address": "10.1.1.16",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Hayden Novak",
+      "heartbeatTimestamp": "2026-10-16T15:45:00Z",
+      "chassisId": "chassis-cisco-015"
+    },
+    {
+      "deviceId": "dev-cisc-0016",
+      "networkNodeName": "edge-cis-0016.corp.internal",
+      "ipv4Address": "10.1.2.17",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": "Finley Reyes",
+      "heartbeatTimestamp": "2026-10-16T17:56:00Z",
+      "chassisId": "chassis-cisco-016"
+    },
+    {
+      "deviceId": "dev-cisc-0017",
+      "networkNodeName": "k8s-node-cis-0017.corp.internal",
+      "ipv4Address": "10.1.2.18",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Emerson Yoshida",
+      "heartbeatTimestamp": "2026-10-16T19:07:00Z",
+      "chassisId": "chassis-cisco-017"
+    },
+    {
+      "deviceId": "dev-cisc-0018",
+      "networkNodeName": "bastion-cis-0018.corp.internal",
+      "ipv4Address": "10.1.2.19",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Adrian Lindqvist",
+      "heartbeatTimestamp": "2026-10-16T21:18:00Z",
+      "chassisId": "chassis-cisco-018"
+    },
+    {
+      "deviceId": "dev-cisc-0019",
+      "networkNodeName": "proxy-cis-0019.corp.internal",
+      "ipv4Address": "10.1.2.20",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Cameron Nakamura",
+      "heartbeatTimestamp": "2026-10-16T23:29:00Z",
+      "chassisId": "chassis-cisco-019"
+    },
+    {
+      "deviceId": "dev-cisc-0020",
+      "networkNodeName": "wrk-cis-0020.corp.internal",
+      "ipv4Address": "10.1.2.21",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Alex Vance",
+      "heartbeatTimestamp": "2026-10-17T01:40:00Z",
+      "chassisId": "chassis-cisco-020"
+    },
+    {
+      "deviceId": "dev-cisc-0021",
+      "networkNodeName": "srv-cis-0021.corp.internal",
+      "ipv4Address": "10.1.2.22",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Morgan Mercer",
+      "heartbeatTimestamp": "2026-10-17T03:51:00Z",
+      "chassisId": "chassis-cisco-021"
+    },
+    {
+      "deviceId": "dev-cisc-0022",
+      "networkNodeName": "sec-cis-0022.corp.internal",
+      "ipv4Address": "10.1.2.23",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Jordan Sterling",
+      "heartbeatTimestamp": "2026-10-17T05:02:00Z",
+      "chassisId": "chassis-cisco-022"
+    },
+    {
+      "deviceId": "dev-cisc-0023",
+      "networkNodeName": "db-cis-0023.corp.internal",
+      "ipv4Address": "10.1.2.24",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Taylor Kowalski",
+      "heartbeatTimestamp": "2026-10-17T07:13:00Z",
+      "chassisId": "chassis-cisco-023"
+    },
+    {
+      "deviceId": "dev-cisc-0024",
+      "networkNodeName": "app-cis-0024.corp.internal",
+      "ipv4Address": "10.1.2.25",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": "Casey Chen",
+      "heartbeatTimestamp": "2026-10-17T09:24:00Z",
+      "chassisId": "chassis-cisco-024"
+    },
+    {
+      "deviceId": "dev-cisc-0025",
+      "networkNodeName": "gw-cis-0025.corp.internal",
+      "ipv4Address": "10.1.2.26",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Riley Patel",
+      "heartbeatTimestamp": "2026-10-17T11:35:00Z",
+      "chassisId": "chassis-cisco-025"
+    },
+    {
+      "deviceId": "dev-cisc-0026",
+      "networkNodeName": "edge-cis-0026.corp.internal",
+      "ipv4Address": "10.1.2.27",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Avery Thorne",
+      "heartbeatTimestamp": "2026-10-17T13:46:00Z",
+      "chassisId": "chassis-cisco-026"
+    },
+    {
+      "deviceId": "dev-cisc-0027",
+      "networkNodeName": "k8s-node-cis-0027.corp.internal",
+      "ipv4Address": "10.1.2.28",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Sam Blackwood",
+      "heartbeatTimestamp": "2026-10-17T15:57:00Z",
+      "chassisId": "chassis-cisco-027"
+    },
+    {
+      "deviceId": "dev-cisc-0028",
+      "networkNodeName": "bastion-cis-0028.corp.internal",
+      "ipv4Address": "10.1.2.29",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Jamie Frost",
+      "heartbeatTimestamp": "2026-10-17T17:08:00Z",
+      "chassisId": "chassis-cisco-028"
+    },
+    {
+      "deviceId": "dev-cisc-0029",
+      "networkNodeName": "proxy-cis-0029.corp.internal",
+      "ipv4Address": "10.1.2.30",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Dakota Sinclair",
+      "heartbeatTimestamp": "2026-10-17T19:19:00Z",
+      "chassisId": "chassis-cisco-029"
+    },
+    {
+      "deviceId": "dev-cisc-0030",
+      "networkNodeName": "wrk-cis-0030.corp.internal",
+      "ipv4Address": "10.1.2.31",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Quinn Hawthorne",
+      "heartbeatTimestamp": "2026-10-17T21:30:00Z",
+      "chassisId": "chassis-cisco-030"
+    },
+    {
+      "deviceId": "dev-cisc-0031",
+      "networkNodeName": "srv-cis-0031.corp.internal",
+      "ipv4Address": "10.1.2.32",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Reese Delgado",
+      "heartbeatTimestamp": "2026-10-17T23:41:00Z",
+      "chassisId": "chassis-cisco-031"
+    },
+    {
+      "deviceId": "dev-cisc-0032",
+      "networkNodeName": "sec-cis-0032.corp.internal",
+      "ipv4Address": "10.1.3.33",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": "Rowan Winter",
+      "heartbeatTimestamp": "2026-10-18T01:52:00Z",
+      "chassisId": "chassis-cisco-032"
+    },
+    {
+      "deviceId": "dev-cisc-0033",
+      "networkNodeName": "db-cis-0033.corp.internal",
+      "ipv4Address": "10.1.3.34",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Skyler Carrington",
+      "heartbeatTimestamp": "2026-10-18T03:03:00Z",
+      "chassisId": "chassis-cisco-033"
+    },
+    {
+      "deviceId": "dev-cisc-0034",
+      "networkNodeName": "app-cis-0034.corp.internal",
+      "ipv4Address": "10.1.3.35",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Kendall O'Connor",
+      "heartbeatTimestamp": "2026-10-18T05:14:00Z",
+      "chassisId": "chassis-cisco-034"
+    },
+    {
+      "deviceId": "dev-cisc-0035",
+      "networkNodeName": "gw-cis-0035.corp.internal",
+      "ipv4Address": "10.1.3.36",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Hayden Novak",
+      "heartbeatTimestamp": "2026-10-18T07:25:00Z",
+      "chassisId": "chassis-cisco-035"
+    },
+    {
+      "deviceId": "dev-cisc-0036",
+      "networkNodeName": "edge-cis-0036.corp.internal",
+      "ipv4Address": "10.1.3.37",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Finley Reyes",
+      "heartbeatTimestamp": "2026-10-18T09:36:00Z",
+      "chassisId": "chassis-cisco-036"
+    },
+    {
+      "deviceId": "dev-cisc-0037",
+      "networkNodeName": "k8s-node-cis-0037.corp.internal",
+      "ipv4Address": "10.1.3.38",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Emerson Yoshida",
+      "heartbeatTimestamp": "2026-10-18T11:47:00Z",
+      "chassisId": "chassis-cisco-037"
+    },
+    {
+      "deviceId": "dev-cisc-0038",
+      "networkNodeName": "bastion-cis-0038.corp.internal",
+      "ipv4Address": "10.1.3.39",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Adrian Lindqvist",
+      "heartbeatTimestamp": "2026-10-18T13:58:00Z",
+      "chassisId": "chassis-cisco-038"
+    },
+    {
+      "deviceId": "dev-cisc-0039",
+      "networkNodeName": "proxy-cis-0039.corp.internal",
+      "ipv4Address": "10.1.3.40",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Cameron Nakamura",
+      "heartbeatTimestamp": "2026-10-18T15:09:00Z",
+      "chassisId": "chassis-cisco-039"
+    },
+    {
+      "deviceId": "dev-cisc-0040",
+      "networkNodeName": "wrk-cis-0040.corp.internal",
+      "ipv4Address": "10.1.3.41",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": "Alex Vance",
+      "heartbeatTimestamp": "2026-10-18T17:20:00Z",
+      "chassisId": "chassis-cisco-040"
+    },
+    {
+      "deviceId": "dev-cisc-0041",
+      "networkNodeName": "srv-cis-0041.corp.internal",
+      "ipv4Address": "10.1.3.42",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Morgan Mercer",
+      "heartbeatTimestamp": "2026-10-18T19:31:00Z",
+      "chassisId": "chassis-cisco-041"
+    },
+    {
+      "deviceId": "dev-cisc-0042",
+      "networkNodeName": "sec-cis-0042.corp.internal",
+      "ipv4Address": "10.1.3.43",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Jordan Sterling",
+      "heartbeatTimestamp": "2026-10-18T21:42:00Z",
+      "chassisId": "chassis-cisco-042"
+    },
+    {
+      "deviceId": "dev-cisc-0043",
+      "networkNodeName": "db-cis-0043.corp.internal",
+      "ipv4Address": "10.1.3.44",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Taylor Kowalski",
+      "heartbeatTimestamp": "2026-10-18T23:53:00Z",
+      "chassisId": "chassis-cisco-043"
+    },
+    {
+      "deviceId": "dev-cisc-0044",
+      "networkNodeName": "app-cis-0044.corp.internal",
+      "ipv4Address": "10.1.3.45",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Casey Chen",
+      "heartbeatTimestamp": "2026-10-19T01:04:00Z",
+      "chassisId": "chassis-cisco-044"
+    },
+    {
+      "deviceId": "dev-cisc-0045",
+      "networkNodeName": "gw-cis-0045.corp.internal",
+      "ipv4Address": "10.1.3.46",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Riley Patel",
+      "heartbeatTimestamp": "2026-10-19T03:15:00Z",
+      "chassisId": "chassis-cisco-045"
+    },
+    {
+      "deviceId": "dev-cisc-0046",
+      "networkNodeName": "edge-cis-0046.corp.internal",
+      "ipv4Address": "10.1.3.47",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Avery Thorne",
+      "heartbeatTimestamp": "2026-10-19T05:26:00Z",
+      "chassisId": "chassis-cisco-046"
+    },
+    {
+      "deviceId": "dev-cisc-0047",
+      "networkNodeName": "k8s-node-cis-0047.corp.internal",
+      "ipv4Address": "10.1.3.48",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Sam Blackwood",
+      "heartbeatTimestamp": "2026-10-19T07:37:00Z",
+      "chassisId": "chassis-cisco-047"
+    },
+    {
+      "deviceId": "dev-cisc-0048",
+      "networkNodeName": "bastion-cis-0048.corp.internal",
+      "ipv4Address": "10.1.4.49",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": "Jamie Frost",
+      "heartbeatTimestamp": "2026-10-19T09:48:00Z",
+      "chassisId": "chassis-cisco-048"
+    },
+    {
+      "deviceId": "dev-cisc-0049",
+      "networkNodeName": "proxy-cis-0049.corp.internal",
+      "ipv4Address": "10.1.4.50",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Dakota Sinclair",
+      "heartbeatTimestamp": "2026-10-19T11:59:00Z",
+      "chassisId": "chassis-cisco-049"
+    },
+    {
+      "deviceId": "dev-cisc-0050",
+      "networkNodeName": "wrk-cis-0050.corp.internal",
+      "ipv4Address": "10.1.4.51",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Quinn Hawthorne",
+      "heartbeatTimestamp": "2026-10-19T13:10:00Z",
+      "chassisId": "chassis-cisco-050"
+    },
+    {
+      "deviceId": "dev-cisc-0051",
+      "networkNodeName": "srv-cis-0051.corp.internal",
+      "ipv4Address": "10.1.4.52",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Reese Delgado",
+      "heartbeatTimestamp": "2026-10-19T15:21:00Z",
+      "chassisId": "chassis-cisco-051"
+    },
+    {
+      "deviceId": "dev-cisc-0052",
+      "networkNodeName": "sec-cis-0052.corp.internal",
+      "ipv4Address": "10.1.4.53",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Rowan Winter",
+      "heartbeatTimestamp": "2026-10-19T17:32:00Z",
+      "chassisId": "chassis-cisco-052"
+    },
+    {
+      "deviceId": "dev-cisc-0053",
+      "networkNodeName": "db-cis-0053.corp.internal",
+      "ipv4Address": "10.1.4.54",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Skyler Carrington",
+      "heartbeatTimestamp": "2026-10-19T19:43:00Z",
+      "chassisId": "chassis-cisco-053"
+    },
+    {
+      "deviceId": "dev-cisc-0054",
+      "networkNodeName": "app-cis-0054.corp.internal",
+      "ipv4Address": "10.1.4.55",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Kendall O'Connor",
+      "heartbeatTimestamp": "2026-10-19T21:54:00Z",
+      "chassisId": "chassis-cisco-054"
+    },
+    {
+      "deviceId": "dev-cisc-0055",
+      "networkNodeName": "gw-cis-0055.corp.internal",
+      "ipv4Address": "10.1.4.56",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Hayden Novak",
+      "heartbeatTimestamp": "2026-10-19T23:05:00Z",
+      "chassisId": "chassis-cisco-055"
+    },
+    {
+      "deviceId": "dev-cisc-0056",
+      "networkNodeName": "edge-cis-0056.corp.internal",
+      "ipv4Address": "10.1.4.57",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": "Finley Reyes",
+      "heartbeatTimestamp": "2026-10-20T01:16:00Z",
+      "chassisId": "chassis-cisco-056"
+    },
+    {
+      "deviceId": "dev-cisc-0057",
+      "networkNodeName": "k8s-node-cis-0057.corp.internal",
+      "ipv4Address": "10.1.4.58",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Emerson Yoshida",
+      "heartbeatTimestamp": "2026-10-20T03:27:00Z",
+      "chassisId": "chassis-cisco-057"
+    },
+    {
+      "deviceId": "dev-cisc-0058",
+      "networkNodeName": "bastion-cis-0058.corp.internal",
+      "ipv4Address": "10.1.4.59",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Adrian Lindqvist",
+      "heartbeatTimestamp": "2026-10-20T05:38:00Z",
+      "chassisId": "chassis-cisco-058"
+    },
+    {
+      "deviceId": "dev-cisc-0059",
+      "networkNodeName": "proxy-cis-0059.corp.internal",
+      "ipv4Address": "10.1.4.60",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Cameron Nakamura",
+      "heartbeatTimestamp": "2026-10-20T07:49:00Z",
+      "chassisId": "chassis-cisco-059"
+    },
+    {
+      "deviceId": "dev-cisc-0060",
+      "networkNodeName": "wrk-cis-0060.corp.internal",
+      "ipv4Address": "10.1.4.61",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Alex Vance",
+      "heartbeatTimestamp": "2026-10-20T09:00:00Z",
+      "chassisId": "chassis-cisco-060"
+    },
+    {
+      "deviceId": "dev-cisc-0061",
+      "networkNodeName": "srv-cis-0061.corp.internal",
+      "ipv4Address": "10.1.4.62",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Morgan Mercer",
+      "heartbeatTimestamp": "2026-10-20T11:11:00Z",
+      "chassisId": "chassis-cisco-061"
+    },
+    {
+      "deviceId": "dev-cisc-0062",
+      "networkNodeName": "sec-cis-0062.corp.internal",
+      "ipv4Address": "10.1.4.63",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Jordan Sterling",
+      "heartbeatTimestamp": "2026-10-20T13:22:00Z",
+      "chassisId": "chassis-cisco-062"
+    },
+    {
+      "deviceId": "dev-cisc-0063",
+      "networkNodeName": "db-cis-0063.corp.internal",
+      "ipv4Address": "10.1.4.64",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Taylor Kowalski",
+      "heartbeatTimestamp": "2026-10-20T15:33:00Z",
+      "chassisId": "chassis-cisco-063"
+    },
+    {
+      "deviceId": "dev-cisc-0064",
+      "networkNodeName": "app-cis-0064.corp.internal",
+      "ipv4Address": "10.1.5.65",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": "Casey Chen",
+      "heartbeatTimestamp": "2026-10-20T17:44:00Z",
+      "chassisId": "chassis-cisco-064"
+    },
+    {
+      "deviceId": "dev-cisc-0065",
+      "networkNodeName": "gw-cis-0065.corp.internal",
+      "ipv4Address": "10.1.5.66",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Riley Patel",
+      "heartbeatTimestamp": "2026-10-20T19:55:00Z",
+      "chassisId": "chassis-cisco-065"
+    },
+    {
+      "deviceId": "dev-cisc-0066",
+      "networkNodeName": "edge-cis-0066.corp.internal",
+      "ipv4Address": "10.1.5.67",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Avery Thorne",
+      "heartbeatTimestamp": "2026-10-20T21:06:00Z",
+      "chassisId": "chassis-cisco-066"
+    },
+    {
+      "deviceId": "dev-cisc-0067",
+      "networkNodeName": "k8s-node-cis-0067.corp.internal",
+      "ipv4Address": "10.1.5.68",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Sam Blackwood",
+      "heartbeatTimestamp": "2026-10-20T23:17:00Z",
+      "chassisId": "chassis-cisco-067"
+    },
+    {
+      "deviceId": "dev-cisc-0068",
+      "networkNodeName": "bastion-cis-0068.corp.internal",
+      "ipv4Address": "10.1.5.69",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Jamie Frost",
+      "heartbeatTimestamp": "2026-10-21T01:28:00Z",
+      "chassisId": "chassis-cisco-068"
+    },
+    {
+      "deviceId": "dev-cisc-0069",
+      "networkNodeName": "proxy-cis-0069.corp.internal",
+      "ipv4Address": "10.1.5.70",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Dakota Sinclair",
+      "heartbeatTimestamp": "2026-10-21T03:39:00Z",
+      "chassisId": "chassis-cisco-069"
+    },
+    {
+      "deviceId": "dev-cisc-0070",
+      "networkNodeName": "wrk-cis-0070.corp.internal",
+      "ipv4Address": "10.1.5.71",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Quinn Hawthorne",
+      "heartbeatTimestamp": "2026-10-21T05:50:00Z",
+      "chassisId": "chassis-cisco-070"
+    },
+    {
+      "deviceId": "dev-cisc-0071",
+      "networkNodeName": "srv-cis-0071.corp.internal",
+      "ipv4Address": "10.1.5.72",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Reese Delgado",
+      "heartbeatTimestamp": "2026-10-21T07:01:00Z",
+      "chassisId": "chassis-cisco-071"
+    },
+    {
+      "deviceId": "dev-cisc-0072",
+      "networkNodeName": "sec-cis-0072.corp.internal",
+      "ipv4Address": "10.1.5.73",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": "Rowan Winter",
+      "heartbeatTimestamp": "2026-10-21T09:12:00Z",
+      "chassisId": "chassis-cisco-072"
+    },
+    {
+      "deviceId": "dev-cisc-0073",
+      "networkNodeName": "db-cis-0073.corp.internal",
+      "ipv4Address": "10.1.5.74",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Skyler Carrington",
+      "heartbeatTimestamp": "2026-10-21T11:23:00Z",
+      "chassisId": "chassis-cisco-073"
+    },
+    {
+      "deviceId": "dev-cisc-0074",
+      "networkNodeName": "app-cis-0074.corp.internal",
+      "ipv4Address": "10.1.5.75",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Kendall O'Connor",
+      "heartbeatTimestamp": "2026-10-21T13:34:00Z",
+      "chassisId": "chassis-cisco-074"
+    },
+    {
+      "deviceId": "dev-cisc-0075",
+      "networkNodeName": "gw-cis-0075.corp.internal",
+      "ipv4Address": "10.1.5.76",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Hayden Novak",
+      "heartbeatTimestamp": "2026-10-21T15:45:00Z",
+      "chassisId": "chassis-cisco-075"
+    },
+    {
+      "deviceId": "dev-cisc-0076",
+      "networkNodeName": "edge-cis-0076.corp.internal",
+      "ipv4Address": "10.1.5.77",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Finley Reyes",
+      "heartbeatTimestamp": "2026-10-21T17:56:00Z",
+      "chassisId": "chassis-cisco-076"
+    },
+    {
+      "deviceId": "dev-cisc-0077",
+      "networkNodeName": "k8s-node-cis-0077.corp.internal",
+      "ipv4Address": "10.1.5.78",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Emerson Yoshida",
+      "heartbeatTimestamp": "2026-10-21T19:07:00Z",
+      "chassisId": "chassis-cisco-077"
+    },
+    {
+      "deviceId": "dev-cisc-0078",
+      "networkNodeName": "bastion-cis-0078.corp.internal",
+      "ipv4Address": "10.1.5.79",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Adrian Lindqvist",
+      "heartbeatTimestamp": "2026-10-21T21:18:00Z",
+      "chassisId": "chassis-cisco-078"
+    },
+    {
+      "deviceId": "dev-cisc-0079",
+      "networkNodeName": "proxy-cis-0079.corp.internal",
+      "ipv4Address": "10.1.5.80",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Cameron Nakamura",
+      "heartbeatTimestamp": "2026-10-21T23:29:00Z",
+      "chassisId": "chassis-cisco-079"
+    },
+    {
+      "deviceId": "dev-cisc-0080",
+      "networkNodeName": "wrk-cis-0080.corp.internal",
+      "ipv4Address": "10.1.6.81",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": "Alex Vance",
+      "heartbeatTimestamp": "2026-10-22T01:40:00Z",
+      "chassisId": "chassis-cisco-080"
+    },
+    {
+      "deviceId": "dev-cisc-0081",
+      "networkNodeName": "srv-cis-0081.corp.internal",
+      "ipv4Address": "10.1.6.82",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Morgan Mercer",
+      "heartbeatTimestamp": "2026-10-22T03:51:00Z",
+      "chassisId": "chassis-cisco-081"
+    },
+    {
+      "deviceId": "dev-cisc-0082",
+      "networkNodeName": "sec-cis-0082.corp.internal",
+      "ipv4Address": "10.1.6.83",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Jordan Sterling",
+      "heartbeatTimestamp": "2026-10-22T05:02:00Z",
+      "chassisId": "chassis-cisco-082"
+    },
+    {
+      "deviceId": "dev-cisc-0083",
+      "networkNodeName": "db-cis-0083.corp.internal",
+      "ipv4Address": "10.1.6.84",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Taylor Kowalski",
+      "heartbeatTimestamp": "2026-10-22T07:13:00Z",
+      "chassisId": "chassis-cisco-083"
+    },
+    {
+      "deviceId": "dev-cisc-0084",
+      "networkNodeName": "app-cis-0084.corp.internal",
+      "ipv4Address": "10.1.6.85",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Casey Chen",
+      "heartbeatTimestamp": "2026-10-22T09:24:00Z",
+      "chassisId": "chassis-cisco-084"
+    },
+    {
+      "deviceId": "dev-cisc-0085",
+      "networkNodeName": "gw-cis-0085.corp.internal",
+      "ipv4Address": "10.1.6.86",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Riley Patel",
+      "heartbeatTimestamp": "2026-10-22T11:35:00Z",
+      "chassisId": "chassis-cisco-085"
+    },
+    {
+      "deviceId": "dev-cisc-0086",
+      "networkNodeName": "edge-cis-0086.corp.internal",
+      "ipv4Address": "10.1.6.87",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Avery Thorne",
+      "heartbeatTimestamp": "2026-10-22T13:46:00Z",
+      "chassisId": "chassis-cisco-086"
+    },
+    {
+      "deviceId": "dev-cisc-0087",
+      "networkNodeName": "k8s-node-cis-0087.corp.internal",
+      "ipv4Address": "10.1.6.88",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Sam Blackwood",
+      "heartbeatTimestamp": "2026-10-22T15:57:00Z",
+      "chassisId": "chassis-cisco-087"
+    },
+    {
+      "deviceId": "dev-cisc-0088",
+      "networkNodeName": "bastion-cis-0088.corp.internal",
+      "ipv4Address": "10.1.6.89",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": "Jamie Frost",
+      "heartbeatTimestamp": "2026-10-22T17:08:00Z",
+      "chassisId": "chassis-cisco-088"
+    },
+    {
+      "deviceId": "dev-cisc-0089",
+      "networkNodeName": "proxy-cis-0089.corp.internal",
+      "ipv4Address": "10.1.6.90",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Dakota Sinclair",
+      "heartbeatTimestamp": "2026-10-22T19:19:00Z",
+      "chassisId": "chassis-cisco-089"
+    },
+    {
+      "deviceId": "dev-cisc-0090",
+      "networkNodeName": "wrk-cis-0090.corp.internal",
+      "ipv4Address": "10.1.6.91",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Quinn Hawthorne",
+      "heartbeatTimestamp": "2026-10-22T21:30:00Z",
+      "chassisId": "chassis-cisco-090"
+    },
+    {
+      "deviceId": "dev-cisc-0091",
+      "networkNodeName": "srv-cis-0091.corp.internal",
+      "ipv4Address": "10.1.6.92",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Reese Delgado",
+      "heartbeatTimestamp": "2026-10-22T23:41:00Z",
+      "chassisId": "chassis-cisco-091"
+    },
+    {
+      "deviceId": "dev-cisc-0092",
+      "networkNodeName": "sec-cis-0092.corp.internal",
+      "ipv4Address": "10.1.6.93",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Rowan Winter",
+      "heartbeatTimestamp": "2026-10-23T01:52:00Z",
+      "chassisId": "chassis-cisco-092"
+    },
+    {
+      "deviceId": "dev-cisc-0093",
+      "networkNodeName": "db-cis-0093.corp.internal",
+      "ipv4Address": "10.1.6.94",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Skyler Carrington",
+      "heartbeatTimestamp": "2026-10-23T03:03:00Z",
+      "chassisId": "chassis-cisco-093"
+    },
+    {
+      "deviceId": "dev-cisc-0094",
+      "networkNodeName": "app-cis-0094.corp.internal",
+      "ipv4Address": "10.1.6.95",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Kendall O'Connor",
+      "heartbeatTimestamp": "2026-10-23T05:14:00Z",
+      "chassisId": "chassis-cisco-094"
+    },
+    {
+      "deviceId": "dev-cisc-0095",
+      "networkNodeName": "gw-cis-0095.corp.internal",
+      "ipv4Address": "10.1.6.96",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Hayden Novak",
+      "heartbeatTimestamp": "2026-10-23T07:25:00Z",
+      "chassisId": "chassis-cisco-095"
+    },
+    {
+      "deviceId": "dev-cisc-0096",
+      "networkNodeName": "edge-cis-0096.corp.internal",
+      "ipv4Address": "10.1.7.97",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": "Finley Reyes",
+      "heartbeatTimestamp": "2026-10-23T09:36:00Z",
+      "chassisId": "chassis-cisco-096"
+    },
+    {
+      "deviceId": "dev-cisc-0097",
+      "networkNodeName": "k8s-node-cis-0097.corp.internal",
+      "ipv4Address": "10.1.7.98",
+      "softwarePlatform": "Red Hat Enterprise Linux 9.2",
+      "adminContact": "Emerson Yoshida",
+      "heartbeatTimestamp": "2026-10-23T11:47:00Z",
+      "chassisId": "chassis-cisco-097"
+    },
+    {
+      "deviceId": "dev-cisc-0098",
+      "networkNodeName": "bastion-cis-0098.corp.internal",
+      "ipv4Address": "10.1.7.99",
+      "softwarePlatform": "Windows Server 2022 Datacenter",
+      "adminContact": "Adrian Lindqvist",
+      "heartbeatTimestamp": "2026-10-23T13:58:00Z",
+      "chassisId": "chassis-cisco-098"
+    },
+    {
+      "deviceId": "dev-cisc-0099",
+      "networkNodeName": "proxy-cis-0099.corp.internal",
+      "ipv4Address": "10.1.7.100",
+      "softwarePlatform": "Windows 11 Enterprise (22H2)",
+      "adminContact": "Cameron Nakamura",
+      "heartbeatTimestamp": "2026-10-23T15:09:00Z",
+      "chassisId": "chassis-cisco-099"
+    },
+    {
+      "deviceId": "dev-cisc-0100",
+      "networkNodeName": "wrk-cis-0100.corp.internal",
+      "ipv4Address": "10.1.7.101",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Alex Vance",
+      "heartbeatTimestamp": "2026-10-23T17:20:00Z",
+      "chassisId": "chassis-cisco-100"
+    }
+  ]
+}

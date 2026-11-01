@@ -12,6 +12,7 @@ from backend.app.connectors.common_schema import (
 from backend.app.db.database import SessionLocal
 from backend.app.db.models import (
     ConnectorRun,
+    ConnectorRunEvent,
     ConnectorSyncState,
     NormalizedDevice,
     NormalizedEvent,
@@ -40,6 +41,48 @@ def get_connector_sync_state(
         return state.last_value
 
 
+
+def write_run_event(
+    run_id: int,
+    connector_name: str,
+    stage: str,
+    status: str,
+    message: str | None = None,
+    details: dict[str, Any] | None = None,
+) -> None:
+    """
+    Persist safe operational metadata for one
+    connector-run milestone.
+
+    Never pass credentials, authorization headers,
+    or raw vendor payloads in details.
+    """
+
+    details_json = (
+        json.dumps(
+            details,
+            default=str,
+            sort_keys=True,
+        )
+        if details is not None
+        else None
+    )
+
+    with SessionLocal() as session:
+        session.add(
+            ConnectorRunEvent(
+                run_id=run_id,
+                connector_name=connector_name,
+                stage=stage,
+                status=status,
+                message=message,
+                details_json=details_json,
+            )
+        )
+
+        session.commit()
+
+
 def start_connector_run(
     connector_name: str,
 ) -> int:
@@ -52,6 +95,14 @@ def start_connector_run(
         session.add(run)
         session.commit()
         session.refresh(run)
+
+        write_run_event(
+            run.id,
+            connector_name,
+            "RUN_STARTED",
+            "running",
+            "Connector run started",
+        )
 
         return run.id
 
@@ -243,6 +294,31 @@ def persist_successful_run(
 
         session.commit()
 
+        write_run_event(
+            run_id,
+            result["connector"],
+            "RUN_COMPLETED",
+            "success",
+            "Connector run completed successfully",
+            details={
+                "http_status": result.get(
+                    "http_status"
+                ),
+                "page_count": result.get(
+                    "page_count"
+                ),
+                "records_received": result.get(
+                    "total_received"
+                ),
+                "records_normalized": result.get(
+                    "normalized_count"
+                ),
+                "records_quarantined": result.get(
+                    "quarantined_count"
+                ),
+            },
+        )
+
 
 def persist_failed_run(
     run_id: int,
@@ -267,3 +343,15 @@ def persist_failed_run(
         run.http_status = http_status
 
         session.commit()
+
+        write_run_event(
+            run_id,
+            run.connector_name,
+            "RUN_FAILED",
+            "error",
+            "Connector run failed",
+            details={
+                "error_type": error_type,
+                "http_status": http_status,
+            },
+        )

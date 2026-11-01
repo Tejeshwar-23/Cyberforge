@@ -1,0 +1,29 @@
+users:
+- displayName: Alex Patel
+  userEmail: alex.patel900@cyberforge.internal
+  activeStatus: ACTIVE
+  lastLoginTime: '2027-01-21T20:00:00Z'
+  _defect_note: 'Defect 1: Missing ID field'
+- username_id: usr-pris-0901
+  userEmail: morgan.patel901@acme-corp.net
+  activeStatus: SUSPENDED
+  lastLoginTime: '2027-01-21T23:07:00Z'
+  _defect_note: 'Defect 2: Missing Name field'
+- username_id: usr-pris-0902
+  displayName: Jordan Patel
+  userEmail: jordan.patel902@globex-sec.io
+  activeStatus: PENDING_VERIFICATION
+  lastLoginTime: not-a-valid-date-timestamp
+  _defect_note: 'Defect 3: Invalid Timestamp format'
+- username_id: usr-pris-0903
+  displayName: Taylor Patel
+  activeStatus: ENABLED
+  lastLoginTime: '2027-01-22T05:21:00Z'
+  unrecognized_user_contact_address: taylor.patel903@synthetix.org
+  _defect_note: 'Defect 4: Schema mismatch (email field renamed to unrecognized_user_contact_address)'
+- username_id: usr-pris-0904
+  displayName: Casey Patel
+  userEmail: casey.patel904@enterprise.cloud
+  activeStatus: null
+  lastLoginTime: '2027-01-22T08:28:00Z'
+  _defect_note: 'Defect 5: Null required status value'

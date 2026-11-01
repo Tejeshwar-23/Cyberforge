@@ -1,0 +1,806 @@
+{
+  "reply": {
+    "users": [
+      {
+        "user_id": "usr-cort-0001",
+        "display_name": "Morgan Vance",
+        "user_principal_name": "morgan.vance001@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-01T11:07:00Z",
+        "risk_score": 16
+      },
+      {
+        "user_id": "usr-cort-0002",
+        "display_name": "Jordan Vance",
+        "user_principal_name": "jordan.vance002@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-01T14:14:00Z",
+        "risk_score": 17
+      },
+      {
+        "user_id": "usr-cort-0003",
+        "display_name": "Taylor Vance",
+        "user_principal_name": "taylor.vance003@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-01T17:21:00Z",
+        "risk_score": 18
+      },
+      {
+        "user_id": "usr-cort-0004",
+        "display_name": "Casey Vance",
+        "user_principal_name": "casey.vance004@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-01T20:28:00Z",
+        "risk_score": 19
+      },
+      {
+        "user_id": "usr-cort-0005",
+        "display_name": "Riley Vance",
+        "user_principal_name": "riley.vance005@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-01T23:35:00Z",
+        "risk_score": 20
+      },
+      {
+        "user_id": "usr-cort-0006",
+        "display_name": "Avery Vance",
+        "user_principal_name": "avery.vance006@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-02T02:42:00Z",
+        "risk_score": 21
+      },
+      {
+        "user_id": "usr-cort-0007",
+        "display_name": "Sam Vance",
+        "user_principal_name": "sam.vance007@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-02T05:49:00Z",
+        "risk_score": 22
+      },
+      {
+        "user_id": "usr-cort-0008",
+        "display_name": "Jamie Vance",
+        "user_principal_name": "jamie.vance008@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-02T08:56:00Z",
+        "risk_score": 23
+      },
+      {
+        "user_id": "usr-cort-0009",
+        "display_name": "Dakota Vance",
+        "user_principal_name": "dakota.vance009@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-02T11:03:00Z",
+        "risk_score": 24
+      },
+      {
+        "user_id": "usr-cort-0010",
+        "display_name": "Quinn Vance",
+        "user_principal_name": "quinn.vance010@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-02T14:10:00Z",
+        "risk_score": 25
+      },
+      {
+        "user_id": "usr-cort-0011",
+        "display_name": "Reese Vance",
+        "user_principal_name": "reese.vance011@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-02T17:17:00Z",
+        "risk_score": 26
+      },
+      {
+        "user_id": "usr-cort-0012",
+        "display_name": "Rowan Vance",
+        "user_principal_name": "rowan.vance012@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-02T20:24:00Z",
+        "risk_score": 27
+      },
+      {
+        "user_id": "usr-cort-0013",
+        "display_name": "Skyler Vance",
+        "user_principal_name": "skyler.vance013@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-02T23:31:00Z",
+        "risk_score": 28
+      },
+      {
+        "user_id": "usr-cort-0014",
+        "display_name": "Kendall Vance",
+        "user_principal_name": "kendall.vance014@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-03T02:38:00Z",
+        "risk_score": 29
+      },
+      {
+        "user_id": "usr-cort-0015",
+        "display_name": "Hayden Vance",
+        "user_principal_name": "hayden.vance015@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-03T05:45:00Z",
+        "risk_score": 30
+      },
+      {
+        "user_id": "usr-cort-0016",
+        "display_name": "Finley Vance",
+        "user_principal_name": "finley.vance016@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-03T08:52:00Z",
+        "risk_score": 31
+      },
+      {
+        "user_id": "usr-cort-0017",
+        "display_name": "Emerson Vance",
+        "user_principal_name": "emerson.vance017@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-03T11:59:00Z",
+        "risk_score": 32
+      },
+      {
+        "user_id": "usr-cort-0018",
+        "display_name": "Adrian Vance",
+        "user_principal_name": "adrian.vance018@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-03T14:06:00Z",
+        "risk_score": 33
+      },
+      {
+        "user_id": "usr-cort-0019",
+        "display_name": "Cameron Vance",
+        "user_principal_name": "cameron.vance019@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-03T17:13:00Z",
+        "risk_score": 34
+      },
+      {
+        "user_id": "usr-cort-0020",
+        "display_name": "Alex Mercer",
+        "user_principal_name": "alex.mercer020@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-03T20:20:00Z",
+        "risk_score": 35
+      },
+      {
+        "user_id": "usr-cort-0021",
+        "display_name": "Morgan Mercer",
+        "user_principal_name": "morgan.mercer021@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-03T23:27:00Z",
+        "risk_score": 36
+      },
+      {
+        "user_id": "usr-cort-0022",
+        "display_name": "Jordan Mercer",
+        "user_principal_name": "jordan.mercer022@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-04T02:34:00Z",
+        "risk_score": 37
+      },
+      {
+        "user_id": "usr-cort-0023",
+        "display_name": "Taylor Mercer",
+        "user_principal_name": "taylor.mercer023@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-04T05:41:00Z",
+        "risk_score": 38
+      },
+      {
+        "user_id": "usr-cort-0024",
+        "display_name": "Casey Mercer",
+        "user_principal_name": "casey.mercer024@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-04T08:48:00Z",
+        "risk_score": 39
+      },
+      {
+        "user_id": "usr-cort-0025",
+        "display_name": "Riley Mercer",
+        "user_principal_name": "riley.mercer025@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-04T11:55:00Z",
+        "risk_score": 40
+      },
+      {
+        "user_id": "usr-cort-0026",
+        "display_name": "Avery Mercer",
+        "user_principal_name": "avery.mercer026@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-04T14:02:00Z",
+        "risk_score": 41
+      },
+      {
+        "user_id": "usr-cort-0027",
+        "display_name": "Sam Mercer",
+        "user_principal_name": "sam.mercer027@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-04T17:09:00Z",
+        "risk_score": 42
+      },
+      {
+        "user_id": "usr-cort-0028",
+        "display_name": "Jamie Mercer",
+        "user_principal_name": "jamie.mercer028@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-04T20:16:00Z",
+        "risk_score": 43
+      },
+      {
+        "user_id": "usr-cort-0029",
+        "display_name": "Dakota Mercer",
+        "user_principal_name": "dakota.mercer029@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-04T23:23:00Z",
+        "risk_score": 44
+      },
+      {
+        "user_id": "usr-cort-0030",
+        "display_name": "Quinn Mercer",
+        "user_principal_name": "quinn.mercer030@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-05T02:30:00Z",
+        "risk_score": 45
+      },
+      {
+        "user_id": "usr-cort-0031",
+        "display_name": "Reese Mercer",
+        "user_principal_name": "reese.mercer031@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-05T05:37:00Z",
+        "risk_score": 46
+      },
+      {
+        "user_id": "usr-cort-0032",
+        "display_name": "Rowan Mercer",
+        "user_principal_name": "rowan.mercer032@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-05T08:44:00Z",
+        "risk_score": 47
+      },
+      {
+        "user_id": "usr-cort-0033",
+        "display_name": "Skyler Mercer",
+        "user_principal_name": "skyler.mercer033@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-05T11:51:00Z",
+        "risk_score": 48
+      },
+      {
+        "user_id": "usr-cort-0034",
+        "display_name": "Kendall Mercer",
+        "user_principal_name": "kendall.mercer034@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-05T14:58:00Z",
+        "risk_score": 49
+      },
+      {
+        "user_id": "usr-cort-0035",
+        "display_name": "Hayden Mercer",
+        "user_principal_name": "hayden.mercer035@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-05T17:05:00Z",
+        "risk_score": 50
+      },
+      {
+        "user_id": "usr-cort-0036",
+        "display_name": "Finley Mercer",
+        "user_principal_name": "finley.mercer036@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-05T20:12:00Z",
+        "risk_score": 51
+      },
+      {
+        "user_id": "usr-cort-0037",
+        "display_name": "Emerson Mercer",
+        "user_principal_name": "emerson.mercer037@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-05T23:19:00Z",
+        "risk_score": 52
+      },
+      {
+        "user_id": "usr-cort-0038",
+        "display_name": "Adrian Mercer",
+        "user_principal_name": "adrian.mercer038@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-06T02:26:00Z",
+        "risk_score": 53
+      },
+      {
+        "user_id": "usr-cort-0039",
+        "display_name": "Cameron Mercer",
+        "user_principal_name": "cameron.mercer039@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-06T05:33:00Z",
+        "risk_score": 54
+      },
+      {
+        "user_id": "usr-cort-0040",
+        "display_name": "Alex Sterling",
+        "user_principal_name": "alex.sterling040@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-06T08:40:00Z",
+        "risk_score": 55
+      },
+      {
+        "user_id": "usr-cort-0041",
+        "display_name": "Morgan Sterling",
+        "user_principal_name": "morgan.sterling041@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-06T11:47:00Z",
+        "risk_score": 56
+      },
+      {
+        "user_id": "usr-cort-0042",
+        "display_name": "Jordan Sterling",
+        "user_principal_name": "jordan.sterling042@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-06T14:54:00Z",
+        "risk_score": 57
+      },
+      {
+        "user_id": "usr-cort-0043",
+        "display_name": "Taylor Sterling",
+        "user_principal_name": "taylor.sterling043@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-06T17:01:00Z",
+        "risk_score": 58
+      },
+      {
+        "user_id": "usr-cort-0044",
+        "display_name": "Casey Sterling",
+        "user_principal_name": "casey.sterling044@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-06T20:08:00Z",
+        "risk_score": 59
+      },
+      {
+        "user_id": "usr-cort-0045",
+        "display_name": "Riley Sterling",
+        "user_principal_name": "riley.sterling045@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-06T23:15:00Z",
+        "risk_score": 60
+      },
+      {
+        "user_id": "usr-cort-0046",
+        "display_name": "Avery Sterling",
+        "user_principal_name": "avery.sterling046@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-07T02:22:00Z",
+        "risk_score": 61
+      },
+      {
+        "user_id": "usr-cort-0047",
+        "display_name": "Sam Sterling",
+        "user_principal_name": "sam.sterling047@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-07T05:29:00Z",
+        "risk_score": 62
+      },
+      {
+        "user_id": "usr-cort-0048",
+        "display_name": "Jamie Sterling",
+        "user_principal_name": "jamie.sterling048@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-07T08:36:00Z",
+        "risk_score": 63
+      },
+      {
+        "user_id": "usr-cort-0049",
+        "display_name": "Dakota Sterling",
+        "user_principal_name": "dakota.sterling049@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-07T11:43:00Z",
+        "risk_score": 64
+      },
+      {
+        "user_id": "usr-cort-0050",
+        "display_name": "Quinn Sterling",
+        "user_principal_name": "quinn.sterling050@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-07T14:50:00Z",
+        "risk_score": 65
+      },
+      {
+        "user_id": "usr-cort-0051",
+        "display_name": "Reese Sterling",
+        "user_principal_name": "reese.sterling051@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-07T17:57:00Z",
+        "risk_score": 66
+      },
+      {
+        "user_id": "usr-cort-0052",
+        "display_name": "Rowan Sterling",
+        "user_principal_name": "rowan.sterling052@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-07T20:04:00Z",
+        "risk_score": 67
+      },
+      {
+        "user_id": "usr-cort-0053",
+        "display_name": "Skyler Sterling",
+        "user_principal_name": "skyler.sterling053@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-07T23:11:00Z",
+        "risk_score": 68
+      },
+      {
+        "user_id": "usr-cort-0054",
+        "display_name": "Kendall Sterling",
+        "user_principal_name": "kendall.sterling054@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-08T02:18:00Z",
+        "risk_score": 69
+      },
+      {
+        "user_id": "usr-cort-0055",
+        "display_name": "Hayden Sterling",
+        "user_principal_name": "hayden.sterling055@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-08T05:25:00Z",
+        "risk_score": 70
+      },
+      {
+        "user_id": "usr-cort-0056",
+        "display_name": "Finley Sterling",
+        "user_principal_name": "finley.sterling056@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-08T08:32:00Z",
+        "risk_score": 71
+      },
+      {
+        "user_id": "usr-cort-0057",
+        "display_name": "Emerson Sterling",
+        "user_principal_name": "emerson.sterling057@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-08T11:39:00Z",
+        "risk_score": 72
+      },
+      {
+        "user_id": "usr-cort-0058",
+        "display_name": "Adrian Sterling",
+        "user_principal_name": "adrian.sterling058@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-08T14:46:00Z",
+        "risk_score": 73
+      },
+      {
+        "user_id": "usr-cort-0059",
+        "display_name": "Cameron Sterling",
+        "user_principal_name": "cameron.sterling059@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-08T17:53:00Z",
+        "risk_score": 74
+      },
+      {
+        "user_id": "usr-cort-0060",
+        "display_name": "Alex Kowalski",
+        "user_principal_name": "alex.kowalski060@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-08T20:00:00Z",
+        "risk_score": 75
+      },
+      {
+        "user_id": "usr-cort-0061",
+        "display_name": "Morgan Kowalski",
+        "user_principal_name": "morgan.kowalski061@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-08T23:07:00Z",
+        "risk_score": 76
+      },
+      {
+        "user_id": "usr-cort-0062",
+        "display_name": "Jordan Kowalski",
+        "user_principal_name": "jordan.kowalski062@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-09T02:14:00Z",
+        "risk_score": 77
+      },
+      {
+        "user_id": "usr-cort-0063",
+        "display_name": "Taylor Kowalski",
+        "user_principal_name": "taylor.kowalski063@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-09T05:21:00Z",
+        "risk_score": 78
+      },
+      {
+        "user_id": "usr-cort-0064",
+        "display_name": "Casey Kowalski",
+        "user_principal_name": "casey.kowalski064@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-09T08:28:00Z",
+        "risk_score": 79
+      },
+      {
+        "user_id": "usr-cort-0065",
+        "display_name": "Riley Kowalski",
+        "user_principal_name": "riley.kowalski065@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-09T11:35:00Z",
+        "risk_score": 80
+      },
+      {
+        "user_id": "usr-cort-0066",
+        "display_name": "Avery Kowalski",
+        "user_principal_name": "avery.kowalski066@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-09T14:42:00Z",
+        "risk_score": 81
+      },
+      {
+        "user_id": "usr-cort-0067",
+        "display_name": "Sam Kowalski",
+        "user_principal_name": "sam.kowalski067@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-09T17:49:00Z",
+        "risk_score": 82
+      },
+      {
+        "user_id": "usr-cort-0068",
+        "display_name": "Jamie Kowalski",
+        "user_principal_name": "jamie.kowalski068@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-09T20:56:00Z",
+        "risk_score": 83
+      },
+      {
+        "user_id": "usr-cort-0069",
+        "display_name": "Dakota Kowalski",
+        "user_principal_name": "dakota.kowalski069@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-09T23:03:00Z",
+        "risk_score": 84
+      },
+      {
+        "user_id": "usr-cort-0070",
+        "display_name": "Quinn Kowalski",
+        "user_principal_name": "quinn.kowalski070@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-10T02:10:00Z",
+        "risk_score": 85
+      },
+      {
+        "user_id": "usr-cort-0071",
+        "display_name": "Reese Kowalski",
+        "user_principal_name": "reese.kowalski071@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-10T05:17:00Z",
+        "risk_score": 86
+      },
+      {
+        "user_id": "usr-cort-0072",
+        "display_name": "Rowan Kowalski",
+        "user_principal_name": "rowan.kowalski072@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-10T08:24:00Z",
+        "risk_score": 87
+      },
+      {
+        "user_id": "usr-cort-0073",
+        "display_name": "Skyler Kowalski",
+        "user_principal_name": "skyler.kowalski073@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-10T11:31:00Z",
+        "risk_score": 88
+      },
+      {
+        "user_id": "usr-cort-0074",
+        "display_name": "Kendall Kowalski",
+        "user_principal_name": "kendall.kowalski074@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-10T14:38:00Z",
+        "risk_score": 89
+      },
+      {
+        "user_id": "usr-cort-0075",
+        "display_name": "Hayden Kowalski",
+        "user_principal_name": "hayden.kowalski075@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-10T17:45:00Z",
+        "risk_score": 90
+      },
+      {
+        "user_id": "usr-cort-0076",
+        "display_name": "Finley Kowalski",
+        "user_principal_name": "finley.kowalski076@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-10T20:52:00Z",
+        "risk_score": 91
+      },
+      {
+        "user_id": "usr-cort-0077",
+        "display_name": "Emerson Kowalski",
+        "user_principal_name": "emerson.kowalski077@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-10T23:59:00Z",
+        "risk_score": 92
+      },
+      {
+        "user_id": "usr-cort-0078",
+        "display_name": "Adrian Kowalski",
+        "user_principal_name": "adrian.kowalski078@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-11T02:06:00Z",
+        "risk_score": 93
+      },
+      {
+        "user_id": "usr-cort-0079",
+        "display_name": "Cameron Kowalski",
+        "user_principal_name": "cameron.kowalski079@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-11T05:13:00Z",
+        "risk_score": 94
+      },
+      {
+        "user_id": "usr-cort-0080",
+        "display_name": "Alex Chen",
+        "user_principal_name": "alex.chen080@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-11T08:20:00Z",
+        "risk_score": 15
+      },
+      {
+        "user_id": "usr-cort-0081",
+        "display_name": "Morgan Chen",
+        "user_principal_name": "morgan.chen081@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-11T11:27:00Z",
+        "risk_score": 16
+      },
+      {
+        "user_id": "usr-cort-0082",
+        "display_name": "Jordan Chen",
+        "user_principal_name": "jordan.chen082@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-11T14:34:00Z",
+        "risk_score": 17
+      },
+      {
+        "user_id": "usr-cort-0083",
+        "display_name": "Taylor Chen",
+        "user_principal_name": "taylor.chen083@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-11T17:41:00Z",
+        "risk_score": 18
+      },
+      {
+        "user_id": "usr-cort-0084",
+        "display_name": "Casey Chen",
+        "user_principal_name": "casey.chen084@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-11T20:48:00Z",
+        "risk_score": 19
+      },
+      {
+        "user_id": "usr-cort-0085",
+        "display_name": "Riley Chen",
+        "user_principal_name": "riley.chen085@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-11T23:55:00Z",
+        "risk_score": 20
+      },
+      {
+        "user_id": "usr-cort-0086",
+        "display_name": "Avery Chen",
+        "user_principal_name": "avery.chen086@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-12T02:02:00Z",
+        "risk_score": 21
+      },
+      {
+        "user_id": "usr-cort-0087",
+        "display_name": "Sam Chen",
+        "user_principal_name": "sam.chen087@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-12T05:09:00Z",
+        "risk_score": 22
+      },
+      {
+        "user_id": "usr-cort-0088",
+        "display_name": "Jamie Chen",
+        "user_principal_name": "jamie.chen088@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-12T08:16:00Z",
+        "risk_score": 23
+      },
+      {
+        "user_id": "usr-cort-0089",
+        "display_name": "Dakota Chen",
+        "user_principal_name": "dakota.chen089@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-12T11:23:00Z",
+        "risk_score": 24
+      },
+      {
+        "user_id": "usr-cort-0090",
+        "display_name": "Quinn Chen",
+        "user_principal_name": "quinn.chen090@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-12T14:30:00Z",
+        "risk_score": 25
+      },
+      {
+        "user_id": "usr-cort-0091",
+        "display_name": "Reese Chen",
+        "user_principal_name": "reese.chen091@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-12T17:37:00Z",
+        "risk_score": 26
+      },
+      {
+        "user_id": "usr-cort-0092",
+        "display_name": "Rowan Chen",
+        "user_principal_name": "rowan.chen092@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-12T20:44:00Z",
+        "risk_score": 27
+      },
+      {
+        "user_id": "usr-cort-0093",
+        "display_name": "Skyler Chen",
+        "user_principal_name": "skyler.chen093@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-12T23:51:00Z",
+        "risk_score": 28
+      },
+      {
+        "user_id": "usr-cort-0094",
+        "display_name": "Kendall Chen",
+        "user_principal_name": "kendall.chen094@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-13T02:58:00Z",
+        "risk_score": 29
+      },
+      {
+        "user_id": "usr-cort-0095",
+        "display_name": "Hayden Chen",
+        "user_principal_name": "hayden.chen095@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-13T05:05:00Z",
+        "risk_score": 30
+      },
+      {
+        "user_id": "usr-cort-0096",
+        "display_name": "Finley Chen",
+        "user_principal_name": "finley.chen096@acme-corp.net",
+        "user_state": "SUSPENDED",
+        "last_sign_in_time": "2026-10-13T08:12:00Z",
+        "risk_score": 31
+      },
+      {
+        "user_id": "usr-cort-0097",
+        "display_name": "Emerson Chen",
+        "user_principal_name": "emerson.chen097@globex-sec.io",
+        "user_state": "PENDING_VERIFICATION",
+        "last_sign_in_time": "2026-10-13T11:19:00Z",
+        "risk_score": 32
+      },
+      {
+        "user_id": "usr-cort-0098",
+        "display_name": "Adrian Chen",
+        "user_principal_name": "adrian.chen098@synthetix.org",
+        "user_state": "ENABLED",
+        "last_sign_in_time": "2026-10-13T14:26:00Z",
+        "risk_score": 33
+      },
+      {
+        "user_id": "usr-cort-0099",
+        "display_name": "Cameron Chen",
+        "user_principal_name": "cameron.chen099@enterprise.cloud",
+        "user_state": "LOCKED",
+        "last_sign_in_time": "2026-10-13T17:33:00Z",
+        "risk_score": 34
+      },
+      {
+        "user_id": "usr-cort-0100",
+        "display_name": "Alex Patel",
+        "user_principal_name": "alex.patel100@cyberforge.internal",
+        "user_state": "ACTIVE",
+        "last_sign_in_time": "2026-10-13T20:40:00Z",
+        "risk_score": 35
+      }
+    ]
+  }
+}

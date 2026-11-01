@@ -1,0 +1,1406 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "_id": "dev-elas-0001",
+        "_source": {
+          "host": {
+            "hostname": "srv-ela-0001.corp.internal",
+            "ip": "10.1.1.2",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Morgan Mercer"
+          },
+          "@timestamp": "2026-10-15T11:11:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0002",
+        "_source": {
+          "host": {
+            "hostname": "sec-ela-0002.corp.internal",
+            "ip": "10.1.1.3",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Jordan Sterling"
+          },
+          "@timestamp": "2026-10-15T13:22:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0003",
+        "_source": {
+          "host": {
+            "hostname": "db-ela-0003.corp.internal",
+            "ip": "10.1.1.4",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Taylor Kowalski"
+          },
+          "@timestamp": "2026-10-15T15:33:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0004",
+        "_source": {
+          "host": {
+            "hostname": "app-ela-0004.corp.internal",
+            "ip": "10.1.1.5",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Casey Chen"
+          },
+          "@timestamp": "2026-10-15T17:44:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0005",
+        "_source": {
+          "host": {
+            "hostname": "gw-ela-0005.corp.internal",
+            "ip": "10.1.1.6",
+            "os": {
+              "name": "Debian GNU/Linux 12 (bookworm)"
+            },
+            "assigned_user": "Riley Patel"
+          },
+          "@timestamp": "2026-10-15T19:55:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0006",
+        "_source": {
+          "host": {
+            "hostname": "edge-ela-0006.corp.internal",
+            "ip": "10.1.1.7",
+            "os": {
+              "name": "Alpine Linux 3.18"
+            },
+            "assigned_user": "Avery Thorne"
+          },
+          "@timestamp": "2026-10-15T21:06:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0007",
+        "_source": {
+          "host": {
+            "hostname": "k8s-node-ela-0007.corp.internal",
+            "ip": "10.1.1.8",
+            "os": {
+              "name": "Amazon Linux 2023.2"
+            },
+            "assigned_user": "Sam Blackwood"
+          },
+          "@timestamp": "2026-10-15T23:17:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0008",
+        "_source": {
+          "host": {
+            "hostname": "bastion-ela-0008.corp.internal",
+            "ip": "10.1.1.9",
+            "os": {
+              "name": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+            },
+            "assigned_user": "Jamie Frost"
+          },
+          "@timestamp": "2026-10-16T01:28:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0009",
+        "_source": {
+          "host": {
+            "hostname": "proxy-ela-0009.corp.internal",
+            "ip": "10.1.1.10",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Dakota Sinclair"
+          },
+          "@timestamp": "2026-10-16T03:39:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0010",
+        "_source": {
+          "host": {
+            "hostname": "wrk-ela-0010.corp.internal",
+            "ip": "10.1.1.11",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Quinn Hawthorne"
+          },
+          "@timestamp": "2026-10-16T05:50:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0011",
+        "_source": {
+          "host": {
+            "hostname": "srv-ela-0011.corp.internal",
+            "ip": "10.1.1.12",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Reese Delgado"
+          },
+          "@timestamp": "2026-10-16T07:01:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0012",
+        "_source": {
+          "host": {
+            "hostname": "sec-ela-0012.corp.internal",
+            "ip": "10.1.1.13",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Rowan Winter"
+          },
+          "@timestamp": "2026-10-16T09:12:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0013",
+        "_source": {
+          "host": {
+            "hostname": "db-ela-0013.corp.internal",
+            "ip": "10.1.1.14",
+            "os": {
+              "name": "Debian GNU/Linux 12 (bookworm)"
+            },
+            "assigned_user": "Skyler Carrington"
+          },
+          "@timestamp": "2026-10-16T11:23:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0014",
+        "_source": {
+          "host": {
+            "hostname": "app-ela-0014.corp.internal",
+            "ip": "10.1.1.15",
+            "os": {
+              "name": "Alpine Linux 3.18"
+            },
+            "assigned_user": "Kendall O'Connor"
+          },
+          "@timestamp": "2026-10-16T13:34:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0015",
+        "_source": {
+          "host": {
+            "hostname": "gw-ela-0015.corp.internal",
+            "ip": "10.1.1.16",
+            "os": {
+              "name": "Amazon Linux 2023.2"
+            },
+            "assigned_user": "Hayden Novak"
+          },
+          "@timestamp": "2026-10-16T15:45:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0016",
+        "_source": {
+          "host": {
+            "hostname": "edge-ela-0016.corp.internal",
+            "ip": "10.1.2.17",
+            "os": {
+              "name": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+            },
+            "assigned_user": "Finley Reyes"
+          },
+          "@timestamp": "2026-10-16T17:56:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0017",
+        "_source": {
+          "host": {
+            "hostname": "k8s-node-ela-0017.corp.internal",
+            "ip": "10.1.2.18",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Emerson Yoshida"
+          },
+          "@timestamp": "2026-10-16T19:07:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0018",
+        "_source": {
+          "host": {
+            "hostname": "bastion-ela-0018.corp.internal",
+            "ip": "10.1.2.19",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Adrian Lindqvist"
+          },
+          "@timestamp": "2026-10-16T21:18:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0019",
+        "_source": {
+          "host": {
+            "hostname": "proxy-ela-0019.corp.internal",
+            "ip": "10.1.2.20",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Cameron Nakamura"
+          },
+          "@timestamp": "2026-10-16T23:29:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0020",
+        "_source": {
+          "host": {
+            "hostname": "wrk-ela-0020.corp.internal",
+            "ip": "10.1.2.21",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Alex Vance"
+          },
+          "@timestamp": "2026-10-17T01:40:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0021",
+        "_source": {
+          "host": {
+            "hostname": "srv-ela-0021.corp.internal",
+            "ip": "10.1.2.22",
+            "os": {
+              "name": "Debian GNU/Linux 12 (bookworm)"
+            },
+            "assigned_user": "Morgan Mercer"
+          },
+          "@timestamp": "2026-10-17T03:51:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0022",
+        "_source": {
+          "host": {
+            "hostname": "sec-ela-0022.corp.internal",
+            "ip": "10.1.2.23",
+            "os": {
+              "name": "Alpine Linux 3.18"
+            },
+            "assigned_user": "Jordan Sterling"
+          },
+          "@timestamp": "2026-10-17T05:02:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0023",
+        "_source": {
+          "host": {
+            "hostname": "db-ela-0023.corp.internal",
+            "ip": "10.1.2.24",
+            "os": {
+              "name": "Amazon Linux 2023.2"
+            },
+            "assigned_user": "Taylor Kowalski"
+          },
+          "@timestamp": "2026-10-17T07:13:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0024",
+        "_source": {
+          "host": {
+            "hostname": "app-ela-0024.corp.internal",
+            "ip": "10.1.2.25",
+            "os": {
+              "name": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+            },
+            "assigned_user": "Casey Chen"
+          },
+          "@timestamp": "2026-10-17T09:24:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0025",
+        "_source": {
+          "host": {
+            "hostname": "gw-ela-0025.corp.internal",
+            "ip": "10.1.2.26",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Riley Patel"
+          },
+          "@timestamp": "2026-10-17T11:35:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0026",
+        "_source": {
+          "host": {
+            "hostname": "edge-ela-0026.corp.internal",
+            "ip": "10.1.2.27",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Avery Thorne"
+          },
+          "@timestamp": "2026-10-17T13:46:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0027",
+        "_source": {
+          "host": {
+            "hostname": "k8s-node-ela-0027.corp.internal",
+            "ip": "10.1.2.28",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Sam Blackwood"
+          },
+          "@timestamp": "2026-10-17T15:57:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0028",
+        "_source": {
+          "host": {
+            "hostname": "bastion-ela-0028.corp.internal",
+            "ip": "10.1.2.29",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Jamie Frost"
+          },
+          "@timestamp": "2026-10-17T17:08:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0029",
+        "_source": {
+          "host": {
+            "hostname": "proxy-ela-0029.corp.internal",
+            "ip": "10.1.2.30",
+            "os": {
+              "name": "Debian GNU/Linux 12 (bookworm)"
+            },
+            "assigned_user": "Dakota Sinclair"
+          },
+          "@timestamp": "2026-10-17T19:19:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0030",
+        "_source": {
+          "host": {
+            "hostname": "wrk-ela-0030.corp.internal",
+            "ip": "10.1.2.31",
+            "os": {
+              "name": "Alpine Linux 3.18"
+            },
+            "assigned_user": "Quinn Hawthorne"
+          },
+          "@timestamp": "2026-10-17T21:30:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0031",
+        "_source": {
+          "host": {
+            "hostname": "srv-ela-0031.corp.internal",
+            "ip": "10.1.2.32",
+            "os": {
+              "name": "Amazon Linux 2023.2"
+            },
+            "assigned_user": "Reese Delgado"
+          },
+          "@timestamp": "2026-10-17T23:41:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0032",
+        "_source": {
+          "host": {
+            "hostname": "sec-ela-0032.corp.internal",
+            "ip": "10.1.3.33",
+            "os": {
+              "name": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+            },
+            "assigned_user": "Rowan Winter"
+          },
+          "@timestamp": "2026-10-18T01:52:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0033",
+        "_source": {
+          "host": {
+            "hostname": "db-ela-0033.corp.internal",
+            "ip": "10.1.3.34",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Skyler Carrington"
+          },
+          "@timestamp": "2026-10-18T03:03:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0034",
+        "_source": {
+          "host": {
+            "hostname": "app-ela-0034.corp.internal",
+            "ip": "10.1.3.35",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Kendall O'Connor"
+          },
+          "@timestamp": "2026-10-18T05:14:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0035",
+        "_source": {
+          "host": {
+            "hostname": "gw-ela-0035.corp.internal",
+            "ip": "10.1.3.36",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Hayden Novak"
+          },
+          "@timestamp": "2026-10-18T07:25:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0036",
+        "_source": {
+          "host": {
+            "hostname": "edge-ela-0036.corp.internal",
+            "ip": "10.1.3.37",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Finley Reyes"
+          },
+          "@timestamp": "2026-10-18T09:36:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0037",
+        "_source": {
+          "host": {
+            "hostname": "k8s-node-ela-0037.corp.internal",
+            "ip": "10.1.3.38",
+            "os": {
+              "name": "Debian GNU/Linux 12 (bookworm)"
+            },
+            "assigned_user": "Emerson Yoshida"
+          },
+          "@timestamp": "2026-10-18T11:47:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0038",
+        "_source": {
+          "host": {
+            "hostname": "bastion-ela-0038.corp.internal",
+            "ip": "10.1.3.39",
+            "os": {
+              "name": "Alpine Linux 3.18"
+            },
+            "assigned_user": "Adrian Lindqvist"
+          },
+          "@timestamp": "2026-10-18T13:58:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0039",
+        "_source": {
+          "host": {
+            "hostname": "proxy-ela-0039.corp.internal",
+            "ip": "10.1.3.40",
+            "os": {
+              "name": "Amazon Linux 2023.2"
+            },
+            "assigned_user": "Cameron Nakamura"
+          },
+          "@timestamp": "2026-10-18T15:09:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0040",
+        "_source": {
+          "host": {
+            "hostname": "wrk-ela-0040.corp.internal",
+            "ip": "10.1.3.41",
+            "os": {
+              "name": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+            },
+            "assigned_user": "Alex Vance"
+          },
+          "@timestamp": "2026-10-18T17:20:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0041",
+        "_source": {
+          "host": {
+            "hostname": "srv-ela-0041.corp.internal",
+            "ip": "10.1.3.42",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Morgan Mercer"
+          },
+          "@timestamp": "2026-10-18T19:31:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0042",
+        "_source": {
+          "host": {
+            "hostname": "sec-ela-0042.corp.internal",
+            "ip": "10.1.3.43",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Jordan Sterling"
+          },
+          "@timestamp": "2026-10-18T21:42:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0043",
+        "_source": {
+          "host": {
+            "hostname": "db-ela-0043.corp.internal",
+            "ip": "10.1.3.44",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Taylor Kowalski"
+          },
+          "@timestamp": "2026-10-18T23:53:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0044",
+        "_source": {
+          "host": {
+            "hostname": "app-ela-0044.corp.internal",
+            "ip": "10.1.3.45",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Casey Chen"
+          },
+          "@timestamp": "2026-10-19T01:04:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0045",
+        "_source": {
+          "host": {
+            "hostname": "gw-ela-0045.corp.internal",
+            "ip": "10.1.3.46",
+            "os": {
+              "name": "Debian GNU/Linux 12 (bookworm)"
+            },
+            "assigned_user": "Riley Patel"
+          },
+          "@timestamp": "2026-10-19T03:15:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0046",
+        "_source": {
+          "host": {
+            "hostname": "edge-ela-0046.corp.internal",
+            "ip": "10.1.3.47",
+            "os": {
+              "name": "Alpine Linux 3.18"
+            },
+            "assigned_user": "Avery Thorne"
+          },
+          "@timestamp": "2026-10-19T05:26:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0047",
+        "_source": {
+          "host": {
+            "hostname": "k8s-node-ela-0047.corp.internal",
+            "ip": "10.1.3.48",
+            "os": {
+              "name": "Amazon Linux 2023.2"
+            },
+            "assigned_user": "Sam Blackwood"
+          },
+          "@timestamp": "2026-10-19T07:37:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0048",
+        "_source": {
+          "host": {
+            "hostname": "bastion-ela-0048.corp.internal",
+            "ip": "10.1.4.49",
+            "os": {
+              "name": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+            },
+            "assigned_user": "Jamie Frost"
+          },
+          "@timestamp": "2026-10-19T09:48:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0049",
+        "_source": {
+          "host": {
+            "hostname": "proxy-ela-0049.corp.internal",
+            "ip": "10.1.4.50",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Dakota Sinclair"
+          },
+          "@timestamp": "2026-10-19T11:59:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0050",
+        "_source": {
+          "host": {
+            "hostname": "wrk-ela-0050.corp.internal",
+            "ip": "10.1.4.51",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Quinn Hawthorne"
+          },
+          "@timestamp": "2026-10-19T13:10:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0051",
+        "_source": {
+          "host": {
+            "hostname": "srv-ela-0051.corp.internal",
+            "ip": "10.1.4.52",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Reese Delgado"
+          },
+          "@timestamp": "2026-10-19T15:21:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0052",
+        "_source": {
+          "host": {
+            "hostname": "sec-ela-0052.corp.internal",
+            "ip": "10.1.4.53",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Rowan Winter"
+          },
+          "@timestamp": "2026-10-19T17:32:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0053",
+        "_source": {
+          "host": {
+            "hostname": "db-ela-0053.corp.internal",
+            "ip": "10.1.4.54",
+            "os": {
+              "name": "Debian GNU/Linux 12 (bookworm)"
+            },
+            "assigned_user": "Skyler Carrington"
+          },
+          "@timestamp": "2026-10-19T19:43:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0054",
+        "_source": {
+          "host": {
+            "hostname": "app-ela-0054.corp.internal",
+            "ip": "10.1.4.55",
+            "os": {
+              "name": "Alpine Linux 3.18"
+            },
+            "assigned_user": "Kendall O'Connor"
+          },
+          "@timestamp": "2026-10-19T21:54:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0055",
+        "_source": {
+          "host": {
+            "hostname": "gw-ela-0055.corp.internal",
+            "ip": "10.1.4.56",
+            "os": {
+              "name": "Amazon Linux 2023.2"
+            },
+            "assigned_user": "Hayden Novak"
+          },
+          "@timestamp": "2026-10-19T23:05:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0056",
+        "_source": {
+          "host": {
+            "hostname": "edge-ela-0056.corp.internal",
+            "ip": "10.1.4.57",
+            "os": {
+              "name": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+            },
+            "assigned_user": "Finley Reyes"
+          },
+          "@timestamp": "2026-10-20T01:16:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0057",
+        "_source": {
+          "host": {
+            "hostname": "k8s-node-ela-0057.corp.internal",
+            "ip": "10.1.4.58",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Emerson Yoshida"
+          },
+          "@timestamp": "2026-10-20T03:27:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0058",
+        "_source": {
+          "host": {
+            "hostname": "bastion-ela-0058.corp.internal",
+            "ip": "10.1.4.59",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Adrian Lindqvist"
+          },
+          "@timestamp": "2026-10-20T05:38:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0059",
+        "_source": {
+          "host": {
+            "hostname": "proxy-ela-0059.corp.internal",
+            "ip": "10.1.4.60",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Cameron Nakamura"
+          },
+          "@timestamp": "2026-10-20T07:49:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0060",
+        "_source": {
+          "host": {
+            "hostname": "wrk-ela-0060.corp.internal",
+            "ip": "10.1.4.61",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Alex Vance"
+          },
+          "@timestamp": "2026-10-20T09:00:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0061",
+        "_source": {
+          "host": {
+            "hostname": "srv-ela-0061.corp.internal",
+            "ip": "10.1.4.62",
+            "os": {
+              "name": "Debian GNU/Linux 12 (bookworm)"
+            },
+            "assigned_user": "Morgan Mercer"
+          },
+          "@timestamp": "2026-10-20T11:11:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0062",
+        "_source": {
+          "host": {
+            "hostname": "sec-ela-0062.corp.internal",
+            "ip": "10.1.4.63",
+            "os": {
+              "name": "Alpine Linux 3.18"
+            },
+            "assigned_user": "Jordan Sterling"
+          },
+          "@timestamp": "2026-10-20T13:22:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0063",
+        "_source": {
+          "host": {
+            "hostname": "db-ela-0063.corp.internal",
+            "ip": "10.1.4.64",
+            "os": {
+              "name": "Amazon Linux 2023.2"
+            },
+            "assigned_user": "Taylor Kowalski"
+          },
+          "@timestamp": "2026-10-20T15:33:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0064",
+        "_source": {
+          "host": {
+            "hostname": "app-ela-0064.corp.internal",
+            "ip": "10.1.5.65",
+            "os": {
+              "name": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+            },
+            "assigned_user": "Casey Chen"
+          },
+          "@timestamp": "2026-10-20T17:44:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0065",
+        "_source": {
+          "host": {
+            "hostname": "gw-ela-0065.corp.internal",
+            "ip": "10.1.5.66",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Riley Patel"
+          },
+          "@timestamp": "2026-10-20T19:55:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0066",
+        "_source": {
+          "host": {
+            "hostname": "edge-ela-0066.corp.internal",
+            "ip": "10.1.5.67",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Avery Thorne"
+          },
+          "@timestamp": "2026-10-20T21:06:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0067",
+        "_source": {
+          "host": {
+            "hostname": "k8s-node-ela-0067.corp.internal",
+            "ip": "10.1.5.68",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Sam Blackwood"
+          },
+          "@timestamp": "2026-10-20T23:17:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0068",
+        "_source": {
+          "host": {
+            "hostname": "bastion-ela-0068.corp.internal",
+            "ip": "10.1.5.69",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Jamie Frost"
+          },
+          "@timestamp": "2026-10-21T01:28:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0069",
+        "_source": {
+          "host": {
+            "hostname": "proxy-ela-0069.corp.internal",
+            "ip": "10.1.5.70",
+            "os": {
+              "name": "Debian GNU/Linux 12 (bookworm)"
+            },
+            "assigned_user": "Dakota Sinclair"
+          },
+          "@timestamp": "2026-10-21T03:39:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0070",
+        "_source": {
+          "host": {
+            "hostname": "wrk-ela-0070.corp.internal",
+            "ip": "10.1.5.71",
+            "os": {
+              "name": "Alpine Linux 3.18"
+            },
+            "assigned_user": "Quinn Hawthorne"
+          },
+          "@timestamp": "2026-10-21T05:50:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0071",
+        "_source": {
+          "host": {
+            "hostname": "srv-ela-0071.corp.internal",
+            "ip": "10.1.5.72",
+            "os": {
+              "name": "Amazon Linux 2023.2"
+            },
+            "assigned_user": "Reese Delgado"
+          },
+          "@timestamp": "2026-10-21T07:01:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0072",
+        "_source": {
+          "host": {
+            "hostname": "sec-ela-0072.corp.internal",
+            "ip": "10.1.5.73",
+            "os": {
+              "name": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+            },
+            "assigned_user": "Rowan Winter"
+          },
+          "@timestamp": "2026-10-21T09:12:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0073",
+        "_source": {
+          "host": {
+            "hostname": "db-ela-0073.corp.internal",
+            "ip": "10.1.5.74",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Skyler Carrington"
+          },
+          "@timestamp": "2026-10-21T11:23:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0074",
+        "_source": {
+          "host": {
+            "hostname": "app-ela-0074.corp.internal",
+            "ip": "10.1.5.75",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Kendall O'Connor"
+          },
+          "@timestamp": "2026-10-21T13:34:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0075",
+        "_source": {
+          "host": {
+            "hostname": "gw-ela-0075.corp.internal",
+            "ip": "10.1.5.76",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Hayden Novak"
+          },
+          "@timestamp": "2026-10-21T15:45:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0076",
+        "_source": {
+          "host": {
+            "hostname": "edge-ela-0076.corp.internal",
+            "ip": "10.1.5.77",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Finley Reyes"
+          },
+          "@timestamp": "2026-10-21T17:56:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0077",
+        "_source": {
+          "host": {
+            "hostname": "k8s-node-ela-0077.corp.internal",
+            "ip": "10.1.5.78",
+            "os": {
+              "name": "Debian GNU/Linux 12 (bookworm)"
+            },
+            "assigned_user": "Emerson Yoshida"
+          },
+          "@timestamp": "2026-10-21T19:07:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0078",
+        "_source": {
+          "host": {
+            "hostname": "bastion-ela-0078.corp.internal",
+            "ip": "10.1.5.79",
+            "os": {
+              "name": "Alpine Linux 3.18"
+            },
+            "assigned_user": "Adrian Lindqvist"
+          },
+          "@timestamp": "2026-10-21T21:18:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0079",
+        "_source": {
+          "host": {
+            "hostname": "proxy-ela-0079.corp.internal",
+            "ip": "10.1.5.80",
+            "os": {
+              "name": "Amazon Linux 2023.2"
+            },
+            "assigned_user": "Cameron Nakamura"
+          },
+          "@timestamp": "2026-10-21T23:29:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0080",
+        "_source": {
+          "host": {
+            "hostname": "wrk-ela-0080.corp.internal",
+            "ip": "10.1.6.81",
+            "os": {
+              "name": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+            },
+            "assigned_user": "Alex Vance"
+          },
+          "@timestamp": "2026-10-22T01:40:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0081",
+        "_source": {
+          "host": {
+            "hostname": "srv-ela-0081.corp.internal",
+            "ip": "10.1.6.82",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Morgan Mercer"
+          },
+          "@timestamp": "2026-10-22T03:51:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0082",
+        "_source": {
+          "host": {
+            "hostname": "sec-ela-0082.corp.internal",
+            "ip": "10.1.6.83",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Jordan Sterling"
+          },
+          "@timestamp": "2026-10-22T05:02:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0083",
+        "_source": {
+          "host": {
+            "hostname": "db-ela-0083.corp.internal",
+            "ip": "10.1.6.84",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Taylor Kowalski"
+          },
+          "@timestamp": "2026-10-22T07:13:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0084",
+        "_source": {
+          "host": {
+            "hostname": "app-ela-0084.corp.internal",
+            "ip": "10.1.6.85",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Casey Chen"
+          },
+          "@timestamp": "2026-10-22T09:24:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0085",
+        "_source": {
+          "host": {
+            "hostname": "gw-ela-0085.corp.internal",
+            "ip": "10.1.6.86",
+            "os": {
+              "name": "Debian GNU/Linux 12 (bookworm)"
+            },
+            "assigned_user": "Riley Patel"
+          },
+          "@timestamp": "2026-10-22T11:35:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0086",
+        "_source": {
+          "host": {
+            "hostname": "edge-ela-0086.corp.internal",
+            "ip": "10.1.6.87",
+            "os": {
+              "name": "Alpine Linux 3.18"
+            },
+            "assigned_user": "Avery Thorne"
+          },
+          "@timestamp": "2026-10-22T13:46:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0087",
+        "_source": {
+          "host": {
+            "hostname": "k8s-node-ela-0087.corp.internal",
+            "ip": "10.1.6.88",
+            "os": {
+              "name": "Amazon Linux 2023.2"
+            },
+            "assigned_user": "Sam Blackwood"
+          },
+          "@timestamp": "2026-10-22T15:57:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0088",
+        "_source": {
+          "host": {
+            "hostname": "bastion-ela-0088.corp.internal",
+            "ip": "10.1.6.89",
+            "os": {
+              "name": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+            },
+            "assigned_user": "Jamie Frost"
+          },
+          "@timestamp": "2026-10-22T17:08:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0089",
+        "_source": {
+          "host": {
+            "hostname": "proxy-ela-0089.corp.internal",
+            "ip": "10.1.6.90",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Dakota Sinclair"
+          },
+          "@timestamp": "2026-10-22T19:19:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0090",
+        "_source": {
+          "host": {
+            "hostname": "wrk-ela-0090.corp.internal",
+            "ip": "10.1.6.91",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Quinn Hawthorne"
+          },
+          "@timestamp": "2026-10-22T21:30:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0091",
+        "_source": {
+          "host": {
+            "hostname": "srv-ela-0091.corp.internal",
+            "ip": "10.1.6.92",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Reese Delgado"
+          },
+          "@timestamp": "2026-10-22T23:41:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0092",
+        "_source": {
+          "host": {
+            "hostname": "sec-ela-0092.corp.internal",
+            "ip": "10.1.6.93",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Rowan Winter"
+          },
+          "@timestamp": "2026-10-23T01:52:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0093",
+        "_source": {
+          "host": {
+            "hostname": "db-ela-0093.corp.internal",
+            "ip": "10.1.6.94",
+            "os": {
+              "name": "Debian GNU/Linux 12 (bookworm)"
+            },
+            "assigned_user": "Skyler Carrington"
+          },
+          "@timestamp": "2026-10-23T03:03:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0094",
+        "_source": {
+          "host": {
+            "hostname": "app-ela-0094.corp.internal",
+            "ip": "10.1.6.95",
+            "os": {
+              "name": "Alpine Linux 3.18"
+            },
+            "assigned_user": "Kendall O'Connor"
+          },
+          "@timestamp": "2026-10-23T05:14:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0095",
+        "_source": {
+          "host": {
+            "hostname": "gw-ela-0095.corp.internal",
+            "ip": "10.1.6.96",
+            "os": {
+              "name": "Amazon Linux 2023.2"
+            },
+            "assigned_user": "Hayden Novak"
+          },
+          "@timestamp": "2026-10-23T07:25:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0096",
+        "_source": {
+          "host": {
+            "hostname": "edge-ela-0096.corp.internal",
+            "ip": "10.1.7.97",
+            "os": {
+              "name": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+            },
+            "assigned_user": "Finley Reyes"
+          },
+          "@timestamp": "2026-10-23T09:36:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0097",
+        "_source": {
+          "host": {
+            "hostname": "k8s-node-ela-0097.corp.internal",
+            "ip": "10.1.7.98",
+            "os": {
+              "name": "Red Hat Enterprise Linux 9.2"
+            },
+            "assigned_user": "Emerson Yoshida"
+          },
+          "@timestamp": "2026-10-23T11:47:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0098",
+        "_source": {
+          "host": {
+            "hostname": "bastion-ela-0098.corp.internal",
+            "ip": "10.1.7.99",
+            "os": {
+              "name": "Windows Server 2022 Datacenter"
+            },
+            "assigned_user": "Adrian Lindqvist"
+          },
+          "@timestamp": "2026-10-23T13:58:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0099",
+        "_source": {
+          "host": {
+            "hostname": "proxy-ela-0099.corp.internal",
+            "ip": "10.1.7.100",
+            "os": {
+              "name": "Windows 11 Enterprise (22H2)"
+            },
+            "assigned_user": "Cameron Nakamura"
+          },
+          "@timestamp": "2026-10-23T15:09:00Z"
+        }
+      },
+      {
+        "_id": "dev-elas-0100",
+        "_source": {
+          "host": {
+            "hostname": "wrk-ela-0100.corp.internal",
+            "ip": "10.1.7.101",
+            "os": {
+              "name": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+            },
+            "assigned_user": "Alex Vance"
+          },
+          "@timestamp": "2026-10-23T17:20:00Z"
+        }
+      }
+    ]
+  }
+}

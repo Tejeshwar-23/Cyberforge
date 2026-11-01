@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "endpoint": {
+        "hostname": "wrk-sop-0900.corp.internal",
+        "ipv4Address": "10.4.57.151",
+        "os": {
+          "platform": "macOS 14.1 Sonoma (Darwin 23.1.0)"
+        },
+        "assignedUser": {
+          "name": "Alex Vance"
+        },
+        "lastSeenAt": "2026-12-29T09:00:00Z"
+      },
+      "_defect_note": "Defect 1: Missing device ID"
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0901",
+        "ipv4Address": "10.4.57.152",
+        "os": {
+          "platform": "Debian GNU/Linux 12 (bookworm)"
+        },
+        "assignedUser": {
+          "name": "Morgan Mercer"
+        },
+        "lastSeenAt": "2026-12-29T11:11:00Z"
+      },
+      "_defect_note": "Defect 2: Missing hostname"
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0902",
+        "hostname": "sec-sop-0902.corp.internal",
+        "ipv4Address": "10.4.57.153",
+        "os": {
+          "platform": "Alpine Linux 3.18"
+        },
+        "assignedUser": {
+          "name": "Jordan Sterling"
+        },
+        "lastSeenAt": "INVALID-EPOCH-DATE-2026"
+      },
+      "_defect_note": "Defect 3: Invalid last_seen timestamp"
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0903",
+        "hostname": "db-sop-0903.corp.internal",
+        "os": {
+          "platform": "Amazon Linux 2023.2"
+        },
+        "assignedUser": {
+          "name": "Taylor Kowalski"
+        },
+        "lastSeenAt": "2026-12-29T15:33:00Z"
+      },
+      "_defect_note": "Defect 4: Missing expected IP field"
+    },
+    {
+      "endpoint": {
+        "id": "dev-soph-0904",
+        "hostname": "app-sop-0904.corp.internal",
+        "ipv4Address": "10.4.57.155",
+        "os": {
+          "platform": "Ubuntu 22.04 LTS (Jammy Jellyfish)"
+        },
+        "assignedUser": {
+          "name": null
+        },
+        "lastSeenAt": "2026-12-29T17:44:00Z"
+      },
+      "_defect_note": "Defect 5: Null or missing owner/assigned entity"
+    }
+  ]
+}

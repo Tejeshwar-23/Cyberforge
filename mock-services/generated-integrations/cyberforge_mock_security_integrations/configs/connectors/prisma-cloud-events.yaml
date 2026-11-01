@@ -1,0 +1,36 @@
+version: '1.0'
+name: prisma-cloud-events
+base_url: http://127.0.0.1:9001
+auth:
+  type: custom_headers
+  secret_headers:
+    x-redlock-auth: PRISMA_ACCESS_KEY
+endpoint:
+  method: GET
+  path: /api/events
+  query_params: {}
+response:
+  format: json
+  records_path: alerts
+pagination:
+  type: page
+  page_param: page
+  start_page: 1
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: triggeredAt
+mapping:
+  entity: event
+  fields:
+    id: alertId
+    type: policyType
+    severity: riskGrade
+    timestamp: triggeredAt
+    description: policyDescription
+enabled: false

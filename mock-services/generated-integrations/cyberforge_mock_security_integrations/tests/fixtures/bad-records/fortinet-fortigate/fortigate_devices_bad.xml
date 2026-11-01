@@ -1,0 +1,222 @@
+<?xml version="1.0" ?>
+<results>
+
+
+
+
+  <device_entry>
+
+
+
+
+    <dev_name>wrk-for-0900.corp.internal</dev_name>
+
+
+
+
+    <dev_ip>10.4.57.151</dev_ip>
+
+
+
+
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+
+
+
+
+    <assigned_user>Alex Vance</assigned_user>
+
+
+
+
+    <last_seen_time>2026-12-29T09:00:00Z</last_seen_time>
+
+
+
+
+    <_defect_note>Defect 1: Missing device ID</_defect_note>
+
+
+
+
+  </device_entry>
+
+
+
+
+  <device_entry>
+
+
+
+
+    <dev_id>dev-fort-0901</dev_id>
+
+
+
+
+    <dev_ip>10.4.57.152</dev_ip>
+
+
+
+
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+
+
+
+
+    <assigned_user>Morgan Mercer</assigned_user>
+
+
+
+
+    <last_seen_time>2026-12-29T11:11:00Z</last_seen_time>
+
+
+
+
+    <_defect_note>Defect 2: Missing hostname</_defect_note>
+
+
+
+
+  </device_entry>
+
+
+
+
+  <device_entry>
+
+
+
+
+    <dev_id>dev-fort-0902</dev_id>
+
+
+
+
+    <dev_name>sec-for-0902.corp.internal</dev_name>
+
+
+
+
+    <dev_ip>10.4.57.153</dev_ip>
+
+
+
+
+    <os_family>Alpine Linux 3.18</os_family>
+
+
+
+
+    <assigned_user>Jordan Sterling</assigned_user>
+
+
+
+
+    <last_seen_time>INVALID-EPOCH-DATE-2026</last_seen_time>
+
+
+
+
+    <_defect_note>Defect 3: Invalid last_seen timestamp</_defect_note>
+
+
+
+
+  </device_entry>
+
+
+
+
+  <device_entry>
+
+
+
+
+    <dev_id>dev-fort-0903</dev_id>
+
+
+
+
+    <dev_name>db-for-0903.corp.internal</dev_name>
+
+
+
+
+    <os_family>Amazon Linux 2023.2</os_family>
+
+
+
+
+    <assigned_user>Taylor Kowalski</assigned_user>
+
+
+
+
+    <last_seen_time>2026-12-29T15:33:00Z</last_seen_time>
+
+
+
+
+    <_defect_note>Defect 4: Missing expected IP field</_defect_note>
+
+
+
+
+  </device_entry>
+
+
+
+
+  <device_entry>
+
+
+
+
+    <dev_id>dev-fort-0904</dev_id>
+
+
+
+
+    <dev_name>app-for-0904.corp.internal</dev_name>
+
+
+
+
+    <dev_ip>10.4.57.155</dev_ip>
+
+
+
+
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+
+
+
+
+    <assigned_user>
+      <invalid_null_struct>malformed_type</invalid_null_struct>
+
+
+      <invalid_null_struct>malformed_type</invalid_null_struct>
+    </assigned_user>
+
+
+
+
+    <last_seen_time>2026-12-29T17:44:00Z</last_seen_time>
+
+
+
+
+    <_defect_note>Defect 5: Null or missing owner/assigned entity</_defect_note>
+
+
+
+
+  </device_entry>
+
+
+
+
+</results>

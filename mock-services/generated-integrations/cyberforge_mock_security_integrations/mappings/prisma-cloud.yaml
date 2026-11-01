@@ -1,0 +1,20 @@
+vendor: Prisma Cloud
+users:
+  id: username_id
+  name: displayName
+  email: userEmail
+  status: activeStatus
+  last_login: lastLoginTime
+devices:
+  id: assetId
+  hostname: assetName
+  ip: publicIpAddress
+  os: osVersion
+  owner: accountGroup
+  last_seen: discoveryTime
+events:
+  id: alertId
+  type: policyType
+  severity: riskGrade
+  timestamp: triggeredAt
+  description: policyDescription

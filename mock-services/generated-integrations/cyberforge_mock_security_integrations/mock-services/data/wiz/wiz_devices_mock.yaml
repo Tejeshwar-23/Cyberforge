@@ -1,0 +1,703 @@
+data:
+  resources:
+    nodes:
+    - resourceId: dev-wiz-0001
+      resourceName: srv-wiz-0001.corp.internal
+      primaryNetworkAddress: 10.1.1.2
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Morgan Mercer
+      scannedAt: '2026-10-15T11:11:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0002
+      resourceName: sec-wiz-0002.corp.internal
+      primaryNetworkAddress: 10.1.1.3
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Jordan Sterling
+      scannedAt: '2026-10-15T13:22:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0003
+      resourceName: db-wiz-0003.corp.internal
+      primaryNetworkAddress: 10.1.1.4
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Taylor Kowalski
+      scannedAt: '2026-10-15T15:33:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0004
+      resourceName: app-wiz-0004.corp.internal
+      primaryNetworkAddress: 10.1.1.5
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Casey Chen
+      scannedAt: '2026-10-15T17:44:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0005
+      resourceName: gw-wiz-0005.corp.internal
+      primaryNetworkAddress: 10.1.1.6
+      operatingSystem: Debian GNU/Linux 12 (bookworm)
+      cloudAccountOwner: Riley Patel
+      scannedAt: '2026-10-15T19:55:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0006
+      resourceName: edge-wiz-0006.corp.internal
+      primaryNetworkAddress: 10.1.1.7
+      operatingSystem: Alpine Linux 3.18
+      cloudAccountOwner: Avery Thorne
+      scannedAt: '2026-10-15T21:06:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0007
+      resourceName: k8s-node-wiz-0007.corp.internal
+      primaryNetworkAddress: 10.1.1.8
+      operatingSystem: Amazon Linux 2023.2
+      cloudAccountOwner: Sam Blackwood
+      scannedAt: '2026-10-15T23:17:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0008
+      resourceName: bastion-wiz-0008.corp.internal
+      primaryNetworkAddress: 10.1.1.9
+      operatingSystem: Ubuntu 22.04 LTS (Jammy Jellyfish)
+      cloudAccountOwner: Jamie Frost
+      scannedAt: '2026-10-16T01:28:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0009
+      resourceName: proxy-wiz-0009.corp.internal
+      primaryNetworkAddress: 10.1.1.10
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Dakota Sinclair
+      scannedAt: '2026-10-16T03:39:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0010
+      resourceName: wrk-wiz-0010.corp.internal
+      primaryNetworkAddress: 10.1.1.11
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Quinn Hawthorne
+      scannedAt: '2026-10-16T05:50:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0011
+      resourceName: srv-wiz-0011.corp.internal
+      primaryNetworkAddress: 10.1.1.12
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Reese Delgado
+      scannedAt: '2026-10-16T07:01:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0012
+      resourceName: sec-wiz-0012.corp.internal
+      primaryNetworkAddress: 10.1.1.13
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Rowan Winter
+      scannedAt: '2026-10-16T09:12:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0013
+      resourceName: db-wiz-0013.corp.internal
+      primaryNetworkAddress: 10.1.1.14
+      operatingSystem: Debian GNU/Linux 12 (bookworm)
+      cloudAccountOwner: Skyler Carrington
+      scannedAt: '2026-10-16T11:23:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0014
+      resourceName: app-wiz-0014.corp.internal
+      primaryNetworkAddress: 10.1.1.15
+      operatingSystem: Alpine Linux 3.18
+      cloudAccountOwner: Kendall O'Connor
+      scannedAt: '2026-10-16T13:34:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0015
+      resourceName: gw-wiz-0015.corp.internal
+      primaryNetworkAddress: 10.1.1.16
+      operatingSystem: Amazon Linux 2023.2
+      cloudAccountOwner: Hayden Novak
+      scannedAt: '2026-10-16T15:45:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0016
+      resourceName: edge-wiz-0016.corp.internal
+      primaryNetworkAddress: 10.1.2.17
+      operatingSystem: Ubuntu 22.04 LTS (Jammy Jellyfish)
+      cloudAccountOwner: Finley Reyes
+      scannedAt: '2026-10-16T17:56:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0017
+      resourceName: k8s-node-wiz-0017.corp.internal
+      primaryNetworkAddress: 10.1.2.18
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Emerson Yoshida
+      scannedAt: '2026-10-16T19:07:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0018
+      resourceName: bastion-wiz-0018.corp.internal
+      primaryNetworkAddress: 10.1.2.19
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Adrian Lindqvist
+      scannedAt: '2026-10-16T21:18:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0019
+      resourceName: proxy-wiz-0019.corp.internal
+      primaryNetworkAddress: 10.1.2.20
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Cameron Nakamura
+      scannedAt: '2026-10-16T23:29:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0020
+      resourceName: wrk-wiz-0020.corp.internal
+      primaryNetworkAddress: 10.1.2.21
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Alex Vance
+      scannedAt: '2026-10-17T01:40:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0021
+      resourceName: srv-wiz-0021.corp.internal
+      primaryNetworkAddress: 10.1.2.22
+      operatingSystem: Debian GNU/Linux 12 (bookworm)
+      cloudAccountOwner: Morgan Mercer
+      scannedAt: '2026-10-17T03:51:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0022
+      resourceName: sec-wiz-0022.corp.internal
+      primaryNetworkAddress: 10.1.2.23
+      operatingSystem: Alpine Linux 3.18
+      cloudAccountOwner: Jordan Sterling
+      scannedAt: '2026-10-17T05:02:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0023
+      resourceName: db-wiz-0023.corp.internal
+      primaryNetworkAddress: 10.1.2.24
+      operatingSystem: Amazon Linux 2023.2
+      cloudAccountOwner: Taylor Kowalski
+      scannedAt: '2026-10-17T07:13:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0024
+      resourceName: app-wiz-0024.corp.internal
+      primaryNetworkAddress: 10.1.2.25
+      operatingSystem: Ubuntu 22.04 LTS (Jammy Jellyfish)
+      cloudAccountOwner: Casey Chen
+      scannedAt: '2026-10-17T09:24:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0025
+      resourceName: gw-wiz-0025.corp.internal
+      primaryNetworkAddress: 10.1.2.26
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Riley Patel
+      scannedAt: '2026-10-17T11:35:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0026
+      resourceName: edge-wiz-0026.corp.internal
+      primaryNetworkAddress: 10.1.2.27
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Avery Thorne
+      scannedAt: '2026-10-17T13:46:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0027
+      resourceName: k8s-node-wiz-0027.corp.internal
+      primaryNetworkAddress: 10.1.2.28
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Sam Blackwood
+      scannedAt: '2026-10-17T15:57:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0028
+      resourceName: bastion-wiz-0028.corp.internal
+      primaryNetworkAddress: 10.1.2.29
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Jamie Frost
+      scannedAt: '2026-10-17T17:08:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0029
+      resourceName: proxy-wiz-0029.corp.internal
+      primaryNetworkAddress: 10.1.2.30
+      operatingSystem: Debian GNU/Linux 12 (bookworm)
+      cloudAccountOwner: Dakota Sinclair
+      scannedAt: '2026-10-17T19:19:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0030
+      resourceName: wrk-wiz-0030.corp.internal
+      primaryNetworkAddress: 10.1.2.31
+      operatingSystem: Alpine Linux 3.18
+      cloudAccountOwner: Quinn Hawthorne
+      scannedAt: '2026-10-17T21:30:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0031
+      resourceName: srv-wiz-0031.corp.internal
+      primaryNetworkAddress: 10.1.2.32
+      operatingSystem: Amazon Linux 2023.2
+      cloudAccountOwner: Reese Delgado
+      scannedAt: '2026-10-17T23:41:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0032
+      resourceName: sec-wiz-0032.corp.internal
+      primaryNetworkAddress: 10.1.3.33
+      operatingSystem: Ubuntu 22.04 LTS (Jammy Jellyfish)
+      cloudAccountOwner: Rowan Winter
+      scannedAt: '2026-10-18T01:52:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0033
+      resourceName: db-wiz-0033.corp.internal
+      primaryNetworkAddress: 10.1.3.34
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Skyler Carrington
+      scannedAt: '2026-10-18T03:03:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0034
+      resourceName: app-wiz-0034.corp.internal
+      primaryNetworkAddress: 10.1.3.35
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Kendall O'Connor
+      scannedAt: '2026-10-18T05:14:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0035
+      resourceName: gw-wiz-0035.corp.internal
+      primaryNetworkAddress: 10.1.3.36
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Hayden Novak
+      scannedAt: '2026-10-18T07:25:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0036
+      resourceName: edge-wiz-0036.corp.internal
+      primaryNetworkAddress: 10.1.3.37
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Finley Reyes
+      scannedAt: '2026-10-18T09:36:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0037
+      resourceName: k8s-node-wiz-0037.corp.internal
+      primaryNetworkAddress: 10.1.3.38
+      operatingSystem: Debian GNU/Linux 12 (bookworm)
+      cloudAccountOwner: Emerson Yoshida
+      scannedAt: '2026-10-18T11:47:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0038
+      resourceName: bastion-wiz-0038.corp.internal
+      primaryNetworkAddress: 10.1.3.39
+      operatingSystem: Alpine Linux 3.18
+      cloudAccountOwner: Adrian Lindqvist
+      scannedAt: '2026-10-18T13:58:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0039
+      resourceName: proxy-wiz-0039.corp.internal
+      primaryNetworkAddress: 10.1.3.40
+      operatingSystem: Amazon Linux 2023.2
+      cloudAccountOwner: Cameron Nakamura
+      scannedAt: '2026-10-18T15:09:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0040
+      resourceName: wrk-wiz-0040.corp.internal
+      primaryNetworkAddress: 10.1.3.41
+      operatingSystem: Ubuntu 22.04 LTS (Jammy Jellyfish)
+      cloudAccountOwner: Alex Vance
+      scannedAt: '2026-10-18T17:20:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0041
+      resourceName: srv-wiz-0041.corp.internal
+      primaryNetworkAddress: 10.1.3.42
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Morgan Mercer
+      scannedAt: '2026-10-18T19:31:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0042
+      resourceName: sec-wiz-0042.corp.internal
+      primaryNetworkAddress: 10.1.3.43
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Jordan Sterling
+      scannedAt: '2026-10-18T21:42:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0043
+      resourceName: db-wiz-0043.corp.internal
+      primaryNetworkAddress: 10.1.3.44
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Taylor Kowalski
+      scannedAt: '2026-10-18T23:53:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0044
+      resourceName: app-wiz-0044.corp.internal
+      primaryNetworkAddress: 10.1.3.45
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Casey Chen
+      scannedAt: '2026-10-19T01:04:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0045
+      resourceName: gw-wiz-0045.corp.internal
+      primaryNetworkAddress: 10.1.3.46
+      operatingSystem: Debian GNU/Linux 12 (bookworm)
+      cloudAccountOwner: Riley Patel
+      scannedAt: '2026-10-19T03:15:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0046
+      resourceName: edge-wiz-0046.corp.internal
+      primaryNetworkAddress: 10.1.3.47
+      operatingSystem: Alpine Linux 3.18
+      cloudAccountOwner: Avery Thorne
+      scannedAt: '2026-10-19T05:26:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0047
+      resourceName: k8s-node-wiz-0047.corp.internal
+      primaryNetworkAddress: 10.1.3.48
+      operatingSystem: Amazon Linux 2023.2
+      cloudAccountOwner: Sam Blackwood
+      scannedAt: '2026-10-19T07:37:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0048
+      resourceName: bastion-wiz-0048.corp.internal
+      primaryNetworkAddress: 10.1.4.49
+      operatingSystem: Ubuntu 22.04 LTS (Jammy Jellyfish)
+      cloudAccountOwner: Jamie Frost
+      scannedAt: '2026-10-19T09:48:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0049
+      resourceName: proxy-wiz-0049.corp.internal
+      primaryNetworkAddress: 10.1.4.50
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Dakota Sinclair
+      scannedAt: '2026-10-19T11:59:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0050
+      resourceName: wrk-wiz-0050.corp.internal
+      primaryNetworkAddress: 10.1.4.51
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Quinn Hawthorne
+      scannedAt: '2026-10-19T13:10:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0051
+      resourceName: srv-wiz-0051.corp.internal
+      primaryNetworkAddress: 10.1.4.52
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Reese Delgado
+      scannedAt: '2026-10-19T15:21:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0052
+      resourceName: sec-wiz-0052.corp.internal
+      primaryNetworkAddress: 10.1.4.53
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Rowan Winter
+      scannedAt: '2026-10-19T17:32:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0053
+      resourceName: db-wiz-0053.corp.internal
+      primaryNetworkAddress: 10.1.4.54
+      operatingSystem: Debian GNU/Linux 12 (bookworm)
+      cloudAccountOwner: Skyler Carrington
+      scannedAt: '2026-10-19T19:43:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0054
+      resourceName: app-wiz-0054.corp.internal
+      primaryNetworkAddress: 10.1.4.55
+      operatingSystem: Alpine Linux 3.18
+      cloudAccountOwner: Kendall O'Connor
+      scannedAt: '2026-10-19T21:54:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0055
+      resourceName: gw-wiz-0055.corp.internal
+      primaryNetworkAddress: 10.1.4.56
+      operatingSystem: Amazon Linux 2023.2
+      cloudAccountOwner: Hayden Novak
+      scannedAt: '2026-10-19T23:05:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0056
+      resourceName: edge-wiz-0056.corp.internal
+      primaryNetworkAddress: 10.1.4.57
+      operatingSystem: Ubuntu 22.04 LTS (Jammy Jellyfish)
+      cloudAccountOwner: Finley Reyes
+      scannedAt: '2026-10-20T01:16:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0057
+      resourceName: k8s-node-wiz-0057.corp.internal
+      primaryNetworkAddress: 10.1.4.58
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Emerson Yoshida
+      scannedAt: '2026-10-20T03:27:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0058
+      resourceName: bastion-wiz-0058.corp.internal
+      primaryNetworkAddress: 10.1.4.59
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Adrian Lindqvist
+      scannedAt: '2026-10-20T05:38:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0059
+      resourceName: proxy-wiz-0059.corp.internal
+      primaryNetworkAddress: 10.1.4.60
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Cameron Nakamura
+      scannedAt: '2026-10-20T07:49:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0060
+      resourceName: wrk-wiz-0060.corp.internal
+      primaryNetworkAddress: 10.1.4.61
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Alex Vance
+      scannedAt: '2026-10-20T09:00:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0061
+      resourceName: srv-wiz-0061.corp.internal
+      primaryNetworkAddress: 10.1.4.62
+      operatingSystem: Debian GNU/Linux 12 (bookworm)
+      cloudAccountOwner: Morgan Mercer
+      scannedAt: '2026-10-20T11:11:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0062
+      resourceName: sec-wiz-0062.corp.internal
+      primaryNetworkAddress: 10.1.4.63
+      operatingSystem: Alpine Linux 3.18
+      cloudAccountOwner: Jordan Sterling
+      scannedAt: '2026-10-20T13:22:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0063
+      resourceName: db-wiz-0063.corp.internal
+      primaryNetworkAddress: 10.1.4.64
+      operatingSystem: Amazon Linux 2023.2
+      cloudAccountOwner: Taylor Kowalski
+      scannedAt: '2026-10-20T15:33:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0064
+      resourceName: app-wiz-0064.corp.internal
+      primaryNetworkAddress: 10.1.5.65
+      operatingSystem: Ubuntu 22.04 LTS (Jammy Jellyfish)
+      cloudAccountOwner: Casey Chen
+      scannedAt: '2026-10-20T17:44:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0065
+      resourceName: gw-wiz-0065.corp.internal
+      primaryNetworkAddress: 10.1.5.66
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Riley Patel
+      scannedAt: '2026-10-20T19:55:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0066
+      resourceName: edge-wiz-0066.corp.internal
+      primaryNetworkAddress: 10.1.5.67
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Avery Thorne
+      scannedAt: '2026-10-20T21:06:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0067
+      resourceName: k8s-node-wiz-0067.corp.internal
+      primaryNetworkAddress: 10.1.5.68
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Sam Blackwood
+      scannedAt: '2026-10-20T23:17:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0068
+      resourceName: bastion-wiz-0068.corp.internal
+      primaryNetworkAddress: 10.1.5.69
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Jamie Frost
+      scannedAt: '2026-10-21T01:28:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0069
+      resourceName: proxy-wiz-0069.corp.internal
+      primaryNetworkAddress: 10.1.5.70
+      operatingSystem: Debian GNU/Linux 12 (bookworm)
+      cloudAccountOwner: Dakota Sinclair
+      scannedAt: '2026-10-21T03:39:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0070
+      resourceName: wrk-wiz-0070.corp.internal
+      primaryNetworkAddress: 10.1.5.71
+      operatingSystem: Alpine Linux 3.18
+      cloudAccountOwner: Quinn Hawthorne
+      scannedAt: '2026-10-21T05:50:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0071
+      resourceName: srv-wiz-0071.corp.internal
+      primaryNetworkAddress: 10.1.5.72
+      operatingSystem: Amazon Linux 2023.2
+      cloudAccountOwner: Reese Delgado
+      scannedAt: '2026-10-21T07:01:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0072
+      resourceName: sec-wiz-0072.corp.internal
+      primaryNetworkAddress: 10.1.5.73
+      operatingSystem: Ubuntu 22.04 LTS (Jammy Jellyfish)
+      cloudAccountOwner: Rowan Winter
+      scannedAt: '2026-10-21T09:12:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0073
+      resourceName: db-wiz-0073.corp.internal
+      primaryNetworkAddress: 10.1.5.74
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Skyler Carrington
+      scannedAt: '2026-10-21T11:23:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0074
+      resourceName: app-wiz-0074.corp.internal
+      primaryNetworkAddress: 10.1.5.75
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Kendall O'Connor
+      scannedAt: '2026-10-21T13:34:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0075
+      resourceName: gw-wiz-0075.corp.internal
+      primaryNetworkAddress: 10.1.5.76
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Hayden Novak
+      scannedAt: '2026-10-21T15:45:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0076
+      resourceName: edge-wiz-0076.corp.internal
+      primaryNetworkAddress: 10.1.5.77
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Finley Reyes
+      scannedAt: '2026-10-21T17:56:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0077
+      resourceName: k8s-node-wiz-0077.corp.internal
+      primaryNetworkAddress: 10.1.5.78
+      operatingSystem: Debian GNU/Linux 12 (bookworm)
+      cloudAccountOwner: Emerson Yoshida
+      scannedAt: '2026-10-21T19:07:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0078
+      resourceName: bastion-wiz-0078.corp.internal
+      primaryNetworkAddress: 10.1.5.79
+      operatingSystem: Alpine Linux 3.18
+      cloudAccountOwner: Adrian Lindqvist
+      scannedAt: '2026-10-21T21:18:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0079
+      resourceName: proxy-wiz-0079.corp.internal
+      primaryNetworkAddress: 10.1.5.80
+      operatingSystem: Amazon Linux 2023.2
+      cloudAccountOwner: Cameron Nakamura
+      scannedAt: '2026-10-21T23:29:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0080
+      resourceName: wrk-wiz-0080.corp.internal
+      primaryNetworkAddress: 10.1.6.81
+      operatingSystem: Ubuntu 22.04 LTS (Jammy Jellyfish)
+      cloudAccountOwner: Alex Vance
+      scannedAt: '2026-10-22T01:40:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0081
+      resourceName: srv-wiz-0081.corp.internal
+      primaryNetworkAddress: 10.1.6.82
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Morgan Mercer
+      scannedAt: '2026-10-22T03:51:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0082
+      resourceName: sec-wiz-0082.corp.internal
+      primaryNetworkAddress: 10.1.6.83
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Jordan Sterling
+      scannedAt: '2026-10-22T05:02:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0083
+      resourceName: db-wiz-0083.corp.internal
+      primaryNetworkAddress: 10.1.6.84
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Taylor Kowalski
+      scannedAt: '2026-10-22T07:13:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0084
+      resourceName: app-wiz-0084.corp.internal
+      primaryNetworkAddress: 10.1.6.85
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Casey Chen
+      scannedAt: '2026-10-22T09:24:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0085
+      resourceName: gw-wiz-0085.corp.internal
+      primaryNetworkAddress: 10.1.6.86
+      operatingSystem: Debian GNU/Linux 12 (bookworm)
+      cloudAccountOwner: Riley Patel
+      scannedAt: '2026-10-22T11:35:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0086
+      resourceName: edge-wiz-0086.corp.internal
+      primaryNetworkAddress: 10.1.6.87
+      operatingSystem: Alpine Linux 3.18
+      cloudAccountOwner: Avery Thorne
+      scannedAt: '2026-10-22T13:46:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0087
+      resourceName: k8s-node-wiz-0087.corp.internal
+      primaryNetworkAddress: 10.1.6.88
+      operatingSystem: Amazon Linux 2023.2
+      cloudAccountOwner: Sam Blackwood
+      scannedAt: '2026-10-22T15:57:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0088
+      resourceName: bastion-wiz-0088.corp.internal
+      primaryNetworkAddress: 10.1.6.89
+      operatingSystem: Ubuntu 22.04 LTS (Jammy Jellyfish)
+      cloudAccountOwner: Jamie Frost
+      scannedAt: '2026-10-22T17:08:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0089
+      resourceName: proxy-wiz-0089.corp.internal
+      primaryNetworkAddress: 10.1.6.90
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Dakota Sinclair
+      scannedAt: '2026-10-22T19:19:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0090
+      resourceName: wrk-wiz-0090.corp.internal
+      primaryNetworkAddress: 10.1.6.91
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Quinn Hawthorne
+      scannedAt: '2026-10-22T21:30:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0091
+      resourceName: srv-wiz-0091.corp.internal
+      primaryNetworkAddress: 10.1.6.92
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Reese Delgado
+      scannedAt: '2026-10-22T23:41:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0092
+      resourceName: sec-wiz-0092.corp.internal
+      primaryNetworkAddress: 10.1.6.93
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Rowan Winter
+      scannedAt: '2026-10-23T01:52:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0093
+      resourceName: db-wiz-0093.corp.internal
+      primaryNetworkAddress: 10.1.6.94
+      operatingSystem: Debian GNU/Linux 12 (bookworm)
+      cloudAccountOwner: Skyler Carrington
+      scannedAt: '2026-10-23T03:03:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0094
+      resourceName: app-wiz-0094.corp.internal
+      primaryNetworkAddress: 10.1.6.95
+      operatingSystem: Alpine Linux 3.18
+      cloudAccountOwner: Kendall O'Connor
+      scannedAt: '2026-10-23T05:14:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0095
+      resourceName: gw-wiz-0095.corp.internal
+      primaryNetworkAddress: 10.1.6.96
+      operatingSystem: Amazon Linux 2023.2
+      cloudAccountOwner: Hayden Novak
+      scannedAt: '2026-10-23T07:25:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0096
+      resourceName: edge-wiz-0096.corp.internal
+      primaryNetworkAddress: 10.1.7.97
+      operatingSystem: Ubuntu 22.04 LTS (Jammy Jellyfish)
+      cloudAccountOwner: Finley Reyes
+      scannedAt: '2026-10-23T09:36:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0097
+      resourceName: k8s-node-wiz-0097.corp.internal
+      primaryNetworkAddress: 10.1.7.98
+      operatingSystem: Red Hat Enterprise Linux 9.2
+      cloudAccountOwner: Emerson Yoshida
+      scannedAt: '2026-10-23T11:47:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0098
+      resourceName: bastion-wiz-0098.corp.internal
+      primaryNetworkAddress: 10.1.7.99
+      operatingSystem: Windows Server 2022 Datacenter
+      cloudAccountOwner: Adrian Lindqvist
+      scannedAt: '2026-10-23T13:58:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0099
+      resourceName: proxy-wiz-0099.corp.internal
+      primaryNetworkAddress: 10.1.7.100
+      operatingSystem: Windows 11 Enterprise (22H2)
+      cloudAccountOwner: Cameron Nakamura
+      scannedAt: '2026-10-23T15:09:00Z'
+      cloudPlatform: AWS
+    - resourceId: dev-wiz-0100
+      resourceName: wrk-wiz-0100.corp.internal
+      primaryNetworkAddress: 10.1.7.101
+      operatingSystem: macOS 14.1 Sonoma (Darwin 23.1.0)
+      cloudAccountOwner: Alex Vance
+      scannedAt: '2026-10-23T17:20:00Z'
+      cloudPlatform: AWS

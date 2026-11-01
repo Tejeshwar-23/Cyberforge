@@ -1,0 +1,45 @@
+{
+  "data": {
+    "issues": {
+      "nodes": [
+        {
+          "issueType": "Unauthorized Privilege Escalation Attempt",
+          "severity": "CRITICAL",
+          "createdAt": "2026-11-08T09:00:00Z",
+          "issueTitle": "Observed unauthorized privilege escalation attempt on host node 900 originating from external telemetry cluster",
+          "_defect_note": "Defect 1: Missing event ID"
+        },
+        {
+          "issueId": "evt-wiz-00901",
+          "issueType": "Suspicious Process Execution via PowerShell",
+          "createdAt": "2026-11-08T09:23:00Z",
+          "issueTitle": "Observed suspicious process execution via powershell on host node 901 originating from external telemetry cluster",
+          "_defect_note": "Defect 2: Missing severity field"
+        },
+        {
+          "issueId": "evt-wiz-00902",
+          "issueType": "Anomalous Outbound C2 Beaconing",
+          "severity": "MEDIUM",
+          "issueTitle": "Observed anomalous outbound c2 beaconing on host node 902 originating from external telemetry cluster",
+          "_defect_note": "Defect 3: Missing timestamp field"
+        },
+        {
+          "issueId": "evt-wiz-00903",
+          "issueType": "Multiple Failed MFA Challenges",
+          "severity": "LOW",
+          "createdAt": "MALFORMED_TIMESTAMP_ERR_999",
+          "issueTitle": "Observed multiple failed mfa challenges on host node 903 originating from external telemetry cluster",
+          "_defect_note": "Defect 4: Malformed timestamp string"
+        },
+        {
+          "issueId": "evt-wiz-00904",
+          "issueType": "Lateral Movement via Remote WMI Execution",
+          "severity": "INFORMATIONAL",
+          "createdAt": "2026-11-08T10:32:00Z",
+          "unexpected_raw_payload_text": "Observed lateral movement via remote wmi execution on host node 904 originating from external telemetry cluster",
+          "_defect_note": "Defect 5: Renamed/missing event description field"
+        }
+      ]
+    }
+  }
+}

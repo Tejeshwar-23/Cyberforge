@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "networkNodeName": "wrk-cis-0900.corp.internal",
+      "ipv4Address": "10.4.57.151",
+      "softwarePlatform": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "adminContact": "Alex Vance",
+      "heartbeatTimestamp": "2026-12-29T09:00:00Z",
+      "chassisId": "chassis-cisco-900",
+      "_defect_note": "Defect 1: Missing device ID"
+    },
+    {
+      "deviceId": "dev-cisc-0901",
+      "ipv4Address": "10.4.57.152",
+      "softwarePlatform": "Debian GNU/Linux 12 (bookworm)",
+      "adminContact": "Morgan Mercer",
+      "heartbeatTimestamp": "2026-12-29T11:11:00Z",
+      "chassisId": "chassis-cisco-901",
+      "_defect_note": "Defect 2: Missing hostname"
+    },
+    {
+      "deviceId": "dev-cisc-0902",
+      "networkNodeName": "sec-cis-0902.corp.internal",
+      "ipv4Address": "10.4.57.153",
+      "softwarePlatform": "Alpine Linux 3.18",
+      "adminContact": "Jordan Sterling",
+      "heartbeatTimestamp": "INVALID-EPOCH-DATE-2026",
+      "chassisId": "chassis-cisco-902",
+      "_defect_note": "Defect 3: Invalid last_seen timestamp"
+    },
+    {
+      "deviceId": "dev-cisc-0903",
+      "networkNodeName": "db-cis-0903.corp.internal",
+      "softwarePlatform": "Amazon Linux 2023.2",
+      "adminContact": "Taylor Kowalski",
+      "heartbeatTimestamp": "2026-12-29T15:33:00Z",
+      "chassisId": "chassis-cisco-903",
+      "_defect_note": "Defect 4: Missing expected IP field"
+    },
+    {
+      "deviceId": "dev-cisc-0904",
+      "networkNodeName": "app-cis-0904.corp.internal",
+      "ipv4Address": "10.4.57.155",
+      "softwarePlatform": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "adminContact": null,
+      "heartbeatTimestamp": "2026-12-29T17:44:00Z",
+      "chassisId": "chassis-cisco-904",
+      "_defect_note": "Defect 5: Null or missing owner/assigned entity"
+    }
+  ]
+}

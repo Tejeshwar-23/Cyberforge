@@ -1,0 +1,46 @@
+{
+  "assets": [
+    {
+      "assetName": "wrk-pri-0900.corp.internal",
+      "publicIpAddress": "10.4.57.151",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Alex Vance",
+      "discoveryTime": "2026-12-29T09:00:00Z",
+      "_defect_note": "Defect 1: Missing device ID"
+    },
+    {
+      "assetId": "dev-pris-0901",
+      "publicIpAddress": "10.4.57.152",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Morgan Mercer",
+      "discoveryTime": "2026-12-29T11:11:00Z",
+      "_defect_note": "Defect 2: Missing hostname"
+    },
+    {
+      "assetId": "dev-pris-0902",
+      "assetName": "sec-pri-0902.corp.internal",
+      "publicIpAddress": "10.4.57.153",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Jordan Sterling",
+      "discoveryTime": "INVALID-EPOCH-DATE-2026",
+      "_defect_note": "Defect 3: Invalid last_seen timestamp"
+    },
+    {
+      "assetId": "dev-pris-0903",
+      "assetName": "db-pri-0903.corp.internal",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Taylor Kowalski",
+      "discoveryTime": "2026-12-29T15:33:00Z",
+      "_defect_note": "Defect 4: Missing expected IP field"
+    },
+    {
+      "assetId": "dev-pris-0904",
+      "assetName": "app-pri-0904.corp.internal",
+      "publicIpAddress": "10.4.57.155",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": null,
+      "discoveryTime": "2026-12-29T17:44:00Z",
+      "_defect_note": "Defect 5: Null or missing owner/assigned entity"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+resources:
+- tactic: Unauthorized Privilege Escalation Attempt
+  severity_name: CRITICAL
+  created_timestamp: '2026-11-08T09:00:00Z'
+  narrative: Observed unauthorized privilege escalation attempt on host node 900 originating
+    from external telemetry cluster
+  _defect_note: 'Defect 1: Missing event ID'
+- detection_id: evt-crow-00901
+  tactic: Suspicious Process Execution via PowerShell
+  created_timestamp: '2026-11-08T09:23:00Z'
+  narrative: Observed suspicious process execution via powershell on host node 901
+    originating from external telemetry cluster
+  _defect_note: 'Defect 2: Missing severity field'
+- detection_id: evt-crow-00902
+  tactic: Anomalous Outbound C2 Beaconing
+  severity_name: MEDIUM
+  narrative: Observed anomalous outbound c2 beaconing on host node 902 originating
+    from external telemetry cluster
+  _defect_note: 'Defect 3: Missing timestamp field'
+- detection_id: evt-crow-00903
+  tactic: Multiple Failed MFA Challenges
+  severity_name: LOW
+  created_timestamp: MALFORMED_TIMESTAMP_ERR_999
+  narrative: Observed multiple failed mfa challenges on host node 903 originating
+    from external telemetry cluster
+  _defect_note: 'Defect 4: Malformed timestamp string'
+- detection_id: evt-crow-00904
+  tactic: Lateral Movement via Remote WMI Execution
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-11-08T10:32:00Z'
+  unexpected_raw_payload_text: Observed lateral movement via remote wmi execution
+    on host node 904 originating from external telemetry cluster
+  _defect_note: 'Defect 5: Renamed/missing event description field'

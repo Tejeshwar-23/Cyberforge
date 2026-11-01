@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "type": "Unauthorized Privilege Escalation Attempt",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-11-08T09:00:00Z",
+      "description": "Observed unauthorized privilege escalation attempt on host node 900 originating from external telemetry cluster",
+      "_defect_note": "Defect 1: Missing event ID"
+    },
+    {
+      "id": "evt-soph-00901",
+      "type": "Suspicious Process Execution via PowerShell",
+      "raisedAt": "2026-11-08T09:23:00Z",
+      "description": "Observed suspicious process execution via powershell on host node 901 originating from external telemetry cluster",
+      "_defect_note": "Defect 2: Missing severity field"
+    },
+    {
+      "id": "evt-soph-00902",
+      "type": "Anomalous Outbound C2 Beaconing",
+      "severity": "MEDIUM",
+      "description": "Observed anomalous outbound c2 beaconing on host node 902 originating from external telemetry cluster",
+      "_defect_note": "Defect 3: Missing timestamp field"
+    },
+    {
+      "id": "evt-soph-00903",
+      "type": "Multiple Failed MFA Challenges",
+      "severity": "LOW",
+      "raisedAt": "MALFORMED_TIMESTAMP_ERR_999",
+      "description": "Observed multiple failed mfa challenges on host node 903 originating from external telemetry cluster",
+      "_defect_note": "Defect 4: Malformed timestamp string"
+    },
+    {
+      "id": "evt-soph-00904",
+      "type": "Lateral Movement via Remote WMI Execution",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-11-08T10:32:00Z",
+      "unexpected_raw_payload_text": "Observed lateral movement via remote wmi execution on host node 904 originating from external telemetry cluster",
+      "_defect_note": "Defect 5: Renamed/missing event description field"
+    }
+  ]
+}

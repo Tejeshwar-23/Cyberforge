@@ -1,0 +1,1506 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "_id": "usr-elas-0001",
+        "_source": {
+          "user": {
+            "full_name": "Morgan Vance",
+            "email": "morgan.vance001@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-01T11:07:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0002",
+        "_source": {
+          "user": {
+            "full_name": "Jordan Vance",
+            "email": "jordan.vance002@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-01T14:14:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0003",
+        "_source": {
+          "user": {
+            "full_name": "Taylor Vance",
+            "email": "taylor.vance003@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-01T17:21:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0004",
+        "_source": {
+          "user": {
+            "full_name": "Casey Vance",
+            "email": "casey.vance004@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-01T20:28:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0005",
+        "_source": {
+          "user": {
+            "full_name": "Riley Vance",
+            "email": "riley.vance005@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-01T23:35:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0006",
+        "_source": {
+          "user": {
+            "full_name": "Avery Vance",
+            "email": "avery.vance006@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-02T02:42:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0007",
+        "_source": {
+          "user": {
+            "full_name": "Sam Vance",
+            "email": "sam.vance007@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-02T05:49:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0008",
+        "_source": {
+          "user": {
+            "full_name": "Jamie Vance",
+            "email": "jamie.vance008@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-02T08:56:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0009",
+        "_source": {
+          "user": {
+            "full_name": "Dakota Vance",
+            "email": "dakota.vance009@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-02T11:03:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0010",
+        "_source": {
+          "user": {
+            "full_name": "Quinn Vance",
+            "email": "quinn.vance010@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-02T14:10:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0011",
+        "_source": {
+          "user": {
+            "full_name": "Reese Vance",
+            "email": "reese.vance011@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-02T17:17:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0012",
+        "_source": {
+          "user": {
+            "full_name": "Rowan Vance",
+            "email": "rowan.vance012@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-02T20:24:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0013",
+        "_source": {
+          "user": {
+            "full_name": "Skyler Vance",
+            "email": "skyler.vance013@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-02T23:31:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0014",
+        "_source": {
+          "user": {
+            "full_name": "Kendall Vance",
+            "email": "kendall.vance014@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-03T02:38:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0015",
+        "_source": {
+          "user": {
+            "full_name": "Hayden Vance",
+            "email": "hayden.vance015@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-03T05:45:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0016",
+        "_source": {
+          "user": {
+            "full_name": "Finley Vance",
+            "email": "finley.vance016@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-03T08:52:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0017",
+        "_source": {
+          "user": {
+            "full_name": "Emerson Vance",
+            "email": "emerson.vance017@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-03T11:59:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0018",
+        "_source": {
+          "user": {
+            "full_name": "Adrian Vance",
+            "email": "adrian.vance018@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-03T14:06:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0019",
+        "_source": {
+          "user": {
+            "full_name": "Cameron Vance",
+            "email": "cameron.vance019@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-03T17:13:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0020",
+        "_source": {
+          "user": {
+            "full_name": "Alex Mercer",
+            "email": "alex.mercer020@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-03T20:20:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0021",
+        "_source": {
+          "user": {
+            "full_name": "Morgan Mercer",
+            "email": "morgan.mercer021@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-03T23:27:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0022",
+        "_source": {
+          "user": {
+            "full_name": "Jordan Mercer",
+            "email": "jordan.mercer022@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-04T02:34:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0023",
+        "_source": {
+          "user": {
+            "full_name": "Taylor Mercer",
+            "email": "taylor.mercer023@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-04T05:41:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0024",
+        "_source": {
+          "user": {
+            "full_name": "Casey Mercer",
+            "email": "casey.mercer024@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-04T08:48:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0025",
+        "_source": {
+          "user": {
+            "full_name": "Riley Mercer",
+            "email": "riley.mercer025@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-04T11:55:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0026",
+        "_source": {
+          "user": {
+            "full_name": "Avery Mercer",
+            "email": "avery.mercer026@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-04T14:02:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0027",
+        "_source": {
+          "user": {
+            "full_name": "Sam Mercer",
+            "email": "sam.mercer027@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-04T17:09:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0028",
+        "_source": {
+          "user": {
+            "full_name": "Jamie Mercer",
+            "email": "jamie.mercer028@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-04T20:16:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0029",
+        "_source": {
+          "user": {
+            "full_name": "Dakota Mercer",
+            "email": "dakota.mercer029@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-04T23:23:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0030",
+        "_source": {
+          "user": {
+            "full_name": "Quinn Mercer",
+            "email": "quinn.mercer030@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-05T02:30:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0031",
+        "_source": {
+          "user": {
+            "full_name": "Reese Mercer",
+            "email": "reese.mercer031@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-05T05:37:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0032",
+        "_source": {
+          "user": {
+            "full_name": "Rowan Mercer",
+            "email": "rowan.mercer032@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-05T08:44:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0033",
+        "_source": {
+          "user": {
+            "full_name": "Skyler Mercer",
+            "email": "skyler.mercer033@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-05T11:51:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0034",
+        "_source": {
+          "user": {
+            "full_name": "Kendall Mercer",
+            "email": "kendall.mercer034@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-05T14:58:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0035",
+        "_source": {
+          "user": {
+            "full_name": "Hayden Mercer",
+            "email": "hayden.mercer035@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-05T17:05:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0036",
+        "_source": {
+          "user": {
+            "full_name": "Finley Mercer",
+            "email": "finley.mercer036@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-05T20:12:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0037",
+        "_source": {
+          "user": {
+            "full_name": "Emerson Mercer",
+            "email": "emerson.mercer037@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-05T23:19:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0038",
+        "_source": {
+          "user": {
+            "full_name": "Adrian Mercer",
+            "email": "adrian.mercer038@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-06T02:26:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0039",
+        "_source": {
+          "user": {
+            "full_name": "Cameron Mercer",
+            "email": "cameron.mercer039@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-06T05:33:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0040",
+        "_source": {
+          "user": {
+            "full_name": "Alex Sterling",
+            "email": "alex.sterling040@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-06T08:40:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0041",
+        "_source": {
+          "user": {
+            "full_name": "Morgan Sterling",
+            "email": "morgan.sterling041@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-06T11:47:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0042",
+        "_source": {
+          "user": {
+            "full_name": "Jordan Sterling",
+            "email": "jordan.sterling042@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-06T14:54:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0043",
+        "_source": {
+          "user": {
+            "full_name": "Taylor Sterling",
+            "email": "taylor.sterling043@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-06T17:01:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0044",
+        "_source": {
+          "user": {
+            "full_name": "Casey Sterling",
+            "email": "casey.sterling044@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-06T20:08:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0045",
+        "_source": {
+          "user": {
+            "full_name": "Riley Sterling",
+            "email": "riley.sterling045@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-06T23:15:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0046",
+        "_source": {
+          "user": {
+            "full_name": "Avery Sterling",
+            "email": "avery.sterling046@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-07T02:22:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0047",
+        "_source": {
+          "user": {
+            "full_name": "Sam Sterling",
+            "email": "sam.sterling047@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-07T05:29:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0048",
+        "_source": {
+          "user": {
+            "full_name": "Jamie Sterling",
+            "email": "jamie.sterling048@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-07T08:36:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0049",
+        "_source": {
+          "user": {
+            "full_name": "Dakota Sterling",
+            "email": "dakota.sterling049@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-07T11:43:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0050",
+        "_source": {
+          "user": {
+            "full_name": "Quinn Sterling",
+            "email": "quinn.sterling050@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-07T14:50:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0051",
+        "_source": {
+          "user": {
+            "full_name": "Reese Sterling",
+            "email": "reese.sterling051@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-07T17:57:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0052",
+        "_source": {
+          "user": {
+            "full_name": "Rowan Sterling",
+            "email": "rowan.sterling052@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-07T20:04:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0053",
+        "_source": {
+          "user": {
+            "full_name": "Skyler Sterling",
+            "email": "skyler.sterling053@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-07T23:11:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0054",
+        "_source": {
+          "user": {
+            "full_name": "Kendall Sterling",
+            "email": "kendall.sterling054@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-08T02:18:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0055",
+        "_source": {
+          "user": {
+            "full_name": "Hayden Sterling",
+            "email": "hayden.sterling055@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-08T05:25:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0056",
+        "_source": {
+          "user": {
+            "full_name": "Finley Sterling",
+            "email": "finley.sterling056@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-08T08:32:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0057",
+        "_source": {
+          "user": {
+            "full_name": "Emerson Sterling",
+            "email": "emerson.sterling057@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-08T11:39:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0058",
+        "_source": {
+          "user": {
+            "full_name": "Adrian Sterling",
+            "email": "adrian.sterling058@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-08T14:46:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0059",
+        "_source": {
+          "user": {
+            "full_name": "Cameron Sterling",
+            "email": "cameron.sterling059@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-08T17:53:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0060",
+        "_source": {
+          "user": {
+            "full_name": "Alex Kowalski",
+            "email": "alex.kowalski060@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-08T20:00:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0061",
+        "_source": {
+          "user": {
+            "full_name": "Morgan Kowalski",
+            "email": "morgan.kowalski061@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-08T23:07:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0062",
+        "_source": {
+          "user": {
+            "full_name": "Jordan Kowalski",
+            "email": "jordan.kowalski062@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-09T02:14:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0063",
+        "_source": {
+          "user": {
+            "full_name": "Taylor Kowalski",
+            "email": "taylor.kowalski063@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-09T05:21:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0064",
+        "_source": {
+          "user": {
+            "full_name": "Casey Kowalski",
+            "email": "casey.kowalski064@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-09T08:28:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0065",
+        "_source": {
+          "user": {
+            "full_name": "Riley Kowalski",
+            "email": "riley.kowalski065@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-09T11:35:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0066",
+        "_source": {
+          "user": {
+            "full_name": "Avery Kowalski",
+            "email": "avery.kowalski066@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-09T14:42:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0067",
+        "_source": {
+          "user": {
+            "full_name": "Sam Kowalski",
+            "email": "sam.kowalski067@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-09T17:49:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0068",
+        "_source": {
+          "user": {
+            "full_name": "Jamie Kowalski",
+            "email": "jamie.kowalski068@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-09T20:56:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0069",
+        "_source": {
+          "user": {
+            "full_name": "Dakota Kowalski",
+            "email": "dakota.kowalski069@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-09T23:03:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0070",
+        "_source": {
+          "user": {
+            "full_name": "Quinn Kowalski",
+            "email": "quinn.kowalski070@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-10T02:10:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0071",
+        "_source": {
+          "user": {
+            "full_name": "Reese Kowalski",
+            "email": "reese.kowalski071@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-10T05:17:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0072",
+        "_source": {
+          "user": {
+            "full_name": "Rowan Kowalski",
+            "email": "rowan.kowalski072@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-10T08:24:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0073",
+        "_source": {
+          "user": {
+            "full_name": "Skyler Kowalski",
+            "email": "skyler.kowalski073@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-10T11:31:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0074",
+        "_source": {
+          "user": {
+            "full_name": "Kendall Kowalski",
+            "email": "kendall.kowalski074@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-10T14:38:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0075",
+        "_source": {
+          "user": {
+            "full_name": "Hayden Kowalski",
+            "email": "hayden.kowalski075@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-10T17:45:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0076",
+        "_source": {
+          "user": {
+            "full_name": "Finley Kowalski",
+            "email": "finley.kowalski076@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-10T20:52:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0077",
+        "_source": {
+          "user": {
+            "full_name": "Emerson Kowalski",
+            "email": "emerson.kowalski077@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-10T23:59:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0078",
+        "_source": {
+          "user": {
+            "full_name": "Adrian Kowalski",
+            "email": "adrian.kowalski078@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-11T02:06:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0079",
+        "_source": {
+          "user": {
+            "full_name": "Cameron Kowalski",
+            "email": "cameron.kowalski079@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-11T05:13:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0080",
+        "_source": {
+          "user": {
+            "full_name": "Alex Chen",
+            "email": "alex.chen080@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-11T08:20:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0081",
+        "_source": {
+          "user": {
+            "full_name": "Morgan Chen",
+            "email": "morgan.chen081@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-11T11:27:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0082",
+        "_source": {
+          "user": {
+            "full_name": "Jordan Chen",
+            "email": "jordan.chen082@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-11T14:34:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0083",
+        "_source": {
+          "user": {
+            "full_name": "Taylor Chen",
+            "email": "taylor.chen083@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-11T17:41:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0084",
+        "_source": {
+          "user": {
+            "full_name": "Casey Chen",
+            "email": "casey.chen084@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-11T20:48:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0085",
+        "_source": {
+          "user": {
+            "full_name": "Riley Chen",
+            "email": "riley.chen085@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-11T23:55:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0086",
+        "_source": {
+          "user": {
+            "full_name": "Avery Chen",
+            "email": "avery.chen086@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-12T02:02:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0087",
+        "_source": {
+          "user": {
+            "full_name": "Sam Chen",
+            "email": "sam.chen087@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-12T05:09:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0088",
+        "_source": {
+          "user": {
+            "full_name": "Jamie Chen",
+            "email": "jamie.chen088@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-12T08:16:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0089",
+        "_source": {
+          "user": {
+            "full_name": "Dakota Chen",
+            "email": "dakota.chen089@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-12T11:23:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0090",
+        "_source": {
+          "user": {
+            "full_name": "Quinn Chen",
+            "email": "quinn.chen090@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-12T14:30:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0091",
+        "_source": {
+          "user": {
+            "full_name": "Reese Chen",
+            "email": "reese.chen091@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-12T17:37:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0092",
+        "_source": {
+          "user": {
+            "full_name": "Rowan Chen",
+            "email": "rowan.chen092@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-12T20:44:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0093",
+        "_source": {
+          "user": {
+            "full_name": "Skyler Chen",
+            "email": "skyler.chen093@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-12T23:51:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0094",
+        "_source": {
+          "user": {
+            "full_name": "Kendall Chen",
+            "email": "kendall.chen094@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-13T02:58:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0095",
+        "_source": {
+          "user": {
+            "full_name": "Hayden Chen",
+            "email": "hayden.chen095@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-13T05:05:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0096",
+        "_source": {
+          "user": {
+            "full_name": "Finley Chen",
+            "email": "finley.chen096@acme-corp.net",
+            "account_status": "SUSPENDED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-13T08:12:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0097",
+        "_source": {
+          "user": {
+            "full_name": "Emerson Chen",
+            "email": "emerson.chen097@globex-sec.io",
+            "account_status": "PENDING_VERIFICATION",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-13T11:19:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0098",
+        "_source": {
+          "user": {
+            "full_name": "Adrian Chen",
+            "email": "adrian.chen098@synthetix.org",
+            "account_status": "ENABLED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-13T14:26:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0099",
+        "_source": {
+          "user": {
+            "full_name": "Cameron Chen",
+            "email": "cameron.chen099@enterprise.cloud",
+            "account_status": "LOCKED",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-13T17:33:00Z"
+        }
+      },
+      {
+        "_id": "usr-elas-0100",
+        "_source": {
+          "user": {
+            "full_name": "Alex Patel",
+            "email": "alex.patel100@cyberforge.internal",
+            "account_status": "ACTIVE",
+            "roles": [
+              "secops",
+              "analyst"
+            ]
+          },
+          "@timestamp": "2026-10-13T20:40:00Z"
+        }
+      }
+    ]
+  }
+}

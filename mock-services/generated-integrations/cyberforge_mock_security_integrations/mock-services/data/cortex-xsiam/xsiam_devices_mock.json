@@ -1,0 +1,806 @@
+{
+  "reply": {
+    "endpoints": [
+      {
+        "endpoint_id": "dev-cort-0001",
+        "endpoint_name": "srv-cor-0001.corp.internal",
+        "primary_ip": "10.1.1.2",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Morgan Mercer",
+        "last_seen_time": "2026-10-15T11:11:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0002",
+        "endpoint_name": "sec-cor-0002.corp.internal",
+        "primary_ip": "10.1.1.3",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Jordan Sterling",
+        "last_seen_time": "2026-10-15T13:22:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0003",
+        "endpoint_name": "db-cor-0003.corp.internal",
+        "primary_ip": "10.1.1.4",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Taylor Kowalski",
+        "last_seen_time": "2026-10-15T15:33:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0004",
+        "endpoint_name": "app-cor-0004.corp.internal",
+        "primary_ip": "10.1.1.5",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Casey Chen",
+        "last_seen_time": "2026-10-15T17:44:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0005",
+        "endpoint_name": "gw-cor-0005.corp.internal",
+        "primary_ip": "10.1.1.6",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Riley Patel",
+        "last_seen_time": "2026-10-15T19:55:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0006",
+        "endpoint_name": "edge-cor-0006.corp.internal",
+        "primary_ip": "10.1.1.7",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Avery Thorne",
+        "last_seen_time": "2026-10-15T21:06:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0007",
+        "endpoint_name": "k8s-node-cor-0007.corp.internal",
+        "primary_ip": "10.1.1.8",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Sam Blackwood",
+        "last_seen_time": "2026-10-15T23:17:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0008",
+        "endpoint_name": "bastion-cor-0008.corp.internal",
+        "primary_ip": "10.1.1.9",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": "Jamie Frost",
+        "last_seen_time": "2026-10-16T01:28:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0009",
+        "endpoint_name": "proxy-cor-0009.corp.internal",
+        "primary_ip": "10.1.1.10",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Dakota Sinclair",
+        "last_seen_time": "2026-10-16T03:39:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0010",
+        "endpoint_name": "wrk-cor-0010.corp.internal",
+        "primary_ip": "10.1.1.11",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Quinn Hawthorne",
+        "last_seen_time": "2026-10-16T05:50:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0011",
+        "endpoint_name": "srv-cor-0011.corp.internal",
+        "primary_ip": "10.1.1.12",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Reese Delgado",
+        "last_seen_time": "2026-10-16T07:01:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0012",
+        "endpoint_name": "sec-cor-0012.corp.internal",
+        "primary_ip": "10.1.1.13",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Rowan Winter",
+        "last_seen_time": "2026-10-16T09:12:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0013",
+        "endpoint_name": "db-cor-0013.corp.internal",
+        "primary_ip": "10.1.1.14",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Skyler Carrington",
+        "last_seen_time": "2026-10-16T11:23:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0014",
+        "endpoint_name": "app-cor-0014.corp.internal",
+        "primary_ip": "10.1.1.15",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Kendall O'Connor",
+        "last_seen_time": "2026-10-16T13:34:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0015",
+        "endpoint_name": "gw-cor-0015.corp.internal",
+        "primary_ip": "10.1.1.16",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Hayden Novak",
+        "last_seen_time": "2026-10-16T15:45:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0016",
+        "endpoint_name": "edge-cor-0016.corp.internal",
+        "primary_ip": "10.1.2.17",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": "Finley Reyes",
+        "last_seen_time": "2026-10-16T17:56:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0017",
+        "endpoint_name": "k8s-node-cor-0017.corp.internal",
+        "primary_ip": "10.1.2.18",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Emerson Yoshida",
+        "last_seen_time": "2026-10-16T19:07:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0018",
+        "endpoint_name": "bastion-cor-0018.corp.internal",
+        "primary_ip": "10.1.2.19",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Adrian Lindqvist",
+        "last_seen_time": "2026-10-16T21:18:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0019",
+        "endpoint_name": "proxy-cor-0019.corp.internal",
+        "primary_ip": "10.1.2.20",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Cameron Nakamura",
+        "last_seen_time": "2026-10-16T23:29:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0020",
+        "endpoint_name": "wrk-cor-0020.corp.internal",
+        "primary_ip": "10.1.2.21",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Alex Vance",
+        "last_seen_time": "2026-10-17T01:40:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0021",
+        "endpoint_name": "srv-cor-0021.corp.internal",
+        "primary_ip": "10.1.2.22",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Morgan Mercer",
+        "last_seen_time": "2026-10-17T03:51:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0022",
+        "endpoint_name": "sec-cor-0022.corp.internal",
+        "primary_ip": "10.1.2.23",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Jordan Sterling",
+        "last_seen_time": "2026-10-17T05:02:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0023",
+        "endpoint_name": "db-cor-0023.corp.internal",
+        "primary_ip": "10.1.2.24",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Taylor Kowalski",
+        "last_seen_time": "2026-10-17T07:13:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0024",
+        "endpoint_name": "app-cor-0024.corp.internal",
+        "primary_ip": "10.1.2.25",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": "Casey Chen",
+        "last_seen_time": "2026-10-17T09:24:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0025",
+        "endpoint_name": "gw-cor-0025.corp.internal",
+        "primary_ip": "10.1.2.26",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Riley Patel",
+        "last_seen_time": "2026-10-17T11:35:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0026",
+        "endpoint_name": "edge-cor-0026.corp.internal",
+        "primary_ip": "10.1.2.27",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Avery Thorne",
+        "last_seen_time": "2026-10-17T13:46:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0027",
+        "endpoint_name": "k8s-node-cor-0027.corp.internal",
+        "primary_ip": "10.1.2.28",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Sam Blackwood",
+        "last_seen_time": "2026-10-17T15:57:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0028",
+        "endpoint_name": "bastion-cor-0028.corp.internal",
+        "primary_ip": "10.1.2.29",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Jamie Frost",
+        "last_seen_time": "2026-10-17T17:08:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0029",
+        "endpoint_name": "proxy-cor-0029.corp.internal",
+        "primary_ip": "10.1.2.30",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Dakota Sinclair",
+        "last_seen_time": "2026-10-17T19:19:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0030",
+        "endpoint_name": "wrk-cor-0030.corp.internal",
+        "primary_ip": "10.1.2.31",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Quinn Hawthorne",
+        "last_seen_time": "2026-10-17T21:30:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0031",
+        "endpoint_name": "srv-cor-0031.corp.internal",
+        "primary_ip": "10.1.2.32",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Reese Delgado",
+        "last_seen_time": "2026-10-17T23:41:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0032",
+        "endpoint_name": "sec-cor-0032.corp.internal",
+        "primary_ip": "10.1.3.33",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": "Rowan Winter",
+        "last_seen_time": "2026-10-18T01:52:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0033",
+        "endpoint_name": "db-cor-0033.corp.internal",
+        "primary_ip": "10.1.3.34",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Skyler Carrington",
+        "last_seen_time": "2026-10-18T03:03:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0034",
+        "endpoint_name": "app-cor-0034.corp.internal",
+        "primary_ip": "10.1.3.35",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Kendall O'Connor",
+        "last_seen_time": "2026-10-18T05:14:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0035",
+        "endpoint_name": "gw-cor-0035.corp.internal",
+        "primary_ip": "10.1.3.36",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Hayden Novak",
+        "last_seen_time": "2026-10-18T07:25:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0036",
+        "endpoint_name": "edge-cor-0036.corp.internal",
+        "primary_ip": "10.1.3.37",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Finley Reyes",
+        "last_seen_time": "2026-10-18T09:36:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0037",
+        "endpoint_name": "k8s-node-cor-0037.corp.internal",
+        "primary_ip": "10.1.3.38",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Emerson Yoshida",
+        "last_seen_time": "2026-10-18T11:47:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0038",
+        "endpoint_name": "bastion-cor-0038.corp.internal",
+        "primary_ip": "10.1.3.39",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Adrian Lindqvist",
+        "last_seen_time": "2026-10-18T13:58:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0039",
+        "endpoint_name": "proxy-cor-0039.corp.internal",
+        "primary_ip": "10.1.3.40",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Cameron Nakamura",
+        "last_seen_time": "2026-10-18T15:09:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0040",
+        "endpoint_name": "wrk-cor-0040.corp.internal",
+        "primary_ip": "10.1.3.41",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": "Alex Vance",
+        "last_seen_time": "2026-10-18T17:20:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0041",
+        "endpoint_name": "srv-cor-0041.corp.internal",
+        "primary_ip": "10.1.3.42",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Morgan Mercer",
+        "last_seen_time": "2026-10-18T19:31:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0042",
+        "endpoint_name": "sec-cor-0042.corp.internal",
+        "primary_ip": "10.1.3.43",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Jordan Sterling",
+        "last_seen_time": "2026-10-18T21:42:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0043",
+        "endpoint_name": "db-cor-0043.corp.internal",
+        "primary_ip": "10.1.3.44",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Taylor Kowalski",
+        "last_seen_time": "2026-10-18T23:53:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0044",
+        "endpoint_name": "app-cor-0044.corp.internal",
+        "primary_ip": "10.1.3.45",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Casey Chen",
+        "last_seen_time": "2026-10-19T01:04:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0045",
+        "endpoint_name": "gw-cor-0045.corp.internal",
+        "primary_ip": "10.1.3.46",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Riley Patel",
+        "last_seen_time": "2026-10-19T03:15:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0046",
+        "endpoint_name": "edge-cor-0046.corp.internal",
+        "primary_ip": "10.1.3.47",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Avery Thorne",
+        "last_seen_time": "2026-10-19T05:26:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0047",
+        "endpoint_name": "k8s-node-cor-0047.corp.internal",
+        "primary_ip": "10.1.3.48",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Sam Blackwood",
+        "last_seen_time": "2026-10-19T07:37:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0048",
+        "endpoint_name": "bastion-cor-0048.corp.internal",
+        "primary_ip": "10.1.4.49",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": "Jamie Frost",
+        "last_seen_time": "2026-10-19T09:48:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0049",
+        "endpoint_name": "proxy-cor-0049.corp.internal",
+        "primary_ip": "10.1.4.50",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Dakota Sinclair",
+        "last_seen_time": "2026-10-19T11:59:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0050",
+        "endpoint_name": "wrk-cor-0050.corp.internal",
+        "primary_ip": "10.1.4.51",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Quinn Hawthorne",
+        "last_seen_time": "2026-10-19T13:10:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0051",
+        "endpoint_name": "srv-cor-0051.corp.internal",
+        "primary_ip": "10.1.4.52",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Reese Delgado",
+        "last_seen_time": "2026-10-19T15:21:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0052",
+        "endpoint_name": "sec-cor-0052.corp.internal",
+        "primary_ip": "10.1.4.53",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Rowan Winter",
+        "last_seen_time": "2026-10-19T17:32:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0053",
+        "endpoint_name": "db-cor-0053.corp.internal",
+        "primary_ip": "10.1.4.54",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Skyler Carrington",
+        "last_seen_time": "2026-10-19T19:43:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0054",
+        "endpoint_name": "app-cor-0054.corp.internal",
+        "primary_ip": "10.1.4.55",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Kendall O'Connor",
+        "last_seen_time": "2026-10-19T21:54:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0055",
+        "endpoint_name": "gw-cor-0055.corp.internal",
+        "primary_ip": "10.1.4.56",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Hayden Novak",
+        "last_seen_time": "2026-10-19T23:05:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0056",
+        "endpoint_name": "edge-cor-0056.corp.internal",
+        "primary_ip": "10.1.4.57",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": "Finley Reyes",
+        "last_seen_time": "2026-10-20T01:16:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0057",
+        "endpoint_name": "k8s-node-cor-0057.corp.internal",
+        "primary_ip": "10.1.4.58",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Emerson Yoshida",
+        "last_seen_time": "2026-10-20T03:27:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0058",
+        "endpoint_name": "bastion-cor-0058.corp.internal",
+        "primary_ip": "10.1.4.59",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Adrian Lindqvist",
+        "last_seen_time": "2026-10-20T05:38:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0059",
+        "endpoint_name": "proxy-cor-0059.corp.internal",
+        "primary_ip": "10.1.4.60",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Cameron Nakamura",
+        "last_seen_time": "2026-10-20T07:49:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0060",
+        "endpoint_name": "wrk-cor-0060.corp.internal",
+        "primary_ip": "10.1.4.61",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Alex Vance",
+        "last_seen_time": "2026-10-20T09:00:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0061",
+        "endpoint_name": "srv-cor-0061.corp.internal",
+        "primary_ip": "10.1.4.62",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Morgan Mercer",
+        "last_seen_time": "2026-10-20T11:11:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0062",
+        "endpoint_name": "sec-cor-0062.corp.internal",
+        "primary_ip": "10.1.4.63",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Jordan Sterling",
+        "last_seen_time": "2026-10-20T13:22:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0063",
+        "endpoint_name": "db-cor-0063.corp.internal",
+        "primary_ip": "10.1.4.64",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Taylor Kowalski",
+        "last_seen_time": "2026-10-20T15:33:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0064",
+        "endpoint_name": "app-cor-0064.corp.internal",
+        "primary_ip": "10.1.5.65",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": "Casey Chen",
+        "last_seen_time": "2026-10-20T17:44:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0065",
+        "endpoint_name": "gw-cor-0065.corp.internal",
+        "primary_ip": "10.1.5.66",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Riley Patel",
+        "last_seen_time": "2026-10-20T19:55:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0066",
+        "endpoint_name": "edge-cor-0066.corp.internal",
+        "primary_ip": "10.1.5.67",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Avery Thorne",
+        "last_seen_time": "2026-10-20T21:06:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0067",
+        "endpoint_name": "k8s-node-cor-0067.corp.internal",
+        "primary_ip": "10.1.5.68",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Sam Blackwood",
+        "last_seen_time": "2026-10-20T23:17:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0068",
+        "endpoint_name": "bastion-cor-0068.corp.internal",
+        "primary_ip": "10.1.5.69",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Jamie Frost",
+        "last_seen_time": "2026-10-21T01:28:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0069",
+        "endpoint_name": "proxy-cor-0069.corp.internal",
+        "primary_ip": "10.1.5.70",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Dakota Sinclair",
+        "last_seen_time": "2026-10-21T03:39:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0070",
+        "endpoint_name": "wrk-cor-0070.corp.internal",
+        "primary_ip": "10.1.5.71",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Quinn Hawthorne",
+        "last_seen_time": "2026-10-21T05:50:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0071",
+        "endpoint_name": "srv-cor-0071.corp.internal",
+        "primary_ip": "10.1.5.72",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Reese Delgado",
+        "last_seen_time": "2026-10-21T07:01:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0072",
+        "endpoint_name": "sec-cor-0072.corp.internal",
+        "primary_ip": "10.1.5.73",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": "Rowan Winter",
+        "last_seen_time": "2026-10-21T09:12:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0073",
+        "endpoint_name": "db-cor-0073.corp.internal",
+        "primary_ip": "10.1.5.74",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Skyler Carrington",
+        "last_seen_time": "2026-10-21T11:23:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0074",
+        "endpoint_name": "app-cor-0074.corp.internal",
+        "primary_ip": "10.1.5.75",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Kendall O'Connor",
+        "last_seen_time": "2026-10-21T13:34:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0075",
+        "endpoint_name": "gw-cor-0075.corp.internal",
+        "primary_ip": "10.1.5.76",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Hayden Novak",
+        "last_seen_time": "2026-10-21T15:45:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0076",
+        "endpoint_name": "edge-cor-0076.corp.internal",
+        "primary_ip": "10.1.5.77",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Finley Reyes",
+        "last_seen_time": "2026-10-21T17:56:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0077",
+        "endpoint_name": "k8s-node-cor-0077.corp.internal",
+        "primary_ip": "10.1.5.78",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Emerson Yoshida",
+        "last_seen_time": "2026-10-21T19:07:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0078",
+        "endpoint_name": "bastion-cor-0078.corp.internal",
+        "primary_ip": "10.1.5.79",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Adrian Lindqvist",
+        "last_seen_time": "2026-10-21T21:18:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0079",
+        "endpoint_name": "proxy-cor-0079.corp.internal",
+        "primary_ip": "10.1.5.80",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Cameron Nakamura",
+        "last_seen_time": "2026-10-21T23:29:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0080",
+        "endpoint_name": "wrk-cor-0080.corp.internal",
+        "primary_ip": "10.1.6.81",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": "Alex Vance",
+        "last_seen_time": "2026-10-22T01:40:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0081",
+        "endpoint_name": "srv-cor-0081.corp.internal",
+        "primary_ip": "10.1.6.82",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Morgan Mercer",
+        "last_seen_time": "2026-10-22T03:51:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0082",
+        "endpoint_name": "sec-cor-0082.corp.internal",
+        "primary_ip": "10.1.6.83",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Jordan Sterling",
+        "last_seen_time": "2026-10-22T05:02:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0083",
+        "endpoint_name": "db-cor-0083.corp.internal",
+        "primary_ip": "10.1.6.84",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Taylor Kowalski",
+        "last_seen_time": "2026-10-22T07:13:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0084",
+        "endpoint_name": "app-cor-0084.corp.internal",
+        "primary_ip": "10.1.6.85",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Casey Chen",
+        "last_seen_time": "2026-10-22T09:24:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0085",
+        "endpoint_name": "gw-cor-0085.corp.internal",
+        "primary_ip": "10.1.6.86",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Riley Patel",
+        "last_seen_time": "2026-10-22T11:35:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0086",
+        "endpoint_name": "edge-cor-0086.corp.internal",
+        "primary_ip": "10.1.6.87",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Avery Thorne",
+        "last_seen_time": "2026-10-22T13:46:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0087",
+        "endpoint_name": "k8s-node-cor-0087.corp.internal",
+        "primary_ip": "10.1.6.88",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Sam Blackwood",
+        "last_seen_time": "2026-10-22T15:57:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0088",
+        "endpoint_name": "bastion-cor-0088.corp.internal",
+        "primary_ip": "10.1.6.89",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": "Jamie Frost",
+        "last_seen_time": "2026-10-22T17:08:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0089",
+        "endpoint_name": "proxy-cor-0089.corp.internal",
+        "primary_ip": "10.1.6.90",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Dakota Sinclair",
+        "last_seen_time": "2026-10-22T19:19:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0090",
+        "endpoint_name": "wrk-cor-0090.corp.internal",
+        "primary_ip": "10.1.6.91",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Quinn Hawthorne",
+        "last_seen_time": "2026-10-22T21:30:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0091",
+        "endpoint_name": "srv-cor-0091.corp.internal",
+        "primary_ip": "10.1.6.92",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Reese Delgado",
+        "last_seen_time": "2026-10-22T23:41:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0092",
+        "endpoint_name": "sec-cor-0092.corp.internal",
+        "primary_ip": "10.1.6.93",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Rowan Winter",
+        "last_seen_time": "2026-10-23T01:52:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0093",
+        "endpoint_name": "db-cor-0093.corp.internal",
+        "primary_ip": "10.1.6.94",
+        "os_type": "Debian GNU/Linux 12 (bookworm)",
+        "assigned_analyst": "Skyler Carrington",
+        "last_seen_time": "2026-10-23T03:03:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0094",
+        "endpoint_name": "app-cor-0094.corp.internal",
+        "primary_ip": "10.1.6.95",
+        "os_type": "Alpine Linux 3.18",
+        "assigned_analyst": "Kendall O'Connor",
+        "last_seen_time": "2026-10-23T05:14:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0095",
+        "endpoint_name": "gw-cor-0095.corp.internal",
+        "primary_ip": "10.1.6.96",
+        "os_type": "Amazon Linux 2023.2",
+        "assigned_analyst": "Hayden Novak",
+        "last_seen_time": "2026-10-23T07:25:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0096",
+        "endpoint_name": "edge-cor-0096.corp.internal",
+        "primary_ip": "10.1.7.97",
+        "os_type": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "assigned_analyst": "Finley Reyes",
+        "last_seen_time": "2026-10-23T09:36:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0097",
+        "endpoint_name": "k8s-node-cor-0097.corp.internal",
+        "primary_ip": "10.1.7.98",
+        "os_type": "Red Hat Enterprise Linux 9.2",
+        "assigned_analyst": "Emerson Yoshida",
+        "last_seen_time": "2026-10-23T11:47:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0098",
+        "endpoint_name": "bastion-cor-0098.corp.internal",
+        "primary_ip": "10.1.7.99",
+        "os_type": "Windows Server 2022 Datacenter",
+        "assigned_analyst": "Adrian Lindqvist",
+        "last_seen_time": "2026-10-23T13:58:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0099",
+        "endpoint_name": "proxy-cor-0099.corp.internal",
+        "primary_ip": "10.1.7.100",
+        "os_type": "Windows 11 Enterprise (22H2)",
+        "assigned_analyst": "Cameron Nakamura",
+        "last_seen_time": "2026-10-23T15:09:00Z"
+      },
+      {
+        "endpoint_id": "dev-cort-0100",
+        "endpoint_name": "wrk-cor-0100.corp.internal",
+        "primary_ip": "10.1.7.101",
+        "os_type": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "assigned_analyst": "Alex Vance",
+        "last_seen_time": "2026-10-23T17:20:00Z"
+      }
+    ]
+  }
+}

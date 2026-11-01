@@ -1,0 +1,20 @@
+vendor: Cisco Secure Firewall
+users:
+  id: uuid
+  name: fullname
+  email: mail
+  status: state
+  last_login: login_timestamp
+devices:
+  id: deviceId
+  hostname: networkNodeName
+  ip: ipv4Address
+  os: softwarePlatform
+  owner: adminContact
+  last_seen: heartbeatTimestamp
+events:
+  id: eventId
+  type: threatCategory
+  severity: priorityScore
+  timestamp: eventOccurredTime
+  description: ruleActionDetails

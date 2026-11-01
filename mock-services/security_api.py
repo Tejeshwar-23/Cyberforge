@@ -1,11 +1,14 @@
 from fastapi import FastAPI, Header, Response
 from fastapi.responses import JSONResponse
+from generated_mock_router import router as generated_mock_router
 
 
 app = FastAPI(
     title="CyberForge Mock Security API",
     version="1.0.0",
 )
+
+app.include_router(generated_mock_router)
 
 
 state = {

@@ -1,0 +1,34 @@
+version: '1.0'
+name: crowdstrike-cloud-security-users
+base_url: http://127.0.0.1:9001
+auth:
+  type: bearer
+  secret_ref: CROWDSTRIKE_BEARER_TOKEN
+endpoint:
+  method: GET
+  path: /mock/crowdstrike-cloud-security/users
+  query_params: {}
+response:
+  format: json
+  records_path: resources
+pagination:
+  type: offset
+  offset_param: offset
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: last_active_timestamp
+mapping:
+  entity: user
+  fields:
+    id: uid
+    name: real_name
+    email: primary_email
+    status: profile_state
+    last_login: last_active_timestamp
+enabled: false

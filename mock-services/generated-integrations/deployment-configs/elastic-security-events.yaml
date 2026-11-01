@@ -1,0 +1,36 @@
+version: '1.0'
+name: elastic-security-events
+base_url: http://127.0.0.1:9001
+auth:
+  type: basic
+  username_ref: ELASTIC_USERNAME
+  password_ref: ELASTIC_PASSWORD
+endpoint:
+  method: GET
+  path: /mock/elastic-security/events
+  query_params: {}
+response:
+  format: json
+  records_path: hits.hits
+pagination:
+  type: page
+  page_param: page
+  start_page: 1
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: _source.@timestamp
+mapping:
+  entity: event
+  fields:
+    id: _id
+    type: _source.event.category
+    severity: _source.kibana.alert.severity
+    timestamp: _source.@timestamp
+    description: _source.message
+enabled: false

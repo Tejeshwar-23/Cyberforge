@@ -1,0 +1,904 @@
+{
+  "resources": [
+    {
+      "device_id": "dev-crow-0001",
+      "device_hostname": "srv-cro-0001.corp.internal",
+      "connection_ip": "10.1.1.2",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Morgan Mercer",
+      "last_behavior_timestamp": "2026-10-15T11:11:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0002",
+      "device_hostname": "sec-cro-0002.corp.internal",
+      "connection_ip": "10.1.1.3",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Jordan Sterling",
+      "last_behavior_timestamp": "2026-10-15T13:22:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0003",
+      "device_hostname": "db-cro-0003.corp.internal",
+      "connection_ip": "10.1.1.4",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Taylor Kowalski",
+      "last_behavior_timestamp": "2026-10-15T15:33:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0004",
+      "device_hostname": "app-cro-0004.corp.internal",
+      "connection_ip": "10.1.1.5",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Casey Chen",
+      "last_behavior_timestamp": "2026-10-15T17:44:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0005",
+      "device_hostname": "gw-cro-0005.corp.internal",
+      "connection_ip": "10.1.1.6",
+      "os_build": "Debian GNU/Linux 12 (bookworm)",
+      "assigned_to": "Riley Patel",
+      "last_behavior_timestamp": "2026-10-15T19:55:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0006",
+      "device_hostname": "edge-cro-0006.corp.internal",
+      "connection_ip": "10.1.1.7",
+      "os_build": "Alpine Linux 3.18",
+      "assigned_to": "Avery Thorne",
+      "last_behavior_timestamp": "2026-10-15T21:06:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0007",
+      "device_hostname": "k8s-node-cro-0007.corp.internal",
+      "connection_ip": "10.1.1.8",
+      "os_build": "Amazon Linux 2023.2",
+      "assigned_to": "Sam Blackwood",
+      "last_behavior_timestamp": "2026-10-15T23:17:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0008",
+      "device_hostname": "bastion-cro-0008.corp.internal",
+      "connection_ip": "10.1.1.9",
+      "os_build": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "assigned_to": "Jamie Frost",
+      "last_behavior_timestamp": "2026-10-16T01:28:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0009",
+      "device_hostname": "proxy-cro-0009.corp.internal",
+      "connection_ip": "10.1.1.10",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Dakota Sinclair",
+      "last_behavior_timestamp": "2026-10-16T03:39:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0010",
+      "device_hostname": "wrk-cro-0010.corp.internal",
+      "connection_ip": "10.1.1.11",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Quinn Hawthorne",
+      "last_behavior_timestamp": "2026-10-16T05:50:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0011",
+      "device_hostname": "srv-cro-0011.corp.internal",
+      "connection_ip": "10.1.1.12",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Reese Delgado",
+      "last_behavior_timestamp": "2026-10-16T07:01:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0012",
+      "device_hostname": "sec-cro-0012.corp.internal",
+      "connection_ip": "10.1.1.13",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Rowan Winter",
+      "last_behavior_timestamp": "2026-10-16T09:12:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0013",
+      "device_hostname": "db-cro-0013.corp.internal",
+      "connection_ip": "10.1.1.14",
+      "os_build": "Debian GNU/Linux 12 (bookworm)",
+      "assigned_to": "Skyler Carrington",
+      "last_behavior_timestamp": "2026-10-16T11:23:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0014",
+      "device_hostname": "app-cro-0014.corp.internal",
+      "connection_ip": "10.1.1.15",
+      "os_build": "Alpine Linux 3.18",
+      "assigned_to": "Kendall O'Connor",
+      "last_behavior_timestamp": "2026-10-16T13:34:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0015",
+      "device_hostname": "gw-cro-0015.corp.internal",
+      "connection_ip": "10.1.1.16",
+      "os_build": "Amazon Linux 2023.2",
+      "assigned_to": "Hayden Novak",
+      "last_behavior_timestamp": "2026-10-16T15:45:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0016",
+      "device_hostname": "edge-cro-0016.corp.internal",
+      "connection_ip": "10.1.2.17",
+      "os_build": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "assigned_to": "Finley Reyes",
+      "last_behavior_timestamp": "2026-10-16T17:56:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0017",
+      "device_hostname": "k8s-node-cro-0017.corp.internal",
+      "connection_ip": "10.1.2.18",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Emerson Yoshida",
+      "last_behavior_timestamp": "2026-10-16T19:07:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0018",
+      "device_hostname": "bastion-cro-0018.corp.internal",
+      "connection_ip": "10.1.2.19",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Adrian Lindqvist",
+      "last_behavior_timestamp": "2026-10-16T21:18:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0019",
+      "device_hostname": "proxy-cro-0019.corp.internal",
+      "connection_ip": "10.1.2.20",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Cameron Nakamura",
+      "last_behavior_timestamp": "2026-10-16T23:29:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0020",
+      "device_hostname": "wrk-cro-0020.corp.internal",
+      "connection_ip": "10.1.2.21",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Alex Vance",
+      "last_behavior_timestamp": "2026-10-17T01:40:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0021",
+      "device_hostname": "srv-cro-0021.corp.internal",
+      "connection_ip": "10.1.2.22",
+      "os_build": "Debian GNU/Linux 12 (bookworm)",
+      "assigned_to": "Morgan Mercer",
+      "last_behavior_timestamp": "2026-10-17T03:51:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0022",
+      "device_hostname": "sec-cro-0022.corp.internal",
+      "connection_ip": "10.1.2.23",
+      "os_build": "Alpine Linux 3.18",
+      "assigned_to": "Jordan Sterling",
+      "last_behavior_timestamp": "2026-10-17T05:02:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0023",
+      "device_hostname": "db-cro-0023.corp.internal",
+      "connection_ip": "10.1.2.24",
+      "os_build": "Amazon Linux 2023.2",
+      "assigned_to": "Taylor Kowalski",
+      "last_behavior_timestamp": "2026-10-17T07:13:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0024",
+      "device_hostname": "app-cro-0024.corp.internal",
+      "connection_ip": "10.1.2.25",
+      "os_build": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "assigned_to": "Casey Chen",
+      "last_behavior_timestamp": "2026-10-17T09:24:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0025",
+      "device_hostname": "gw-cro-0025.corp.internal",
+      "connection_ip": "10.1.2.26",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Riley Patel",
+      "last_behavior_timestamp": "2026-10-17T11:35:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0026",
+      "device_hostname": "edge-cro-0026.corp.internal",
+      "connection_ip": "10.1.2.27",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Avery Thorne",
+      "last_behavior_timestamp": "2026-10-17T13:46:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0027",
+      "device_hostname": "k8s-node-cro-0027.corp.internal",
+      "connection_ip": "10.1.2.28",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Sam Blackwood",
+      "last_behavior_timestamp": "2026-10-17T15:57:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0028",
+      "device_hostname": "bastion-cro-0028.corp.internal",
+      "connection_ip": "10.1.2.29",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Jamie Frost",
+      "last_behavior_timestamp": "2026-10-17T17:08:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0029",
+      "device_hostname": "proxy-cro-0029.corp.internal",
+      "connection_ip": "10.1.2.30",
+      "os_build": "Debian GNU/Linux 12 (bookworm)",
+      "assigned_to": "Dakota Sinclair",
+      "last_behavior_timestamp": "2026-10-17T19:19:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0030",
+      "device_hostname": "wrk-cro-0030.corp.internal",
+      "connection_ip": "10.1.2.31",
+      "os_build": "Alpine Linux 3.18",
+      "assigned_to": "Quinn Hawthorne",
+      "last_behavior_timestamp": "2026-10-17T21:30:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0031",
+      "device_hostname": "srv-cro-0031.corp.internal",
+      "connection_ip": "10.1.2.32",
+      "os_build": "Amazon Linux 2023.2",
+      "assigned_to": "Reese Delgado",
+      "last_behavior_timestamp": "2026-10-17T23:41:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0032",
+      "device_hostname": "sec-cro-0032.corp.internal",
+      "connection_ip": "10.1.3.33",
+      "os_build": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "assigned_to": "Rowan Winter",
+      "last_behavior_timestamp": "2026-10-18T01:52:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0033",
+      "device_hostname": "db-cro-0033.corp.internal",
+      "connection_ip": "10.1.3.34",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Skyler Carrington",
+      "last_behavior_timestamp": "2026-10-18T03:03:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0034",
+      "device_hostname": "app-cro-0034.corp.internal",
+      "connection_ip": "10.1.3.35",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Kendall O'Connor",
+      "last_behavior_timestamp": "2026-10-18T05:14:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0035",
+      "device_hostname": "gw-cro-0035.corp.internal",
+      "connection_ip": "10.1.3.36",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Hayden Novak",
+      "last_behavior_timestamp": "2026-10-18T07:25:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0036",
+      "device_hostname": "edge-cro-0036.corp.internal",
+      "connection_ip": "10.1.3.37",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Finley Reyes",
+      "last_behavior_timestamp": "2026-10-18T09:36:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0037",
+      "device_hostname": "k8s-node-cro-0037.corp.internal",
+      "connection_ip": "10.1.3.38",
+      "os_build": "Debian GNU/Linux 12 (bookworm)",
+      "assigned_to": "Emerson Yoshida",
+      "last_behavior_timestamp": "2026-10-18T11:47:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0038",
+      "device_hostname": "bastion-cro-0038.corp.internal",
+      "connection_ip": "10.1.3.39",
+      "os_build": "Alpine Linux 3.18",
+      "assigned_to": "Adrian Lindqvist",
+      "last_behavior_timestamp": "2026-10-18T13:58:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0039",
+      "device_hostname": "proxy-cro-0039.corp.internal",
+      "connection_ip": "10.1.3.40",
+      "os_build": "Amazon Linux 2023.2",
+      "assigned_to": "Cameron Nakamura",
+      "last_behavior_timestamp": "2026-10-18T15:09:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0040",
+      "device_hostname": "wrk-cro-0040.corp.internal",
+      "connection_ip": "10.1.3.41",
+      "os_build": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "assigned_to": "Alex Vance",
+      "last_behavior_timestamp": "2026-10-18T17:20:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0041",
+      "device_hostname": "srv-cro-0041.corp.internal",
+      "connection_ip": "10.1.3.42",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Morgan Mercer",
+      "last_behavior_timestamp": "2026-10-18T19:31:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0042",
+      "device_hostname": "sec-cro-0042.corp.internal",
+      "connection_ip": "10.1.3.43",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Jordan Sterling",
+      "last_behavior_timestamp": "2026-10-18T21:42:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0043",
+      "device_hostname": "db-cro-0043.corp.internal",
+      "connection_ip": "10.1.3.44",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Taylor Kowalski",
+      "last_behavior_timestamp": "2026-10-18T23:53:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0044",
+      "device_hostname": "app-cro-0044.corp.internal",
+      "connection_ip": "10.1.3.45",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Casey Chen",
+      "last_behavior_timestamp": "2026-10-19T01:04:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0045",
+      "device_hostname": "gw-cro-0045.corp.internal",
+      "connection_ip": "10.1.3.46",
+      "os_build": "Debian GNU/Linux 12 (bookworm)",
+      "assigned_to": "Riley Patel",
+      "last_behavior_timestamp": "2026-10-19T03:15:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0046",
+      "device_hostname": "edge-cro-0046.corp.internal",
+      "connection_ip": "10.1.3.47",
+      "os_build": "Alpine Linux 3.18",
+      "assigned_to": "Avery Thorne",
+      "last_behavior_timestamp": "2026-10-19T05:26:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0047",
+      "device_hostname": "k8s-node-cro-0047.corp.internal",
+      "connection_ip": "10.1.3.48",
+      "os_build": "Amazon Linux 2023.2",
+      "assigned_to": "Sam Blackwood",
+      "last_behavior_timestamp": "2026-10-19T07:37:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0048",
+      "device_hostname": "bastion-cro-0048.corp.internal",
+      "connection_ip": "10.1.4.49",
+      "os_build": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "assigned_to": "Jamie Frost",
+      "last_behavior_timestamp": "2026-10-19T09:48:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0049",
+      "device_hostname": "proxy-cro-0049.corp.internal",
+      "connection_ip": "10.1.4.50",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Dakota Sinclair",
+      "last_behavior_timestamp": "2026-10-19T11:59:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0050",
+      "device_hostname": "wrk-cro-0050.corp.internal",
+      "connection_ip": "10.1.4.51",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Quinn Hawthorne",
+      "last_behavior_timestamp": "2026-10-19T13:10:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0051",
+      "device_hostname": "srv-cro-0051.corp.internal",
+      "connection_ip": "10.1.4.52",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Reese Delgado",
+      "last_behavior_timestamp": "2026-10-19T15:21:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0052",
+      "device_hostname": "sec-cro-0052.corp.internal",
+      "connection_ip": "10.1.4.53",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Rowan Winter",
+      "last_behavior_timestamp": "2026-10-19T17:32:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0053",
+      "device_hostname": "db-cro-0053.corp.internal",
+      "connection_ip": "10.1.4.54",
+      "os_build": "Debian GNU/Linux 12 (bookworm)",
+      "assigned_to": "Skyler Carrington",
+      "last_behavior_timestamp": "2026-10-19T19:43:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0054",
+      "device_hostname": "app-cro-0054.corp.internal",
+      "connection_ip": "10.1.4.55",
+      "os_build": "Alpine Linux 3.18",
+      "assigned_to": "Kendall O'Connor",
+      "last_behavior_timestamp": "2026-10-19T21:54:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0055",
+      "device_hostname": "gw-cro-0055.corp.internal",
+      "connection_ip": "10.1.4.56",
+      "os_build": "Amazon Linux 2023.2",
+      "assigned_to": "Hayden Novak",
+      "last_behavior_timestamp": "2026-10-19T23:05:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0056",
+      "device_hostname": "edge-cro-0056.corp.internal",
+      "connection_ip": "10.1.4.57",
+      "os_build": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "assigned_to": "Finley Reyes",
+      "last_behavior_timestamp": "2026-10-20T01:16:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0057",
+      "device_hostname": "k8s-node-cro-0057.corp.internal",
+      "connection_ip": "10.1.4.58",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Emerson Yoshida",
+      "last_behavior_timestamp": "2026-10-20T03:27:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0058",
+      "device_hostname": "bastion-cro-0058.corp.internal",
+      "connection_ip": "10.1.4.59",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Adrian Lindqvist",
+      "last_behavior_timestamp": "2026-10-20T05:38:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0059",
+      "device_hostname": "proxy-cro-0059.corp.internal",
+      "connection_ip": "10.1.4.60",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Cameron Nakamura",
+      "last_behavior_timestamp": "2026-10-20T07:49:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0060",
+      "device_hostname": "wrk-cro-0060.corp.internal",
+      "connection_ip": "10.1.4.61",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Alex Vance",
+      "last_behavior_timestamp": "2026-10-20T09:00:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0061",
+      "device_hostname": "srv-cro-0061.corp.internal",
+      "connection_ip": "10.1.4.62",
+      "os_build": "Debian GNU/Linux 12 (bookworm)",
+      "assigned_to": "Morgan Mercer",
+      "last_behavior_timestamp": "2026-10-20T11:11:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0062",
+      "device_hostname": "sec-cro-0062.corp.internal",
+      "connection_ip": "10.1.4.63",
+      "os_build": "Alpine Linux 3.18",
+      "assigned_to": "Jordan Sterling",
+      "last_behavior_timestamp": "2026-10-20T13:22:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0063",
+      "device_hostname": "db-cro-0063.corp.internal",
+      "connection_ip": "10.1.4.64",
+      "os_build": "Amazon Linux 2023.2",
+      "assigned_to": "Taylor Kowalski",
+      "last_behavior_timestamp": "2026-10-20T15:33:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0064",
+      "device_hostname": "app-cro-0064.corp.internal",
+      "connection_ip": "10.1.5.65",
+      "os_build": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "assigned_to": "Casey Chen",
+      "last_behavior_timestamp": "2026-10-20T17:44:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0065",
+      "device_hostname": "gw-cro-0065.corp.internal",
+      "connection_ip": "10.1.5.66",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Riley Patel",
+      "last_behavior_timestamp": "2026-10-20T19:55:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0066",
+      "device_hostname": "edge-cro-0066.corp.internal",
+      "connection_ip": "10.1.5.67",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Avery Thorne",
+      "last_behavior_timestamp": "2026-10-20T21:06:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0067",
+      "device_hostname": "k8s-node-cro-0067.corp.internal",
+      "connection_ip": "10.1.5.68",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Sam Blackwood",
+      "last_behavior_timestamp": "2026-10-20T23:17:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0068",
+      "device_hostname": "bastion-cro-0068.corp.internal",
+      "connection_ip": "10.1.5.69",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Jamie Frost",
+      "last_behavior_timestamp": "2026-10-21T01:28:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0069",
+      "device_hostname": "proxy-cro-0069.corp.internal",
+      "connection_ip": "10.1.5.70",
+      "os_build": "Debian GNU/Linux 12 (bookworm)",
+      "assigned_to": "Dakota Sinclair",
+      "last_behavior_timestamp": "2026-10-21T03:39:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0070",
+      "device_hostname": "wrk-cro-0070.corp.internal",
+      "connection_ip": "10.1.5.71",
+      "os_build": "Alpine Linux 3.18",
+      "assigned_to": "Quinn Hawthorne",
+      "last_behavior_timestamp": "2026-10-21T05:50:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0071",
+      "device_hostname": "srv-cro-0071.corp.internal",
+      "connection_ip": "10.1.5.72",
+      "os_build": "Amazon Linux 2023.2",
+      "assigned_to": "Reese Delgado",
+      "last_behavior_timestamp": "2026-10-21T07:01:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0072",
+      "device_hostname": "sec-cro-0072.corp.internal",
+      "connection_ip": "10.1.5.73",
+      "os_build": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "assigned_to": "Rowan Winter",
+      "last_behavior_timestamp": "2026-10-21T09:12:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0073",
+      "device_hostname": "db-cro-0073.corp.internal",
+      "connection_ip": "10.1.5.74",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Skyler Carrington",
+      "last_behavior_timestamp": "2026-10-21T11:23:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0074",
+      "device_hostname": "app-cro-0074.corp.internal",
+      "connection_ip": "10.1.5.75",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Kendall O'Connor",
+      "last_behavior_timestamp": "2026-10-21T13:34:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0075",
+      "device_hostname": "gw-cro-0075.corp.internal",
+      "connection_ip": "10.1.5.76",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Hayden Novak",
+      "last_behavior_timestamp": "2026-10-21T15:45:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0076",
+      "device_hostname": "edge-cro-0076.corp.internal",
+      "connection_ip": "10.1.5.77",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Finley Reyes",
+      "last_behavior_timestamp": "2026-10-21T17:56:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0077",
+      "device_hostname": "k8s-node-cro-0077.corp.internal",
+      "connection_ip": "10.1.5.78",
+      "os_build": "Debian GNU/Linux 12 (bookworm)",
+      "assigned_to": "Emerson Yoshida",
+      "last_behavior_timestamp": "2026-10-21T19:07:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0078",
+      "device_hostname": "bastion-cro-0078.corp.internal",
+      "connection_ip": "10.1.5.79",
+      "os_build": "Alpine Linux 3.18",
+      "assigned_to": "Adrian Lindqvist",
+      "last_behavior_timestamp": "2026-10-21T21:18:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0079",
+      "device_hostname": "proxy-cro-0079.corp.internal",
+      "connection_ip": "10.1.5.80",
+      "os_build": "Amazon Linux 2023.2",
+      "assigned_to": "Cameron Nakamura",
+      "last_behavior_timestamp": "2026-10-21T23:29:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0080",
+      "device_hostname": "wrk-cro-0080.corp.internal",
+      "connection_ip": "10.1.6.81",
+      "os_build": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "assigned_to": "Alex Vance",
+      "last_behavior_timestamp": "2026-10-22T01:40:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0081",
+      "device_hostname": "srv-cro-0081.corp.internal",
+      "connection_ip": "10.1.6.82",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Morgan Mercer",
+      "last_behavior_timestamp": "2026-10-22T03:51:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0082",
+      "device_hostname": "sec-cro-0082.corp.internal",
+      "connection_ip": "10.1.6.83",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Jordan Sterling",
+      "last_behavior_timestamp": "2026-10-22T05:02:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0083",
+      "device_hostname": "db-cro-0083.corp.internal",
+      "connection_ip": "10.1.6.84",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Taylor Kowalski",
+      "last_behavior_timestamp": "2026-10-22T07:13:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0084",
+      "device_hostname": "app-cro-0084.corp.internal",
+      "connection_ip": "10.1.6.85",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Casey Chen",
+      "last_behavior_timestamp": "2026-10-22T09:24:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0085",
+      "device_hostname": "gw-cro-0085.corp.internal",
+      "connection_ip": "10.1.6.86",
+      "os_build": "Debian GNU/Linux 12 (bookworm)",
+      "assigned_to": "Riley Patel",
+      "last_behavior_timestamp": "2026-10-22T11:35:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0086",
+      "device_hostname": "edge-cro-0086.corp.internal",
+      "connection_ip": "10.1.6.87",
+      "os_build": "Alpine Linux 3.18",
+      "assigned_to": "Avery Thorne",
+      "last_behavior_timestamp": "2026-10-22T13:46:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0087",
+      "device_hostname": "k8s-node-cro-0087.corp.internal",
+      "connection_ip": "10.1.6.88",
+      "os_build": "Amazon Linux 2023.2",
+      "assigned_to": "Sam Blackwood",
+      "last_behavior_timestamp": "2026-10-22T15:57:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0088",
+      "device_hostname": "bastion-cro-0088.corp.internal",
+      "connection_ip": "10.1.6.89",
+      "os_build": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "assigned_to": "Jamie Frost",
+      "last_behavior_timestamp": "2026-10-22T17:08:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0089",
+      "device_hostname": "proxy-cro-0089.corp.internal",
+      "connection_ip": "10.1.6.90",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Dakota Sinclair",
+      "last_behavior_timestamp": "2026-10-22T19:19:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0090",
+      "device_hostname": "wrk-cro-0090.corp.internal",
+      "connection_ip": "10.1.6.91",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Quinn Hawthorne",
+      "last_behavior_timestamp": "2026-10-22T21:30:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0091",
+      "device_hostname": "srv-cro-0091.corp.internal",
+      "connection_ip": "10.1.6.92",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Reese Delgado",
+      "last_behavior_timestamp": "2026-10-22T23:41:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0092",
+      "device_hostname": "sec-cro-0092.corp.internal",
+      "connection_ip": "10.1.6.93",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Rowan Winter",
+      "last_behavior_timestamp": "2026-10-23T01:52:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0093",
+      "device_hostname": "db-cro-0093.corp.internal",
+      "connection_ip": "10.1.6.94",
+      "os_build": "Debian GNU/Linux 12 (bookworm)",
+      "assigned_to": "Skyler Carrington",
+      "last_behavior_timestamp": "2026-10-23T03:03:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0094",
+      "device_hostname": "app-cro-0094.corp.internal",
+      "connection_ip": "10.1.6.95",
+      "os_build": "Alpine Linux 3.18",
+      "assigned_to": "Kendall O'Connor",
+      "last_behavior_timestamp": "2026-10-23T05:14:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0095",
+      "device_hostname": "gw-cro-0095.corp.internal",
+      "connection_ip": "10.1.6.96",
+      "os_build": "Amazon Linux 2023.2",
+      "assigned_to": "Hayden Novak",
+      "last_behavior_timestamp": "2026-10-23T07:25:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0096",
+      "device_hostname": "edge-cro-0096.corp.internal",
+      "connection_ip": "10.1.7.97",
+      "os_build": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "assigned_to": "Finley Reyes",
+      "last_behavior_timestamp": "2026-10-23T09:36:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0097",
+      "device_hostname": "k8s-node-cro-0097.corp.internal",
+      "connection_ip": "10.1.7.98",
+      "os_build": "Red Hat Enterprise Linux 9.2",
+      "assigned_to": "Emerson Yoshida",
+      "last_behavior_timestamp": "2026-10-23T11:47:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0098",
+      "device_hostname": "bastion-cro-0098.corp.internal",
+      "connection_ip": "10.1.7.99",
+      "os_build": "Windows Server 2022 Datacenter",
+      "assigned_to": "Adrian Lindqvist",
+      "last_behavior_timestamp": "2026-10-23T13:58:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0099",
+      "device_hostname": "proxy-cro-0099.corp.internal",
+      "connection_ip": "10.1.7.100",
+      "os_build": "Windows 11 Enterprise (22H2)",
+      "assigned_to": "Cameron Nakamura",
+      "last_behavior_timestamp": "2026-10-23T15:09:00Z",
+      "agent_version": "7.12.18004.0"
+    },
+    {
+      "device_id": "dev-crow-0100",
+      "device_hostname": "wrk-cro-0100.corp.internal",
+      "connection_ip": "10.1.7.101",
+      "os_build": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "assigned_to": "Alex Vance",
+      "last_behavior_timestamp": "2026-10-23T17:20:00Z",
+      "agent_version": "7.12.18004.0"
+    }
+  ]
+}

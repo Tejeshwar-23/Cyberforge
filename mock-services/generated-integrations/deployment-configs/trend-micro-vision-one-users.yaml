@@ -1,0 +1,34 @@
+version: '1.0'
+name: trend-micro-vision-one-users
+base_url: http://127.0.0.1:9001
+auth:
+  type: bearer
+  secret_ref: TRENDMICRO_BEARER_TOKEN
+endpoint:
+  method: GET
+  path: /mock/trend-micro-vision-one/users
+  query_params: {}
+response:
+  format: yaml
+  records_path: response.data
+pagination:
+  type: offset
+  offset_param: offset
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: lastActivityTimestamp
+mapping:
+  entity: user
+  fields:
+    id: accountIdentifier
+    name: userDisplayName
+    email: mailAddress
+    status: securityPosture
+    last_login: lastActivityTimestamp
+enabled: false

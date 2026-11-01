@@ -1,0 +1,601 @@
+resources:
+- detection_id: evt-crow-00001
+  tactic: Suspicious Process Execution via PowerShell
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T00:23:00Z'
+  narrative: Observed suspicious process execution via powershell on host node 001
+    originating from external telemetry cluster
+- detection_id: evt-crow-00002
+  tactic: Anomalous Outbound C2 Beaconing
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T00:46:00Z'
+  narrative: Observed anomalous outbound c2 beaconing on host node 002 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00003
+  tactic: Multiple Failed MFA Challenges
+  severity_name: LOW
+  created_timestamp: '2026-10-25T01:09:00Z'
+  narrative: Observed multiple failed mfa challenges on host node 003 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00004
+  tactic: Lateral Movement via Remote WMI Execution
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-25T01:32:00Z'
+  narrative: Observed lateral movement via remote wmi execution on host node 004 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00005
+  tactic: Cloud IAM Policy Weakening Detected
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-25T01:55:00Z'
+  narrative: Observed cloud iam policy weakening detected on host node 005 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00006
+  tactic: Sensitive S3 Bucket Exposed to Public
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T02:18:00Z'
+  narrative: Observed sensitive s3 bucket exposed to public on host node 006 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00007
+  tactic: Malicious Binary Execution Blocked
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T02:41:00Z'
+  narrative: Observed malicious binary execution blocked on host node 007 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00008
+  tactic: Brute Force Authentication Storm
+  severity_name: LOW
+  created_timestamp: '2026-10-25T03:04:00Z'
+  narrative: Observed brute force authentication storm on host node 008 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00009
+  tactic: Unusual Data Exfiltration to Uncategorized IP
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-25T03:27:00Z'
+  narrative: Observed unusual data exfiltration to uncategorized ip on host node 009
+    originating from external telemetry cluster
+- detection_id: evt-crow-00010
+  tactic: Unauthorized Privilege Escalation Attempt
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-25T03:50:00Z'
+  narrative: Observed unauthorized privilege escalation attempt on host node 010 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00011
+  tactic: Suspicious Process Execution via PowerShell
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T04:13:00Z'
+  narrative: Observed suspicious process execution via powershell on host node 011
+    originating from external telemetry cluster
+- detection_id: evt-crow-00012
+  tactic: Anomalous Outbound C2 Beaconing
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T04:36:00Z'
+  narrative: Observed anomalous outbound c2 beaconing on host node 012 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00013
+  tactic: Multiple Failed MFA Challenges
+  severity_name: LOW
+  created_timestamp: '2026-10-25T04:59:00Z'
+  narrative: Observed multiple failed mfa challenges on host node 013 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00014
+  tactic: Lateral Movement via Remote WMI Execution
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-25T05:22:00Z'
+  narrative: Observed lateral movement via remote wmi execution on host node 014 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00015
+  tactic: Cloud IAM Policy Weakening Detected
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-25T05:45:00Z'
+  narrative: Observed cloud iam policy weakening detected on host node 015 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00016
+  tactic: Sensitive S3 Bucket Exposed to Public
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T06:08:00Z'
+  narrative: Observed sensitive s3 bucket exposed to public on host node 016 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00017
+  tactic: Malicious Binary Execution Blocked
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T06:31:00Z'
+  narrative: Observed malicious binary execution blocked on host node 017 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00018
+  tactic: Brute Force Authentication Storm
+  severity_name: LOW
+  created_timestamp: '2026-10-25T06:54:00Z'
+  narrative: Observed brute force authentication storm on host node 018 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00019
+  tactic: Unusual Data Exfiltration to Uncategorized IP
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-25T07:17:00Z'
+  narrative: Observed unusual data exfiltration to uncategorized ip on host node 019
+    originating from external telemetry cluster
+- detection_id: evt-crow-00020
+  tactic: Unauthorized Privilege Escalation Attempt
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-25T07:40:00Z'
+  narrative: Observed unauthorized privilege escalation attempt on host node 020 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00021
+  tactic: Suspicious Process Execution via PowerShell
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T08:03:00Z'
+  narrative: Observed suspicious process execution via powershell on host node 021
+    originating from external telemetry cluster
+- detection_id: evt-crow-00022
+  tactic: Anomalous Outbound C2 Beaconing
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T08:26:00Z'
+  narrative: Observed anomalous outbound c2 beaconing on host node 022 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00023
+  tactic: Multiple Failed MFA Challenges
+  severity_name: LOW
+  created_timestamp: '2026-10-25T08:49:00Z'
+  narrative: Observed multiple failed mfa challenges on host node 023 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00024
+  tactic: Lateral Movement via Remote WMI Execution
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-25T09:12:00Z'
+  narrative: Observed lateral movement via remote wmi execution on host node 024 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00025
+  tactic: Cloud IAM Policy Weakening Detected
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-25T09:35:00Z'
+  narrative: Observed cloud iam policy weakening detected on host node 025 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00026
+  tactic: Sensitive S3 Bucket Exposed to Public
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T09:58:00Z'
+  narrative: Observed sensitive s3 bucket exposed to public on host node 026 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00027
+  tactic: Malicious Binary Execution Blocked
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T10:21:00Z'
+  narrative: Observed malicious binary execution blocked on host node 027 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00028
+  tactic: Brute Force Authentication Storm
+  severity_name: LOW
+  created_timestamp: '2026-10-25T10:44:00Z'
+  narrative: Observed brute force authentication storm on host node 028 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00029
+  tactic: Unusual Data Exfiltration to Uncategorized IP
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-25T11:07:00Z'
+  narrative: Observed unusual data exfiltration to uncategorized ip on host node 029
+    originating from external telemetry cluster
+- detection_id: evt-crow-00030
+  tactic: Unauthorized Privilege Escalation Attempt
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-25T11:30:00Z'
+  narrative: Observed unauthorized privilege escalation attempt on host node 030 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00031
+  tactic: Suspicious Process Execution via PowerShell
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T11:53:00Z'
+  narrative: Observed suspicious process execution via powershell on host node 031
+    originating from external telemetry cluster
+- detection_id: evt-crow-00032
+  tactic: Anomalous Outbound C2 Beaconing
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T12:16:00Z'
+  narrative: Observed anomalous outbound c2 beaconing on host node 032 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00033
+  tactic: Multiple Failed MFA Challenges
+  severity_name: LOW
+  created_timestamp: '2026-10-25T12:39:00Z'
+  narrative: Observed multiple failed mfa challenges on host node 033 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00034
+  tactic: Lateral Movement via Remote WMI Execution
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-25T13:02:00Z'
+  narrative: Observed lateral movement via remote wmi execution on host node 034 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00035
+  tactic: Cloud IAM Policy Weakening Detected
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-25T13:25:00Z'
+  narrative: Observed cloud iam policy weakening detected on host node 035 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00036
+  tactic: Sensitive S3 Bucket Exposed to Public
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T13:48:00Z'
+  narrative: Observed sensitive s3 bucket exposed to public on host node 036 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00037
+  tactic: Malicious Binary Execution Blocked
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T14:11:00Z'
+  narrative: Observed malicious binary execution blocked on host node 037 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00038
+  tactic: Brute Force Authentication Storm
+  severity_name: LOW
+  created_timestamp: '2026-10-25T14:34:00Z'
+  narrative: Observed brute force authentication storm on host node 038 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00039
+  tactic: Unusual Data Exfiltration to Uncategorized IP
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-25T14:57:00Z'
+  narrative: Observed unusual data exfiltration to uncategorized ip on host node 039
+    originating from external telemetry cluster
+- detection_id: evt-crow-00040
+  tactic: Unauthorized Privilege Escalation Attempt
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-25T15:20:00Z'
+  narrative: Observed unauthorized privilege escalation attempt on host node 040 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00041
+  tactic: Suspicious Process Execution via PowerShell
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T15:43:00Z'
+  narrative: Observed suspicious process execution via powershell on host node 041
+    originating from external telemetry cluster
+- detection_id: evt-crow-00042
+  tactic: Anomalous Outbound C2 Beaconing
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T16:06:00Z'
+  narrative: Observed anomalous outbound c2 beaconing on host node 042 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00043
+  tactic: Multiple Failed MFA Challenges
+  severity_name: LOW
+  created_timestamp: '2026-10-25T16:29:00Z'
+  narrative: Observed multiple failed mfa challenges on host node 043 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00044
+  tactic: Lateral Movement via Remote WMI Execution
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-25T16:52:00Z'
+  narrative: Observed lateral movement via remote wmi execution on host node 044 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00045
+  tactic: Cloud IAM Policy Weakening Detected
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-25T17:15:00Z'
+  narrative: Observed cloud iam policy weakening detected on host node 045 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00046
+  tactic: Sensitive S3 Bucket Exposed to Public
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T17:38:00Z'
+  narrative: Observed sensitive s3 bucket exposed to public on host node 046 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00047
+  tactic: Malicious Binary Execution Blocked
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T18:01:00Z'
+  narrative: Observed malicious binary execution blocked on host node 047 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00048
+  tactic: Brute Force Authentication Storm
+  severity_name: LOW
+  created_timestamp: '2026-10-25T18:24:00Z'
+  narrative: Observed brute force authentication storm on host node 048 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00049
+  tactic: Unusual Data Exfiltration to Uncategorized IP
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-25T18:47:00Z'
+  narrative: Observed unusual data exfiltration to uncategorized ip on host node 049
+    originating from external telemetry cluster
+- detection_id: evt-crow-00050
+  tactic: Unauthorized Privilege Escalation Attempt
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-25T19:10:00Z'
+  narrative: Observed unauthorized privilege escalation attempt on host node 050 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00051
+  tactic: Suspicious Process Execution via PowerShell
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T19:33:00Z'
+  narrative: Observed suspicious process execution via powershell on host node 051
+    originating from external telemetry cluster
+- detection_id: evt-crow-00052
+  tactic: Anomalous Outbound C2 Beaconing
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T19:56:00Z'
+  narrative: Observed anomalous outbound c2 beaconing on host node 052 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00053
+  tactic: Multiple Failed MFA Challenges
+  severity_name: LOW
+  created_timestamp: '2026-10-25T20:19:00Z'
+  narrative: Observed multiple failed mfa challenges on host node 053 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00054
+  tactic: Lateral Movement via Remote WMI Execution
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-25T20:42:00Z'
+  narrative: Observed lateral movement via remote wmi execution on host node 054 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00055
+  tactic: Cloud IAM Policy Weakening Detected
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-25T21:05:00Z'
+  narrative: Observed cloud iam policy weakening detected on host node 055 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00056
+  tactic: Sensitive S3 Bucket Exposed to Public
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T21:28:00Z'
+  narrative: Observed sensitive s3 bucket exposed to public on host node 056 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00057
+  tactic: Malicious Binary Execution Blocked
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T21:51:00Z'
+  narrative: Observed malicious binary execution blocked on host node 057 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00058
+  tactic: Brute Force Authentication Storm
+  severity_name: LOW
+  created_timestamp: '2026-10-25T22:14:00Z'
+  narrative: Observed brute force authentication storm on host node 058 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00059
+  tactic: Unusual Data Exfiltration to Uncategorized IP
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-25T22:37:00Z'
+  narrative: Observed unusual data exfiltration to uncategorized ip on host node 059
+    originating from external telemetry cluster
+- detection_id: evt-crow-00060
+  tactic: Unauthorized Privilege Escalation Attempt
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-25T23:00:00Z'
+  narrative: Observed unauthorized privilege escalation attempt on host node 060 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00061
+  tactic: Suspicious Process Execution via PowerShell
+  severity_name: HIGH
+  created_timestamp: '2026-10-25T23:23:00Z'
+  narrative: Observed suspicious process execution via powershell on host node 061
+    originating from external telemetry cluster
+- detection_id: evt-crow-00062
+  tactic: Anomalous Outbound C2 Beaconing
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-25T23:46:00Z'
+  narrative: Observed anomalous outbound c2 beaconing on host node 062 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00063
+  tactic: Multiple Failed MFA Challenges
+  severity_name: LOW
+  created_timestamp: '2026-10-26T00:09:00Z'
+  narrative: Observed multiple failed mfa challenges on host node 063 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00064
+  tactic: Lateral Movement via Remote WMI Execution
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-26T00:32:00Z'
+  narrative: Observed lateral movement via remote wmi execution on host node 064 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00065
+  tactic: Cloud IAM Policy Weakening Detected
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-26T00:55:00Z'
+  narrative: Observed cloud iam policy weakening detected on host node 065 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00066
+  tactic: Sensitive S3 Bucket Exposed to Public
+  severity_name: HIGH
+  created_timestamp: '2026-10-26T01:18:00Z'
+  narrative: Observed sensitive s3 bucket exposed to public on host node 066 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00067
+  tactic: Malicious Binary Execution Blocked
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-26T01:41:00Z'
+  narrative: Observed malicious binary execution blocked on host node 067 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00068
+  tactic: Brute Force Authentication Storm
+  severity_name: LOW
+  created_timestamp: '2026-10-26T02:04:00Z'
+  narrative: Observed brute force authentication storm on host node 068 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00069
+  tactic: Unusual Data Exfiltration to Uncategorized IP
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-26T02:27:00Z'
+  narrative: Observed unusual data exfiltration to uncategorized ip on host node 069
+    originating from external telemetry cluster
+- detection_id: evt-crow-00070
+  tactic: Unauthorized Privilege Escalation Attempt
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-26T02:50:00Z'
+  narrative: Observed unauthorized privilege escalation attempt on host node 070 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00071
+  tactic: Suspicious Process Execution via PowerShell
+  severity_name: HIGH
+  created_timestamp: '2026-10-26T03:13:00Z'
+  narrative: Observed suspicious process execution via powershell on host node 071
+    originating from external telemetry cluster
+- detection_id: evt-crow-00072
+  tactic: Anomalous Outbound C2 Beaconing
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-26T03:36:00Z'
+  narrative: Observed anomalous outbound c2 beaconing on host node 072 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00073
+  tactic: Multiple Failed MFA Challenges
+  severity_name: LOW
+  created_timestamp: '2026-10-26T03:59:00Z'
+  narrative: Observed multiple failed mfa challenges on host node 073 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00074
+  tactic: Lateral Movement via Remote WMI Execution
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-26T04:22:00Z'
+  narrative: Observed lateral movement via remote wmi execution on host node 074 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00075
+  tactic: Cloud IAM Policy Weakening Detected
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-26T04:45:00Z'
+  narrative: Observed cloud iam policy weakening detected on host node 075 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00076
+  tactic: Sensitive S3 Bucket Exposed to Public
+  severity_name: HIGH
+  created_timestamp: '2026-10-26T05:08:00Z'
+  narrative: Observed sensitive s3 bucket exposed to public on host node 076 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00077
+  tactic: Malicious Binary Execution Blocked
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-26T05:31:00Z'
+  narrative: Observed malicious binary execution blocked on host node 077 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00078
+  tactic: Brute Force Authentication Storm
+  severity_name: LOW
+  created_timestamp: '2026-10-26T05:54:00Z'
+  narrative: Observed brute force authentication storm on host node 078 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00079
+  tactic: Unusual Data Exfiltration to Uncategorized IP
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-26T06:17:00Z'
+  narrative: Observed unusual data exfiltration to uncategorized ip on host node 079
+    originating from external telemetry cluster
+- detection_id: evt-crow-00080
+  tactic: Unauthorized Privilege Escalation Attempt
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-26T06:40:00Z'
+  narrative: Observed unauthorized privilege escalation attempt on host node 080 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00081
+  tactic: Suspicious Process Execution via PowerShell
+  severity_name: HIGH
+  created_timestamp: '2026-10-26T07:03:00Z'
+  narrative: Observed suspicious process execution via powershell on host node 081
+    originating from external telemetry cluster
+- detection_id: evt-crow-00082
+  tactic: Anomalous Outbound C2 Beaconing
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-26T07:26:00Z'
+  narrative: Observed anomalous outbound c2 beaconing on host node 082 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00083
+  tactic: Multiple Failed MFA Challenges
+  severity_name: LOW
+  created_timestamp: '2026-10-26T07:49:00Z'
+  narrative: Observed multiple failed mfa challenges on host node 083 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00084
+  tactic: Lateral Movement via Remote WMI Execution
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-26T08:12:00Z'
+  narrative: Observed lateral movement via remote wmi execution on host node 084 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00085
+  tactic: Cloud IAM Policy Weakening Detected
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-26T08:35:00Z'
+  narrative: Observed cloud iam policy weakening detected on host node 085 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00086
+  tactic: Sensitive S3 Bucket Exposed to Public
+  severity_name: HIGH
+  created_timestamp: '2026-10-26T08:58:00Z'
+  narrative: Observed sensitive s3 bucket exposed to public on host node 086 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00087
+  tactic: Malicious Binary Execution Blocked
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-26T09:21:00Z'
+  narrative: Observed malicious binary execution blocked on host node 087 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00088
+  tactic: Brute Force Authentication Storm
+  severity_name: LOW
+  created_timestamp: '2026-10-26T09:44:00Z'
+  narrative: Observed brute force authentication storm on host node 088 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00089
+  tactic: Unusual Data Exfiltration to Uncategorized IP
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-26T10:07:00Z'
+  narrative: Observed unusual data exfiltration to uncategorized ip on host node 089
+    originating from external telemetry cluster
+- detection_id: evt-crow-00090
+  tactic: Unauthorized Privilege Escalation Attempt
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-26T10:30:00Z'
+  narrative: Observed unauthorized privilege escalation attempt on host node 090 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00091
+  tactic: Suspicious Process Execution via PowerShell
+  severity_name: HIGH
+  created_timestamp: '2026-10-26T10:53:00Z'
+  narrative: Observed suspicious process execution via powershell on host node 091
+    originating from external telemetry cluster
+- detection_id: evt-crow-00092
+  tactic: Anomalous Outbound C2 Beaconing
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-26T11:16:00Z'
+  narrative: Observed anomalous outbound c2 beaconing on host node 092 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00093
+  tactic: Multiple Failed MFA Challenges
+  severity_name: LOW
+  created_timestamp: '2026-10-26T11:39:00Z'
+  narrative: Observed multiple failed mfa challenges on host node 093 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00094
+  tactic: Lateral Movement via Remote WMI Execution
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-26T12:02:00Z'
+  narrative: Observed lateral movement via remote wmi execution on host node 094 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00095
+  tactic: Cloud IAM Policy Weakening Detected
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-26T12:25:00Z'
+  narrative: Observed cloud iam policy weakening detected on host node 095 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00096
+  tactic: Sensitive S3 Bucket Exposed to Public
+  severity_name: HIGH
+  created_timestamp: '2026-10-26T12:48:00Z'
+  narrative: Observed sensitive s3 bucket exposed to public on host node 096 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00097
+  tactic: Malicious Binary Execution Blocked
+  severity_name: MEDIUM
+  created_timestamp: '2026-10-26T13:11:00Z'
+  narrative: Observed malicious binary execution blocked on host node 097 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00098
+  tactic: Brute Force Authentication Storm
+  severity_name: LOW
+  created_timestamp: '2026-10-26T13:34:00Z'
+  narrative: Observed brute force authentication storm on host node 098 originating
+    from external telemetry cluster
+- detection_id: evt-crow-00099
+  tactic: Unusual Data Exfiltration to Uncategorized IP
+  severity_name: INFORMATIONAL
+  created_timestamp: '2026-10-26T13:57:00Z'
+  narrative: Observed unusual data exfiltration to uncategorized ip on host node 099
+    originating from external telemetry cluster
+- detection_id: evt-crow-00100
+  tactic: Unauthorized Privilege Escalation Attempt
+  severity_name: CRITICAL
+  created_timestamp: '2026-10-26T14:20:00Z'
+  narrative: Observed unauthorized privilege escalation attempt on host node 100 originating
+    from external telemetry cluster

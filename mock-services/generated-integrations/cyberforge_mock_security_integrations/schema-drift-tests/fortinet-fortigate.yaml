@@ -1,0 +1,16 @@
+vendor: Fortinet FortiGate
+users:
+  drift_type: field_rename
+  old_path: auth_state
+  new_path: user_status
+  expected_risk: LOW
+devices:
+  drift_type: field_rename
+  old_path: dev_name
+  new_path: device_hostname
+  expected_risk: LOW
+events:
+  drift_type: field_rename
+  old_path: eventtime
+  new_path: timestamp_iso
+  expected_risk: LOW

@@ -1,0 +1,255 @@
+{
+  "vendors": 10,
+  "connectors": 30,
+  "configs_valid": 30,
+  "clean_datasets_passed": 30,
+  "bad_fixtures_passed": 30,
+  "total_clean_records": 3000,
+  "total_bad_records": 150,
+  "schema_drift_scenarios": 30,
+  "json_datasets": 18,
+  "yaml_datasets": 7,
+  "xml_datasets": 5,
+  "details": [
+    {
+      "connector": "elastic-security-users",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "elastic-security-devices",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "elastic-security-events",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "cortex-xsiam-users",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "cortex-xsiam-devices",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "cortex-xsiam-events",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "sophos-intercept-x-users",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "sophos-intercept-x-devices",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "sophos-intercept-x-events",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "trend-micro-vision-one-users",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "trend-micro-vision-one-devices",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "trend-micro-vision-one-events",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "fortinet-fortigate-users",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "fortinet-fortigate-devices",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "fortinet-fortigate-events",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "cisco-secure-firewall-users",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "cisco-secure-firewall-devices",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "cisco-secure-firewall-events",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "netskope-users",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "netskope-devices",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "netskope-events",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "wiz-users",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "wiz-devices",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "wiz-events",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "prisma-cloud-users",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "prisma-cloud-devices",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "prisma-cloud-events",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "crowdstrike-cloud-security-users",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "crowdstrike-cloud-security-devices",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    },
+    {
+      "connector": "crowdstrike-cloud-security-events",
+      "config_valid": true,
+      "clean_normalized": 100,
+      "clean_quarantined": 0,
+      "bad_quarantined": 5,
+      "drift_verified": true
+    }
+  ]
+}

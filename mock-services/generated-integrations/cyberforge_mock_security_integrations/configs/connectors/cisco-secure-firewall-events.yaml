@@ -1,0 +1,35 @@
+version: '1.0'
+name: cisco-secure-firewall-events
+base_url: http://127.0.0.1:9001
+auth:
+  type: custom_headers
+  secret_headers:
+    X-auth-access-token: CISCO_FMC_TOKEN
+endpoint:
+  method: GET
+  path: /api/events
+  query_params: {}
+response:
+  format: xml
+  records_path: events.security_event
+pagination:
+  type: offset
+  offset_param: offset
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: eventOccurredTime
+mapping:
+  entity: event
+  fields:
+    id: eventId
+    type: threatCategory
+    severity: priorityScore
+    timestamp: eventOccurredTime
+    description: ruleActionDetails
+enabled: false

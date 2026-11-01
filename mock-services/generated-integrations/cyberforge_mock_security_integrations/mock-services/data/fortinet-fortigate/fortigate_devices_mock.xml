@@ -1,0 +1,803 @@
+<?xml version="1.0" ?>
+<results>
+  <device_entry>
+    <dev_id>dev-fort-0001</dev_id>
+    <dev_name>srv-for-0001.corp.internal</dev_name>
+    <dev_ip>10.1.1.2</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Morgan Mercer</assigned_user>
+    <last_seen_time>2026-10-15T11:11:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0002</dev_id>
+    <dev_name>sec-for-0002.corp.internal</dev_name>
+    <dev_ip>10.1.1.3</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Jordan Sterling</assigned_user>
+    <last_seen_time>2026-10-15T13:22:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0003</dev_id>
+    <dev_name>db-for-0003.corp.internal</dev_name>
+    <dev_ip>10.1.1.4</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Taylor Kowalski</assigned_user>
+    <last_seen_time>2026-10-15T15:33:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0004</dev_id>
+    <dev_name>app-for-0004.corp.internal</dev_name>
+    <dev_ip>10.1.1.5</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Casey Chen</assigned_user>
+    <last_seen_time>2026-10-15T17:44:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0005</dev_id>
+    <dev_name>gw-for-0005.corp.internal</dev_name>
+    <dev_ip>10.1.1.6</dev_ip>
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+    <assigned_user>Riley Patel</assigned_user>
+    <last_seen_time>2026-10-15T19:55:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0006</dev_id>
+    <dev_name>edge-for-0006.corp.internal</dev_name>
+    <dev_ip>10.1.1.7</dev_ip>
+    <os_family>Alpine Linux 3.18</os_family>
+    <assigned_user>Avery Thorne</assigned_user>
+    <last_seen_time>2026-10-15T21:06:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0007</dev_id>
+    <dev_name>k8s-node-for-0007.corp.internal</dev_name>
+    <dev_ip>10.1.1.8</dev_ip>
+    <os_family>Amazon Linux 2023.2</os_family>
+    <assigned_user>Sam Blackwood</assigned_user>
+    <last_seen_time>2026-10-15T23:17:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0008</dev_id>
+    <dev_name>bastion-for-0008.corp.internal</dev_name>
+    <dev_ip>10.1.1.9</dev_ip>
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+    <assigned_user>Jamie Frost</assigned_user>
+    <last_seen_time>2026-10-16T01:28:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0009</dev_id>
+    <dev_name>proxy-for-0009.corp.internal</dev_name>
+    <dev_ip>10.1.1.10</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Dakota Sinclair</assigned_user>
+    <last_seen_time>2026-10-16T03:39:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0010</dev_id>
+    <dev_name>wrk-for-0010.corp.internal</dev_name>
+    <dev_ip>10.1.1.11</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Quinn Hawthorne</assigned_user>
+    <last_seen_time>2026-10-16T05:50:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0011</dev_id>
+    <dev_name>srv-for-0011.corp.internal</dev_name>
+    <dev_ip>10.1.1.12</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Reese Delgado</assigned_user>
+    <last_seen_time>2026-10-16T07:01:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0012</dev_id>
+    <dev_name>sec-for-0012.corp.internal</dev_name>
+    <dev_ip>10.1.1.13</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Rowan Winter</assigned_user>
+    <last_seen_time>2026-10-16T09:12:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0013</dev_id>
+    <dev_name>db-for-0013.corp.internal</dev_name>
+    <dev_ip>10.1.1.14</dev_ip>
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+    <assigned_user>Skyler Carrington</assigned_user>
+    <last_seen_time>2026-10-16T11:23:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0014</dev_id>
+    <dev_name>app-for-0014.corp.internal</dev_name>
+    <dev_ip>10.1.1.15</dev_ip>
+    <os_family>Alpine Linux 3.18</os_family>
+    <assigned_user>Kendall O'Connor</assigned_user>
+    <last_seen_time>2026-10-16T13:34:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0015</dev_id>
+    <dev_name>gw-for-0015.corp.internal</dev_name>
+    <dev_ip>10.1.1.16</dev_ip>
+    <os_family>Amazon Linux 2023.2</os_family>
+    <assigned_user>Hayden Novak</assigned_user>
+    <last_seen_time>2026-10-16T15:45:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0016</dev_id>
+    <dev_name>edge-for-0016.corp.internal</dev_name>
+    <dev_ip>10.1.2.17</dev_ip>
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+    <assigned_user>Finley Reyes</assigned_user>
+    <last_seen_time>2026-10-16T17:56:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0017</dev_id>
+    <dev_name>k8s-node-for-0017.corp.internal</dev_name>
+    <dev_ip>10.1.2.18</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Emerson Yoshida</assigned_user>
+    <last_seen_time>2026-10-16T19:07:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0018</dev_id>
+    <dev_name>bastion-for-0018.corp.internal</dev_name>
+    <dev_ip>10.1.2.19</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Adrian Lindqvist</assigned_user>
+    <last_seen_time>2026-10-16T21:18:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0019</dev_id>
+    <dev_name>proxy-for-0019.corp.internal</dev_name>
+    <dev_ip>10.1.2.20</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Cameron Nakamura</assigned_user>
+    <last_seen_time>2026-10-16T23:29:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0020</dev_id>
+    <dev_name>wrk-for-0020.corp.internal</dev_name>
+    <dev_ip>10.1.2.21</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Alex Vance</assigned_user>
+    <last_seen_time>2026-10-17T01:40:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0021</dev_id>
+    <dev_name>srv-for-0021.corp.internal</dev_name>
+    <dev_ip>10.1.2.22</dev_ip>
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+    <assigned_user>Morgan Mercer</assigned_user>
+    <last_seen_time>2026-10-17T03:51:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0022</dev_id>
+    <dev_name>sec-for-0022.corp.internal</dev_name>
+    <dev_ip>10.1.2.23</dev_ip>
+    <os_family>Alpine Linux 3.18</os_family>
+    <assigned_user>Jordan Sterling</assigned_user>
+    <last_seen_time>2026-10-17T05:02:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0023</dev_id>
+    <dev_name>db-for-0023.corp.internal</dev_name>
+    <dev_ip>10.1.2.24</dev_ip>
+    <os_family>Amazon Linux 2023.2</os_family>
+    <assigned_user>Taylor Kowalski</assigned_user>
+    <last_seen_time>2026-10-17T07:13:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0024</dev_id>
+    <dev_name>app-for-0024.corp.internal</dev_name>
+    <dev_ip>10.1.2.25</dev_ip>
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+    <assigned_user>Casey Chen</assigned_user>
+    <last_seen_time>2026-10-17T09:24:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0025</dev_id>
+    <dev_name>gw-for-0025.corp.internal</dev_name>
+    <dev_ip>10.1.2.26</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Riley Patel</assigned_user>
+    <last_seen_time>2026-10-17T11:35:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0026</dev_id>
+    <dev_name>edge-for-0026.corp.internal</dev_name>
+    <dev_ip>10.1.2.27</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Avery Thorne</assigned_user>
+    <last_seen_time>2026-10-17T13:46:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0027</dev_id>
+    <dev_name>k8s-node-for-0027.corp.internal</dev_name>
+    <dev_ip>10.1.2.28</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Sam Blackwood</assigned_user>
+    <last_seen_time>2026-10-17T15:57:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0028</dev_id>
+    <dev_name>bastion-for-0028.corp.internal</dev_name>
+    <dev_ip>10.1.2.29</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Jamie Frost</assigned_user>
+    <last_seen_time>2026-10-17T17:08:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0029</dev_id>
+    <dev_name>proxy-for-0029.corp.internal</dev_name>
+    <dev_ip>10.1.2.30</dev_ip>
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+    <assigned_user>Dakota Sinclair</assigned_user>
+    <last_seen_time>2026-10-17T19:19:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0030</dev_id>
+    <dev_name>wrk-for-0030.corp.internal</dev_name>
+    <dev_ip>10.1.2.31</dev_ip>
+    <os_family>Alpine Linux 3.18</os_family>
+    <assigned_user>Quinn Hawthorne</assigned_user>
+    <last_seen_time>2026-10-17T21:30:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0031</dev_id>
+    <dev_name>srv-for-0031.corp.internal</dev_name>
+    <dev_ip>10.1.2.32</dev_ip>
+    <os_family>Amazon Linux 2023.2</os_family>
+    <assigned_user>Reese Delgado</assigned_user>
+    <last_seen_time>2026-10-17T23:41:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0032</dev_id>
+    <dev_name>sec-for-0032.corp.internal</dev_name>
+    <dev_ip>10.1.3.33</dev_ip>
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+    <assigned_user>Rowan Winter</assigned_user>
+    <last_seen_time>2026-10-18T01:52:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0033</dev_id>
+    <dev_name>db-for-0033.corp.internal</dev_name>
+    <dev_ip>10.1.3.34</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Skyler Carrington</assigned_user>
+    <last_seen_time>2026-10-18T03:03:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0034</dev_id>
+    <dev_name>app-for-0034.corp.internal</dev_name>
+    <dev_ip>10.1.3.35</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Kendall O'Connor</assigned_user>
+    <last_seen_time>2026-10-18T05:14:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0035</dev_id>
+    <dev_name>gw-for-0035.corp.internal</dev_name>
+    <dev_ip>10.1.3.36</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Hayden Novak</assigned_user>
+    <last_seen_time>2026-10-18T07:25:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0036</dev_id>
+    <dev_name>edge-for-0036.corp.internal</dev_name>
+    <dev_ip>10.1.3.37</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Finley Reyes</assigned_user>
+    <last_seen_time>2026-10-18T09:36:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0037</dev_id>
+    <dev_name>k8s-node-for-0037.corp.internal</dev_name>
+    <dev_ip>10.1.3.38</dev_ip>
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+    <assigned_user>Emerson Yoshida</assigned_user>
+    <last_seen_time>2026-10-18T11:47:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0038</dev_id>
+    <dev_name>bastion-for-0038.corp.internal</dev_name>
+    <dev_ip>10.1.3.39</dev_ip>
+    <os_family>Alpine Linux 3.18</os_family>
+    <assigned_user>Adrian Lindqvist</assigned_user>
+    <last_seen_time>2026-10-18T13:58:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0039</dev_id>
+    <dev_name>proxy-for-0039.corp.internal</dev_name>
+    <dev_ip>10.1.3.40</dev_ip>
+    <os_family>Amazon Linux 2023.2</os_family>
+    <assigned_user>Cameron Nakamura</assigned_user>
+    <last_seen_time>2026-10-18T15:09:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0040</dev_id>
+    <dev_name>wrk-for-0040.corp.internal</dev_name>
+    <dev_ip>10.1.3.41</dev_ip>
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+    <assigned_user>Alex Vance</assigned_user>
+    <last_seen_time>2026-10-18T17:20:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0041</dev_id>
+    <dev_name>srv-for-0041.corp.internal</dev_name>
+    <dev_ip>10.1.3.42</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Morgan Mercer</assigned_user>
+    <last_seen_time>2026-10-18T19:31:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0042</dev_id>
+    <dev_name>sec-for-0042.corp.internal</dev_name>
+    <dev_ip>10.1.3.43</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Jordan Sterling</assigned_user>
+    <last_seen_time>2026-10-18T21:42:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0043</dev_id>
+    <dev_name>db-for-0043.corp.internal</dev_name>
+    <dev_ip>10.1.3.44</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Taylor Kowalski</assigned_user>
+    <last_seen_time>2026-10-18T23:53:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0044</dev_id>
+    <dev_name>app-for-0044.corp.internal</dev_name>
+    <dev_ip>10.1.3.45</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Casey Chen</assigned_user>
+    <last_seen_time>2026-10-19T01:04:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0045</dev_id>
+    <dev_name>gw-for-0045.corp.internal</dev_name>
+    <dev_ip>10.1.3.46</dev_ip>
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+    <assigned_user>Riley Patel</assigned_user>
+    <last_seen_time>2026-10-19T03:15:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0046</dev_id>
+    <dev_name>edge-for-0046.corp.internal</dev_name>
+    <dev_ip>10.1.3.47</dev_ip>
+    <os_family>Alpine Linux 3.18</os_family>
+    <assigned_user>Avery Thorne</assigned_user>
+    <last_seen_time>2026-10-19T05:26:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0047</dev_id>
+    <dev_name>k8s-node-for-0047.corp.internal</dev_name>
+    <dev_ip>10.1.3.48</dev_ip>
+    <os_family>Amazon Linux 2023.2</os_family>
+    <assigned_user>Sam Blackwood</assigned_user>
+    <last_seen_time>2026-10-19T07:37:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0048</dev_id>
+    <dev_name>bastion-for-0048.corp.internal</dev_name>
+    <dev_ip>10.1.4.49</dev_ip>
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+    <assigned_user>Jamie Frost</assigned_user>
+    <last_seen_time>2026-10-19T09:48:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0049</dev_id>
+    <dev_name>proxy-for-0049.corp.internal</dev_name>
+    <dev_ip>10.1.4.50</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Dakota Sinclair</assigned_user>
+    <last_seen_time>2026-10-19T11:59:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0050</dev_id>
+    <dev_name>wrk-for-0050.corp.internal</dev_name>
+    <dev_ip>10.1.4.51</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Quinn Hawthorne</assigned_user>
+    <last_seen_time>2026-10-19T13:10:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0051</dev_id>
+    <dev_name>srv-for-0051.corp.internal</dev_name>
+    <dev_ip>10.1.4.52</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Reese Delgado</assigned_user>
+    <last_seen_time>2026-10-19T15:21:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0052</dev_id>
+    <dev_name>sec-for-0052.corp.internal</dev_name>
+    <dev_ip>10.1.4.53</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Rowan Winter</assigned_user>
+    <last_seen_time>2026-10-19T17:32:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0053</dev_id>
+    <dev_name>db-for-0053.corp.internal</dev_name>
+    <dev_ip>10.1.4.54</dev_ip>
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+    <assigned_user>Skyler Carrington</assigned_user>
+    <last_seen_time>2026-10-19T19:43:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0054</dev_id>
+    <dev_name>app-for-0054.corp.internal</dev_name>
+    <dev_ip>10.1.4.55</dev_ip>
+    <os_family>Alpine Linux 3.18</os_family>
+    <assigned_user>Kendall O'Connor</assigned_user>
+    <last_seen_time>2026-10-19T21:54:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0055</dev_id>
+    <dev_name>gw-for-0055.corp.internal</dev_name>
+    <dev_ip>10.1.4.56</dev_ip>
+    <os_family>Amazon Linux 2023.2</os_family>
+    <assigned_user>Hayden Novak</assigned_user>
+    <last_seen_time>2026-10-19T23:05:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0056</dev_id>
+    <dev_name>edge-for-0056.corp.internal</dev_name>
+    <dev_ip>10.1.4.57</dev_ip>
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+    <assigned_user>Finley Reyes</assigned_user>
+    <last_seen_time>2026-10-20T01:16:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0057</dev_id>
+    <dev_name>k8s-node-for-0057.corp.internal</dev_name>
+    <dev_ip>10.1.4.58</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Emerson Yoshida</assigned_user>
+    <last_seen_time>2026-10-20T03:27:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0058</dev_id>
+    <dev_name>bastion-for-0058.corp.internal</dev_name>
+    <dev_ip>10.1.4.59</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Adrian Lindqvist</assigned_user>
+    <last_seen_time>2026-10-20T05:38:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0059</dev_id>
+    <dev_name>proxy-for-0059.corp.internal</dev_name>
+    <dev_ip>10.1.4.60</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Cameron Nakamura</assigned_user>
+    <last_seen_time>2026-10-20T07:49:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0060</dev_id>
+    <dev_name>wrk-for-0060.corp.internal</dev_name>
+    <dev_ip>10.1.4.61</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Alex Vance</assigned_user>
+    <last_seen_time>2026-10-20T09:00:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0061</dev_id>
+    <dev_name>srv-for-0061.corp.internal</dev_name>
+    <dev_ip>10.1.4.62</dev_ip>
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+    <assigned_user>Morgan Mercer</assigned_user>
+    <last_seen_time>2026-10-20T11:11:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0062</dev_id>
+    <dev_name>sec-for-0062.corp.internal</dev_name>
+    <dev_ip>10.1.4.63</dev_ip>
+    <os_family>Alpine Linux 3.18</os_family>
+    <assigned_user>Jordan Sterling</assigned_user>
+    <last_seen_time>2026-10-20T13:22:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0063</dev_id>
+    <dev_name>db-for-0063.corp.internal</dev_name>
+    <dev_ip>10.1.4.64</dev_ip>
+    <os_family>Amazon Linux 2023.2</os_family>
+    <assigned_user>Taylor Kowalski</assigned_user>
+    <last_seen_time>2026-10-20T15:33:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0064</dev_id>
+    <dev_name>app-for-0064.corp.internal</dev_name>
+    <dev_ip>10.1.5.65</dev_ip>
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+    <assigned_user>Casey Chen</assigned_user>
+    <last_seen_time>2026-10-20T17:44:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0065</dev_id>
+    <dev_name>gw-for-0065.corp.internal</dev_name>
+    <dev_ip>10.1.5.66</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Riley Patel</assigned_user>
+    <last_seen_time>2026-10-20T19:55:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0066</dev_id>
+    <dev_name>edge-for-0066.corp.internal</dev_name>
+    <dev_ip>10.1.5.67</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Avery Thorne</assigned_user>
+    <last_seen_time>2026-10-20T21:06:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0067</dev_id>
+    <dev_name>k8s-node-for-0067.corp.internal</dev_name>
+    <dev_ip>10.1.5.68</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Sam Blackwood</assigned_user>
+    <last_seen_time>2026-10-20T23:17:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0068</dev_id>
+    <dev_name>bastion-for-0068.corp.internal</dev_name>
+    <dev_ip>10.1.5.69</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Jamie Frost</assigned_user>
+    <last_seen_time>2026-10-21T01:28:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0069</dev_id>
+    <dev_name>proxy-for-0069.corp.internal</dev_name>
+    <dev_ip>10.1.5.70</dev_ip>
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+    <assigned_user>Dakota Sinclair</assigned_user>
+    <last_seen_time>2026-10-21T03:39:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0070</dev_id>
+    <dev_name>wrk-for-0070.corp.internal</dev_name>
+    <dev_ip>10.1.5.71</dev_ip>
+    <os_family>Alpine Linux 3.18</os_family>
+    <assigned_user>Quinn Hawthorne</assigned_user>
+    <last_seen_time>2026-10-21T05:50:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0071</dev_id>
+    <dev_name>srv-for-0071.corp.internal</dev_name>
+    <dev_ip>10.1.5.72</dev_ip>
+    <os_family>Amazon Linux 2023.2</os_family>
+    <assigned_user>Reese Delgado</assigned_user>
+    <last_seen_time>2026-10-21T07:01:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0072</dev_id>
+    <dev_name>sec-for-0072.corp.internal</dev_name>
+    <dev_ip>10.1.5.73</dev_ip>
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+    <assigned_user>Rowan Winter</assigned_user>
+    <last_seen_time>2026-10-21T09:12:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0073</dev_id>
+    <dev_name>db-for-0073.corp.internal</dev_name>
+    <dev_ip>10.1.5.74</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Skyler Carrington</assigned_user>
+    <last_seen_time>2026-10-21T11:23:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0074</dev_id>
+    <dev_name>app-for-0074.corp.internal</dev_name>
+    <dev_ip>10.1.5.75</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Kendall O'Connor</assigned_user>
+    <last_seen_time>2026-10-21T13:34:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0075</dev_id>
+    <dev_name>gw-for-0075.corp.internal</dev_name>
+    <dev_ip>10.1.5.76</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Hayden Novak</assigned_user>
+    <last_seen_time>2026-10-21T15:45:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0076</dev_id>
+    <dev_name>edge-for-0076.corp.internal</dev_name>
+    <dev_ip>10.1.5.77</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Finley Reyes</assigned_user>
+    <last_seen_time>2026-10-21T17:56:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0077</dev_id>
+    <dev_name>k8s-node-for-0077.corp.internal</dev_name>
+    <dev_ip>10.1.5.78</dev_ip>
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+    <assigned_user>Emerson Yoshida</assigned_user>
+    <last_seen_time>2026-10-21T19:07:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0078</dev_id>
+    <dev_name>bastion-for-0078.corp.internal</dev_name>
+    <dev_ip>10.1.5.79</dev_ip>
+    <os_family>Alpine Linux 3.18</os_family>
+    <assigned_user>Adrian Lindqvist</assigned_user>
+    <last_seen_time>2026-10-21T21:18:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0079</dev_id>
+    <dev_name>proxy-for-0079.corp.internal</dev_name>
+    <dev_ip>10.1.5.80</dev_ip>
+    <os_family>Amazon Linux 2023.2</os_family>
+    <assigned_user>Cameron Nakamura</assigned_user>
+    <last_seen_time>2026-10-21T23:29:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0080</dev_id>
+    <dev_name>wrk-for-0080.corp.internal</dev_name>
+    <dev_ip>10.1.6.81</dev_ip>
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+    <assigned_user>Alex Vance</assigned_user>
+    <last_seen_time>2026-10-22T01:40:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0081</dev_id>
+    <dev_name>srv-for-0081.corp.internal</dev_name>
+    <dev_ip>10.1.6.82</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Morgan Mercer</assigned_user>
+    <last_seen_time>2026-10-22T03:51:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0082</dev_id>
+    <dev_name>sec-for-0082.corp.internal</dev_name>
+    <dev_ip>10.1.6.83</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Jordan Sterling</assigned_user>
+    <last_seen_time>2026-10-22T05:02:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0083</dev_id>
+    <dev_name>db-for-0083.corp.internal</dev_name>
+    <dev_ip>10.1.6.84</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Taylor Kowalski</assigned_user>
+    <last_seen_time>2026-10-22T07:13:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0084</dev_id>
+    <dev_name>app-for-0084.corp.internal</dev_name>
+    <dev_ip>10.1.6.85</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Casey Chen</assigned_user>
+    <last_seen_time>2026-10-22T09:24:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0085</dev_id>
+    <dev_name>gw-for-0085.corp.internal</dev_name>
+    <dev_ip>10.1.6.86</dev_ip>
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+    <assigned_user>Riley Patel</assigned_user>
+    <last_seen_time>2026-10-22T11:35:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0086</dev_id>
+    <dev_name>edge-for-0086.corp.internal</dev_name>
+    <dev_ip>10.1.6.87</dev_ip>
+    <os_family>Alpine Linux 3.18</os_family>
+    <assigned_user>Avery Thorne</assigned_user>
+    <last_seen_time>2026-10-22T13:46:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0087</dev_id>
+    <dev_name>k8s-node-for-0087.corp.internal</dev_name>
+    <dev_ip>10.1.6.88</dev_ip>
+    <os_family>Amazon Linux 2023.2</os_family>
+    <assigned_user>Sam Blackwood</assigned_user>
+    <last_seen_time>2026-10-22T15:57:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0088</dev_id>
+    <dev_name>bastion-for-0088.corp.internal</dev_name>
+    <dev_ip>10.1.6.89</dev_ip>
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+    <assigned_user>Jamie Frost</assigned_user>
+    <last_seen_time>2026-10-22T17:08:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0089</dev_id>
+    <dev_name>proxy-for-0089.corp.internal</dev_name>
+    <dev_ip>10.1.6.90</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Dakota Sinclair</assigned_user>
+    <last_seen_time>2026-10-22T19:19:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0090</dev_id>
+    <dev_name>wrk-for-0090.corp.internal</dev_name>
+    <dev_ip>10.1.6.91</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Quinn Hawthorne</assigned_user>
+    <last_seen_time>2026-10-22T21:30:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0091</dev_id>
+    <dev_name>srv-for-0091.corp.internal</dev_name>
+    <dev_ip>10.1.6.92</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Reese Delgado</assigned_user>
+    <last_seen_time>2026-10-22T23:41:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0092</dev_id>
+    <dev_name>sec-for-0092.corp.internal</dev_name>
+    <dev_ip>10.1.6.93</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Rowan Winter</assigned_user>
+    <last_seen_time>2026-10-23T01:52:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0093</dev_id>
+    <dev_name>db-for-0093.corp.internal</dev_name>
+    <dev_ip>10.1.6.94</dev_ip>
+    <os_family>Debian GNU/Linux 12 (bookworm)</os_family>
+    <assigned_user>Skyler Carrington</assigned_user>
+    <last_seen_time>2026-10-23T03:03:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0094</dev_id>
+    <dev_name>app-for-0094.corp.internal</dev_name>
+    <dev_ip>10.1.6.95</dev_ip>
+    <os_family>Alpine Linux 3.18</os_family>
+    <assigned_user>Kendall O'Connor</assigned_user>
+    <last_seen_time>2026-10-23T05:14:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0095</dev_id>
+    <dev_name>gw-for-0095.corp.internal</dev_name>
+    <dev_ip>10.1.6.96</dev_ip>
+    <os_family>Amazon Linux 2023.2</os_family>
+    <assigned_user>Hayden Novak</assigned_user>
+    <last_seen_time>2026-10-23T07:25:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0096</dev_id>
+    <dev_name>edge-for-0096.corp.internal</dev_name>
+    <dev_ip>10.1.7.97</dev_ip>
+    <os_family>Ubuntu 22.04 LTS (Jammy Jellyfish)</os_family>
+    <assigned_user>Finley Reyes</assigned_user>
+    <last_seen_time>2026-10-23T09:36:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0097</dev_id>
+    <dev_name>k8s-node-for-0097.corp.internal</dev_name>
+    <dev_ip>10.1.7.98</dev_ip>
+    <os_family>Red Hat Enterprise Linux 9.2</os_family>
+    <assigned_user>Emerson Yoshida</assigned_user>
+    <last_seen_time>2026-10-23T11:47:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0098</dev_id>
+    <dev_name>bastion-for-0098.corp.internal</dev_name>
+    <dev_ip>10.1.7.99</dev_ip>
+    <os_family>Windows Server 2022 Datacenter</os_family>
+    <assigned_user>Adrian Lindqvist</assigned_user>
+    <last_seen_time>2026-10-23T13:58:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0099</dev_id>
+    <dev_name>proxy-for-0099.corp.internal</dev_name>
+    <dev_ip>10.1.7.100</dev_ip>
+    <os_family>Windows 11 Enterprise (22H2)</os_family>
+    <assigned_user>Cameron Nakamura</assigned_user>
+    <last_seen_time>2026-10-23T15:09:00Z</last_seen_time>
+  </device_entry>
+  <device_entry>
+    <dev_id>dev-fort-0100</dev_id>
+    <dev_name>wrk-for-0100.corp.internal</dev_name>
+    <dev_ip>10.1.7.101</dev_ip>
+    <os_family>macOS 14.1 Sonoma (Darwin 23.1.0)</os_family>
+    <assigned_user>Alex Vance</assigned_user>
+    <last_seen_time>2026-10-23T17:20:00Z</last_seen_time>
+  </device_entry>
+</results>

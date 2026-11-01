@@ -36,6 +36,7 @@ from backend.app.db.persistence import (
     persist_failed_run,
     persist_successful_run,
     start_connector_run,
+    write_run_event,
 )
 
 
@@ -112,6 +113,39 @@ def _compute_timestamp_checkpoint(
     return latest_value
 
 
+
+def _safe_run_event(
+    run_id: int | None,
+    connector_name: str,
+    stage: str,
+    status: str,
+    message: str,
+    details: dict[str, Any] | None = None,
+) -> None:
+    """
+    Observability must never break connector
+    execution.
+    """
+
+    if run_id is None:
+        return
+
+    try:
+        write_run_event(
+            run_id,
+            connector_name,
+            stage,
+            status,
+            message,
+            details,
+        )
+
+    except Exception:
+        # Timeline telemetry is deliberately
+        # non-fatal.
+        return
+
+
 def run_connector(
     config_path: str,
     resolver: SecretResolver | None = None,
@@ -156,6 +190,40 @@ def run_connector(
     if persist:
         run_id = start_connector_run(
             config.name
+        )
+
+        _safe_run_event(
+            run_id,
+            config.name,
+            "CONFIG_VALIDATED",
+            "success",
+            "Connector configuration validated",
+            {
+                "entity": config.mapping.entity,
+                "response_format": (
+                    config.response.format
+                ),
+                "pagination_type": (
+                    config.pagination.type
+                ),
+            },
+        )
+
+        _safe_run_event(
+            run_id,
+            config.name,
+            "CHECKPOINT_LOADED",
+            "success",
+            "Incremental checkpoint state loaded",
+            {
+                "incremental_enabled": (
+                    config.incremental.enabled
+                ),
+                "checkpoint_present": (
+                    checkpoint_before
+                    is not None
+                ),
+            },
         )
 
     try:
@@ -222,10 +290,47 @@ def run_connector(
                 config.response.records_path,
             )
 
+        _safe_run_event(
+            run_id,
+            config.name,
+            "FETCH_COMPLETED",
+            "success",
+            "Source fetch completed",
+            {
+                "http_status": http_status,
+                "page_count": page_count,
+                "records_received": (
+                    len(raw_records)
+                ),
+                "pagination_type": (
+                    config.pagination.type
+                ),
+            },
+        )
+
         processed = process_records(
             raw_records,
             config.mapping,
             config.name,
+        )
+
+        _safe_run_event(
+            run_id,
+            config.name,
+            "RECORDS_PROCESSED",
+            "success",
+            "Records parsed and mapped",
+            {
+                "records_received": processed[
+                    "total_received"
+                ],
+                "records_normalized": processed[
+                    "normalized_count"
+                ],
+                "records_quarantined": processed[
+                    "quarantined_count"
+                ],
+            },
         )
 
         # ----------------------------------------------------
@@ -409,6 +514,29 @@ def run_connector(
                     source_field,
                     checkpoint_before,
                 )
+            )
+
+        if config.incremental.enabled:
+            _safe_run_event(
+                run_id,
+                config.name,
+                "CHECKPOINT_EVALUATED",
+                "success",
+                "Incremental checkpoint evaluated",
+                {
+                    "checkpoint_present_before": (
+                        checkpoint_before
+                        is not None
+                    ),
+                    "checkpoint_present_after": (
+                        checkpoint_after
+                        is not None
+                    ),
+                    "checkpoint_changed": (
+                        checkpoint_before
+                        != checkpoint_after
+                    ),
+                },
             )
 
         result = {

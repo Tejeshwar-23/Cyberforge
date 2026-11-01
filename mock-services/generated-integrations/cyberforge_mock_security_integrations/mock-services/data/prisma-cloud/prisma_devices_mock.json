@@ -1,0 +1,804 @@
+{
+  "assets": [
+    {
+      "assetId": "dev-pris-0001",
+      "assetName": "srv-pri-0001.corp.internal",
+      "publicIpAddress": "10.1.1.2",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Morgan Mercer",
+      "discoveryTime": "2026-10-15T11:11:00Z"
+    },
+    {
+      "assetId": "dev-pris-0002",
+      "assetName": "sec-pri-0002.corp.internal",
+      "publicIpAddress": "10.1.1.3",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Jordan Sterling",
+      "discoveryTime": "2026-10-15T13:22:00Z"
+    },
+    {
+      "assetId": "dev-pris-0003",
+      "assetName": "db-pri-0003.corp.internal",
+      "publicIpAddress": "10.1.1.4",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Taylor Kowalski",
+      "discoveryTime": "2026-10-15T15:33:00Z"
+    },
+    {
+      "assetId": "dev-pris-0004",
+      "assetName": "app-pri-0004.corp.internal",
+      "publicIpAddress": "10.1.1.5",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Casey Chen",
+      "discoveryTime": "2026-10-15T17:44:00Z"
+    },
+    {
+      "assetId": "dev-pris-0005",
+      "assetName": "gw-pri-0005.corp.internal",
+      "publicIpAddress": "10.1.1.6",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Riley Patel",
+      "discoveryTime": "2026-10-15T19:55:00Z"
+    },
+    {
+      "assetId": "dev-pris-0006",
+      "assetName": "edge-pri-0006.corp.internal",
+      "publicIpAddress": "10.1.1.7",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Avery Thorne",
+      "discoveryTime": "2026-10-15T21:06:00Z"
+    },
+    {
+      "assetId": "dev-pris-0007",
+      "assetName": "k8s-node-pri-0007.corp.internal",
+      "publicIpAddress": "10.1.1.8",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Sam Blackwood",
+      "discoveryTime": "2026-10-15T23:17:00Z"
+    },
+    {
+      "assetId": "dev-pris-0008",
+      "assetName": "bastion-pri-0008.corp.internal",
+      "publicIpAddress": "10.1.1.9",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": "Jamie Frost",
+      "discoveryTime": "2026-10-16T01:28:00Z"
+    },
+    {
+      "assetId": "dev-pris-0009",
+      "assetName": "proxy-pri-0009.corp.internal",
+      "publicIpAddress": "10.1.1.10",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Dakota Sinclair",
+      "discoveryTime": "2026-10-16T03:39:00Z"
+    },
+    {
+      "assetId": "dev-pris-0010",
+      "assetName": "wrk-pri-0010.corp.internal",
+      "publicIpAddress": "10.1.1.11",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Quinn Hawthorne",
+      "discoveryTime": "2026-10-16T05:50:00Z"
+    },
+    {
+      "assetId": "dev-pris-0011",
+      "assetName": "srv-pri-0011.corp.internal",
+      "publicIpAddress": "10.1.1.12",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Reese Delgado",
+      "discoveryTime": "2026-10-16T07:01:00Z"
+    },
+    {
+      "assetId": "dev-pris-0012",
+      "assetName": "sec-pri-0012.corp.internal",
+      "publicIpAddress": "10.1.1.13",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Rowan Winter",
+      "discoveryTime": "2026-10-16T09:12:00Z"
+    },
+    {
+      "assetId": "dev-pris-0013",
+      "assetName": "db-pri-0013.corp.internal",
+      "publicIpAddress": "10.1.1.14",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Skyler Carrington",
+      "discoveryTime": "2026-10-16T11:23:00Z"
+    },
+    {
+      "assetId": "dev-pris-0014",
+      "assetName": "app-pri-0014.corp.internal",
+      "publicIpAddress": "10.1.1.15",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Kendall O'Connor",
+      "discoveryTime": "2026-10-16T13:34:00Z"
+    },
+    {
+      "assetId": "dev-pris-0015",
+      "assetName": "gw-pri-0015.corp.internal",
+      "publicIpAddress": "10.1.1.16",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Hayden Novak",
+      "discoveryTime": "2026-10-16T15:45:00Z"
+    },
+    {
+      "assetId": "dev-pris-0016",
+      "assetName": "edge-pri-0016.corp.internal",
+      "publicIpAddress": "10.1.2.17",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": "Finley Reyes",
+      "discoveryTime": "2026-10-16T17:56:00Z"
+    },
+    {
+      "assetId": "dev-pris-0017",
+      "assetName": "k8s-node-pri-0017.corp.internal",
+      "publicIpAddress": "10.1.2.18",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Emerson Yoshida",
+      "discoveryTime": "2026-10-16T19:07:00Z"
+    },
+    {
+      "assetId": "dev-pris-0018",
+      "assetName": "bastion-pri-0018.corp.internal",
+      "publicIpAddress": "10.1.2.19",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Adrian Lindqvist",
+      "discoveryTime": "2026-10-16T21:18:00Z"
+    },
+    {
+      "assetId": "dev-pris-0019",
+      "assetName": "proxy-pri-0019.corp.internal",
+      "publicIpAddress": "10.1.2.20",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Cameron Nakamura",
+      "discoveryTime": "2026-10-16T23:29:00Z"
+    },
+    {
+      "assetId": "dev-pris-0020",
+      "assetName": "wrk-pri-0020.corp.internal",
+      "publicIpAddress": "10.1.2.21",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Alex Vance",
+      "discoveryTime": "2026-10-17T01:40:00Z"
+    },
+    {
+      "assetId": "dev-pris-0021",
+      "assetName": "srv-pri-0021.corp.internal",
+      "publicIpAddress": "10.1.2.22",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Morgan Mercer",
+      "discoveryTime": "2026-10-17T03:51:00Z"
+    },
+    {
+      "assetId": "dev-pris-0022",
+      "assetName": "sec-pri-0022.corp.internal",
+      "publicIpAddress": "10.1.2.23",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Jordan Sterling",
+      "discoveryTime": "2026-10-17T05:02:00Z"
+    },
+    {
+      "assetId": "dev-pris-0023",
+      "assetName": "db-pri-0023.corp.internal",
+      "publicIpAddress": "10.1.2.24",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Taylor Kowalski",
+      "discoveryTime": "2026-10-17T07:13:00Z"
+    },
+    {
+      "assetId": "dev-pris-0024",
+      "assetName": "app-pri-0024.corp.internal",
+      "publicIpAddress": "10.1.2.25",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": "Casey Chen",
+      "discoveryTime": "2026-10-17T09:24:00Z"
+    },
+    {
+      "assetId": "dev-pris-0025",
+      "assetName": "gw-pri-0025.corp.internal",
+      "publicIpAddress": "10.1.2.26",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Riley Patel",
+      "discoveryTime": "2026-10-17T11:35:00Z"
+    },
+    {
+      "assetId": "dev-pris-0026",
+      "assetName": "edge-pri-0026.corp.internal",
+      "publicIpAddress": "10.1.2.27",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Avery Thorne",
+      "discoveryTime": "2026-10-17T13:46:00Z"
+    },
+    {
+      "assetId": "dev-pris-0027",
+      "assetName": "k8s-node-pri-0027.corp.internal",
+      "publicIpAddress": "10.1.2.28",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Sam Blackwood",
+      "discoveryTime": "2026-10-17T15:57:00Z"
+    },
+    {
+      "assetId": "dev-pris-0028",
+      "assetName": "bastion-pri-0028.corp.internal",
+      "publicIpAddress": "10.1.2.29",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Jamie Frost",
+      "discoveryTime": "2026-10-17T17:08:00Z"
+    },
+    {
+      "assetId": "dev-pris-0029",
+      "assetName": "proxy-pri-0029.corp.internal",
+      "publicIpAddress": "10.1.2.30",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Dakota Sinclair",
+      "discoveryTime": "2026-10-17T19:19:00Z"
+    },
+    {
+      "assetId": "dev-pris-0030",
+      "assetName": "wrk-pri-0030.corp.internal",
+      "publicIpAddress": "10.1.2.31",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Quinn Hawthorne",
+      "discoveryTime": "2026-10-17T21:30:00Z"
+    },
+    {
+      "assetId": "dev-pris-0031",
+      "assetName": "srv-pri-0031.corp.internal",
+      "publicIpAddress": "10.1.2.32",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Reese Delgado",
+      "discoveryTime": "2026-10-17T23:41:00Z"
+    },
+    {
+      "assetId": "dev-pris-0032",
+      "assetName": "sec-pri-0032.corp.internal",
+      "publicIpAddress": "10.1.3.33",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": "Rowan Winter",
+      "discoveryTime": "2026-10-18T01:52:00Z"
+    },
+    {
+      "assetId": "dev-pris-0033",
+      "assetName": "db-pri-0033.corp.internal",
+      "publicIpAddress": "10.1.3.34",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Skyler Carrington",
+      "discoveryTime": "2026-10-18T03:03:00Z"
+    },
+    {
+      "assetId": "dev-pris-0034",
+      "assetName": "app-pri-0034.corp.internal",
+      "publicIpAddress": "10.1.3.35",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Kendall O'Connor",
+      "discoveryTime": "2026-10-18T05:14:00Z"
+    },
+    {
+      "assetId": "dev-pris-0035",
+      "assetName": "gw-pri-0035.corp.internal",
+      "publicIpAddress": "10.1.3.36",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Hayden Novak",
+      "discoveryTime": "2026-10-18T07:25:00Z"
+    },
+    {
+      "assetId": "dev-pris-0036",
+      "assetName": "edge-pri-0036.corp.internal",
+      "publicIpAddress": "10.1.3.37",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Finley Reyes",
+      "discoveryTime": "2026-10-18T09:36:00Z"
+    },
+    {
+      "assetId": "dev-pris-0037",
+      "assetName": "k8s-node-pri-0037.corp.internal",
+      "publicIpAddress": "10.1.3.38",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Emerson Yoshida",
+      "discoveryTime": "2026-10-18T11:47:00Z"
+    },
+    {
+      "assetId": "dev-pris-0038",
+      "assetName": "bastion-pri-0038.corp.internal",
+      "publicIpAddress": "10.1.3.39",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Adrian Lindqvist",
+      "discoveryTime": "2026-10-18T13:58:00Z"
+    },
+    {
+      "assetId": "dev-pris-0039",
+      "assetName": "proxy-pri-0039.corp.internal",
+      "publicIpAddress": "10.1.3.40",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Cameron Nakamura",
+      "discoveryTime": "2026-10-18T15:09:00Z"
+    },
+    {
+      "assetId": "dev-pris-0040",
+      "assetName": "wrk-pri-0040.corp.internal",
+      "publicIpAddress": "10.1.3.41",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": "Alex Vance",
+      "discoveryTime": "2026-10-18T17:20:00Z"
+    },
+    {
+      "assetId": "dev-pris-0041",
+      "assetName": "srv-pri-0041.corp.internal",
+      "publicIpAddress": "10.1.3.42",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Morgan Mercer",
+      "discoveryTime": "2026-10-18T19:31:00Z"
+    },
+    {
+      "assetId": "dev-pris-0042",
+      "assetName": "sec-pri-0042.corp.internal",
+      "publicIpAddress": "10.1.3.43",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Jordan Sterling",
+      "discoveryTime": "2026-10-18T21:42:00Z"
+    },
+    {
+      "assetId": "dev-pris-0043",
+      "assetName": "db-pri-0043.corp.internal",
+      "publicIpAddress": "10.1.3.44",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Taylor Kowalski",
+      "discoveryTime": "2026-10-18T23:53:00Z"
+    },
+    {
+      "assetId": "dev-pris-0044",
+      "assetName": "app-pri-0044.corp.internal",
+      "publicIpAddress": "10.1.3.45",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Casey Chen",
+      "discoveryTime": "2026-10-19T01:04:00Z"
+    },
+    {
+      "assetId": "dev-pris-0045",
+      "assetName": "gw-pri-0045.corp.internal",
+      "publicIpAddress": "10.1.3.46",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Riley Patel",
+      "discoveryTime": "2026-10-19T03:15:00Z"
+    },
+    {
+      "assetId": "dev-pris-0046",
+      "assetName": "edge-pri-0046.corp.internal",
+      "publicIpAddress": "10.1.3.47",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Avery Thorne",
+      "discoveryTime": "2026-10-19T05:26:00Z"
+    },
+    {
+      "assetId": "dev-pris-0047",
+      "assetName": "k8s-node-pri-0047.corp.internal",
+      "publicIpAddress": "10.1.3.48",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Sam Blackwood",
+      "discoveryTime": "2026-10-19T07:37:00Z"
+    },
+    {
+      "assetId": "dev-pris-0048",
+      "assetName": "bastion-pri-0048.corp.internal",
+      "publicIpAddress": "10.1.4.49",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": "Jamie Frost",
+      "discoveryTime": "2026-10-19T09:48:00Z"
+    },
+    {
+      "assetId": "dev-pris-0049",
+      "assetName": "proxy-pri-0049.corp.internal",
+      "publicIpAddress": "10.1.4.50",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Dakota Sinclair",
+      "discoveryTime": "2026-10-19T11:59:00Z"
+    },
+    {
+      "assetId": "dev-pris-0050",
+      "assetName": "wrk-pri-0050.corp.internal",
+      "publicIpAddress": "10.1.4.51",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Quinn Hawthorne",
+      "discoveryTime": "2026-10-19T13:10:00Z"
+    },
+    {
+      "assetId": "dev-pris-0051",
+      "assetName": "srv-pri-0051.corp.internal",
+      "publicIpAddress": "10.1.4.52",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Reese Delgado",
+      "discoveryTime": "2026-10-19T15:21:00Z"
+    },
+    {
+      "assetId": "dev-pris-0052",
+      "assetName": "sec-pri-0052.corp.internal",
+      "publicIpAddress": "10.1.4.53",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Rowan Winter",
+      "discoveryTime": "2026-10-19T17:32:00Z"
+    },
+    {
+      "assetId": "dev-pris-0053",
+      "assetName": "db-pri-0053.corp.internal",
+      "publicIpAddress": "10.1.4.54",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Skyler Carrington",
+      "discoveryTime": "2026-10-19T19:43:00Z"
+    },
+    {
+      "assetId": "dev-pris-0054",
+      "assetName": "app-pri-0054.corp.internal",
+      "publicIpAddress": "10.1.4.55",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Kendall O'Connor",
+      "discoveryTime": "2026-10-19T21:54:00Z"
+    },
+    {
+      "assetId": "dev-pris-0055",
+      "assetName": "gw-pri-0055.corp.internal",
+      "publicIpAddress": "10.1.4.56",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Hayden Novak",
+      "discoveryTime": "2026-10-19T23:05:00Z"
+    },
+    {
+      "assetId": "dev-pris-0056",
+      "assetName": "edge-pri-0056.corp.internal",
+      "publicIpAddress": "10.1.4.57",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": "Finley Reyes",
+      "discoveryTime": "2026-10-20T01:16:00Z"
+    },
+    {
+      "assetId": "dev-pris-0057",
+      "assetName": "k8s-node-pri-0057.corp.internal",
+      "publicIpAddress": "10.1.4.58",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Emerson Yoshida",
+      "discoveryTime": "2026-10-20T03:27:00Z"
+    },
+    {
+      "assetId": "dev-pris-0058",
+      "assetName": "bastion-pri-0058.corp.internal",
+      "publicIpAddress": "10.1.4.59",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Adrian Lindqvist",
+      "discoveryTime": "2026-10-20T05:38:00Z"
+    },
+    {
+      "assetId": "dev-pris-0059",
+      "assetName": "proxy-pri-0059.corp.internal",
+      "publicIpAddress": "10.1.4.60",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Cameron Nakamura",
+      "discoveryTime": "2026-10-20T07:49:00Z"
+    },
+    {
+      "assetId": "dev-pris-0060",
+      "assetName": "wrk-pri-0060.corp.internal",
+      "publicIpAddress": "10.1.4.61",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Alex Vance",
+      "discoveryTime": "2026-10-20T09:00:00Z"
+    },
+    {
+      "assetId": "dev-pris-0061",
+      "assetName": "srv-pri-0061.corp.internal",
+      "publicIpAddress": "10.1.4.62",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Morgan Mercer",
+      "discoveryTime": "2026-10-20T11:11:00Z"
+    },
+    {
+      "assetId": "dev-pris-0062",
+      "assetName": "sec-pri-0062.corp.internal",
+      "publicIpAddress": "10.1.4.63",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Jordan Sterling",
+      "discoveryTime": "2026-10-20T13:22:00Z"
+    },
+    {
+      "assetId": "dev-pris-0063",
+      "assetName": "db-pri-0063.corp.internal",
+      "publicIpAddress": "10.1.4.64",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Taylor Kowalski",
+      "discoveryTime": "2026-10-20T15:33:00Z"
+    },
+    {
+      "assetId": "dev-pris-0064",
+      "assetName": "app-pri-0064.corp.internal",
+      "publicIpAddress": "10.1.5.65",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": "Casey Chen",
+      "discoveryTime": "2026-10-20T17:44:00Z"
+    },
+    {
+      "assetId": "dev-pris-0065",
+      "assetName": "gw-pri-0065.corp.internal",
+      "publicIpAddress": "10.1.5.66",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Riley Patel",
+      "discoveryTime": "2026-10-20T19:55:00Z"
+    },
+    {
+      "assetId": "dev-pris-0066",
+      "assetName": "edge-pri-0066.corp.internal",
+      "publicIpAddress": "10.1.5.67",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Avery Thorne",
+      "discoveryTime": "2026-10-20T21:06:00Z"
+    },
+    {
+      "assetId": "dev-pris-0067",
+      "assetName": "k8s-node-pri-0067.corp.internal",
+      "publicIpAddress": "10.1.5.68",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Sam Blackwood",
+      "discoveryTime": "2026-10-20T23:17:00Z"
+    },
+    {
+      "assetId": "dev-pris-0068",
+      "assetName": "bastion-pri-0068.corp.internal",
+      "publicIpAddress": "10.1.5.69",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Jamie Frost",
+      "discoveryTime": "2026-10-21T01:28:00Z"
+    },
+    {
+      "assetId": "dev-pris-0069",
+      "assetName": "proxy-pri-0069.corp.internal",
+      "publicIpAddress": "10.1.5.70",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Dakota Sinclair",
+      "discoveryTime": "2026-10-21T03:39:00Z"
+    },
+    {
+      "assetId": "dev-pris-0070",
+      "assetName": "wrk-pri-0070.corp.internal",
+      "publicIpAddress": "10.1.5.71",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Quinn Hawthorne",
+      "discoveryTime": "2026-10-21T05:50:00Z"
+    },
+    {
+      "assetId": "dev-pris-0071",
+      "assetName": "srv-pri-0071.corp.internal",
+      "publicIpAddress": "10.1.5.72",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Reese Delgado",
+      "discoveryTime": "2026-10-21T07:01:00Z"
+    },
+    {
+      "assetId": "dev-pris-0072",
+      "assetName": "sec-pri-0072.corp.internal",
+      "publicIpAddress": "10.1.5.73",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": "Rowan Winter",
+      "discoveryTime": "2026-10-21T09:12:00Z"
+    },
+    {
+      "assetId": "dev-pris-0073",
+      "assetName": "db-pri-0073.corp.internal",
+      "publicIpAddress": "10.1.5.74",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Skyler Carrington",
+      "discoveryTime": "2026-10-21T11:23:00Z"
+    },
+    {
+      "assetId": "dev-pris-0074",
+      "assetName": "app-pri-0074.corp.internal",
+      "publicIpAddress": "10.1.5.75",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Kendall O'Connor",
+      "discoveryTime": "2026-10-21T13:34:00Z"
+    },
+    {
+      "assetId": "dev-pris-0075",
+      "assetName": "gw-pri-0075.corp.internal",
+      "publicIpAddress": "10.1.5.76",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Hayden Novak",
+      "discoveryTime": "2026-10-21T15:45:00Z"
+    },
+    {
+      "assetId": "dev-pris-0076",
+      "assetName": "edge-pri-0076.corp.internal",
+      "publicIpAddress": "10.1.5.77",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Finley Reyes",
+      "discoveryTime": "2026-10-21T17:56:00Z"
+    },
+    {
+      "assetId": "dev-pris-0077",
+      "assetName": "k8s-node-pri-0077.corp.internal",
+      "publicIpAddress": "10.1.5.78",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Emerson Yoshida",
+      "discoveryTime": "2026-10-21T19:07:00Z"
+    },
+    {
+      "assetId": "dev-pris-0078",
+      "assetName": "bastion-pri-0078.corp.internal",
+      "publicIpAddress": "10.1.5.79",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Adrian Lindqvist",
+      "discoveryTime": "2026-10-21T21:18:00Z"
+    },
+    {
+      "assetId": "dev-pris-0079",
+      "assetName": "proxy-pri-0079.corp.internal",
+      "publicIpAddress": "10.1.5.80",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Cameron Nakamura",
+      "discoveryTime": "2026-10-21T23:29:00Z"
+    },
+    {
+      "assetId": "dev-pris-0080",
+      "assetName": "wrk-pri-0080.corp.internal",
+      "publicIpAddress": "10.1.6.81",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": "Alex Vance",
+      "discoveryTime": "2026-10-22T01:40:00Z"
+    },
+    {
+      "assetId": "dev-pris-0081",
+      "assetName": "srv-pri-0081.corp.internal",
+      "publicIpAddress": "10.1.6.82",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Morgan Mercer",
+      "discoveryTime": "2026-10-22T03:51:00Z"
+    },
+    {
+      "assetId": "dev-pris-0082",
+      "assetName": "sec-pri-0082.corp.internal",
+      "publicIpAddress": "10.1.6.83",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Jordan Sterling",
+      "discoveryTime": "2026-10-22T05:02:00Z"
+    },
+    {
+      "assetId": "dev-pris-0083",
+      "assetName": "db-pri-0083.corp.internal",
+      "publicIpAddress": "10.1.6.84",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Taylor Kowalski",
+      "discoveryTime": "2026-10-22T07:13:00Z"
+    },
+    {
+      "assetId": "dev-pris-0084",
+      "assetName": "app-pri-0084.corp.internal",
+      "publicIpAddress": "10.1.6.85",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Casey Chen",
+      "discoveryTime": "2026-10-22T09:24:00Z"
+    },
+    {
+      "assetId": "dev-pris-0085",
+      "assetName": "gw-pri-0085.corp.internal",
+      "publicIpAddress": "10.1.6.86",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Riley Patel",
+      "discoveryTime": "2026-10-22T11:35:00Z"
+    },
+    {
+      "assetId": "dev-pris-0086",
+      "assetName": "edge-pri-0086.corp.internal",
+      "publicIpAddress": "10.1.6.87",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Avery Thorne",
+      "discoveryTime": "2026-10-22T13:46:00Z"
+    },
+    {
+      "assetId": "dev-pris-0087",
+      "assetName": "k8s-node-pri-0087.corp.internal",
+      "publicIpAddress": "10.1.6.88",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Sam Blackwood",
+      "discoveryTime": "2026-10-22T15:57:00Z"
+    },
+    {
+      "assetId": "dev-pris-0088",
+      "assetName": "bastion-pri-0088.corp.internal",
+      "publicIpAddress": "10.1.6.89",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": "Jamie Frost",
+      "discoveryTime": "2026-10-22T17:08:00Z"
+    },
+    {
+      "assetId": "dev-pris-0089",
+      "assetName": "proxy-pri-0089.corp.internal",
+      "publicIpAddress": "10.1.6.90",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Dakota Sinclair",
+      "discoveryTime": "2026-10-22T19:19:00Z"
+    },
+    {
+      "assetId": "dev-pris-0090",
+      "assetName": "wrk-pri-0090.corp.internal",
+      "publicIpAddress": "10.1.6.91",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Quinn Hawthorne",
+      "discoveryTime": "2026-10-22T21:30:00Z"
+    },
+    {
+      "assetId": "dev-pris-0091",
+      "assetName": "srv-pri-0091.corp.internal",
+      "publicIpAddress": "10.1.6.92",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Reese Delgado",
+      "discoveryTime": "2026-10-22T23:41:00Z"
+    },
+    {
+      "assetId": "dev-pris-0092",
+      "assetName": "sec-pri-0092.corp.internal",
+      "publicIpAddress": "10.1.6.93",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Rowan Winter",
+      "discoveryTime": "2026-10-23T01:52:00Z"
+    },
+    {
+      "assetId": "dev-pris-0093",
+      "assetName": "db-pri-0093.corp.internal",
+      "publicIpAddress": "10.1.6.94",
+      "osVersion": "Debian GNU/Linux 12 (bookworm)",
+      "accountGroup": "Skyler Carrington",
+      "discoveryTime": "2026-10-23T03:03:00Z"
+    },
+    {
+      "assetId": "dev-pris-0094",
+      "assetName": "app-pri-0094.corp.internal",
+      "publicIpAddress": "10.1.6.95",
+      "osVersion": "Alpine Linux 3.18",
+      "accountGroup": "Kendall O'Connor",
+      "discoveryTime": "2026-10-23T05:14:00Z"
+    },
+    {
+      "assetId": "dev-pris-0095",
+      "assetName": "gw-pri-0095.corp.internal",
+      "publicIpAddress": "10.1.6.96",
+      "osVersion": "Amazon Linux 2023.2",
+      "accountGroup": "Hayden Novak",
+      "discoveryTime": "2026-10-23T07:25:00Z"
+    },
+    {
+      "assetId": "dev-pris-0096",
+      "assetName": "edge-pri-0096.corp.internal",
+      "publicIpAddress": "10.1.7.97",
+      "osVersion": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+      "accountGroup": "Finley Reyes",
+      "discoveryTime": "2026-10-23T09:36:00Z"
+    },
+    {
+      "assetId": "dev-pris-0097",
+      "assetName": "k8s-node-pri-0097.corp.internal",
+      "publicIpAddress": "10.1.7.98",
+      "osVersion": "Red Hat Enterprise Linux 9.2",
+      "accountGroup": "Emerson Yoshida",
+      "discoveryTime": "2026-10-23T11:47:00Z"
+    },
+    {
+      "assetId": "dev-pris-0098",
+      "assetName": "bastion-pri-0098.corp.internal",
+      "publicIpAddress": "10.1.7.99",
+      "osVersion": "Windows Server 2022 Datacenter",
+      "accountGroup": "Adrian Lindqvist",
+      "discoveryTime": "2026-10-23T13:58:00Z"
+    },
+    {
+      "assetId": "dev-pris-0099",
+      "assetName": "proxy-pri-0099.corp.internal",
+      "publicIpAddress": "10.1.7.100",
+      "osVersion": "Windows 11 Enterprise (22H2)",
+      "accountGroup": "Cameron Nakamura",
+      "discoveryTime": "2026-10-23T15:09:00Z"
+    },
+    {
+      "assetId": "dev-pris-0100",
+      "assetName": "wrk-pri-0100.corp.internal",
+      "publicIpAddress": "10.1.7.101",
+      "osVersion": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+      "accountGroup": "Alex Vance",
+      "discoveryTime": "2026-10-23T17:20:00Z"
+    }
+  ]
+}

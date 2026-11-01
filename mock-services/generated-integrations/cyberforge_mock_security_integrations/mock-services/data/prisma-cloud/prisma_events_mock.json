@@ -1,0 +1,704 @@
+{
+  "alerts": [
+    {
+      "alertId": "evt-pris-00001",
+      "policyType": "Suspicious Process Execution via PowerShell",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T00:23:00Z",
+      "policyDescription": "Observed suspicious process execution via powershell on host node 001 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00002",
+      "policyType": "Anomalous Outbound C2 Beaconing",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T00:46:00Z",
+      "policyDescription": "Observed anomalous outbound c2 beaconing on host node 002 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00003",
+      "policyType": "Multiple Failed MFA Challenges",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-25T01:09:00Z",
+      "policyDescription": "Observed multiple failed mfa challenges on host node 003 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00004",
+      "policyType": "Lateral Movement via Remote WMI Execution",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-25T01:32:00Z",
+      "policyDescription": "Observed lateral movement via remote wmi execution on host node 004 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00005",
+      "policyType": "Cloud IAM Policy Weakening Detected",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-25T01:55:00Z",
+      "policyDescription": "Observed cloud iam policy weakening detected on host node 005 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00006",
+      "policyType": "Sensitive S3 Bucket Exposed to Public",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T02:18:00Z",
+      "policyDescription": "Observed sensitive s3 bucket exposed to public on host node 006 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00007",
+      "policyType": "Malicious Binary Execution Blocked",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T02:41:00Z",
+      "policyDescription": "Observed malicious binary execution blocked on host node 007 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00008",
+      "policyType": "Brute Force Authentication Storm",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-25T03:04:00Z",
+      "policyDescription": "Observed brute force authentication storm on host node 008 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00009",
+      "policyType": "Unusual Data Exfiltration to Uncategorized IP",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-25T03:27:00Z",
+      "policyDescription": "Observed unusual data exfiltration to uncategorized ip on host node 009 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00010",
+      "policyType": "Unauthorized Privilege Escalation Attempt",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-25T03:50:00Z",
+      "policyDescription": "Observed unauthorized privilege escalation attempt on host node 010 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00011",
+      "policyType": "Suspicious Process Execution via PowerShell",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T04:13:00Z",
+      "policyDescription": "Observed suspicious process execution via powershell on host node 011 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00012",
+      "policyType": "Anomalous Outbound C2 Beaconing",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T04:36:00Z",
+      "policyDescription": "Observed anomalous outbound c2 beaconing on host node 012 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00013",
+      "policyType": "Multiple Failed MFA Challenges",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-25T04:59:00Z",
+      "policyDescription": "Observed multiple failed mfa challenges on host node 013 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00014",
+      "policyType": "Lateral Movement via Remote WMI Execution",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-25T05:22:00Z",
+      "policyDescription": "Observed lateral movement via remote wmi execution on host node 014 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00015",
+      "policyType": "Cloud IAM Policy Weakening Detected",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-25T05:45:00Z",
+      "policyDescription": "Observed cloud iam policy weakening detected on host node 015 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00016",
+      "policyType": "Sensitive S3 Bucket Exposed to Public",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T06:08:00Z",
+      "policyDescription": "Observed sensitive s3 bucket exposed to public on host node 016 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00017",
+      "policyType": "Malicious Binary Execution Blocked",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T06:31:00Z",
+      "policyDescription": "Observed malicious binary execution blocked on host node 017 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00018",
+      "policyType": "Brute Force Authentication Storm",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-25T06:54:00Z",
+      "policyDescription": "Observed brute force authentication storm on host node 018 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00019",
+      "policyType": "Unusual Data Exfiltration to Uncategorized IP",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-25T07:17:00Z",
+      "policyDescription": "Observed unusual data exfiltration to uncategorized ip on host node 019 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00020",
+      "policyType": "Unauthorized Privilege Escalation Attempt",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-25T07:40:00Z",
+      "policyDescription": "Observed unauthorized privilege escalation attempt on host node 020 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00021",
+      "policyType": "Suspicious Process Execution via PowerShell",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T08:03:00Z",
+      "policyDescription": "Observed suspicious process execution via powershell on host node 021 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00022",
+      "policyType": "Anomalous Outbound C2 Beaconing",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T08:26:00Z",
+      "policyDescription": "Observed anomalous outbound c2 beaconing on host node 022 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00023",
+      "policyType": "Multiple Failed MFA Challenges",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-25T08:49:00Z",
+      "policyDescription": "Observed multiple failed mfa challenges on host node 023 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00024",
+      "policyType": "Lateral Movement via Remote WMI Execution",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-25T09:12:00Z",
+      "policyDescription": "Observed lateral movement via remote wmi execution on host node 024 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00025",
+      "policyType": "Cloud IAM Policy Weakening Detected",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-25T09:35:00Z",
+      "policyDescription": "Observed cloud iam policy weakening detected on host node 025 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00026",
+      "policyType": "Sensitive S3 Bucket Exposed to Public",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T09:58:00Z",
+      "policyDescription": "Observed sensitive s3 bucket exposed to public on host node 026 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00027",
+      "policyType": "Malicious Binary Execution Blocked",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T10:21:00Z",
+      "policyDescription": "Observed malicious binary execution blocked on host node 027 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00028",
+      "policyType": "Brute Force Authentication Storm",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-25T10:44:00Z",
+      "policyDescription": "Observed brute force authentication storm on host node 028 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00029",
+      "policyType": "Unusual Data Exfiltration to Uncategorized IP",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-25T11:07:00Z",
+      "policyDescription": "Observed unusual data exfiltration to uncategorized ip on host node 029 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00030",
+      "policyType": "Unauthorized Privilege Escalation Attempt",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-25T11:30:00Z",
+      "policyDescription": "Observed unauthorized privilege escalation attempt on host node 030 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00031",
+      "policyType": "Suspicious Process Execution via PowerShell",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T11:53:00Z",
+      "policyDescription": "Observed suspicious process execution via powershell on host node 031 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00032",
+      "policyType": "Anomalous Outbound C2 Beaconing",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T12:16:00Z",
+      "policyDescription": "Observed anomalous outbound c2 beaconing on host node 032 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00033",
+      "policyType": "Multiple Failed MFA Challenges",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-25T12:39:00Z",
+      "policyDescription": "Observed multiple failed mfa challenges on host node 033 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00034",
+      "policyType": "Lateral Movement via Remote WMI Execution",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-25T13:02:00Z",
+      "policyDescription": "Observed lateral movement via remote wmi execution on host node 034 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00035",
+      "policyType": "Cloud IAM Policy Weakening Detected",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-25T13:25:00Z",
+      "policyDescription": "Observed cloud iam policy weakening detected on host node 035 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00036",
+      "policyType": "Sensitive S3 Bucket Exposed to Public",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T13:48:00Z",
+      "policyDescription": "Observed sensitive s3 bucket exposed to public on host node 036 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00037",
+      "policyType": "Malicious Binary Execution Blocked",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T14:11:00Z",
+      "policyDescription": "Observed malicious binary execution blocked on host node 037 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00038",
+      "policyType": "Brute Force Authentication Storm",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-25T14:34:00Z",
+      "policyDescription": "Observed brute force authentication storm on host node 038 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00039",
+      "policyType": "Unusual Data Exfiltration to Uncategorized IP",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-25T14:57:00Z",
+      "policyDescription": "Observed unusual data exfiltration to uncategorized ip on host node 039 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00040",
+      "policyType": "Unauthorized Privilege Escalation Attempt",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-25T15:20:00Z",
+      "policyDescription": "Observed unauthorized privilege escalation attempt on host node 040 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00041",
+      "policyType": "Suspicious Process Execution via PowerShell",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T15:43:00Z",
+      "policyDescription": "Observed suspicious process execution via powershell on host node 041 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00042",
+      "policyType": "Anomalous Outbound C2 Beaconing",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T16:06:00Z",
+      "policyDescription": "Observed anomalous outbound c2 beaconing on host node 042 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00043",
+      "policyType": "Multiple Failed MFA Challenges",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-25T16:29:00Z",
+      "policyDescription": "Observed multiple failed mfa challenges on host node 043 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00044",
+      "policyType": "Lateral Movement via Remote WMI Execution",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-25T16:52:00Z",
+      "policyDescription": "Observed lateral movement via remote wmi execution on host node 044 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00045",
+      "policyType": "Cloud IAM Policy Weakening Detected",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-25T17:15:00Z",
+      "policyDescription": "Observed cloud iam policy weakening detected on host node 045 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00046",
+      "policyType": "Sensitive S3 Bucket Exposed to Public",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T17:38:00Z",
+      "policyDescription": "Observed sensitive s3 bucket exposed to public on host node 046 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00047",
+      "policyType": "Malicious Binary Execution Blocked",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T18:01:00Z",
+      "policyDescription": "Observed malicious binary execution blocked on host node 047 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00048",
+      "policyType": "Brute Force Authentication Storm",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-25T18:24:00Z",
+      "policyDescription": "Observed brute force authentication storm on host node 048 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00049",
+      "policyType": "Unusual Data Exfiltration to Uncategorized IP",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-25T18:47:00Z",
+      "policyDescription": "Observed unusual data exfiltration to uncategorized ip on host node 049 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00050",
+      "policyType": "Unauthorized Privilege Escalation Attempt",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-25T19:10:00Z",
+      "policyDescription": "Observed unauthorized privilege escalation attempt on host node 050 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00051",
+      "policyType": "Suspicious Process Execution via PowerShell",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T19:33:00Z",
+      "policyDescription": "Observed suspicious process execution via powershell on host node 051 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00052",
+      "policyType": "Anomalous Outbound C2 Beaconing",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T19:56:00Z",
+      "policyDescription": "Observed anomalous outbound c2 beaconing on host node 052 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00053",
+      "policyType": "Multiple Failed MFA Challenges",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-25T20:19:00Z",
+      "policyDescription": "Observed multiple failed mfa challenges on host node 053 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00054",
+      "policyType": "Lateral Movement via Remote WMI Execution",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-25T20:42:00Z",
+      "policyDescription": "Observed lateral movement via remote wmi execution on host node 054 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00055",
+      "policyType": "Cloud IAM Policy Weakening Detected",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-25T21:05:00Z",
+      "policyDescription": "Observed cloud iam policy weakening detected on host node 055 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00056",
+      "policyType": "Sensitive S3 Bucket Exposed to Public",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T21:28:00Z",
+      "policyDescription": "Observed sensitive s3 bucket exposed to public on host node 056 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00057",
+      "policyType": "Malicious Binary Execution Blocked",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T21:51:00Z",
+      "policyDescription": "Observed malicious binary execution blocked on host node 057 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00058",
+      "policyType": "Brute Force Authentication Storm",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-25T22:14:00Z",
+      "policyDescription": "Observed brute force authentication storm on host node 058 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00059",
+      "policyType": "Unusual Data Exfiltration to Uncategorized IP",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-25T22:37:00Z",
+      "policyDescription": "Observed unusual data exfiltration to uncategorized ip on host node 059 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00060",
+      "policyType": "Unauthorized Privilege Escalation Attempt",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-25T23:00:00Z",
+      "policyDescription": "Observed unauthorized privilege escalation attempt on host node 060 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00061",
+      "policyType": "Suspicious Process Execution via PowerShell",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-25T23:23:00Z",
+      "policyDescription": "Observed suspicious process execution via powershell on host node 061 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00062",
+      "policyType": "Anomalous Outbound C2 Beaconing",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-25T23:46:00Z",
+      "policyDescription": "Observed anomalous outbound c2 beaconing on host node 062 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00063",
+      "policyType": "Multiple Failed MFA Challenges",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-26T00:09:00Z",
+      "policyDescription": "Observed multiple failed mfa challenges on host node 063 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00064",
+      "policyType": "Lateral Movement via Remote WMI Execution",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-26T00:32:00Z",
+      "policyDescription": "Observed lateral movement via remote wmi execution on host node 064 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00065",
+      "policyType": "Cloud IAM Policy Weakening Detected",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-26T00:55:00Z",
+      "policyDescription": "Observed cloud iam policy weakening detected on host node 065 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00066",
+      "policyType": "Sensitive S3 Bucket Exposed to Public",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-26T01:18:00Z",
+      "policyDescription": "Observed sensitive s3 bucket exposed to public on host node 066 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00067",
+      "policyType": "Malicious Binary Execution Blocked",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-26T01:41:00Z",
+      "policyDescription": "Observed malicious binary execution blocked on host node 067 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00068",
+      "policyType": "Brute Force Authentication Storm",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-26T02:04:00Z",
+      "policyDescription": "Observed brute force authentication storm on host node 068 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00069",
+      "policyType": "Unusual Data Exfiltration to Uncategorized IP",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-26T02:27:00Z",
+      "policyDescription": "Observed unusual data exfiltration to uncategorized ip on host node 069 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00070",
+      "policyType": "Unauthorized Privilege Escalation Attempt",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-26T02:50:00Z",
+      "policyDescription": "Observed unauthorized privilege escalation attempt on host node 070 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00071",
+      "policyType": "Suspicious Process Execution via PowerShell",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-26T03:13:00Z",
+      "policyDescription": "Observed suspicious process execution via powershell on host node 071 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00072",
+      "policyType": "Anomalous Outbound C2 Beaconing",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-26T03:36:00Z",
+      "policyDescription": "Observed anomalous outbound c2 beaconing on host node 072 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00073",
+      "policyType": "Multiple Failed MFA Challenges",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-26T03:59:00Z",
+      "policyDescription": "Observed multiple failed mfa challenges on host node 073 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00074",
+      "policyType": "Lateral Movement via Remote WMI Execution",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-26T04:22:00Z",
+      "policyDescription": "Observed lateral movement via remote wmi execution on host node 074 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00075",
+      "policyType": "Cloud IAM Policy Weakening Detected",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-26T04:45:00Z",
+      "policyDescription": "Observed cloud iam policy weakening detected on host node 075 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00076",
+      "policyType": "Sensitive S3 Bucket Exposed to Public",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-26T05:08:00Z",
+      "policyDescription": "Observed sensitive s3 bucket exposed to public on host node 076 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00077",
+      "policyType": "Malicious Binary Execution Blocked",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-26T05:31:00Z",
+      "policyDescription": "Observed malicious binary execution blocked on host node 077 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00078",
+      "policyType": "Brute Force Authentication Storm",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-26T05:54:00Z",
+      "policyDescription": "Observed brute force authentication storm on host node 078 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00079",
+      "policyType": "Unusual Data Exfiltration to Uncategorized IP",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-26T06:17:00Z",
+      "policyDescription": "Observed unusual data exfiltration to uncategorized ip on host node 079 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00080",
+      "policyType": "Unauthorized Privilege Escalation Attempt",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-26T06:40:00Z",
+      "policyDescription": "Observed unauthorized privilege escalation attempt on host node 080 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00081",
+      "policyType": "Suspicious Process Execution via PowerShell",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-26T07:03:00Z",
+      "policyDescription": "Observed suspicious process execution via powershell on host node 081 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00082",
+      "policyType": "Anomalous Outbound C2 Beaconing",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-26T07:26:00Z",
+      "policyDescription": "Observed anomalous outbound c2 beaconing on host node 082 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00083",
+      "policyType": "Multiple Failed MFA Challenges",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-26T07:49:00Z",
+      "policyDescription": "Observed multiple failed mfa challenges on host node 083 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00084",
+      "policyType": "Lateral Movement via Remote WMI Execution",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-26T08:12:00Z",
+      "policyDescription": "Observed lateral movement via remote wmi execution on host node 084 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00085",
+      "policyType": "Cloud IAM Policy Weakening Detected",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-26T08:35:00Z",
+      "policyDescription": "Observed cloud iam policy weakening detected on host node 085 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00086",
+      "policyType": "Sensitive S3 Bucket Exposed to Public",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-26T08:58:00Z",
+      "policyDescription": "Observed sensitive s3 bucket exposed to public on host node 086 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00087",
+      "policyType": "Malicious Binary Execution Blocked",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-26T09:21:00Z",
+      "policyDescription": "Observed malicious binary execution blocked on host node 087 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00088",
+      "policyType": "Brute Force Authentication Storm",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-26T09:44:00Z",
+      "policyDescription": "Observed brute force authentication storm on host node 088 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00089",
+      "policyType": "Unusual Data Exfiltration to Uncategorized IP",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-26T10:07:00Z",
+      "policyDescription": "Observed unusual data exfiltration to uncategorized ip on host node 089 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00090",
+      "policyType": "Unauthorized Privilege Escalation Attempt",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-26T10:30:00Z",
+      "policyDescription": "Observed unauthorized privilege escalation attempt on host node 090 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00091",
+      "policyType": "Suspicious Process Execution via PowerShell",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-26T10:53:00Z",
+      "policyDescription": "Observed suspicious process execution via powershell on host node 091 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00092",
+      "policyType": "Anomalous Outbound C2 Beaconing",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-26T11:16:00Z",
+      "policyDescription": "Observed anomalous outbound c2 beaconing on host node 092 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00093",
+      "policyType": "Multiple Failed MFA Challenges",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-26T11:39:00Z",
+      "policyDescription": "Observed multiple failed mfa challenges on host node 093 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00094",
+      "policyType": "Lateral Movement via Remote WMI Execution",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-26T12:02:00Z",
+      "policyDescription": "Observed lateral movement via remote wmi execution on host node 094 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00095",
+      "policyType": "Cloud IAM Policy Weakening Detected",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-26T12:25:00Z",
+      "policyDescription": "Observed cloud iam policy weakening detected on host node 095 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00096",
+      "policyType": "Sensitive S3 Bucket Exposed to Public",
+      "riskGrade": "HIGH",
+      "triggeredAt": "2026-10-26T12:48:00Z",
+      "policyDescription": "Observed sensitive s3 bucket exposed to public on host node 096 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00097",
+      "policyType": "Malicious Binary Execution Blocked",
+      "riskGrade": "MEDIUM",
+      "triggeredAt": "2026-10-26T13:11:00Z",
+      "policyDescription": "Observed malicious binary execution blocked on host node 097 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00098",
+      "policyType": "Brute Force Authentication Storm",
+      "riskGrade": "LOW",
+      "triggeredAt": "2026-10-26T13:34:00Z",
+      "policyDescription": "Observed brute force authentication storm on host node 098 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00099",
+      "policyType": "Unusual Data Exfiltration to Uncategorized IP",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-10-26T13:57:00Z",
+      "policyDescription": "Observed unusual data exfiltration to uncategorized ip on host node 099 originating from external telemetry cluster"
+    },
+    {
+      "alertId": "evt-pris-00100",
+      "policyType": "Unauthorized Privilege Escalation Attempt",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-10-26T14:20:00Z",
+      "policyDescription": "Observed unauthorized privilege escalation attempt on host node 100 originating from external telemetry cluster"
+    }
+  ]
+}

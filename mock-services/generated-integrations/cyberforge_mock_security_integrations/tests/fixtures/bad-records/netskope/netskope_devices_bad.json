@@ -1,0 +1,48 @@
+{
+  "data": {
+    "devices": [
+      {
+        "device_name": "wrk-net-0900.corp.internal",
+        "egress_ip": "10.4.57.151",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Alex Vance",
+        "last_event_time": "2026-12-29T09:00:00Z",
+        "_defect_note": "Defect 1: Missing device ID"
+      },
+      {
+        "client_id": "dev-nets-0901",
+        "egress_ip": "10.4.57.152",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Morgan Mercer",
+        "last_event_time": "2026-12-29T11:11:00Z",
+        "_defect_note": "Defect 2: Missing hostname"
+      },
+      {
+        "client_id": "dev-nets-0902",
+        "device_name": "sec-net-0902.corp.internal",
+        "egress_ip": "10.4.57.153",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Jordan Sterling",
+        "last_event_time": "INVALID-EPOCH-DATE-2026",
+        "_defect_note": "Defect 3: Invalid last_seen timestamp"
+      },
+      {
+        "client_id": "dev-nets-0903",
+        "device_name": "db-net-0903.corp.internal",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Taylor Kowalski",
+        "last_event_time": "2026-12-29T15:33:00Z",
+        "_defect_note": "Defect 4: Missing expected IP field"
+      },
+      {
+        "client_id": "dev-nets-0904",
+        "device_name": "app-net-0904.corp.internal",
+        "egress_ip": "10.4.57.155",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": null,
+        "last_event_time": "2026-12-29T17:44:00Z",
+        "_defect_note": "Defect 5: Null or missing owner/assigned entity"
+      }
+    ]
+  }
+}

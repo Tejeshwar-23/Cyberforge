@@ -1,0 +1,16 @@
+vendor: Trend Micro Vision One
+users:
+  drift_type: field_rename
+  old_path: mailAddress
+  new_path: emailAddress
+  expected_risk: LOW
+devices:
+  drift_type: field_rename
+  old_path: lastPingTimestamp
+  new_path: lastSyncTimestamp
+  expected_risk: LOW
+events:
+  drift_type: field_rename
+  old_path: riskLevel
+  new_path: alertSeverity
+  expected_risk: LOW

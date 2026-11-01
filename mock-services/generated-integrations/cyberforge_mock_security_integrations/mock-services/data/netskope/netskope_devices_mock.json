@@ -1,0 +1,806 @@
+{
+  "data": {
+    "devices": [
+      {
+        "client_id": "dev-nets-0001",
+        "device_name": "srv-net-0001.corp.internal",
+        "egress_ip": "10.1.1.2",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Morgan Mercer",
+        "last_event_time": "2026-10-15T11:11:00Z"
+      },
+      {
+        "client_id": "dev-nets-0002",
+        "device_name": "sec-net-0002.corp.internal",
+        "egress_ip": "10.1.1.3",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Jordan Sterling",
+        "last_event_time": "2026-10-15T13:22:00Z"
+      },
+      {
+        "client_id": "dev-nets-0003",
+        "device_name": "db-net-0003.corp.internal",
+        "egress_ip": "10.1.1.4",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Taylor Kowalski",
+        "last_event_time": "2026-10-15T15:33:00Z"
+      },
+      {
+        "client_id": "dev-nets-0004",
+        "device_name": "app-net-0004.corp.internal",
+        "egress_ip": "10.1.1.5",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Casey Chen",
+        "last_event_time": "2026-10-15T17:44:00Z"
+      },
+      {
+        "client_id": "dev-nets-0005",
+        "device_name": "gw-net-0005.corp.internal",
+        "egress_ip": "10.1.1.6",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Riley Patel",
+        "last_event_time": "2026-10-15T19:55:00Z"
+      },
+      {
+        "client_id": "dev-nets-0006",
+        "device_name": "edge-net-0006.corp.internal",
+        "egress_ip": "10.1.1.7",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Avery Thorne",
+        "last_event_time": "2026-10-15T21:06:00Z"
+      },
+      {
+        "client_id": "dev-nets-0007",
+        "device_name": "k8s-node-net-0007.corp.internal",
+        "egress_ip": "10.1.1.8",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Sam Blackwood",
+        "last_event_time": "2026-10-15T23:17:00Z"
+      },
+      {
+        "client_id": "dev-nets-0008",
+        "device_name": "bastion-net-0008.corp.internal",
+        "egress_ip": "10.1.1.9",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": "Jamie Frost",
+        "last_event_time": "2026-10-16T01:28:00Z"
+      },
+      {
+        "client_id": "dev-nets-0009",
+        "device_name": "proxy-net-0009.corp.internal",
+        "egress_ip": "10.1.1.10",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Dakota Sinclair",
+        "last_event_time": "2026-10-16T03:39:00Z"
+      },
+      {
+        "client_id": "dev-nets-0010",
+        "device_name": "wrk-net-0010.corp.internal",
+        "egress_ip": "10.1.1.11",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Quinn Hawthorne",
+        "last_event_time": "2026-10-16T05:50:00Z"
+      },
+      {
+        "client_id": "dev-nets-0011",
+        "device_name": "srv-net-0011.corp.internal",
+        "egress_ip": "10.1.1.12",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Reese Delgado",
+        "last_event_time": "2026-10-16T07:01:00Z"
+      },
+      {
+        "client_id": "dev-nets-0012",
+        "device_name": "sec-net-0012.corp.internal",
+        "egress_ip": "10.1.1.13",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Rowan Winter",
+        "last_event_time": "2026-10-16T09:12:00Z"
+      },
+      {
+        "client_id": "dev-nets-0013",
+        "device_name": "db-net-0013.corp.internal",
+        "egress_ip": "10.1.1.14",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Skyler Carrington",
+        "last_event_time": "2026-10-16T11:23:00Z"
+      },
+      {
+        "client_id": "dev-nets-0014",
+        "device_name": "app-net-0014.corp.internal",
+        "egress_ip": "10.1.1.15",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Kendall O'Connor",
+        "last_event_time": "2026-10-16T13:34:00Z"
+      },
+      {
+        "client_id": "dev-nets-0015",
+        "device_name": "gw-net-0015.corp.internal",
+        "egress_ip": "10.1.1.16",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Hayden Novak",
+        "last_event_time": "2026-10-16T15:45:00Z"
+      },
+      {
+        "client_id": "dev-nets-0016",
+        "device_name": "edge-net-0016.corp.internal",
+        "egress_ip": "10.1.2.17",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": "Finley Reyes",
+        "last_event_time": "2026-10-16T17:56:00Z"
+      },
+      {
+        "client_id": "dev-nets-0017",
+        "device_name": "k8s-node-net-0017.corp.internal",
+        "egress_ip": "10.1.2.18",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Emerson Yoshida",
+        "last_event_time": "2026-10-16T19:07:00Z"
+      },
+      {
+        "client_id": "dev-nets-0018",
+        "device_name": "bastion-net-0018.corp.internal",
+        "egress_ip": "10.1.2.19",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Adrian Lindqvist",
+        "last_event_time": "2026-10-16T21:18:00Z"
+      },
+      {
+        "client_id": "dev-nets-0019",
+        "device_name": "proxy-net-0019.corp.internal",
+        "egress_ip": "10.1.2.20",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Cameron Nakamura",
+        "last_event_time": "2026-10-16T23:29:00Z"
+      },
+      {
+        "client_id": "dev-nets-0020",
+        "device_name": "wrk-net-0020.corp.internal",
+        "egress_ip": "10.1.2.21",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Alex Vance",
+        "last_event_time": "2026-10-17T01:40:00Z"
+      },
+      {
+        "client_id": "dev-nets-0021",
+        "device_name": "srv-net-0021.corp.internal",
+        "egress_ip": "10.1.2.22",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Morgan Mercer",
+        "last_event_time": "2026-10-17T03:51:00Z"
+      },
+      {
+        "client_id": "dev-nets-0022",
+        "device_name": "sec-net-0022.corp.internal",
+        "egress_ip": "10.1.2.23",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Jordan Sterling",
+        "last_event_time": "2026-10-17T05:02:00Z"
+      },
+      {
+        "client_id": "dev-nets-0023",
+        "device_name": "db-net-0023.corp.internal",
+        "egress_ip": "10.1.2.24",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Taylor Kowalski",
+        "last_event_time": "2026-10-17T07:13:00Z"
+      },
+      {
+        "client_id": "dev-nets-0024",
+        "device_name": "app-net-0024.corp.internal",
+        "egress_ip": "10.1.2.25",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": "Casey Chen",
+        "last_event_time": "2026-10-17T09:24:00Z"
+      },
+      {
+        "client_id": "dev-nets-0025",
+        "device_name": "gw-net-0025.corp.internal",
+        "egress_ip": "10.1.2.26",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Riley Patel",
+        "last_event_time": "2026-10-17T11:35:00Z"
+      },
+      {
+        "client_id": "dev-nets-0026",
+        "device_name": "edge-net-0026.corp.internal",
+        "egress_ip": "10.1.2.27",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Avery Thorne",
+        "last_event_time": "2026-10-17T13:46:00Z"
+      },
+      {
+        "client_id": "dev-nets-0027",
+        "device_name": "k8s-node-net-0027.corp.internal",
+        "egress_ip": "10.1.2.28",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Sam Blackwood",
+        "last_event_time": "2026-10-17T15:57:00Z"
+      },
+      {
+        "client_id": "dev-nets-0028",
+        "device_name": "bastion-net-0028.corp.internal",
+        "egress_ip": "10.1.2.29",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Jamie Frost",
+        "last_event_time": "2026-10-17T17:08:00Z"
+      },
+      {
+        "client_id": "dev-nets-0029",
+        "device_name": "proxy-net-0029.corp.internal",
+        "egress_ip": "10.1.2.30",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Dakota Sinclair",
+        "last_event_time": "2026-10-17T19:19:00Z"
+      },
+      {
+        "client_id": "dev-nets-0030",
+        "device_name": "wrk-net-0030.corp.internal",
+        "egress_ip": "10.1.2.31",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Quinn Hawthorne",
+        "last_event_time": "2026-10-17T21:30:00Z"
+      },
+      {
+        "client_id": "dev-nets-0031",
+        "device_name": "srv-net-0031.corp.internal",
+        "egress_ip": "10.1.2.32",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Reese Delgado",
+        "last_event_time": "2026-10-17T23:41:00Z"
+      },
+      {
+        "client_id": "dev-nets-0032",
+        "device_name": "sec-net-0032.corp.internal",
+        "egress_ip": "10.1.3.33",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": "Rowan Winter",
+        "last_event_time": "2026-10-18T01:52:00Z"
+      },
+      {
+        "client_id": "dev-nets-0033",
+        "device_name": "db-net-0033.corp.internal",
+        "egress_ip": "10.1.3.34",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Skyler Carrington",
+        "last_event_time": "2026-10-18T03:03:00Z"
+      },
+      {
+        "client_id": "dev-nets-0034",
+        "device_name": "app-net-0034.corp.internal",
+        "egress_ip": "10.1.3.35",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Kendall O'Connor",
+        "last_event_time": "2026-10-18T05:14:00Z"
+      },
+      {
+        "client_id": "dev-nets-0035",
+        "device_name": "gw-net-0035.corp.internal",
+        "egress_ip": "10.1.3.36",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Hayden Novak",
+        "last_event_time": "2026-10-18T07:25:00Z"
+      },
+      {
+        "client_id": "dev-nets-0036",
+        "device_name": "edge-net-0036.corp.internal",
+        "egress_ip": "10.1.3.37",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Finley Reyes",
+        "last_event_time": "2026-10-18T09:36:00Z"
+      },
+      {
+        "client_id": "dev-nets-0037",
+        "device_name": "k8s-node-net-0037.corp.internal",
+        "egress_ip": "10.1.3.38",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Emerson Yoshida",
+        "last_event_time": "2026-10-18T11:47:00Z"
+      },
+      {
+        "client_id": "dev-nets-0038",
+        "device_name": "bastion-net-0038.corp.internal",
+        "egress_ip": "10.1.3.39",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Adrian Lindqvist",
+        "last_event_time": "2026-10-18T13:58:00Z"
+      },
+      {
+        "client_id": "dev-nets-0039",
+        "device_name": "proxy-net-0039.corp.internal",
+        "egress_ip": "10.1.3.40",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Cameron Nakamura",
+        "last_event_time": "2026-10-18T15:09:00Z"
+      },
+      {
+        "client_id": "dev-nets-0040",
+        "device_name": "wrk-net-0040.corp.internal",
+        "egress_ip": "10.1.3.41",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": "Alex Vance",
+        "last_event_time": "2026-10-18T17:20:00Z"
+      },
+      {
+        "client_id": "dev-nets-0041",
+        "device_name": "srv-net-0041.corp.internal",
+        "egress_ip": "10.1.3.42",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Morgan Mercer",
+        "last_event_time": "2026-10-18T19:31:00Z"
+      },
+      {
+        "client_id": "dev-nets-0042",
+        "device_name": "sec-net-0042.corp.internal",
+        "egress_ip": "10.1.3.43",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Jordan Sterling",
+        "last_event_time": "2026-10-18T21:42:00Z"
+      },
+      {
+        "client_id": "dev-nets-0043",
+        "device_name": "db-net-0043.corp.internal",
+        "egress_ip": "10.1.3.44",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Taylor Kowalski",
+        "last_event_time": "2026-10-18T23:53:00Z"
+      },
+      {
+        "client_id": "dev-nets-0044",
+        "device_name": "app-net-0044.corp.internal",
+        "egress_ip": "10.1.3.45",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Casey Chen",
+        "last_event_time": "2026-10-19T01:04:00Z"
+      },
+      {
+        "client_id": "dev-nets-0045",
+        "device_name": "gw-net-0045.corp.internal",
+        "egress_ip": "10.1.3.46",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Riley Patel",
+        "last_event_time": "2026-10-19T03:15:00Z"
+      },
+      {
+        "client_id": "dev-nets-0046",
+        "device_name": "edge-net-0046.corp.internal",
+        "egress_ip": "10.1.3.47",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Avery Thorne",
+        "last_event_time": "2026-10-19T05:26:00Z"
+      },
+      {
+        "client_id": "dev-nets-0047",
+        "device_name": "k8s-node-net-0047.corp.internal",
+        "egress_ip": "10.1.3.48",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Sam Blackwood",
+        "last_event_time": "2026-10-19T07:37:00Z"
+      },
+      {
+        "client_id": "dev-nets-0048",
+        "device_name": "bastion-net-0048.corp.internal",
+        "egress_ip": "10.1.4.49",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": "Jamie Frost",
+        "last_event_time": "2026-10-19T09:48:00Z"
+      },
+      {
+        "client_id": "dev-nets-0049",
+        "device_name": "proxy-net-0049.corp.internal",
+        "egress_ip": "10.1.4.50",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Dakota Sinclair",
+        "last_event_time": "2026-10-19T11:59:00Z"
+      },
+      {
+        "client_id": "dev-nets-0050",
+        "device_name": "wrk-net-0050.corp.internal",
+        "egress_ip": "10.1.4.51",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Quinn Hawthorne",
+        "last_event_time": "2026-10-19T13:10:00Z"
+      },
+      {
+        "client_id": "dev-nets-0051",
+        "device_name": "srv-net-0051.corp.internal",
+        "egress_ip": "10.1.4.52",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Reese Delgado",
+        "last_event_time": "2026-10-19T15:21:00Z"
+      },
+      {
+        "client_id": "dev-nets-0052",
+        "device_name": "sec-net-0052.corp.internal",
+        "egress_ip": "10.1.4.53",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Rowan Winter",
+        "last_event_time": "2026-10-19T17:32:00Z"
+      },
+      {
+        "client_id": "dev-nets-0053",
+        "device_name": "db-net-0053.corp.internal",
+        "egress_ip": "10.1.4.54",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Skyler Carrington",
+        "last_event_time": "2026-10-19T19:43:00Z"
+      },
+      {
+        "client_id": "dev-nets-0054",
+        "device_name": "app-net-0054.corp.internal",
+        "egress_ip": "10.1.4.55",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Kendall O'Connor",
+        "last_event_time": "2026-10-19T21:54:00Z"
+      },
+      {
+        "client_id": "dev-nets-0055",
+        "device_name": "gw-net-0055.corp.internal",
+        "egress_ip": "10.1.4.56",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Hayden Novak",
+        "last_event_time": "2026-10-19T23:05:00Z"
+      },
+      {
+        "client_id": "dev-nets-0056",
+        "device_name": "edge-net-0056.corp.internal",
+        "egress_ip": "10.1.4.57",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": "Finley Reyes",
+        "last_event_time": "2026-10-20T01:16:00Z"
+      },
+      {
+        "client_id": "dev-nets-0057",
+        "device_name": "k8s-node-net-0057.corp.internal",
+        "egress_ip": "10.1.4.58",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Emerson Yoshida",
+        "last_event_time": "2026-10-20T03:27:00Z"
+      },
+      {
+        "client_id": "dev-nets-0058",
+        "device_name": "bastion-net-0058.corp.internal",
+        "egress_ip": "10.1.4.59",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Adrian Lindqvist",
+        "last_event_time": "2026-10-20T05:38:00Z"
+      },
+      {
+        "client_id": "dev-nets-0059",
+        "device_name": "proxy-net-0059.corp.internal",
+        "egress_ip": "10.1.4.60",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Cameron Nakamura",
+        "last_event_time": "2026-10-20T07:49:00Z"
+      },
+      {
+        "client_id": "dev-nets-0060",
+        "device_name": "wrk-net-0060.corp.internal",
+        "egress_ip": "10.1.4.61",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Alex Vance",
+        "last_event_time": "2026-10-20T09:00:00Z"
+      },
+      {
+        "client_id": "dev-nets-0061",
+        "device_name": "srv-net-0061.corp.internal",
+        "egress_ip": "10.1.4.62",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Morgan Mercer",
+        "last_event_time": "2026-10-20T11:11:00Z"
+      },
+      {
+        "client_id": "dev-nets-0062",
+        "device_name": "sec-net-0062.corp.internal",
+        "egress_ip": "10.1.4.63",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Jordan Sterling",
+        "last_event_time": "2026-10-20T13:22:00Z"
+      },
+      {
+        "client_id": "dev-nets-0063",
+        "device_name": "db-net-0063.corp.internal",
+        "egress_ip": "10.1.4.64",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Taylor Kowalski",
+        "last_event_time": "2026-10-20T15:33:00Z"
+      },
+      {
+        "client_id": "dev-nets-0064",
+        "device_name": "app-net-0064.corp.internal",
+        "egress_ip": "10.1.5.65",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": "Casey Chen",
+        "last_event_time": "2026-10-20T17:44:00Z"
+      },
+      {
+        "client_id": "dev-nets-0065",
+        "device_name": "gw-net-0065.corp.internal",
+        "egress_ip": "10.1.5.66",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Riley Patel",
+        "last_event_time": "2026-10-20T19:55:00Z"
+      },
+      {
+        "client_id": "dev-nets-0066",
+        "device_name": "edge-net-0066.corp.internal",
+        "egress_ip": "10.1.5.67",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Avery Thorne",
+        "last_event_time": "2026-10-20T21:06:00Z"
+      },
+      {
+        "client_id": "dev-nets-0067",
+        "device_name": "k8s-node-net-0067.corp.internal",
+        "egress_ip": "10.1.5.68",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Sam Blackwood",
+        "last_event_time": "2026-10-20T23:17:00Z"
+      },
+      {
+        "client_id": "dev-nets-0068",
+        "device_name": "bastion-net-0068.corp.internal",
+        "egress_ip": "10.1.5.69",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Jamie Frost",
+        "last_event_time": "2026-10-21T01:28:00Z"
+      },
+      {
+        "client_id": "dev-nets-0069",
+        "device_name": "proxy-net-0069.corp.internal",
+        "egress_ip": "10.1.5.70",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Dakota Sinclair",
+        "last_event_time": "2026-10-21T03:39:00Z"
+      },
+      {
+        "client_id": "dev-nets-0070",
+        "device_name": "wrk-net-0070.corp.internal",
+        "egress_ip": "10.1.5.71",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Quinn Hawthorne",
+        "last_event_time": "2026-10-21T05:50:00Z"
+      },
+      {
+        "client_id": "dev-nets-0071",
+        "device_name": "srv-net-0071.corp.internal",
+        "egress_ip": "10.1.5.72",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Reese Delgado",
+        "last_event_time": "2026-10-21T07:01:00Z"
+      },
+      {
+        "client_id": "dev-nets-0072",
+        "device_name": "sec-net-0072.corp.internal",
+        "egress_ip": "10.1.5.73",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": "Rowan Winter",
+        "last_event_time": "2026-10-21T09:12:00Z"
+      },
+      {
+        "client_id": "dev-nets-0073",
+        "device_name": "db-net-0073.corp.internal",
+        "egress_ip": "10.1.5.74",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Skyler Carrington",
+        "last_event_time": "2026-10-21T11:23:00Z"
+      },
+      {
+        "client_id": "dev-nets-0074",
+        "device_name": "app-net-0074.corp.internal",
+        "egress_ip": "10.1.5.75",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Kendall O'Connor",
+        "last_event_time": "2026-10-21T13:34:00Z"
+      },
+      {
+        "client_id": "dev-nets-0075",
+        "device_name": "gw-net-0075.corp.internal",
+        "egress_ip": "10.1.5.76",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Hayden Novak",
+        "last_event_time": "2026-10-21T15:45:00Z"
+      },
+      {
+        "client_id": "dev-nets-0076",
+        "device_name": "edge-net-0076.corp.internal",
+        "egress_ip": "10.1.5.77",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Finley Reyes",
+        "last_event_time": "2026-10-21T17:56:00Z"
+      },
+      {
+        "client_id": "dev-nets-0077",
+        "device_name": "k8s-node-net-0077.corp.internal",
+        "egress_ip": "10.1.5.78",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Emerson Yoshida",
+        "last_event_time": "2026-10-21T19:07:00Z"
+      },
+      {
+        "client_id": "dev-nets-0078",
+        "device_name": "bastion-net-0078.corp.internal",
+        "egress_ip": "10.1.5.79",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Adrian Lindqvist",
+        "last_event_time": "2026-10-21T21:18:00Z"
+      },
+      {
+        "client_id": "dev-nets-0079",
+        "device_name": "proxy-net-0079.corp.internal",
+        "egress_ip": "10.1.5.80",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Cameron Nakamura",
+        "last_event_time": "2026-10-21T23:29:00Z"
+      },
+      {
+        "client_id": "dev-nets-0080",
+        "device_name": "wrk-net-0080.corp.internal",
+        "egress_ip": "10.1.6.81",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": "Alex Vance",
+        "last_event_time": "2026-10-22T01:40:00Z"
+      },
+      {
+        "client_id": "dev-nets-0081",
+        "device_name": "srv-net-0081.corp.internal",
+        "egress_ip": "10.1.6.82",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Morgan Mercer",
+        "last_event_time": "2026-10-22T03:51:00Z"
+      },
+      {
+        "client_id": "dev-nets-0082",
+        "device_name": "sec-net-0082.corp.internal",
+        "egress_ip": "10.1.6.83",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Jordan Sterling",
+        "last_event_time": "2026-10-22T05:02:00Z"
+      },
+      {
+        "client_id": "dev-nets-0083",
+        "device_name": "db-net-0083.corp.internal",
+        "egress_ip": "10.1.6.84",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Taylor Kowalski",
+        "last_event_time": "2026-10-22T07:13:00Z"
+      },
+      {
+        "client_id": "dev-nets-0084",
+        "device_name": "app-net-0084.corp.internal",
+        "egress_ip": "10.1.6.85",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Casey Chen",
+        "last_event_time": "2026-10-22T09:24:00Z"
+      },
+      {
+        "client_id": "dev-nets-0085",
+        "device_name": "gw-net-0085.corp.internal",
+        "egress_ip": "10.1.6.86",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Riley Patel",
+        "last_event_time": "2026-10-22T11:35:00Z"
+      },
+      {
+        "client_id": "dev-nets-0086",
+        "device_name": "edge-net-0086.corp.internal",
+        "egress_ip": "10.1.6.87",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Avery Thorne",
+        "last_event_time": "2026-10-22T13:46:00Z"
+      },
+      {
+        "client_id": "dev-nets-0087",
+        "device_name": "k8s-node-net-0087.corp.internal",
+        "egress_ip": "10.1.6.88",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Sam Blackwood",
+        "last_event_time": "2026-10-22T15:57:00Z"
+      },
+      {
+        "client_id": "dev-nets-0088",
+        "device_name": "bastion-net-0088.corp.internal",
+        "egress_ip": "10.1.6.89",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": "Jamie Frost",
+        "last_event_time": "2026-10-22T17:08:00Z"
+      },
+      {
+        "client_id": "dev-nets-0089",
+        "device_name": "proxy-net-0089.corp.internal",
+        "egress_ip": "10.1.6.90",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Dakota Sinclair",
+        "last_event_time": "2026-10-22T19:19:00Z"
+      },
+      {
+        "client_id": "dev-nets-0090",
+        "device_name": "wrk-net-0090.corp.internal",
+        "egress_ip": "10.1.6.91",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Quinn Hawthorne",
+        "last_event_time": "2026-10-22T21:30:00Z"
+      },
+      {
+        "client_id": "dev-nets-0091",
+        "device_name": "srv-net-0091.corp.internal",
+        "egress_ip": "10.1.6.92",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Reese Delgado",
+        "last_event_time": "2026-10-22T23:41:00Z"
+      },
+      {
+        "client_id": "dev-nets-0092",
+        "device_name": "sec-net-0092.corp.internal",
+        "egress_ip": "10.1.6.93",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Rowan Winter",
+        "last_event_time": "2026-10-23T01:52:00Z"
+      },
+      {
+        "client_id": "dev-nets-0093",
+        "device_name": "db-net-0093.corp.internal",
+        "egress_ip": "10.1.6.94",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "registered_user": "Skyler Carrington",
+        "last_event_time": "2026-10-23T03:03:00Z"
+      },
+      {
+        "client_id": "dev-nets-0094",
+        "device_name": "app-net-0094.corp.internal",
+        "egress_ip": "10.1.6.95",
+        "operating_system": "Alpine Linux 3.18",
+        "registered_user": "Kendall O'Connor",
+        "last_event_time": "2026-10-23T05:14:00Z"
+      },
+      {
+        "client_id": "dev-nets-0095",
+        "device_name": "gw-net-0095.corp.internal",
+        "egress_ip": "10.1.6.96",
+        "operating_system": "Amazon Linux 2023.2",
+        "registered_user": "Hayden Novak",
+        "last_event_time": "2026-10-23T07:25:00Z"
+      },
+      {
+        "client_id": "dev-nets-0096",
+        "device_name": "edge-net-0096.corp.internal",
+        "egress_ip": "10.1.7.97",
+        "operating_system": "Ubuntu 22.04 LTS (Jammy Jellyfish)",
+        "registered_user": "Finley Reyes",
+        "last_event_time": "2026-10-23T09:36:00Z"
+      },
+      {
+        "client_id": "dev-nets-0097",
+        "device_name": "k8s-node-net-0097.corp.internal",
+        "egress_ip": "10.1.7.98",
+        "operating_system": "Red Hat Enterprise Linux 9.2",
+        "registered_user": "Emerson Yoshida",
+        "last_event_time": "2026-10-23T11:47:00Z"
+      },
+      {
+        "client_id": "dev-nets-0098",
+        "device_name": "bastion-net-0098.corp.internal",
+        "egress_ip": "10.1.7.99",
+        "operating_system": "Windows Server 2022 Datacenter",
+        "registered_user": "Adrian Lindqvist",
+        "last_event_time": "2026-10-23T13:58:00Z"
+      },
+      {
+        "client_id": "dev-nets-0099",
+        "device_name": "proxy-net-0099.corp.internal",
+        "egress_ip": "10.1.7.100",
+        "operating_system": "Windows 11 Enterprise (22H2)",
+        "registered_user": "Cameron Nakamura",
+        "last_event_time": "2026-10-23T15:09:00Z"
+      },
+      {
+        "client_id": "dev-nets-0100",
+        "device_name": "wrk-net-0100.corp.internal",
+        "egress_ip": "10.1.7.101",
+        "operating_system": "macOS 14.1 Sonoma (Darwin 23.1.0)",
+        "registered_user": "Alex Vance",
+        "last_event_time": "2026-10-23T17:20:00Z"
+      }
+    ]
+  }
+}

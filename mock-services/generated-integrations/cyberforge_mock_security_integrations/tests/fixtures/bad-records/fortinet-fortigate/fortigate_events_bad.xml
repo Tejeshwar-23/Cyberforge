@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<results>
+  <log_entry>
+    <subtype>Unauthorized Privilege Escalation Attempt</subtype>
+    <level>CRITICAL</level>
+    <eventtime>2026-11-08T09:00:00Z</eventtime>
+    <msg>Observed unauthorized privilege escalation attempt on host node 900 originating from external telemetry cluster</msg>
+    <srcintf>port1</srcintf>
+    <action>deny</action>
+    <_defect_note>Defect 1: Missing event ID</_defect_note>
+  </log_entry>
+  <log_entry>
+    <logid>evt-fort-00901</logid>
+    <subtype>Suspicious Process Execution via PowerShell</subtype>
+    <eventtime>2026-11-08T09:23:00Z</eventtime>
+    <msg>Observed suspicious process execution via powershell on host node 901 originating from external telemetry cluster</msg>
+    <srcintf>port1</srcintf>
+    <action>deny</action>
+    <_defect_note>Defect 2: Missing severity field</_defect_note>
+  </log_entry>
+  <log_entry>
+    <logid>evt-fort-00902</logid>
+    <subtype>Anomalous Outbound C2 Beaconing</subtype>
+    <level>MEDIUM</level>
+    <msg>Observed anomalous outbound c2 beaconing on host node 902 originating from external telemetry cluster</msg>
+    <srcintf>port1</srcintf>
+    <action>deny</action>
+    <_defect_note>Defect 3: Missing timestamp field</_defect_note>
+  </log_entry>
+  <log_entry>
+    <logid>evt-fort-00903</logid>
+    <subtype>Multiple Failed MFA Challenges</subtype>
+    <level>LOW</level>
+    <eventtime>MALFORMED_TIMESTAMP_ERR_999</eventtime>
+    <msg>Observed multiple failed mfa challenges on host node 903 originating from external telemetry cluster</msg>
+    <srcintf>port1</srcintf>
+    <action>deny</action>
+    <_defect_note>Defect 4: Malformed timestamp string</_defect_note>
+  </log_entry>
+  <log_entry>
+    <logid>evt-fort-00904</logid>
+    <subtype>Lateral Movement via Remote WMI Execution</subtype>
+    <level>INFORMATIONAL</level>
+    <eventtime>2026-11-08T10:32:00Z</eventtime>
+    <srcintf>port1</srcintf>
+    <action>deny</action>
+    <unexpected_raw_payload_text>Observed lateral movement via remote wmi execution on host node 904 originating from external telemetry cluster</unexpected_raw_payload_text>
+    <_defect_note>Defect 5: Renamed/missing event description field</_defect_note>
+  </log_entry>
+</results>

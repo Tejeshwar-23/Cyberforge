@@ -1,0 +1,202 @@
+<?xml version="1.0" ?>
+<items>
+
+
+
+
+  <user>
+
+
+
+
+    <fullname>Alex Patel</fullname>
+
+
+
+
+    <mail>alex.patel900@cyberforge.internal</mail>
+
+
+
+
+    <state>ACTIVE</state>
+
+
+
+
+    <login_timestamp>2027-01-21T20:00:00Z</login_timestamp>
+
+
+
+
+    <_defect_note>Defect 1: Missing ID field</_defect_note>
+
+
+
+
+  </user>
+
+
+
+
+  <user>
+
+
+
+
+    <uuid>usr-cisc-0901</uuid>
+
+
+
+
+    <mail>morgan.patel901@acme-corp.net</mail>
+
+
+
+
+    <state>SUSPENDED</state>
+
+
+
+
+    <login_timestamp>2027-01-21T23:07:00Z</login_timestamp>
+
+
+
+
+    <_defect_note>Defect 2: Missing Name field</_defect_note>
+
+
+
+
+  </user>
+
+
+
+
+  <user>
+
+
+
+
+    <uuid>usr-cisc-0902</uuid>
+
+
+
+
+    <fullname>Jordan Patel</fullname>
+
+
+
+
+    <mail>jordan.patel902@globex-sec.io</mail>
+
+
+
+
+    <state>PENDING_VERIFICATION</state>
+
+
+
+
+    <login_timestamp>not-a-valid-date-timestamp</login_timestamp>
+
+
+
+
+    <_defect_note>Defect 3: Invalid Timestamp format</_defect_note>
+
+
+
+
+  </user>
+
+
+
+
+  <user>
+
+
+
+
+    <uuid>usr-cisc-0903</uuid>
+
+
+
+
+    <fullname>Taylor Patel</fullname>
+
+
+
+
+    <state>ENABLED</state>
+
+
+
+
+    <login_timestamp>2027-01-22T05:21:00Z</login_timestamp>
+
+
+
+
+    <unrecognized_user_contact_address>taylor.patel903@synthetix.org</unrecognized_user_contact_address>
+
+
+
+
+    <_defect_note>Defect 4: Schema mismatch (email field renamed to unrecognized_user_contact_address)</_defect_note>
+
+
+
+
+  </user>
+
+
+
+
+  <user>
+
+
+
+
+    <uuid>usr-cisc-0904</uuid>
+
+
+
+
+    <fullname>Casey Patel</fullname>
+
+
+
+
+    <mail>casey.patel904@enterprise.cloud</mail>
+
+
+
+
+    <state>
+      <invalid_null_struct>malformed_type</invalid_null_struct>
+
+
+      <invalid_null_struct>malformed_type</invalid_null_struct>
+    </state>
+
+
+
+
+    <login_timestamp>2027-01-22T08:28:00Z</login_timestamp>
+
+
+
+
+    <_defect_note>Defect 5: Null required status value</_defect_note>
+
+
+
+
+  </user>
+
+
+
+
+</items>

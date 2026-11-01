@@ -1,0 +1,20 @@
+vendor: Fortinet FortiGate
+users:
+  id: uid
+  name: username
+  email: contact_email
+  status: auth_state
+  last_login: last_auth_time
+devices:
+  id: dev_id
+  hostname: dev_name
+  ip: dev_ip
+  os: os_family
+  owner: assigned_user
+  last_seen: last_seen_time
+events:
+  id: logid
+  type: subtype
+  severity: level
+  timestamp: eventtime
+  description: msg

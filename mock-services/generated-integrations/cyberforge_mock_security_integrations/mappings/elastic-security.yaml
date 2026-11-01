@@ -1,0 +1,20 @@
+vendor: Elastic Security
+users:
+  id: _id
+  name: _source.user.full_name
+  email: _source.user.email
+  status: _source.user.account_status
+  last_login: _source.@timestamp
+devices:
+  id: _id
+  hostname: _source.host.hostname
+  ip: _source.host.ip
+  os: _source.host.os.name
+  owner: _source.host.assigned_user
+  last_seen: _source.@timestamp
+events:
+  id: _id
+  type: _source.event.category
+  severity: _source.kibana.alert.severity
+  timestamp: _source.@timestamp
+  description: _source.message

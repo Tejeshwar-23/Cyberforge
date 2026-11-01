@@ -1,0 +1,16 @@
+vendor: CrowdStrike Cloud Security
+users:
+  drift_type: field_rename
+  old_path: profile_state
+  new_path: user_status
+  expected_risk: LOW
+devices:
+  drift_type: field_rename
+  old_path: connection_ip
+  new_path: external_ip
+  expected_risk: LOW
+events:
+  drift_type: field_rename
+  old_path: created_timestamp
+  new_path: detection_time
+  expected_risk: LOW

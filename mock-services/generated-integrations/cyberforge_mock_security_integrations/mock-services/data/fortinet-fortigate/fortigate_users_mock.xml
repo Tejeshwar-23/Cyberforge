@@ -1,0 +1,803 @@
+<?xml version="1.0" ?>
+<results>
+  <user_entry>
+    <uid>usr-fort-0001</uid>
+    <username>Morgan Vance</username>
+    <contact_email>morgan.vance001@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-01T11:07:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0002</uid>
+    <username>Jordan Vance</username>
+    <contact_email>jordan.vance002@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-01T14:14:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0003</uid>
+    <username>Taylor Vance</username>
+    <contact_email>taylor.vance003@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-01T17:21:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0004</uid>
+    <username>Casey Vance</username>
+    <contact_email>casey.vance004@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-01T20:28:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0005</uid>
+    <username>Riley Vance</username>
+    <contact_email>riley.vance005@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-01T23:35:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0006</uid>
+    <username>Avery Vance</username>
+    <contact_email>avery.vance006@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-02T02:42:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0007</uid>
+    <username>Sam Vance</username>
+    <contact_email>sam.vance007@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-02T05:49:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0008</uid>
+    <username>Jamie Vance</username>
+    <contact_email>jamie.vance008@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-02T08:56:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0009</uid>
+    <username>Dakota Vance</username>
+    <contact_email>dakota.vance009@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-02T11:03:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0010</uid>
+    <username>Quinn Vance</username>
+    <contact_email>quinn.vance010@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-02T14:10:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0011</uid>
+    <username>Reese Vance</username>
+    <contact_email>reese.vance011@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-02T17:17:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0012</uid>
+    <username>Rowan Vance</username>
+    <contact_email>rowan.vance012@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-02T20:24:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0013</uid>
+    <username>Skyler Vance</username>
+    <contact_email>skyler.vance013@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-02T23:31:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0014</uid>
+    <username>Kendall Vance</username>
+    <contact_email>kendall.vance014@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-03T02:38:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0015</uid>
+    <username>Hayden Vance</username>
+    <contact_email>hayden.vance015@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-03T05:45:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0016</uid>
+    <username>Finley Vance</username>
+    <contact_email>finley.vance016@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-03T08:52:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0017</uid>
+    <username>Emerson Vance</username>
+    <contact_email>emerson.vance017@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-03T11:59:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0018</uid>
+    <username>Adrian Vance</username>
+    <contact_email>adrian.vance018@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-03T14:06:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0019</uid>
+    <username>Cameron Vance</username>
+    <contact_email>cameron.vance019@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-03T17:13:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0020</uid>
+    <username>Alex Mercer</username>
+    <contact_email>alex.mercer020@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-03T20:20:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0021</uid>
+    <username>Morgan Mercer</username>
+    <contact_email>morgan.mercer021@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-03T23:27:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0022</uid>
+    <username>Jordan Mercer</username>
+    <contact_email>jordan.mercer022@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-04T02:34:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0023</uid>
+    <username>Taylor Mercer</username>
+    <contact_email>taylor.mercer023@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-04T05:41:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0024</uid>
+    <username>Casey Mercer</username>
+    <contact_email>casey.mercer024@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-04T08:48:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0025</uid>
+    <username>Riley Mercer</username>
+    <contact_email>riley.mercer025@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-04T11:55:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0026</uid>
+    <username>Avery Mercer</username>
+    <contact_email>avery.mercer026@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-04T14:02:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0027</uid>
+    <username>Sam Mercer</username>
+    <contact_email>sam.mercer027@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-04T17:09:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0028</uid>
+    <username>Jamie Mercer</username>
+    <contact_email>jamie.mercer028@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-04T20:16:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0029</uid>
+    <username>Dakota Mercer</username>
+    <contact_email>dakota.mercer029@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-04T23:23:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0030</uid>
+    <username>Quinn Mercer</username>
+    <contact_email>quinn.mercer030@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-05T02:30:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0031</uid>
+    <username>Reese Mercer</username>
+    <contact_email>reese.mercer031@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-05T05:37:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0032</uid>
+    <username>Rowan Mercer</username>
+    <contact_email>rowan.mercer032@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-05T08:44:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0033</uid>
+    <username>Skyler Mercer</username>
+    <contact_email>skyler.mercer033@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-05T11:51:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0034</uid>
+    <username>Kendall Mercer</username>
+    <contact_email>kendall.mercer034@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-05T14:58:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0035</uid>
+    <username>Hayden Mercer</username>
+    <contact_email>hayden.mercer035@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-05T17:05:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0036</uid>
+    <username>Finley Mercer</username>
+    <contact_email>finley.mercer036@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-05T20:12:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0037</uid>
+    <username>Emerson Mercer</username>
+    <contact_email>emerson.mercer037@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-05T23:19:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0038</uid>
+    <username>Adrian Mercer</username>
+    <contact_email>adrian.mercer038@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-06T02:26:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0039</uid>
+    <username>Cameron Mercer</username>
+    <contact_email>cameron.mercer039@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-06T05:33:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0040</uid>
+    <username>Alex Sterling</username>
+    <contact_email>alex.sterling040@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-06T08:40:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0041</uid>
+    <username>Morgan Sterling</username>
+    <contact_email>morgan.sterling041@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-06T11:47:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0042</uid>
+    <username>Jordan Sterling</username>
+    <contact_email>jordan.sterling042@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-06T14:54:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0043</uid>
+    <username>Taylor Sterling</username>
+    <contact_email>taylor.sterling043@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-06T17:01:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0044</uid>
+    <username>Casey Sterling</username>
+    <contact_email>casey.sterling044@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-06T20:08:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0045</uid>
+    <username>Riley Sterling</username>
+    <contact_email>riley.sterling045@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-06T23:15:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0046</uid>
+    <username>Avery Sterling</username>
+    <contact_email>avery.sterling046@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-07T02:22:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0047</uid>
+    <username>Sam Sterling</username>
+    <contact_email>sam.sterling047@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-07T05:29:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0048</uid>
+    <username>Jamie Sterling</username>
+    <contact_email>jamie.sterling048@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-07T08:36:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0049</uid>
+    <username>Dakota Sterling</username>
+    <contact_email>dakota.sterling049@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-07T11:43:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0050</uid>
+    <username>Quinn Sterling</username>
+    <contact_email>quinn.sterling050@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-07T14:50:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0051</uid>
+    <username>Reese Sterling</username>
+    <contact_email>reese.sterling051@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-07T17:57:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0052</uid>
+    <username>Rowan Sterling</username>
+    <contact_email>rowan.sterling052@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-07T20:04:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0053</uid>
+    <username>Skyler Sterling</username>
+    <contact_email>skyler.sterling053@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-07T23:11:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0054</uid>
+    <username>Kendall Sterling</username>
+    <contact_email>kendall.sterling054@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-08T02:18:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0055</uid>
+    <username>Hayden Sterling</username>
+    <contact_email>hayden.sterling055@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-08T05:25:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0056</uid>
+    <username>Finley Sterling</username>
+    <contact_email>finley.sterling056@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-08T08:32:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0057</uid>
+    <username>Emerson Sterling</username>
+    <contact_email>emerson.sterling057@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-08T11:39:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0058</uid>
+    <username>Adrian Sterling</username>
+    <contact_email>adrian.sterling058@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-08T14:46:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0059</uid>
+    <username>Cameron Sterling</username>
+    <contact_email>cameron.sterling059@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-08T17:53:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0060</uid>
+    <username>Alex Kowalski</username>
+    <contact_email>alex.kowalski060@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-08T20:00:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0061</uid>
+    <username>Morgan Kowalski</username>
+    <contact_email>morgan.kowalski061@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-08T23:07:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0062</uid>
+    <username>Jordan Kowalski</username>
+    <contact_email>jordan.kowalski062@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-09T02:14:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0063</uid>
+    <username>Taylor Kowalski</username>
+    <contact_email>taylor.kowalski063@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-09T05:21:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0064</uid>
+    <username>Casey Kowalski</username>
+    <contact_email>casey.kowalski064@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-09T08:28:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0065</uid>
+    <username>Riley Kowalski</username>
+    <contact_email>riley.kowalski065@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-09T11:35:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0066</uid>
+    <username>Avery Kowalski</username>
+    <contact_email>avery.kowalski066@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-09T14:42:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0067</uid>
+    <username>Sam Kowalski</username>
+    <contact_email>sam.kowalski067@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-09T17:49:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0068</uid>
+    <username>Jamie Kowalski</username>
+    <contact_email>jamie.kowalski068@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-09T20:56:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0069</uid>
+    <username>Dakota Kowalski</username>
+    <contact_email>dakota.kowalski069@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-09T23:03:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0070</uid>
+    <username>Quinn Kowalski</username>
+    <contact_email>quinn.kowalski070@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-10T02:10:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0071</uid>
+    <username>Reese Kowalski</username>
+    <contact_email>reese.kowalski071@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-10T05:17:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0072</uid>
+    <username>Rowan Kowalski</username>
+    <contact_email>rowan.kowalski072@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-10T08:24:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0073</uid>
+    <username>Skyler Kowalski</username>
+    <contact_email>skyler.kowalski073@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-10T11:31:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0074</uid>
+    <username>Kendall Kowalski</username>
+    <contact_email>kendall.kowalski074@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-10T14:38:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0075</uid>
+    <username>Hayden Kowalski</username>
+    <contact_email>hayden.kowalski075@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-10T17:45:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0076</uid>
+    <username>Finley Kowalski</username>
+    <contact_email>finley.kowalski076@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-10T20:52:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0077</uid>
+    <username>Emerson Kowalski</username>
+    <contact_email>emerson.kowalski077@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-10T23:59:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0078</uid>
+    <username>Adrian Kowalski</username>
+    <contact_email>adrian.kowalski078@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-11T02:06:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0079</uid>
+    <username>Cameron Kowalski</username>
+    <contact_email>cameron.kowalski079@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-11T05:13:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0080</uid>
+    <username>Alex Chen</username>
+    <contact_email>alex.chen080@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-11T08:20:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0081</uid>
+    <username>Morgan Chen</username>
+    <contact_email>morgan.chen081@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-11T11:27:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0082</uid>
+    <username>Jordan Chen</username>
+    <contact_email>jordan.chen082@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-11T14:34:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0083</uid>
+    <username>Taylor Chen</username>
+    <contact_email>taylor.chen083@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-11T17:41:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0084</uid>
+    <username>Casey Chen</username>
+    <contact_email>casey.chen084@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-11T20:48:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0085</uid>
+    <username>Riley Chen</username>
+    <contact_email>riley.chen085@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-11T23:55:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0086</uid>
+    <username>Avery Chen</username>
+    <contact_email>avery.chen086@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-12T02:02:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0087</uid>
+    <username>Sam Chen</username>
+    <contact_email>sam.chen087@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-12T05:09:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0088</uid>
+    <username>Jamie Chen</username>
+    <contact_email>jamie.chen088@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-12T08:16:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0089</uid>
+    <username>Dakota Chen</username>
+    <contact_email>dakota.chen089@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-12T11:23:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0090</uid>
+    <username>Quinn Chen</username>
+    <contact_email>quinn.chen090@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-12T14:30:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0091</uid>
+    <username>Reese Chen</username>
+    <contact_email>reese.chen091@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-12T17:37:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0092</uid>
+    <username>Rowan Chen</username>
+    <contact_email>rowan.chen092@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-12T20:44:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0093</uid>
+    <username>Skyler Chen</username>
+    <contact_email>skyler.chen093@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-12T23:51:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0094</uid>
+    <username>Kendall Chen</username>
+    <contact_email>kendall.chen094@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-13T02:58:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0095</uid>
+    <username>Hayden Chen</username>
+    <contact_email>hayden.chen095@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-13T05:05:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0096</uid>
+    <username>Finley Chen</username>
+    <contact_email>finley.chen096@acme-corp.net</contact_email>
+    <auth_state>SUSPENDED</auth_state>
+    <last_auth_time>2026-10-13T08:12:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0097</uid>
+    <username>Emerson Chen</username>
+    <contact_email>emerson.chen097@globex-sec.io</contact_email>
+    <auth_state>PENDING_VERIFICATION</auth_state>
+    <last_auth_time>2026-10-13T11:19:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0098</uid>
+    <username>Adrian Chen</username>
+    <contact_email>adrian.chen098@synthetix.org</contact_email>
+    <auth_state>ENABLED</auth_state>
+    <last_auth_time>2026-10-13T14:26:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0099</uid>
+    <username>Cameron Chen</username>
+    <contact_email>cameron.chen099@enterprise.cloud</contact_email>
+    <auth_state>LOCKED</auth_state>
+    <last_auth_time>2026-10-13T17:33:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+  <user_entry>
+    <uid>usr-fort-0100</uid>
+    <username>Alex Patel</username>
+    <contact_email>alex.patel100@cyberforge.internal</contact_email>
+    <auth_state>ACTIVE</auth_state>
+    <last_auth_time>2026-10-13T20:40:00Z</last_auth_time>
+    <vdom>root</vdom>
+  </user_entry>
+</results>

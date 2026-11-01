@@ -1,0 +1,37 @@
+version: '1.0'
+name: cisco-secure-firewall-devices
+base_url: http://127.0.0.1:9001
+auth:
+  type: custom_headers
+  secret_headers:
+    X-auth-access-token: CISCO_FMC_TOKEN
+endpoint:
+  method: GET
+  path: /mock/cisco-secure-firewall/devices
+  query_params: {}
+response:
+  format: json
+  records_path: items
+pagination:
+  type: page
+  page_param: page
+  start_page: 1
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: heartbeatTimestamp
+mapping:
+  entity: device
+  fields:
+    id: deviceId
+    hostname: networkNodeName
+    ip: ipv4Address
+    os: softwarePlatform
+    owner: adminContact
+    last_seen: heartbeatTimestamp
+enabled: false

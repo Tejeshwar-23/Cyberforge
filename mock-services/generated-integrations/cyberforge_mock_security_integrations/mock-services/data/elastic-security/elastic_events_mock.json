@@ -1,0 +1,1606 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "_id": "evt-elas-00001",
+        "_source": {
+          "event": {
+            "category": "Suspicious Process Execution via PowerShell",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T00:23:00Z",
+          "message": "Observed suspicious process execution via powershell on host node 001 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00002",
+        "_source": {
+          "event": {
+            "category": "Anomalous Outbound C2 Beaconing",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T00:46:00Z",
+          "message": "Observed anomalous outbound c2 beaconing on host node 002 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00003",
+        "_source": {
+          "event": {
+            "category": "Multiple Failed MFA Challenges",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-25T01:09:00Z",
+          "message": "Observed multiple failed mfa challenges on host node 003 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00004",
+        "_source": {
+          "event": {
+            "category": "Lateral Movement via Remote WMI Execution",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-25T01:32:00Z",
+          "message": "Observed lateral movement via remote wmi execution on host node 004 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00005",
+        "_source": {
+          "event": {
+            "category": "Cloud IAM Policy Weakening Detected",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-25T01:55:00Z",
+          "message": "Observed cloud iam policy weakening detected on host node 005 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00006",
+        "_source": {
+          "event": {
+            "category": "Sensitive S3 Bucket Exposed to Public",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T02:18:00Z",
+          "message": "Observed sensitive s3 bucket exposed to public on host node 006 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00007",
+        "_source": {
+          "event": {
+            "category": "Malicious Binary Execution Blocked",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T02:41:00Z",
+          "message": "Observed malicious binary execution blocked on host node 007 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00008",
+        "_source": {
+          "event": {
+            "category": "Brute Force Authentication Storm",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-25T03:04:00Z",
+          "message": "Observed brute force authentication storm on host node 008 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00009",
+        "_source": {
+          "event": {
+            "category": "Unusual Data Exfiltration to Uncategorized IP",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-25T03:27:00Z",
+          "message": "Observed unusual data exfiltration to uncategorized ip on host node 009 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00010",
+        "_source": {
+          "event": {
+            "category": "Unauthorized Privilege Escalation Attempt",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-25T03:50:00Z",
+          "message": "Observed unauthorized privilege escalation attempt on host node 010 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00011",
+        "_source": {
+          "event": {
+            "category": "Suspicious Process Execution via PowerShell",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T04:13:00Z",
+          "message": "Observed suspicious process execution via powershell on host node 011 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00012",
+        "_source": {
+          "event": {
+            "category": "Anomalous Outbound C2 Beaconing",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T04:36:00Z",
+          "message": "Observed anomalous outbound c2 beaconing on host node 012 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00013",
+        "_source": {
+          "event": {
+            "category": "Multiple Failed MFA Challenges",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-25T04:59:00Z",
+          "message": "Observed multiple failed mfa challenges on host node 013 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00014",
+        "_source": {
+          "event": {
+            "category": "Lateral Movement via Remote WMI Execution",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-25T05:22:00Z",
+          "message": "Observed lateral movement via remote wmi execution on host node 014 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00015",
+        "_source": {
+          "event": {
+            "category": "Cloud IAM Policy Weakening Detected",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-25T05:45:00Z",
+          "message": "Observed cloud iam policy weakening detected on host node 015 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00016",
+        "_source": {
+          "event": {
+            "category": "Sensitive S3 Bucket Exposed to Public",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T06:08:00Z",
+          "message": "Observed sensitive s3 bucket exposed to public on host node 016 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00017",
+        "_source": {
+          "event": {
+            "category": "Malicious Binary Execution Blocked",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T06:31:00Z",
+          "message": "Observed malicious binary execution blocked on host node 017 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00018",
+        "_source": {
+          "event": {
+            "category": "Brute Force Authentication Storm",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-25T06:54:00Z",
+          "message": "Observed brute force authentication storm on host node 018 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00019",
+        "_source": {
+          "event": {
+            "category": "Unusual Data Exfiltration to Uncategorized IP",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-25T07:17:00Z",
+          "message": "Observed unusual data exfiltration to uncategorized ip on host node 019 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00020",
+        "_source": {
+          "event": {
+            "category": "Unauthorized Privilege Escalation Attempt",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-25T07:40:00Z",
+          "message": "Observed unauthorized privilege escalation attempt on host node 020 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00021",
+        "_source": {
+          "event": {
+            "category": "Suspicious Process Execution via PowerShell",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T08:03:00Z",
+          "message": "Observed suspicious process execution via powershell on host node 021 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00022",
+        "_source": {
+          "event": {
+            "category": "Anomalous Outbound C2 Beaconing",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T08:26:00Z",
+          "message": "Observed anomalous outbound c2 beaconing on host node 022 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00023",
+        "_source": {
+          "event": {
+            "category": "Multiple Failed MFA Challenges",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-25T08:49:00Z",
+          "message": "Observed multiple failed mfa challenges on host node 023 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00024",
+        "_source": {
+          "event": {
+            "category": "Lateral Movement via Remote WMI Execution",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-25T09:12:00Z",
+          "message": "Observed lateral movement via remote wmi execution on host node 024 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00025",
+        "_source": {
+          "event": {
+            "category": "Cloud IAM Policy Weakening Detected",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-25T09:35:00Z",
+          "message": "Observed cloud iam policy weakening detected on host node 025 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00026",
+        "_source": {
+          "event": {
+            "category": "Sensitive S3 Bucket Exposed to Public",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T09:58:00Z",
+          "message": "Observed sensitive s3 bucket exposed to public on host node 026 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00027",
+        "_source": {
+          "event": {
+            "category": "Malicious Binary Execution Blocked",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T10:21:00Z",
+          "message": "Observed malicious binary execution blocked on host node 027 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00028",
+        "_source": {
+          "event": {
+            "category": "Brute Force Authentication Storm",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-25T10:44:00Z",
+          "message": "Observed brute force authentication storm on host node 028 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00029",
+        "_source": {
+          "event": {
+            "category": "Unusual Data Exfiltration to Uncategorized IP",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-25T11:07:00Z",
+          "message": "Observed unusual data exfiltration to uncategorized ip on host node 029 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00030",
+        "_source": {
+          "event": {
+            "category": "Unauthorized Privilege Escalation Attempt",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-25T11:30:00Z",
+          "message": "Observed unauthorized privilege escalation attempt on host node 030 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00031",
+        "_source": {
+          "event": {
+            "category": "Suspicious Process Execution via PowerShell",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T11:53:00Z",
+          "message": "Observed suspicious process execution via powershell on host node 031 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00032",
+        "_source": {
+          "event": {
+            "category": "Anomalous Outbound C2 Beaconing",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T12:16:00Z",
+          "message": "Observed anomalous outbound c2 beaconing on host node 032 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00033",
+        "_source": {
+          "event": {
+            "category": "Multiple Failed MFA Challenges",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-25T12:39:00Z",
+          "message": "Observed multiple failed mfa challenges on host node 033 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00034",
+        "_source": {
+          "event": {
+            "category": "Lateral Movement via Remote WMI Execution",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-25T13:02:00Z",
+          "message": "Observed lateral movement via remote wmi execution on host node 034 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00035",
+        "_source": {
+          "event": {
+            "category": "Cloud IAM Policy Weakening Detected",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-25T13:25:00Z",
+          "message": "Observed cloud iam policy weakening detected on host node 035 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00036",
+        "_source": {
+          "event": {
+            "category": "Sensitive S3 Bucket Exposed to Public",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T13:48:00Z",
+          "message": "Observed sensitive s3 bucket exposed to public on host node 036 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00037",
+        "_source": {
+          "event": {
+            "category": "Malicious Binary Execution Blocked",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T14:11:00Z",
+          "message": "Observed malicious binary execution blocked on host node 037 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00038",
+        "_source": {
+          "event": {
+            "category": "Brute Force Authentication Storm",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-25T14:34:00Z",
+          "message": "Observed brute force authentication storm on host node 038 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00039",
+        "_source": {
+          "event": {
+            "category": "Unusual Data Exfiltration to Uncategorized IP",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-25T14:57:00Z",
+          "message": "Observed unusual data exfiltration to uncategorized ip on host node 039 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00040",
+        "_source": {
+          "event": {
+            "category": "Unauthorized Privilege Escalation Attempt",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-25T15:20:00Z",
+          "message": "Observed unauthorized privilege escalation attempt on host node 040 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00041",
+        "_source": {
+          "event": {
+            "category": "Suspicious Process Execution via PowerShell",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T15:43:00Z",
+          "message": "Observed suspicious process execution via powershell on host node 041 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00042",
+        "_source": {
+          "event": {
+            "category": "Anomalous Outbound C2 Beaconing",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T16:06:00Z",
+          "message": "Observed anomalous outbound c2 beaconing on host node 042 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00043",
+        "_source": {
+          "event": {
+            "category": "Multiple Failed MFA Challenges",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-25T16:29:00Z",
+          "message": "Observed multiple failed mfa challenges on host node 043 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00044",
+        "_source": {
+          "event": {
+            "category": "Lateral Movement via Remote WMI Execution",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-25T16:52:00Z",
+          "message": "Observed lateral movement via remote wmi execution on host node 044 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00045",
+        "_source": {
+          "event": {
+            "category": "Cloud IAM Policy Weakening Detected",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-25T17:15:00Z",
+          "message": "Observed cloud iam policy weakening detected on host node 045 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00046",
+        "_source": {
+          "event": {
+            "category": "Sensitive S3 Bucket Exposed to Public",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T17:38:00Z",
+          "message": "Observed sensitive s3 bucket exposed to public on host node 046 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00047",
+        "_source": {
+          "event": {
+            "category": "Malicious Binary Execution Blocked",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T18:01:00Z",
+          "message": "Observed malicious binary execution blocked on host node 047 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00048",
+        "_source": {
+          "event": {
+            "category": "Brute Force Authentication Storm",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-25T18:24:00Z",
+          "message": "Observed brute force authentication storm on host node 048 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00049",
+        "_source": {
+          "event": {
+            "category": "Unusual Data Exfiltration to Uncategorized IP",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-25T18:47:00Z",
+          "message": "Observed unusual data exfiltration to uncategorized ip on host node 049 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00050",
+        "_source": {
+          "event": {
+            "category": "Unauthorized Privilege Escalation Attempt",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-25T19:10:00Z",
+          "message": "Observed unauthorized privilege escalation attempt on host node 050 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00051",
+        "_source": {
+          "event": {
+            "category": "Suspicious Process Execution via PowerShell",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T19:33:00Z",
+          "message": "Observed suspicious process execution via powershell on host node 051 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00052",
+        "_source": {
+          "event": {
+            "category": "Anomalous Outbound C2 Beaconing",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T19:56:00Z",
+          "message": "Observed anomalous outbound c2 beaconing on host node 052 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00053",
+        "_source": {
+          "event": {
+            "category": "Multiple Failed MFA Challenges",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-25T20:19:00Z",
+          "message": "Observed multiple failed mfa challenges on host node 053 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00054",
+        "_source": {
+          "event": {
+            "category": "Lateral Movement via Remote WMI Execution",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-25T20:42:00Z",
+          "message": "Observed lateral movement via remote wmi execution on host node 054 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00055",
+        "_source": {
+          "event": {
+            "category": "Cloud IAM Policy Weakening Detected",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-25T21:05:00Z",
+          "message": "Observed cloud iam policy weakening detected on host node 055 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00056",
+        "_source": {
+          "event": {
+            "category": "Sensitive S3 Bucket Exposed to Public",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T21:28:00Z",
+          "message": "Observed sensitive s3 bucket exposed to public on host node 056 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00057",
+        "_source": {
+          "event": {
+            "category": "Malicious Binary Execution Blocked",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T21:51:00Z",
+          "message": "Observed malicious binary execution blocked on host node 057 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00058",
+        "_source": {
+          "event": {
+            "category": "Brute Force Authentication Storm",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-25T22:14:00Z",
+          "message": "Observed brute force authentication storm on host node 058 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00059",
+        "_source": {
+          "event": {
+            "category": "Unusual Data Exfiltration to Uncategorized IP",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-25T22:37:00Z",
+          "message": "Observed unusual data exfiltration to uncategorized ip on host node 059 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00060",
+        "_source": {
+          "event": {
+            "category": "Unauthorized Privilege Escalation Attempt",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-25T23:00:00Z",
+          "message": "Observed unauthorized privilege escalation attempt on host node 060 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00061",
+        "_source": {
+          "event": {
+            "category": "Suspicious Process Execution via PowerShell",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-25T23:23:00Z",
+          "message": "Observed suspicious process execution via powershell on host node 061 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00062",
+        "_source": {
+          "event": {
+            "category": "Anomalous Outbound C2 Beaconing",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-25T23:46:00Z",
+          "message": "Observed anomalous outbound c2 beaconing on host node 062 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00063",
+        "_source": {
+          "event": {
+            "category": "Multiple Failed MFA Challenges",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-26T00:09:00Z",
+          "message": "Observed multiple failed mfa challenges on host node 063 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00064",
+        "_source": {
+          "event": {
+            "category": "Lateral Movement via Remote WMI Execution",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-26T00:32:00Z",
+          "message": "Observed lateral movement via remote wmi execution on host node 064 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00065",
+        "_source": {
+          "event": {
+            "category": "Cloud IAM Policy Weakening Detected",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-26T00:55:00Z",
+          "message": "Observed cloud iam policy weakening detected on host node 065 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00066",
+        "_source": {
+          "event": {
+            "category": "Sensitive S3 Bucket Exposed to Public",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-26T01:18:00Z",
+          "message": "Observed sensitive s3 bucket exposed to public on host node 066 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00067",
+        "_source": {
+          "event": {
+            "category": "Malicious Binary Execution Blocked",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-26T01:41:00Z",
+          "message": "Observed malicious binary execution blocked on host node 067 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00068",
+        "_source": {
+          "event": {
+            "category": "Brute Force Authentication Storm",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-26T02:04:00Z",
+          "message": "Observed brute force authentication storm on host node 068 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00069",
+        "_source": {
+          "event": {
+            "category": "Unusual Data Exfiltration to Uncategorized IP",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-26T02:27:00Z",
+          "message": "Observed unusual data exfiltration to uncategorized ip on host node 069 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00070",
+        "_source": {
+          "event": {
+            "category": "Unauthorized Privilege Escalation Attempt",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-26T02:50:00Z",
+          "message": "Observed unauthorized privilege escalation attempt on host node 070 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00071",
+        "_source": {
+          "event": {
+            "category": "Suspicious Process Execution via PowerShell",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-26T03:13:00Z",
+          "message": "Observed suspicious process execution via powershell on host node 071 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00072",
+        "_source": {
+          "event": {
+            "category": "Anomalous Outbound C2 Beaconing",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-26T03:36:00Z",
+          "message": "Observed anomalous outbound c2 beaconing on host node 072 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00073",
+        "_source": {
+          "event": {
+            "category": "Multiple Failed MFA Challenges",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-26T03:59:00Z",
+          "message": "Observed multiple failed mfa challenges on host node 073 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00074",
+        "_source": {
+          "event": {
+            "category": "Lateral Movement via Remote WMI Execution",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-26T04:22:00Z",
+          "message": "Observed lateral movement via remote wmi execution on host node 074 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00075",
+        "_source": {
+          "event": {
+            "category": "Cloud IAM Policy Weakening Detected",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-26T04:45:00Z",
+          "message": "Observed cloud iam policy weakening detected on host node 075 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00076",
+        "_source": {
+          "event": {
+            "category": "Sensitive S3 Bucket Exposed to Public",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-26T05:08:00Z",
+          "message": "Observed sensitive s3 bucket exposed to public on host node 076 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00077",
+        "_source": {
+          "event": {
+            "category": "Malicious Binary Execution Blocked",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-26T05:31:00Z",
+          "message": "Observed malicious binary execution blocked on host node 077 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00078",
+        "_source": {
+          "event": {
+            "category": "Brute Force Authentication Storm",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-26T05:54:00Z",
+          "message": "Observed brute force authentication storm on host node 078 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00079",
+        "_source": {
+          "event": {
+            "category": "Unusual Data Exfiltration to Uncategorized IP",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-26T06:17:00Z",
+          "message": "Observed unusual data exfiltration to uncategorized ip on host node 079 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00080",
+        "_source": {
+          "event": {
+            "category": "Unauthorized Privilege Escalation Attempt",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-26T06:40:00Z",
+          "message": "Observed unauthorized privilege escalation attempt on host node 080 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00081",
+        "_source": {
+          "event": {
+            "category": "Suspicious Process Execution via PowerShell",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-26T07:03:00Z",
+          "message": "Observed suspicious process execution via powershell on host node 081 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00082",
+        "_source": {
+          "event": {
+            "category": "Anomalous Outbound C2 Beaconing",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-26T07:26:00Z",
+          "message": "Observed anomalous outbound c2 beaconing on host node 082 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00083",
+        "_source": {
+          "event": {
+            "category": "Multiple Failed MFA Challenges",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-26T07:49:00Z",
+          "message": "Observed multiple failed mfa challenges on host node 083 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00084",
+        "_source": {
+          "event": {
+            "category": "Lateral Movement via Remote WMI Execution",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-26T08:12:00Z",
+          "message": "Observed lateral movement via remote wmi execution on host node 084 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00085",
+        "_source": {
+          "event": {
+            "category": "Cloud IAM Policy Weakening Detected",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-26T08:35:00Z",
+          "message": "Observed cloud iam policy weakening detected on host node 085 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00086",
+        "_source": {
+          "event": {
+            "category": "Sensitive S3 Bucket Exposed to Public",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-26T08:58:00Z",
+          "message": "Observed sensitive s3 bucket exposed to public on host node 086 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00087",
+        "_source": {
+          "event": {
+            "category": "Malicious Binary Execution Blocked",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-26T09:21:00Z",
+          "message": "Observed malicious binary execution blocked on host node 087 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00088",
+        "_source": {
+          "event": {
+            "category": "Brute Force Authentication Storm",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-26T09:44:00Z",
+          "message": "Observed brute force authentication storm on host node 088 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00089",
+        "_source": {
+          "event": {
+            "category": "Unusual Data Exfiltration to Uncategorized IP",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-26T10:07:00Z",
+          "message": "Observed unusual data exfiltration to uncategorized ip on host node 089 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00090",
+        "_source": {
+          "event": {
+            "category": "Unauthorized Privilege Escalation Attempt",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-26T10:30:00Z",
+          "message": "Observed unauthorized privilege escalation attempt on host node 090 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00091",
+        "_source": {
+          "event": {
+            "category": "Suspicious Process Execution via PowerShell",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-26T10:53:00Z",
+          "message": "Observed suspicious process execution via powershell on host node 091 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00092",
+        "_source": {
+          "event": {
+            "category": "Anomalous Outbound C2 Beaconing",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-26T11:16:00Z",
+          "message": "Observed anomalous outbound c2 beaconing on host node 092 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00093",
+        "_source": {
+          "event": {
+            "category": "Multiple Failed MFA Challenges",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-26T11:39:00Z",
+          "message": "Observed multiple failed mfa challenges on host node 093 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00094",
+        "_source": {
+          "event": {
+            "category": "Lateral Movement via Remote WMI Execution",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-26T12:02:00Z",
+          "message": "Observed lateral movement via remote wmi execution on host node 094 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00095",
+        "_source": {
+          "event": {
+            "category": "Cloud IAM Policy Weakening Detected",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-26T12:25:00Z",
+          "message": "Observed cloud iam policy weakening detected on host node 095 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00096",
+        "_source": {
+          "event": {
+            "category": "Sensitive S3 Bucket Exposed to Public",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "HIGH"
+            }
+          },
+          "@timestamp": "2026-10-26T12:48:00Z",
+          "message": "Observed sensitive s3 bucket exposed to public on host node 096 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00097",
+        "_source": {
+          "event": {
+            "category": "Malicious Binary Execution Blocked",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "MEDIUM"
+            }
+          },
+          "@timestamp": "2026-10-26T13:11:00Z",
+          "message": "Observed malicious binary execution blocked on host node 097 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00098",
+        "_source": {
+          "event": {
+            "category": "Brute Force Authentication Storm",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "LOW"
+            }
+          },
+          "@timestamp": "2026-10-26T13:34:00Z",
+          "message": "Observed brute force authentication storm on host node 098 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00099",
+        "_source": {
+          "event": {
+            "category": "Unusual Data Exfiltration to Uncategorized IP",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "INFORMATIONAL"
+            }
+          },
+          "@timestamp": "2026-10-26T13:57:00Z",
+          "message": "Observed unusual data exfiltration to uncategorized ip on host node 099 originating from external telemetry cluster"
+        }
+      },
+      {
+        "_id": "evt-elas-00100",
+        "_source": {
+          "event": {
+            "category": "Unauthorized Privilege Escalation Attempt",
+            "dataset": "endpoint.events"
+          },
+          "kibana": {
+            "alert": {
+              "severity": "CRITICAL"
+            }
+          },
+          "@timestamp": "2026-10-26T14:20:00Z",
+          "message": "Observed unauthorized privilege escalation attempt on host node 100 originating from external telemetry cluster"
+        }
+      }
+    ]
+  }
+}

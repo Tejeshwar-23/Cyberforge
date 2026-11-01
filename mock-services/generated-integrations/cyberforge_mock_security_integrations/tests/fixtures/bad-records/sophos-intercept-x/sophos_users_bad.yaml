@@ -1,0 +1,34 @@
+items:
+- name: Alex Patel
+  email: alex.patel900@cyberforge.internal
+  status: ACTIVE
+  lastLogin: '2027-01-21T20:00:00Z'
+  tenantId: sophos-tenant-01
+  _defect_note: 'Defect 1: Missing ID field'
+- id: usr-soph-0901
+  email: morgan.patel901@acme-corp.net
+  status: SUSPENDED
+  lastLogin: '2027-01-21T23:07:00Z'
+  tenantId: sophos-tenant-01
+  _defect_note: 'Defect 2: Missing Name field'
+- id: usr-soph-0902
+  name: Jordan Patel
+  email: jordan.patel902@globex-sec.io
+  status: PENDING_VERIFICATION
+  lastLogin: not-a-valid-date-timestamp
+  tenantId: sophos-tenant-01
+  _defect_note: 'Defect 3: Invalid Timestamp format'
+- id: usr-soph-0903
+  name: Taylor Patel
+  status: ENABLED
+  lastLogin: '2027-01-22T05:21:00Z'
+  tenantId: sophos-tenant-01
+  unrecognized_user_contact_address: taylor.patel903@synthetix.org
+  _defect_note: 'Defect 4: Schema mismatch (email field renamed to unrecognized_user_contact_address)'
+- id: usr-soph-0904
+  name: Casey Patel
+  email: casey.patel904@enterprise.cloud
+  status: null
+  lastLogin: '2027-01-22T08:28:00Z'
+  tenantId: sophos-tenant-01
+  _defect_note: 'Defect 5: Null required status value'

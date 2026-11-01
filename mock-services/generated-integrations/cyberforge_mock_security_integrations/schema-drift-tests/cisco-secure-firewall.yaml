@@ -1,0 +1,16 @@
+vendor: Cisco Secure Firewall
+users:
+  drift_type: field_rename
+  old_path: mail
+  new_path: user_email
+  expected_risk: LOW
+devices:
+  drift_type: field_rename
+  old_path: heartbeatTimestamp
+  new_path: lastTelemetryTime
+  expected_risk: LOW
+events:
+  drift_type: field_rename
+  old_path: priorityScore
+  new_path: severityRanking
+  expected_risk: LOW

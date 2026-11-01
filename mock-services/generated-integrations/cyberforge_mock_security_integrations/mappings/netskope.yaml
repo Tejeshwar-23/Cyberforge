@@ -1,0 +1,20 @@
+vendor: Netskope
+users:
+  id: user_id
+  name: user_name
+  email: email_address
+  status: enrollment_status
+  last_login: last_activity
+devices:
+  id: client_id
+  hostname: device_name
+  ip: egress_ip
+  os: operating_system
+  owner: registered_user
+  last_seen: last_event_time
+events:
+  id: alert_id
+  type: alert_type
+  severity: severity_name
+  timestamp: alert_timestamp
+  description: alert_narrative

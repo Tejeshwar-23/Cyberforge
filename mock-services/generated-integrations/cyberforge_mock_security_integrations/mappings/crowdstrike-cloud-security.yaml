@@ -1,0 +1,20 @@
+vendor: CrowdStrike Cloud Security
+users:
+  id: uid
+  name: real_name
+  email: primary_email
+  status: profile_state
+  last_login: last_active_timestamp
+devices:
+  id: device_id
+  hostname: device_hostname
+  ip: connection_ip
+  os: os_build
+  owner: assigned_to
+  last_seen: last_behavior_timestamp
+events:
+  id: detection_id
+  type: tactic
+  severity: severity_name
+  timestamp: created_timestamp
+  description: narrative

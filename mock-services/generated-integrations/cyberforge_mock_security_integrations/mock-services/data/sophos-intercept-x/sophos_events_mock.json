@@ -1,0 +1,704 @@
+{
+  "items": [
+    {
+      "id": "evt-soph-00001",
+      "type": "Suspicious Process Execution via PowerShell",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T00:23:00Z",
+      "description": "Observed suspicious process execution via powershell on host node 001 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00002",
+      "type": "Anomalous Outbound C2 Beaconing",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T00:46:00Z",
+      "description": "Observed anomalous outbound c2 beaconing on host node 002 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00003",
+      "type": "Multiple Failed MFA Challenges",
+      "severity": "LOW",
+      "raisedAt": "2026-10-25T01:09:00Z",
+      "description": "Observed multiple failed mfa challenges on host node 003 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00004",
+      "type": "Lateral Movement via Remote WMI Execution",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-25T01:32:00Z",
+      "description": "Observed lateral movement via remote wmi execution on host node 004 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00005",
+      "type": "Cloud IAM Policy Weakening Detected",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-25T01:55:00Z",
+      "description": "Observed cloud iam policy weakening detected on host node 005 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00006",
+      "type": "Sensitive S3 Bucket Exposed to Public",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T02:18:00Z",
+      "description": "Observed sensitive s3 bucket exposed to public on host node 006 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00007",
+      "type": "Malicious Binary Execution Blocked",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T02:41:00Z",
+      "description": "Observed malicious binary execution blocked on host node 007 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00008",
+      "type": "Brute Force Authentication Storm",
+      "severity": "LOW",
+      "raisedAt": "2026-10-25T03:04:00Z",
+      "description": "Observed brute force authentication storm on host node 008 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00009",
+      "type": "Unusual Data Exfiltration to Uncategorized IP",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-25T03:27:00Z",
+      "description": "Observed unusual data exfiltration to uncategorized ip on host node 009 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00010",
+      "type": "Unauthorized Privilege Escalation Attempt",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-25T03:50:00Z",
+      "description": "Observed unauthorized privilege escalation attempt on host node 010 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00011",
+      "type": "Suspicious Process Execution via PowerShell",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T04:13:00Z",
+      "description": "Observed suspicious process execution via powershell on host node 011 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00012",
+      "type": "Anomalous Outbound C2 Beaconing",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T04:36:00Z",
+      "description": "Observed anomalous outbound c2 beaconing on host node 012 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00013",
+      "type": "Multiple Failed MFA Challenges",
+      "severity": "LOW",
+      "raisedAt": "2026-10-25T04:59:00Z",
+      "description": "Observed multiple failed mfa challenges on host node 013 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00014",
+      "type": "Lateral Movement via Remote WMI Execution",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-25T05:22:00Z",
+      "description": "Observed lateral movement via remote wmi execution on host node 014 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00015",
+      "type": "Cloud IAM Policy Weakening Detected",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-25T05:45:00Z",
+      "description": "Observed cloud iam policy weakening detected on host node 015 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00016",
+      "type": "Sensitive S3 Bucket Exposed to Public",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T06:08:00Z",
+      "description": "Observed sensitive s3 bucket exposed to public on host node 016 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00017",
+      "type": "Malicious Binary Execution Blocked",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T06:31:00Z",
+      "description": "Observed malicious binary execution blocked on host node 017 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00018",
+      "type": "Brute Force Authentication Storm",
+      "severity": "LOW",
+      "raisedAt": "2026-10-25T06:54:00Z",
+      "description": "Observed brute force authentication storm on host node 018 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00019",
+      "type": "Unusual Data Exfiltration to Uncategorized IP",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-25T07:17:00Z",
+      "description": "Observed unusual data exfiltration to uncategorized ip on host node 019 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00020",
+      "type": "Unauthorized Privilege Escalation Attempt",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-25T07:40:00Z",
+      "description": "Observed unauthorized privilege escalation attempt on host node 020 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00021",
+      "type": "Suspicious Process Execution via PowerShell",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T08:03:00Z",
+      "description": "Observed suspicious process execution via powershell on host node 021 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00022",
+      "type": "Anomalous Outbound C2 Beaconing",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T08:26:00Z",
+      "description": "Observed anomalous outbound c2 beaconing on host node 022 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00023",
+      "type": "Multiple Failed MFA Challenges",
+      "severity": "LOW",
+      "raisedAt": "2026-10-25T08:49:00Z",
+      "description": "Observed multiple failed mfa challenges on host node 023 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00024",
+      "type": "Lateral Movement via Remote WMI Execution",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-25T09:12:00Z",
+      "description": "Observed lateral movement via remote wmi execution on host node 024 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00025",
+      "type": "Cloud IAM Policy Weakening Detected",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-25T09:35:00Z",
+      "description": "Observed cloud iam policy weakening detected on host node 025 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00026",
+      "type": "Sensitive S3 Bucket Exposed to Public",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T09:58:00Z",
+      "description": "Observed sensitive s3 bucket exposed to public on host node 026 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00027",
+      "type": "Malicious Binary Execution Blocked",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T10:21:00Z",
+      "description": "Observed malicious binary execution blocked on host node 027 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00028",
+      "type": "Brute Force Authentication Storm",
+      "severity": "LOW",
+      "raisedAt": "2026-10-25T10:44:00Z",
+      "description": "Observed brute force authentication storm on host node 028 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00029",
+      "type": "Unusual Data Exfiltration to Uncategorized IP",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-25T11:07:00Z",
+      "description": "Observed unusual data exfiltration to uncategorized ip on host node 029 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00030",
+      "type": "Unauthorized Privilege Escalation Attempt",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-25T11:30:00Z",
+      "description": "Observed unauthorized privilege escalation attempt on host node 030 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00031",
+      "type": "Suspicious Process Execution via PowerShell",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T11:53:00Z",
+      "description": "Observed suspicious process execution via powershell on host node 031 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00032",
+      "type": "Anomalous Outbound C2 Beaconing",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T12:16:00Z",
+      "description": "Observed anomalous outbound c2 beaconing on host node 032 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00033",
+      "type": "Multiple Failed MFA Challenges",
+      "severity": "LOW",
+      "raisedAt": "2026-10-25T12:39:00Z",
+      "description": "Observed multiple failed mfa challenges on host node 033 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00034",
+      "type": "Lateral Movement via Remote WMI Execution",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-25T13:02:00Z",
+      "description": "Observed lateral movement via remote wmi execution on host node 034 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00035",
+      "type": "Cloud IAM Policy Weakening Detected",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-25T13:25:00Z",
+      "description": "Observed cloud iam policy weakening detected on host node 035 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00036",
+      "type": "Sensitive S3 Bucket Exposed to Public",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T13:48:00Z",
+      "description": "Observed sensitive s3 bucket exposed to public on host node 036 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00037",
+      "type": "Malicious Binary Execution Blocked",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T14:11:00Z",
+      "description": "Observed malicious binary execution blocked on host node 037 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00038",
+      "type": "Brute Force Authentication Storm",
+      "severity": "LOW",
+      "raisedAt": "2026-10-25T14:34:00Z",
+      "description": "Observed brute force authentication storm on host node 038 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00039",
+      "type": "Unusual Data Exfiltration to Uncategorized IP",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-25T14:57:00Z",
+      "description": "Observed unusual data exfiltration to uncategorized ip on host node 039 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00040",
+      "type": "Unauthorized Privilege Escalation Attempt",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-25T15:20:00Z",
+      "description": "Observed unauthorized privilege escalation attempt on host node 040 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00041",
+      "type": "Suspicious Process Execution via PowerShell",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T15:43:00Z",
+      "description": "Observed suspicious process execution via powershell on host node 041 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00042",
+      "type": "Anomalous Outbound C2 Beaconing",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T16:06:00Z",
+      "description": "Observed anomalous outbound c2 beaconing on host node 042 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00043",
+      "type": "Multiple Failed MFA Challenges",
+      "severity": "LOW",
+      "raisedAt": "2026-10-25T16:29:00Z",
+      "description": "Observed multiple failed mfa challenges on host node 043 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00044",
+      "type": "Lateral Movement via Remote WMI Execution",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-25T16:52:00Z",
+      "description": "Observed lateral movement via remote wmi execution on host node 044 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00045",
+      "type": "Cloud IAM Policy Weakening Detected",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-25T17:15:00Z",
+      "description": "Observed cloud iam policy weakening detected on host node 045 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00046",
+      "type": "Sensitive S3 Bucket Exposed to Public",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T17:38:00Z",
+      "description": "Observed sensitive s3 bucket exposed to public on host node 046 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00047",
+      "type": "Malicious Binary Execution Blocked",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T18:01:00Z",
+      "description": "Observed malicious binary execution blocked on host node 047 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00048",
+      "type": "Brute Force Authentication Storm",
+      "severity": "LOW",
+      "raisedAt": "2026-10-25T18:24:00Z",
+      "description": "Observed brute force authentication storm on host node 048 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00049",
+      "type": "Unusual Data Exfiltration to Uncategorized IP",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-25T18:47:00Z",
+      "description": "Observed unusual data exfiltration to uncategorized ip on host node 049 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00050",
+      "type": "Unauthorized Privilege Escalation Attempt",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-25T19:10:00Z",
+      "description": "Observed unauthorized privilege escalation attempt on host node 050 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00051",
+      "type": "Suspicious Process Execution via PowerShell",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T19:33:00Z",
+      "description": "Observed suspicious process execution via powershell on host node 051 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00052",
+      "type": "Anomalous Outbound C2 Beaconing",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T19:56:00Z",
+      "description": "Observed anomalous outbound c2 beaconing on host node 052 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00053",
+      "type": "Multiple Failed MFA Challenges",
+      "severity": "LOW",
+      "raisedAt": "2026-10-25T20:19:00Z",
+      "description": "Observed multiple failed mfa challenges on host node 053 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00054",
+      "type": "Lateral Movement via Remote WMI Execution",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-25T20:42:00Z",
+      "description": "Observed lateral movement via remote wmi execution on host node 054 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00055",
+      "type": "Cloud IAM Policy Weakening Detected",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-25T21:05:00Z",
+      "description": "Observed cloud iam policy weakening detected on host node 055 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00056",
+      "type": "Sensitive S3 Bucket Exposed to Public",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T21:28:00Z",
+      "description": "Observed sensitive s3 bucket exposed to public on host node 056 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00057",
+      "type": "Malicious Binary Execution Blocked",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T21:51:00Z",
+      "description": "Observed malicious binary execution blocked on host node 057 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00058",
+      "type": "Brute Force Authentication Storm",
+      "severity": "LOW",
+      "raisedAt": "2026-10-25T22:14:00Z",
+      "description": "Observed brute force authentication storm on host node 058 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00059",
+      "type": "Unusual Data Exfiltration to Uncategorized IP",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-25T22:37:00Z",
+      "description": "Observed unusual data exfiltration to uncategorized ip on host node 059 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00060",
+      "type": "Unauthorized Privilege Escalation Attempt",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-25T23:00:00Z",
+      "description": "Observed unauthorized privilege escalation attempt on host node 060 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00061",
+      "type": "Suspicious Process Execution via PowerShell",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-25T23:23:00Z",
+      "description": "Observed suspicious process execution via powershell on host node 061 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00062",
+      "type": "Anomalous Outbound C2 Beaconing",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-25T23:46:00Z",
+      "description": "Observed anomalous outbound c2 beaconing on host node 062 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00063",
+      "type": "Multiple Failed MFA Challenges",
+      "severity": "LOW",
+      "raisedAt": "2026-10-26T00:09:00Z",
+      "description": "Observed multiple failed mfa challenges on host node 063 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00064",
+      "type": "Lateral Movement via Remote WMI Execution",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-26T00:32:00Z",
+      "description": "Observed lateral movement via remote wmi execution on host node 064 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00065",
+      "type": "Cloud IAM Policy Weakening Detected",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-26T00:55:00Z",
+      "description": "Observed cloud iam policy weakening detected on host node 065 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00066",
+      "type": "Sensitive S3 Bucket Exposed to Public",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-26T01:18:00Z",
+      "description": "Observed sensitive s3 bucket exposed to public on host node 066 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00067",
+      "type": "Malicious Binary Execution Blocked",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-26T01:41:00Z",
+      "description": "Observed malicious binary execution blocked on host node 067 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00068",
+      "type": "Brute Force Authentication Storm",
+      "severity": "LOW",
+      "raisedAt": "2026-10-26T02:04:00Z",
+      "description": "Observed brute force authentication storm on host node 068 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00069",
+      "type": "Unusual Data Exfiltration to Uncategorized IP",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-26T02:27:00Z",
+      "description": "Observed unusual data exfiltration to uncategorized ip on host node 069 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00070",
+      "type": "Unauthorized Privilege Escalation Attempt",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-26T02:50:00Z",
+      "description": "Observed unauthorized privilege escalation attempt on host node 070 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00071",
+      "type": "Suspicious Process Execution via PowerShell",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-26T03:13:00Z",
+      "description": "Observed suspicious process execution via powershell on host node 071 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00072",
+      "type": "Anomalous Outbound C2 Beaconing",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-26T03:36:00Z",
+      "description": "Observed anomalous outbound c2 beaconing on host node 072 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00073",
+      "type": "Multiple Failed MFA Challenges",
+      "severity": "LOW",
+      "raisedAt": "2026-10-26T03:59:00Z",
+      "description": "Observed multiple failed mfa challenges on host node 073 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00074",
+      "type": "Lateral Movement via Remote WMI Execution",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-26T04:22:00Z",
+      "description": "Observed lateral movement via remote wmi execution on host node 074 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00075",
+      "type": "Cloud IAM Policy Weakening Detected",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-26T04:45:00Z",
+      "description": "Observed cloud iam policy weakening detected on host node 075 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00076",
+      "type": "Sensitive S3 Bucket Exposed to Public",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-26T05:08:00Z",
+      "description": "Observed sensitive s3 bucket exposed to public on host node 076 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00077",
+      "type": "Malicious Binary Execution Blocked",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-26T05:31:00Z",
+      "description": "Observed malicious binary execution blocked on host node 077 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00078",
+      "type": "Brute Force Authentication Storm",
+      "severity": "LOW",
+      "raisedAt": "2026-10-26T05:54:00Z",
+      "description": "Observed brute force authentication storm on host node 078 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00079",
+      "type": "Unusual Data Exfiltration to Uncategorized IP",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-26T06:17:00Z",
+      "description": "Observed unusual data exfiltration to uncategorized ip on host node 079 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00080",
+      "type": "Unauthorized Privilege Escalation Attempt",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-26T06:40:00Z",
+      "description": "Observed unauthorized privilege escalation attempt on host node 080 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00081",
+      "type": "Suspicious Process Execution via PowerShell",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-26T07:03:00Z",
+      "description": "Observed suspicious process execution via powershell on host node 081 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00082",
+      "type": "Anomalous Outbound C2 Beaconing",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-26T07:26:00Z",
+      "description": "Observed anomalous outbound c2 beaconing on host node 082 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00083",
+      "type": "Multiple Failed MFA Challenges",
+      "severity": "LOW",
+      "raisedAt": "2026-10-26T07:49:00Z",
+      "description": "Observed multiple failed mfa challenges on host node 083 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00084",
+      "type": "Lateral Movement via Remote WMI Execution",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-26T08:12:00Z",
+      "description": "Observed lateral movement via remote wmi execution on host node 084 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00085",
+      "type": "Cloud IAM Policy Weakening Detected",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-26T08:35:00Z",
+      "description": "Observed cloud iam policy weakening detected on host node 085 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00086",
+      "type": "Sensitive S3 Bucket Exposed to Public",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-26T08:58:00Z",
+      "description": "Observed sensitive s3 bucket exposed to public on host node 086 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00087",
+      "type": "Malicious Binary Execution Blocked",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-26T09:21:00Z",
+      "description": "Observed malicious binary execution blocked on host node 087 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00088",
+      "type": "Brute Force Authentication Storm",
+      "severity": "LOW",
+      "raisedAt": "2026-10-26T09:44:00Z",
+      "description": "Observed brute force authentication storm on host node 088 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00089",
+      "type": "Unusual Data Exfiltration to Uncategorized IP",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-26T10:07:00Z",
+      "description": "Observed unusual data exfiltration to uncategorized ip on host node 089 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00090",
+      "type": "Unauthorized Privilege Escalation Attempt",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-26T10:30:00Z",
+      "description": "Observed unauthorized privilege escalation attempt on host node 090 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00091",
+      "type": "Suspicious Process Execution via PowerShell",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-26T10:53:00Z",
+      "description": "Observed suspicious process execution via powershell on host node 091 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00092",
+      "type": "Anomalous Outbound C2 Beaconing",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-26T11:16:00Z",
+      "description": "Observed anomalous outbound c2 beaconing on host node 092 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00093",
+      "type": "Multiple Failed MFA Challenges",
+      "severity": "LOW",
+      "raisedAt": "2026-10-26T11:39:00Z",
+      "description": "Observed multiple failed mfa challenges on host node 093 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00094",
+      "type": "Lateral Movement via Remote WMI Execution",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-26T12:02:00Z",
+      "description": "Observed lateral movement via remote wmi execution on host node 094 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00095",
+      "type": "Cloud IAM Policy Weakening Detected",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-26T12:25:00Z",
+      "description": "Observed cloud iam policy weakening detected on host node 095 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00096",
+      "type": "Sensitive S3 Bucket Exposed to Public",
+      "severity": "HIGH",
+      "raisedAt": "2026-10-26T12:48:00Z",
+      "description": "Observed sensitive s3 bucket exposed to public on host node 096 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00097",
+      "type": "Malicious Binary Execution Blocked",
+      "severity": "MEDIUM",
+      "raisedAt": "2026-10-26T13:11:00Z",
+      "description": "Observed malicious binary execution blocked on host node 097 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00098",
+      "type": "Brute Force Authentication Storm",
+      "severity": "LOW",
+      "raisedAt": "2026-10-26T13:34:00Z",
+      "description": "Observed brute force authentication storm on host node 098 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00099",
+      "type": "Unusual Data Exfiltration to Uncategorized IP",
+      "severity": "INFORMATIONAL",
+      "raisedAt": "2026-10-26T13:57:00Z",
+      "description": "Observed unusual data exfiltration to uncategorized ip on host node 099 originating from external telemetry cluster"
+    },
+    {
+      "id": "evt-soph-00100",
+      "type": "Unauthorized Privilege Escalation Attempt",
+      "severity": "CRITICAL",
+      "raisedAt": "2026-10-26T14:20:00Z",
+      "description": "Observed unauthorized privilege escalation attempt on host node 100 originating from external telemetry cluster"
+    }
+  ]
+}

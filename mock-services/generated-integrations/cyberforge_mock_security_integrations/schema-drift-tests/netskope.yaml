@@ -1,0 +1,16 @@
+vendor: Netskope
+users:
+  drift_type: field_rename
+  old_path: enrollment_status
+  new_path: user_status
+  expected_risk: LOW
+devices:
+  drift_type: field_rename
+  old_path: device_name
+  new_path: host_name
+  expected_risk: LOW
+events:
+  drift_type: field_rename
+  old_path: alert_narrative
+  new_path: alert_details
+  expected_risk: LOW

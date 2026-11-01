@@ -1,0 +1,227 @@
+<?xml version="1.0" ?>
+<results>
+
+
+
+
+  <user_entry>
+
+
+
+
+    <username>Alex Patel</username>
+
+
+
+
+    <contact_email>alex.patel900@cyberforge.internal</contact_email>
+
+
+
+
+    <auth_state>ACTIVE</auth_state>
+
+
+
+
+    <last_auth_time>2027-01-21T20:00:00Z</last_auth_time>
+
+
+
+
+    <vdom>root</vdom>
+
+
+
+
+    <_defect_note>Defect 1: Missing ID field</_defect_note>
+
+
+
+
+  </user_entry>
+
+
+
+
+  <user_entry>
+
+
+
+
+    <uid>usr-fort-0901</uid>
+
+
+
+
+    <contact_email>morgan.patel901@acme-corp.net</contact_email>
+
+
+
+
+    <auth_state>SUSPENDED</auth_state>
+
+
+
+
+    <last_auth_time>2027-01-21T23:07:00Z</last_auth_time>
+
+
+
+
+    <vdom>root</vdom>
+
+
+
+
+    <_defect_note>Defect 2: Missing Name field</_defect_note>
+
+
+
+
+  </user_entry>
+
+
+
+
+  <user_entry>
+
+
+
+
+    <uid>usr-fort-0902</uid>
+
+
+
+
+    <username>Jordan Patel</username>
+
+
+
+
+    <contact_email>jordan.patel902@globex-sec.io</contact_email>
+
+
+
+
+    <auth_state>PENDING_VERIFICATION</auth_state>
+
+
+
+
+    <last_auth_time>not-a-valid-date-timestamp</last_auth_time>
+
+
+
+
+    <vdom>root</vdom>
+
+
+
+
+    <_defect_note>Defect 3: Invalid Timestamp format</_defect_note>
+
+
+
+
+  </user_entry>
+
+
+
+
+  <user_entry>
+
+
+
+
+    <uid>usr-fort-0903</uid>
+
+
+
+
+    <username>Taylor Patel</username>
+
+
+
+
+    <auth_state>ENABLED</auth_state>
+
+
+
+
+    <last_auth_time>2027-01-22T05:21:00Z</last_auth_time>
+
+
+
+
+    <vdom>root</vdom>
+
+
+
+
+    <unrecognized_user_contact_address>taylor.patel903@synthetix.org</unrecognized_user_contact_address>
+
+
+
+
+    <_defect_note>Defect 4: Schema mismatch (email field renamed to unrecognized_user_contact_address)</_defect_note>
+
+
+
+
+  </user_entry>
+
+
+
+
+  <user_entry>
+
+
+
+
+    <uid>usr-fort-0904</uid>
+
+
+
+
+    <username>Casey Patel</username>
+
+
+
+
+    <contact_email>casey.patel904@enterprise.cloud</contact_email>
+
+
+
+
+    <auth_state>
+      <invalid_null_struct>malformed_type</invalid_null_struct>
+
+
+      <invalid_null_struct>malformed_type</invalid_null_struct>
+    </auth_state>
+
+
+
+
+    <last_auth_time>2027-01-22T08:28:00Z</last_auth_time>
+
+
+
+
+    <vdom>root</vdom>
+
+
+
+
+    <_defect_note>Defect 5: Null required status value</_defect_note>
+
+
+
+
+  </user_entry>
+
+
+
+
+</results>

@@ -1,0 +1,35 @@
+version: '1.0'
+name: cortex-xsiam-users
+base_url: http://127.0.0.1:9001
+auth:
+  type: api_key
+  header: x-xdr-auth-id
+  secret_ref: CORTEX_API_KEY
+endpoint:
+  method: GET
+  path: /mock/cortex-xsiam/users
+  query_params: {}
+response:
+  format: json
+  records_path: reply.users
+pagination:
+  type: offset
+  offset_param: offset
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: last_sign_in_time
+mapping:
+  entity: user
+  fields:
+    id: user_id
+    name: display_name
+    email: user_principal_name
+    status: user_state
+    last_login: last_sign_in_time
+enabled: false

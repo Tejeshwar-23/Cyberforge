@@ -1,0 +1,20 @@
+vendor: Wiz
+users:
+  id: id
+  name: name
+  email: email
+  status: status
+  last_login: lastLogin
+devices:
+  id: resourceId
+  hostname: resourceName
+  ip: primaryNetworkAddress
+  os: operatingSystem
+  owner: cloudAccountOwner
+  last_seen: scannedAt
+events:
+  id: issueId
+  type: issueType
+  severity: severity
+  timestamp: createdAt
+  description: issueTitle

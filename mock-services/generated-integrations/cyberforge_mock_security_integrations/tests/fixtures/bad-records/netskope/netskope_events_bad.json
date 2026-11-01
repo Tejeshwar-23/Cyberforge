@@ -1,0 +1,43 @@
+{
+  "data": {
+    "alerts": [
+      {
+        "alert_type": "Unauthorized Privilege Escalation Attempt",
+        "severity_name": "CRITICAL",
+        "alert_timestamp": "2026-11-08T09:00:00Z",
+        "alert_narrative": "Observed unauthorized privilege escalation attempt on host node 900 originating from external telemetry cluster",
+        "_defect_note": "Defect 1: Missing event ID"
+      },
+      {
+        "alert_id": "evt-nets-00901",
+        "alert_type": "Suspicious Process Execution via PowerShell",
+        "alert_timestamp": "2026-11-08T09:23:00Z",
+        "alert_narrative": "Observed suspicious process execution via powershell on host node 901 originating from external telemetry cluster",
+        "_defect_note": "Defect 2: Missing severity field"
+      },
+      {
+        "alert_id": "evt-nets-00902",
+        "alert_type": "Anomalous Outbound C2 Beaconing",
+        "severity_name": "MEDIUM",
+        "alert_narrative": "Observed anomalous outbound c2 beaconing on host node 902 originating from external telemetry cluster",
+        "_defect_note": "Defect 3: Missing timestamp field"
+      },
+      {
+        "alert_id": "evt-nets-00903",
+        "alert_type": "Multiple Failed MFA Challenges",
+        "severity_name": "LOW",
+        "alert_timestamp": "MALFORMED_TIMESTAMP_ERR_999",
+        "alert_narrative": "Observed multiple failed mfa challenges on host node 903 originating from external telemetry cluster",
+        "_defect_note": "Defect 4: Malformed timestamp string"
+      },
+      {
+        "alert_id": "evt-nets-00904",
+        "alert_type": "Lateral Movement via Remote WMI Execution",
+        "severity_name": "INFORMATIONAL",
+        "alert_timestamp": "2026-11-08T10:32:00Z",
+        "unexpected_raw_payload_text": "Observed lateral movement via remote wmi execution on host node 904 originating from external telemetry cluster",
+        "_defect_note": "Defect 5: Renamed/missing event description field"
+      }
+    ]
+  }
+}

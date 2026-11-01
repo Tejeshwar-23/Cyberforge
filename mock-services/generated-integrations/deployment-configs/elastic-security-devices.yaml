@@ -1,0 +1,36 @@
+version: '1.0'
+name: elastic-security-devices
+base_url: http://127.0.0.1:9001
+auth:
+  type: basic
+  username_ref: ELASTIC_USERNAME
+  password_ref: ELASTIC_PASSWORD
+endpoint:
+  method: GET
+  path: /mock/elastic-security/devices
+  query_params: {}
+response:
+  format: json
+  records_path: hits.hits
+pagination:
+  type: offset
+  offset_param: offset
+  limit_param: limit
+  page_size: 20
+schedule:
+  every_minutes: 15
+incremental:
+  enabled: true
+  type: timestamp
+  request_param: since
+  source_field: _source.@timestamp
+mapping:
+  entity: device
+  fields:
+    id: _id
+    hostname: _source.host.hostname
+    ip: _source.host.ip
+    os: _source.host.os.name
+    owner: _source.host.assigned_user
+    last_seen: _source.@timestamp
+enabled: false

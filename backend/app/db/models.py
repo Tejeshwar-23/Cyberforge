@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 
-from sqlalchemy import Boolean, DateTime, Integer, String, Text, UniqueConstraint
+from sqlalchemy import Boolean, DateTime, ForeignKey, Integer, String, Text, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column
 
 from backend.app.db.database import Base
@@ -78,6 +78,61 @@ class ConnectorRun(Base):
         String(100),
         nullable=True,
         index=True,
+    )
+
+
+
+class ConnectorRunEvent(Base):
+    __tablename__ = "connector_run_events"
+
+    id: Mapped[int] = mapped_column(
+        Integer,
+        primary_key=True,
+        autoincrement=True,
+    )
+
+    run_id: Mapped[int] = mapped_column(
+        ForeignKey(
+            "connector_runs.id",
+            ondelete="CASCADE",
+        ),
+        index=True,
+        nullable=False,
+    )
+
+    connector_name: Mapped[str] = mapped_column(
+        String(255),
+        index=True,
+        nullable=False,
+    )
+
+    stage: Mapped[str] = mapped_column(
+        String(100),
+        index=True,
+        nullable=False,
+    )
+
+    status: Mapped[str] = mapped_column(
+        String(50),
+        index=True,
+        nullable=False,
+    )
+
+    message: Mapped[str | None] = mapped_column(
+        Text,
+        nullable=True,
+    )
+
+    details_json: Mapped[str | None] = mapped_column(
+        Text,
+        nullable=True,
+    )
+
+    occurred_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
+        default=utc_now,
+        index=True,
+        nullable=False,
     )
 
 

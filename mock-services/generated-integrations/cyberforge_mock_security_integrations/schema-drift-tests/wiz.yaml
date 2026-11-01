@@ -1,0 +1,16 @@
+vendor: Wiz
+users:
+  drift_type: field_rename
+  old_path: lastLogin
+  new_path: lastAuthenticatedAt
+  expected_risk: LOW
+devices:
+  drift_type: field_rename
+  old_path: resourceName
+  new_path: instanceName
+  expected_risk: LOW
+events:
+  drift_type: field_rename
+  old_path: issueTitle
+  new_path: issueSummary
+  expected_risk: LOW

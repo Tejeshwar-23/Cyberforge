@@ -1,0 +1,41 @@
+{
+  "alerts": [
+    {
+      "policyType": "Unauthorized Privilege Escalation Attempt",
+      "riskGrade": "CRITICAL",
+      "triggeredAt": "2026-11-08T09:00:00Z",
+      "policyDescription": "Observed unauthorized privilege escalation attempt on host node 900 originating from external telemetry cluster",
+      "_defect_note": "Defect 1: Missing event ID"
+    },
+    {
+      "alertId": "evt-pris-00901",
+      "policyType": "Suspicious Process Execution via PowerShell",
+      "triggeredAt": "2026-11-08T09:23:00Z",
+      "policyDescription": "Observed suspicious process execution via powershell on host node 901 originating from external telemetry cluster",
+      "_defect_note": "Defect 2: Missing severity field"
+    },
+    {
+      "alertId": "evt-pris-00902",
+      "policyType": "Anomalous Outbound C2 Beaconing",
+      "riskGrade": "MEDIUM",
+      "policyDescription": "Observed anomalous outbound c2 beaconing on host node 902 originating from external telemetry cluster",
+      "_defect_note": "Defect 3: Missing timestamp field"
+    },
+    {
+      "alertId": "evt-pris-00903",
+      "policyType": "Multiple Failed MFA Challenges",
+      "riskGrade": "LOW",
+      "triggeredAt": "MALFORMED_TIMESTAMP_ERR_999",
+      "policyDescription": "Observed multiple failed mfa challenges on host node 903 originating from external telemetry cluster",
+      "_defect_note": "Defect 4: Malformed timestamp string"
+    },
+    {
+      "alertId": "evt-pris-00904",
+      "policyType": "Lateral Movement via Remote WMI Execution",
+      "riskGrade": "INFORMATIONAL",
+      "triggeredAt": "2026-11-08T10:32:00Z",
+      "unexpected_raw_payload_text": "Observed lateral movement via remote wmi execution on host node 904 originating from external telemetry cluster",
+      "_defect_note": "Defect 5: Renamed/missing event description field"
+    }
+  ]
+}
